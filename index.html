@@ -8,10 +8,10 @@ layout: default
     <div class="row justify-content-between">
       <div class="col-lg-8 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
         <div data-aos="zoom-out">
-          <h5 class="text-white"><b>Soluções inteligentes em Nuvem <br/> para a gestão eficaz e humanizada <br/> de Centros Odontológicos e Médicos.</b></h5>
-          <p class="text-white">Cfaz.net é o primeiro sistema 100% online para profissionais e centros de Diagnóstico por Imagem.</p>
+          <h5 class="text-white"><b>{% t pt-BR.navigation.main.slider.index_title %}</b></h5>
+          <p class="text-white">{% t pt-BR.navigation.main.slider.index_subtitle %}</p>
           <div class="text-center text-lg-start">
-            <a href="#about" class="btn btn-primary mt-3 mb-5 scrollto">QUERO FALAR COM UM CONSULTOR</a>
+            <a href="#about" class="btn btn-primary mt-3 mb-5 scrollto">{% t pt-BR.navigation.main.btn %}</a>
           </div>
         </div>
       </div>
@@ -24,20 +24,20 @@ layout: default
 </section>
 
 <!-- ======= Sobre a Cfaz ======= -->
-<section id="sobre">
+<section id="about" class="mt-64">
   <div class="container">
     <div class="row">
       <div class="col col-md-6">
-        <h5>Sobre <b>nós</b></h5>
-        <p>A Cfaz nasceu há 10 anos em Belo Horizonte, Minas Gerais. Desenvolvemos o Cfaz.net, primeiro sistema 100% online para Centros de Diagnóstico por Imagem. Após o reconhecimento pelo SEED MG e pelo FIEMG Lab como uma das empresas mais inovadoras do mercado. Hoje atendemos a profissionais e centros Radiológicos em todo o Brasil e na América Latina.</p>
-        <p class="mt-40"><a href="sobre.html" class="text-primary"><b>Leia mais e conheça a nossa equipe...</b></a></p>
+        <h5>{% t pt-BR.navigation.main.about.title %}</h5>
+        <p class="mt-32">{% t pt-BR.navigation.main.about.subtitle %}</p>
+        <p class="mt-40"><a href="sobre.html" class="text-primary"><b>{% t pt-BR.navigation.main.about.read_more %}</b></a></p>
       </div>
       <div class="col col-md-6 text-right">
         <div style="width: 500px; height: 250px; background-color: gray; margin-left: auto; margin-right: auto;">
           video
         </div>
         <div class="text-center">
-          <a href="#" class="btn btn-secondary mt-3 mb-5 scrollto">QUERO FALAR COM UM CONSULTOR</a>
+          <a href="#" class="btn btn-secondary mt-3 mb-5 scrollto">{% t pt-BR.navigation.main.btn %}</a>
         </div>
       </div>
     </div>
@@ -45,50 +45,50 @@ layout: default
 </section>
 
 <!-- ======= Soluções ======= -->
-<section id="solucoes">
+<section id="solutions">
   <div class="container">
     <div class="row">
       <div class="col col-md-4">
-        <h5>Conheça as nossas <br/><b>soluções para a saúde</b></h5>
-        <p>Gestão eficiente de ponta a ponta para facilitar, automatizar e agilizar a entrega de resultados.</p>
+        <h5>{% t pt-BR.navigation.main.solutions.health %}</h5>
+        <p>{% t pt-BR.navigation.main.solutions.health_text %}</p>
       </div>
       <a href="{{site.baseurl}}/radiologia_odontologica.html" class="col col-md-4">
         <div class="card border-3 shadow m-1">
           <div class="card-body text-center">
-            <h6 class="text-primary"><b>Radiologia Odontológica</b></h6>
-            <p>Soluções para a gestão de franquias, redes e clínicas de Radiologia Odontológica.</p>
+            <h6 class="text-primary mb-8"><b>{% t pt-BR.navigation.main.solutions.dental_radiology %}</b></h6>
+            <p>{% t pt-BR.navigation.main.solutions.dental_radiology_text %}</p>
           </div>
         </div>
       </a>
       <a href="{{site.baseurl}}/centros_medicos.html" class="col col-md-4">
         <div class="card border-3 shadow m-1">
           <div class="card-body text-center">
-            <h6 class="text-primary"><b>Centros Médicos</b></h6>
-            <p>Gestão de ponta a ponta para Centros e Redes de Diagnóstico por Imagem.</p>
+            <h6 class="text-primary mb-8"><b>{% t pt-BR.navigation.main.solutions.medical_centers %}</b></h6>
+            <p>{% t pt-BR.navigation.main.solutions.medical_center_text %}</p>
           </div>
         </div>
       </a>
       <a href="{{site.baseurl}}/telerradiologia.html" class="col col-md-4">
         <div class="card border-3 shadow m-1">
           <div class="card-body text-center">
-            <h6 class="text-primary"><b>Telerradiologia</b></h6>
-            <p>Saiba como conectamos Radiologistas a Centros de Saúde através de uma plataforma na Nuvem.</p>
+            <h6 class="text-primary mb-8"><b>{% t pt-BR.navigation.main.solutions.teleradiology %}</b></h6>
+            <p>{% t pt-BR.navigation.main.solutions.teleradiology_text %}</p>
           </div>
         </div>
       </a>
       <a href="{{site.baseurl}}/odontologia.html" class="col col-md-4">
         <div class="card border-3 shadow m-1">
           <div class="card-body text-center">
-            <h6 class="text-primary"><b>Odontologia</b></h6>
-            <p>Conheça nossas soluções para a gestão de consultórios e redes de consultórios.</p>
+            <h6 class="text-primary mb-8"><b>{% t pt-BR.navigation.main.solutions.odontology %}</b></h6>
+            <p>{% t pt-BR.navigation.main.solutions.odontology_text %}</p>
           </div>
         </div>
       </a>
       <a href="{{site.baseurl}}/estudantes_instituicoes.html" class="col col-md-4">
         <div class="card border-3 shadow m-1">
           <div class="card-body text-center">
-            <h6 class="text-primary"><b>Estudantes e Instituições de Ensino</b></h6>
-            <p>Leve o Cfaz.net para sua sala de aula e aplique seus conhecimentos na prática.</p>
+            <h6 class="text-primary mb-8"><b>{% t pt-BR.navigation.main.solutions.students_institutions %}</b></h6>
+            <p>{% t pt-BR.navigation.main.solutions.students_institutions_text %}</p>
           </div>
         </div>
       </a>
@@ -97,8 +97,8 @@ layout: default
 </section>
 
 <!-- ======= Depoimentos ======= -->
-<section id="depoimentos">
-  <h5 class="text-white text-center"><b>O que os nossos clientes estão falando</b></h5>
+<section id="testimony" class="mt-64 pt-40 pb-40">
+  <h5 class="text-white text-center"><b>{% t pt-BR.navigation.main.testimony.title %}</b></h5>
   <div class="container">
     <div class="testimonials-slider swiper-container text-center" data-aos="fade-up" data-aos-delay="100">
       <div class="swiper-wrapper">
@@ -106,12 +106,10 @@ layout: default
           <div class="testimonial-item">
             <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
               <img src="assets/img/depoimentos/Depoimentos_Guilherme.png" class="testimonial-img" alt="Depoimento de Guilherme, diretor das Clínicas Imagem e Odontologia Digital">
-              <p class="text-white m-0 text-start"><b>Dr. Guilherme A. R. Resende</b><br/><small>Diretor das Clínicas Imagem e Odontologia Digital</small></p>
+              <p class="text-white m-0 text-start">{% t pt-BR.navigation.main.testimony.testimony1 %}</p>
             </div>  
             <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Escolhi o Cfaz.net porque na época já estavam com uma proposta futurista, oferecendo um sistema 100% online e com a possibilidade de integrar todas as unidades. Com a implantação, me encorajei a abrir novas unidades, pois tudo estaria sob meu controle, e até mesmo na palma da mão, através do celular.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>{% t pt-BR.navigation.main.testimony.testimony_text1 %}<i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
         </div>
@@ -119,12 +117,10 @@ layout: default
           <div class="testimonial-item">
             <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
               <img src="assets/img/depoimentos/Depoimentos_Maria-Betania.png" class="testimonial-img" alt="Depoimento de Guilherme, diretor das Clínicas Imagem e Odontologia Digital">
-              <p class="text-white m-0 text-start"><b>Dra. Maria Betânia da Silveira e Souza</b><br/><small>Diretora das Clínicas ROC</small></p>
+              <p class="text-white m-0 text-start">{% t pt-BR.navigation.main.testimony.testimony2 %}</p>
             </div>  
             <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              O Cfaz.net é um software que tem coração. Além do profissionalismo oferecido, foi este o diferencial que nos fidelizou ao sistema. A parceria eliminou a burocracia e, assim, trabalhamos com mais liberdade. Isso torna a relação Radiologista + Dentista + Paciente bem mais eficiente e humana. Os resultados quantitativos são consequências da harmonia e do prazer de trabalho da equipe.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>{% t pt-BR.navigation.main.testimony.testimony_text2 %}<i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
         </div>
@@ -132,51 +128,50 @@ layout: default
           <div class="testimonial-item">
             <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
               <img src="assets/img/depoimentos/Depoimentos_Pedro.png" class="testimonial-img" alt="Depoimento de Guilherme, diretor das Clínicas Imagem e Odontologia Digital">
-              <p class="text-white m-0 text-start"><b>Dr. Pedro Lima Emmerich Oliveira</b><br/><small>Diretor das Clínicas Craniofacial</small></p>
+              <p class="text-white m-0 text-start">{% t pt-BR.navigation.main.testimony.testimony3 %}</p>
             </div>  
             <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              A Craniofacial e a Cfaz construíram uma relação de trabalho amparada pela confiança e amizade. As funcionalidades do software foram muitas vezes atualizadas de acordo com as necessidades da Craniofacial. O Cfaz.net simplificou os processos da empresa, as entregas de exames são mais rápidas e o controle de qualidade é mais ativo.                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>{% t pt-BR.navigation.main.testimony.testimony_text3 %}<i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
         </div>
       </div>
-      
-    </div><div class="swiper-pagination"></div>
+      <div class="swiper-pagination"></div>
+    </div>
   </div>
   
 </section>
 
 <!-- ======= Fale com um de nossos consultores ======= -->
-{% include faleConosco.html %}
+{% include contact_us.html %}
 
 <!-- ======= Benefícios ======= -->
-<section id="benefit_home">
+<section id="benefit_home" class="mt-64">
   <div class="container">
-    <h5 class="text-white text-center mb-54">Leve a <b>transformação digital</b> para o seu negócio</h5>
+    <h5 class="text-white text-center mb-54">{% t pt-BR.navigation.main.benefit.title %}</h5>
     <div class="row">
       <div class="col-md-6">
         <div class="d-flex align-items-start mb-32">
           <img src="assets/img/icones/icone_online.png" alt="Ícone 100% online">
           <div>
-            <p class="text-white mb-8"><b>O CFAZ.NET NASCEU COMO O 1º SISTEMA 100% ONLINE PARA A RADIOLOGIA</b></p>
-            <p class="text-white mb-0">A experiência é simplificada desde o início, garantindo mais agilidade e eficiência para a realização de exames e para a gestão da clínica ou centro médico.</p>
+            <p class="text-white mb-8"><b>{% t pt-BR.navigation.main.benefit.item1 %}</b></p>
+            <p class="text-white mb-0">{% t pt-BR.navigation.main.benefit.item1_text %}</p>
           </div>
         </div>
 
         <div class="d-flex align-items-start mb-32">
           <img src="assets/img/icones/icone_pac.png" alt="Ícone PAC online">
           <div>
-            <p class="text-white"><b>PACS ONLINE</b></p>
-            <p class="text-white mb-0">Integração DICOM com todos aparelhos do mercado e armazenamento 100% seguro na Nuvem, graças à infraestrutura fornecida pela Google Cloud Platform.</p>
+            <p class="text-white"><b>{% t pt-BR.navigation.main.benefit.item2 %}</b></p>
+            <p class="text-white mb-0">{% t pt-BR.navigation.main.benefit.item2_text %}</p>
           </div>
         </div>
 
         <div class="d-flex align-items-start mb-32">
           <img src="assets/img/icones/icone_CfazManager.png" alt="Ícone RIS online">
           <div>
-            <p class="text-white"><b>RIS ONLINE</b></p>
-            <p class="text-white mb-0">Agendamentos, PEP (Prontuário Eletrônico do Paciente), Integração com qualquer equipamento que utilize o protocolo DICOM (PACS/Worklist), Gestão Financeira, Controle de Convênios e Glosas, tudo pode ser acessado de qualquer lugar pelos administradores da clínica.</p>
+            <p class="text-white"><b>{% t pt-BR.navigation.main.benefit.item3 %}</b></p>
+            <p class="text-white mb-0">{% t pt-BR.navigation.main.benefit.item3_text %}</p>
           </div>
         </div>
       </div>
@@ -185,38 +180,38 @@ layout: default
         <div class="d-flex align-items-start mb-32">
           <img src="assets/img/icones/icone_imagem.png" alt="Ícone máxima qualidade de imagem">
           <div>
-            <p class="text-white"><b>MÁXIMA QUALIDADE DA IMAGEM</b></p>
-            <p class="text-white mb-0">Somos o único sistema de gestão para Radiologia que oferece armazenamento de imagens e exames com 100% da qualidade original.</p>
+            <p class="text-white"><b>{% t pt-BR.navigation.main.benefit.item4 %}</b></p>
+            <p class="text-white mb-0">{% t pt-BR.navigation.main.benefit.item4_text %}</p>
           </div>
         </div>
 
         <div class="d-flex align-items-start mb-32">
           <img src="assets/img/icones/icone_dicon.png" alt="Ícone DICOM">
           <div>
-            <p class="text-white"><b>DICOM</b></p>
-            <p class="text-white mb-0">Suporte nativo aos protocolos Worklist e PACS, permitindo integração com qualquer aparelho. Além disso, o DICOM Printer gratuito permite a integração com todos os tipos de impressoras DRY.</p>
+            <p class="text-white"><b>{% t pt-BR.navigation.main.benefit.item5 %}</b></p>
+            <p class="text-white mb-0">{% t pt-BR.navigation.main.benefit.item5_text %}</p>
           </div>
         </div>
 
         <div class="d-flex align-items-start mb-32">
           <img src="assets/img/icones/icone_STL.png" alt="Ícone mundo online">
           <div>
-            <p class="text-white"><b>STL</b></p>
-            <p class="text-white mb-0">Suporte completo para modelos digitais: armazenamento, visualização e distribuição.</p>
+            <p class="text-white"><b>{% t pt-BR.navigation.main.benefit.item6 %}</b></p>
+            <p class="text-white mb-0">{% t pt-BR.navigation.main.benefit.item6_text %}</p>
           </div>
         </div>
 
         <div class="d-flex align-items-start">
           <img src="assets/img/icones/icone_redes.png" alt="Ícone mundo online">
           <div>
-            <p class="text-white"><b>GESTÃO UNIFICADA DE REDES DE CLÍNICAS</b></p>
-            <p class="text-white mb-0">Administre toda a rede de clínicas ou centros médicos em um único sistema, visualizando indicadores de toda a rede ou de cada centro separadamente.</p>
+            <p class="text-white"><b>{% t pt-BR.navigation.main.benefit.item7 %}</b></p>
+            <p class="text-white mb-0">{% t pt-BR.navigation.main.benefit.item7_text %}</p>
           </div>
         </div>
       </div>
     </div>
     <div class="text-center mt-40">
-      <a href="#about" class="btn btn-primary mt-0 scrollto">QUERO FALAR COM UM CONSULTOR</a>
+      <a href="#about" class="btn btn-primary mt-0 scrollto">{% t pt-BR.navigation.main.btn %}</a>
     </div>
   </div>
 </section>
@@ -230,18 +225,18 @@ layout: default
 <!-- ======= Telerradiologia ======= -->
 <section id="teleradiology">
   <div class="container">
-      <h5 class="text-white mb-32"><b>Conectamos sua clínica a profissionais</b> de todo o Brasil e do exterior participando gratuitamente do nosso <b>marketplace</b></h5>
+      <h5 class="text-white text-center mb-32">{% t pt-BR.navigation.main.teleradiology.title %}</h5>
       <div class="row d-flex justify-content-center">
         <div class="col col-md-5 card">
-          <h5 class="mb-0"><b>Cfaz</b><b class="text-primary">Business</b></h5>
+          <h5 class="mb-0">{% t pt-BR.navigation.main.teleradiology.cfaz_business %}</h5>
           <span></span>
-          <p>Marketplace exclusivo para <b class="text-secondary">terceirização de laudos</b>, conectando Radiologistas a Centros Médicos de todo o Brasil e América Latina.</p>
+          <p>{% t pt-BR.navigation.main.teleradiology.cfaz_business_text %}</p>
         </div>
         <div class="col col-md-5 card">
-          <h5 class="mb-0"><b>Cfaz</b><b class="text-primary">Job</b></h5>
+          <h5 class="mb-0">{% t pt-BR.navigation.main.teleradiology.cfaz_job %}</h5>
           <span></span>
-          <p>Solução específica para <b class="text-secondary">criação de laudos</b> e terceirização, através do marketplace CfazBusiness.</p>
-          <a class="text-primary" href="#">Saiba mais sobre nossas soluções para a Telerradiologia</a>
+          <p>{% t pt-BR.navigation.main.teleradiology.cfaz_job_text %}</p>
+          <a class="text-primary mt-24" href="#">{% t pt-BR.navigation.main.teleradiology.know_more %}</a>
         </div>
       </div>
     </div>
@@ -249,17 +244,17 @@ layout: default
 </section>
 
 <!-- ======= CfazApp ======= -->
-<section id="appCfaz">
+<section id="appCfaz" class="mt-64">
   <div class="container">
     <div class="row">
       <div class="col col-md-6">
         <img src="assets/img/cfazApp.png" alt="Imagens CfazMax no Aplicativo">
       </div>
       <div class="col col-md-6 text-end">
-        <h5 class="mb-32"><b class="text-primary">App</b><b>Cfaz</b></h5>
-        <p>Portal gratuito de imagens e exames para seus solicitantes e pacientes, disponível em um Aplicativo Web Mobile, com histórico completo de pacientes e acesso online via smartphone, tablet, além do computador.</p>
+        <h5 class="mb-32">{% t pt-BR.navigation.main.appCfaz.title %}</h5>
+        <p>{% t pt-BR.navigation.main.appCfaz.subtitle %}</p>
         <div class="text-end">
-          <a href="#" class="btn btn-secondary mt-3 mb-5 scrollto">QUERO FALAR COM UM CONSULTOR</a>
+          <a href="#" class="btn btn-secondary mt-3 mb-5 scrollto">{% t pt-BR.navigation.main.btn %}</a>
         </div>
       </div>
     </div>
@@ -267,13 +262,13 @@ layout: default
 </section>
 
 <!-- ======= Programa de benefícios ======= -->
-<section id="benefits_program">
+<section id="benefits_program" class="mt-64">
   <div class="container">
     <div class="row">
       <div class="col col-md-8">
-        <h5 class="text-primary mb-32">Saiba como participar do único Programa de Benefícios que oferece <b>desconto em cursos, livros, proteção radiológica, seguro e equipamentos para a saúde.</b></h5>
+        <h5 class="text-primary mb-32">{% t pt-BR.navigation.main.benefits_program.text %}</h5>
         <div class="text-start">
-          <a href="#" class="btn btn-secondary mt-3 mb-5 scrollto">QUERO FALAR COM UM CONSULTOR</a>
+          <a href="#" class="btn btn-secondary mt-3 mb-5 scrollto">{% t pt-BR.navigation.main.btn %}</a>
         </div>
       </div>
       <div class="col col-md-4 text-center">
@@ -336,12 +331,12 @@ layout: default
   <div class="container">
     <div class="row text-center">
       <div class="col-md-6">
-        <h1 class="text-white"><b>55 M</b></h1>
-        <p class="text-white"><b>de papéis economizados até <br/>o momento</b></p>
+        <h1 class="text-white"><b>{% t pt-BR.navigation.main.environment.paper_number %}</b></h1>
+        <p class="text-white"><b>{% t pt-BR.navigation.main.environment.paper_text %}</b></p>
       </div>
       <div class="col-md-6">
-        <h1 class="text-white"><b>2 Mil</b></h1>
-        <p class="text-white"><b>árvores preservadas até <br/>o momento</b></p>
+        <h1 class="text-white"><b>{% t pt-BR.navigation.main.environment.tree_number %}</b></h1>
+        <p class="text-white"><b>{% t pt-BR.navigation.main.environment.tree_text %}</b></p>
       </div>
     </div>
   </div>

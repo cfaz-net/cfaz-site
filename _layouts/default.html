@@ -1,5 +1,9 @@
+---
+permalink: /default/
+---
+
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
   <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -37,21 +41,24 @@
           <a href="index.html"><img src="assets/img/logo.png" alt="Logomarca da Cfaz" class="img-fluid"></a>
         </div>
     
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
-            <li><a class="nav-link scrollto" href="#solucoes">Soluções</a></li>
-            <li><a class="nav-link scrollto" href="#depoimentos">Depoimentos</a></li>
-            <li><a class="nav-link scrollto" href="#sobreaCfaz">Sobre a Cfaz</a></li>
-            <li><a class="nav-link scrollto" href="#faleConosco">Fale Conosco</a></li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
+        {% include nav.html %}
+
         <div class="text-center text-lg-start">
-          <a href="#entrar" class="btn-get-started scrollto">ENTRAR</a>
+          <a href="#entrar" class="btn-get-started scrollto">{% t pt-BR.navigation.header.btn_enter %}</a>
+        </div>
+        
+        <div>
+        {% capture pr-BR %}{{ site.baseurl_root }}{{ page.url  }}{% endcapture %}
+        {% capture es %}{{ site.baseurl_root }}/es{{ page.url}}{% endcapture %}
+        {% capture en %}{{ site.baseurl_root }}/en{{ page.url  }}{% endcapture %}
+        <a href="{{ pr-BR }}"><img src="assets/img/icones/bandeira_pt-BR.png" alt="Bandeira do Brasil"></a>
+        <a href="{{ es }}"><img src="assets/img/icones/bandeira_es.png" alt="Bandeira da Espanha"></a>
+        <a href="{{ en }}"><img src="assets/img/icones/bandeira_en.png" alt="Bandeira do Estados Unidos"></a>
         </div>
       </div>
     </header>
+
+    {% t teste %}
 
     <main>
       {{content}}
@@ -61,38 +68,38 @@
       <div class="container">
         <div class="d-flex justify-content-between">
           <div>
-            <h6><b>Fale conosco</b></h6>
-    
-            <p class="mt-24 text-white"><b>Comercial</b></p>
-            <div class="item d-flex align-items-center">
+            <h6><b>{% t pt-BR.navigation.footer.contact_us %}</b></h6>
+  
+            <p class="mt-24 text-white"><b>{% t pt-BR.navigation.footer.commercial %}</b></p>
+            <div class="item d-flex align-items-center mt-8">
               <img src="assets/img/icones/footer_whatsapp.png" alt="Ícone Whatsapp">
               <p class="mb-0">31 3956 0980</p>
             </div>
-            <div class="item d-flex align-items-center">
+            <div class="item d-flex align-items-center mt-8">
               <img src="assets/img/icones/footer_email.png" alt="Ícone E-mail">
               <p class="mb-0"><a href="#">vendas@cfaz.net</a></p>
             </div>
     
-            <p class="mt-24 text-white"><b>Suporte</b></p>
-            <div class="item d-flex align-items-center">
+            <p class="mt-24 text-white"><b>{% t pt-BR.navigation.footer.support %}</b></p>
+            <div class="item d-flex align-items-center mt-8">
               <img src="assets/img/icones/footer_whatsapp.png" alt="Ícone Whatsapp">
               <p class="mb-0">31 3956 0980</p>
             </div>
-            <div class="item d-flex align-items-center">
+            <div class="item d-flex align-items-center mt-8">
               <img src="assets/img/icones/footer_fone.png" alt="Ícone Central de Atendimento">
-              <p class="mb-0"><a href="#">Ir para a central de atendimento</a></p>
+              <p class="mb-0"><a href="#">{% t pt-BR.navigation.footer.call_center %}</a></p>
             </div>
           </div>
     
           <div>
             <div class="d-flex align-items-center">
               <img src="assets/img/icones/icone_beneficios.png" alt="Ícone programa de benefícios">
-              <h6 class="mb-0"><a class="text-white" href="https://cfaz.fidelimax.com.br/"><b>Programa de Benefícios</b></a></h6>
+              <h6 class="mb-0"><a class="text-white" href="https://cfaz.fidelimax.com.br/"><b>{% t pt-BR.navigation.footer.benefits_program %}</b></a></h6>
             </div>
     
             <div class="mt-80">
-              <h6><b>Acompanhe a Cfaz nas <br/>mídias sociais</b></h6>
-              <div>
+              <h6><b>{% t pt-BR.navigation.footer.follow_on_social_media %}</b></h6>
+              <div class="mt-24">
                 <a href="https://www.instagram.com/cfaznet/"><img src="assets/img/icones/footer_instagram.png" alt="Ícone Instagram"></a>
                 <a href="https://www.facebook.com/cfaz.net/"><img src="assets/img/icones/footer_facebook.png" alt="Ícone Facebook"></a>
                 <a href="https://www.youtube.com/channel/UCv14GXXqg2RBbXZcc3qZqcg"><img src="assets/img/icones/footer_youtube.png" alt="Ícone Youtube"></a>
@@ -102,15 +109,14 @@
           </div>
     
           <div>
-            <h6><b>Posts do BLOG</b></h6>
-            <p>Quer ficar por dentro das novidades? <br/> Preencha seu e-mail e receba duas <br/> poublicações do Blog por mês.</p>
-            <input placeholder="Digite seu e-mail aqui...">
-            <button>
-              Inscrever
-            </button>
-    
+            <h6><b>{% t pt-BR.navigation.footer.blog_posts %}</b></h6>
+            <p class="mt-32">{% t pt-BR.navigation.footer.newsletter %}</p>
             <div class="mt-24">
-              <p><a href="https://blog.cfaz.net/">Ver todos os posts do blog</a></p>
+              <input placeholder="Digite seu e-mail aqui...">
+              <button cla>{% t pt-BR.navigation.footer.register %}</button>
+            </div>
+            <div class="mt-24">
+              <p class="mt-40"><a href="https://blog.cfaz.net/">{% t pt-BR.navigation.footer.all_blog_posts %}</a></p>
             </div>
           </div>
         </div>
@@ -132,5 +138,8 @@
     <script src="assets/js/main.js"></script>
     
     <script src="assets/js/filter.js"></script>
+    <script>
+
+    </script>
   </body>
 </html>

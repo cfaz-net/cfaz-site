@@ -217,12 +217,6 @@
   });
 
   /**
-   * Filter Team
-   */
-  
-
-  
-  /**
    * Animation on scroll
    */
   window.addEventListener('load', () => {

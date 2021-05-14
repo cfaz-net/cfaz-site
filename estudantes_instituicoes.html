@@ -8,10 +8,10 @@ layout: default
     <div class="row justify-content-between">
       <div class="col-md-5 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
         <div data-aos="zoom-out">
-          <h5 class="text-white"><b>Estudante e Instituição <br/> de Ensino</b></h5>
-          <p class="text-white">Leve o Cfaz.net para sua universidade, curso de graduação, pós graduação ou especialização.</p>
+          <h5 class="text-white"><b>{% t pt-BR.navigation.main.slider.students_institutions_title %}</b></h5>
+          <p class="text-white">{% t pt-BR.navigation.main.slider.students_institutions_subtitle %}</p>
           <div class="text-center text-lg-start">
-            <a href="#" class="btn btn-primary mt-3 mb-5 scrollto">QUERO FALAR COM UM CONSULTOR</a>
+            <a href="#" class="btn btn-primary mt-3 mb-5 scrollto">{% t pt-BR.navigation.main.btn %}</a>
           </div>
         </div>
       </div>
@@ -20,15 +20,15 @@ layout: default
           <div class="card card_header border-3 shadow m-1">
             <div class="card-body text-center">
               <img class="mb-8" src="assets/img/icones/icone_cfazCiencia.png" alt="Ícone CfazPlus">
-              <h6><b class="text-primary">Cfaz</b><b class="text-secondary">Ciência</b></h6>
-              <p class="text-secondary">Receba um de nossos representantes em sua Instituição de Ensino.</p>
+              <h6>{% t pt-BR.navigation.main.cfaz.ciencia %}</h6>
+              <p class="text-secondary">{% t pt-BR.navigation.main.cfaz.ciencia_text %}</p>
             </div>
           </div>
           <div class="card card_header border-3 shadow m-1">
             <div class="card-body text-center">
               <img class="mb-8" src="assets/img/icones/icone_CfazMax.png" alt="Ícone CfazMax">
-              <h6><b class="text-primary">Cfaz</b><b class="text-secondary">Max</b></h6>
-              <p class="text-secondary">Gestão, armazenamento, realização e entrega de laudos e exames de Radiologia Odontológica.</p>
+              <h6>{% t pt-BR.navigation.main.cfaz.max %}</h6>
+              <p class="text-secondary">{% t pt-BR.navigation.main.cfaz.max_text %}</p>
             </div>
           </div>
         </div>
@@ -38,14 +38,14 @@ layout: default
 </section>
 
 <!-- ======= Hero Section ======= -->
-<section id="cfazCiencia">
+<section id="cfazCiencia" class="mt-64">
   <div class="container">
     <div class="row">
       <div class="col col-md-8">
-        <h5 class="mb-32"><b class="text-primary">App</b><b>Ciência</b></h5>
-        <p>O CfazCiência nasceu com o objetivo de ajudar alunos e Professores a aplicarem os conhecimentos aprendidos em sala de aula na prática, além de facilitar e otimizar o aprendizado sobre Radiologia com os benefícios da tecnologia em nuvem do Cfaz.net. </p>
-        <p class="mt-24">Receba um de nossos representantes científicos para apresentar e orientar sobre a ferramenta. O Professor e cada aluno terá o seu cadastro individual na plataforma, que poderá ser acessada de casa, da instituição e de qualquer lugar.</p>
-        <p class="mt-24 text-primary"><b>Instituições que utilizam Cfaz.net</b></p>
+        <h5 class="mb-32">{% t pt-BR.navigation.main.cfazCiencia.title %}</h5>
+        <p>{% t pt-BR.navigation.main.cfazCiencia.about %}</p>
+        <p class="mt-24">{% t pt-BR.navigation.main.cfazCiencia.information %}</p>
+        <p class="mt-24 text-primary"><b>{% t pt-BR.navigation.main.cfazCiencia.institutions %}</b></p>
         <div class="enterprise">
           <img src="assets/img/empresas/slm.png" alt="Logomarca empresa São Leopoldo Mandic">
           <img src="assets/img/empresas/aorp.png" alt="Logomarca associação AORP">
@@ -59,7 +59,7 @@ layout: default
       <div class="col col-md-4 text-center">
         <img class="w-100 shadow" src="assets/img/estudantes_instituicoes_turma.png" alt="Imagens turma de alunos">
         <div class="text-center">
-          <a href="#" class="btn btn-secondary mt-3 mb-5 scrollto">QUERO FALAR COM UM CONSULTOR</a>
+          <a href="#" class="btn btn-secondary mt-3 mb-5 scrollto">{% t pt-BR.navigation.main.btn %}</a>
         </div>
       </div>
     </div>
@@ -67,39 +67,39 @@ layout: default
 </section>
 
 <!-- ======= Frase ======= -->
-<section id="phrase">
+<section id="phrase" class="mt-64">
   <div class="container">
-    <h5 class="text-white text-center">Leve a <b>transformação digital</b> para a sua sala de aula e conheça os benefícios da tecnologia Cfaz.net, utilizada por mais de 1.150 clínicas e profissionais Radiologistas no Brasil e América Latina.</h5>
+    <h5 class="text-white text-center">{% t pt-BR.navigation.main.phrase.text %}</h5>
   </div>
 </section>
 
 <!-- ======= benefit ======= -->
-<section id="benefit">
+<section id="benefit_transformation" class="mt-64">
   <div class="container">
-    <h5 class="text-primary text-center mb-54">Leve a <b>transformação digital</b> para o seu negócio</h5>
+    <h5 class="text-primary text-center mb-54">{% t pt-BR.navigation.main.benefit.title %}</h5>
     <div class="row">
       <div class="col-md-6">
         <div class="d-flex align-items-start mb-32">
           <img src="assets/img/icones/icone_online1.png" alt="Ícone 100% online">
           <div>
-            <p class="mb-8 text-secondary"><b>O CFAZ.NET NASCEU COMO O 1º SISTEMA 100% ONLINE PARA A RADIOLOGIA</b></p>
-            <p>A experiência é simplificada desde o início, garantindo mais agilidade e eficiência para a realização de exames e para a gestão da clínica ou centro médico.</p>
+            <p class="mb-8 text-secondary"><b>{% t pt-BR.navigation.main.benefit.item1 %}</b></p>
+            <p>{% t pt-BR.navigation.main.benefit.item1_text %}</p>
           </div>
         </div>
 
         <div class="d-flex align-items-start mb-32">
           <img src="assets/img/icones/icone_pac1.png" alt="Ícone PAC online">
           <div>
-            <p class="mb-8 text-secondary"><b>PACS ONLINE</b></p>
-            <p>Integração DICOM com todos aparelhos do mercado e armazenamento 100% seguro na Nuvem, graças à infraestrutura fornecida pela Google Cloud Platform.</p>
+            <p class="mb-8 text-secondary"><b>{% t pt-BR.navigation.main.benefit.item2 %}</b></p>
+            <p>{% t pt-BR.navigation.main.benefit.item2_text %}</p>
           </div>
         </div>
 
         <div class="d-flex align-items-start mb-32">
           <img src="assets/img/icones/icone_CfazManager1.png" alt="Ícone RIS online">
           <div>
-            <p class="mb-8 text-secondary"><b>RIS ONLINE</b></p>
-            <p>Agendamentos, PEP (Prontuário Eletrônico do Paciente), Integração com qualquer equipamento que utilize o protocolo DICOM (PACS/Worklist), Gestão Financeira, Controle de Convênios e Glosas, tudo pode ser acessado de qualquer lugar pelos administradores da clínica.</p>
+            <p class="mb-8 text-secondary"><b>{% t pt-BR.navigation.main.benefit.item3 %}</b></p>
+            <p>{% t pt-BR.navigation.main.benefit.item3_text %}</p>
           </div>
         </div>
       </div>
@@ -108,28 +108,28 @@ layout: default
         <div class="d-flex align-items-start mb-32">
           <img src="assets/img/icones/icone_imagem1.png" alt="Ícone máxima qualidade de imagem">
           <div>
-            <p class="mb-8 text-secondary"><b>MÁXIMA QUALIDADE DA IMAGEM</b></p>
-            <p>Somos o único sistema de gestão para Radiologia que oferece armazenamento de imagens e exames com 100% da qualidade original.</p>
+            <p class="mb-8 text-secondary"><b>{% t pt-BR.navigation.main.benefit.item4 %}</b></p>
+            <p>{% t pt-BR.navigation.main.benefit.item4_text %}</p>
           </div>
         </div>
         <div class="d-flex align-items-start mb-32">
           <img src="assets/img/icones/icone_tomografia.png" alt="Ícone mundo online">
           <div>
-            <p class="mb-8 text-secondary"><b>TOMOGRAFIA</b></p>
-            <p>Armazenamento e distribuição de tomografias 100% online, além de visualizador com reconstrução volumétrica MPR (Multiplanar Reconstruction)</p>
+            <p class="mb-8 text-secondary"><b>{% t pt-BR.navigation.main.benefit.item8 %}</b></p>
+            <p>{% t pt-BR.navigation.main.benefit.item8_text %}</p>
           </div>
         </div>
         <div class="d-flex align-items-start">
           <img src="assets/img/icones/icone_atendimento.png" alt="Ícone máxima qualidade de imagem">
           <div>
-            <p class="mb-8 text-secondary"><b>EXCELÊNCIA NO ATENDIMENTO</b></p>
-            <p>Um time qualificado e multidisciplinar realiza o nosso atendimento de forma humanizada, em tempo real, via Whatsapp, telefone, e-mail ou ainda Chat Direto no sistema.</p>
+            <p class="mb-8 text-secondary"><b>{% t pt-BR.navigation.main.benefit.benefit_productivity.item4 %}</b></p>
+            <p>{% t pt-BR.navigation.main.benefit.benefit_productivity.item4_text %}</p>
           </div>
         </div>
       </div>
     </div>
     <div class="text-center">
-      <a href="#" class="btn btn-secondary mt-3 mb-5 scrollto">QUERO FALAR COM UM CONSULTOR</a>
+      <a href="#" class="btn btn-secondary mt-3 mb-5 scrollto">{% t pt-BR.navigation.main.btn %}</a>
     </div>
   </div>
 </section>
@@ -139,10 +139,10 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col col-md-6">
-        <h5 class="text-primary mb-32"><b>Tecnologia desenvolvida pelo nosso time de Engenharia</b></h5>
-        <p>A Inteligência Artificial da Cfaz está presente em nossa ferramenta de Traçados Cefalométricos - para a Radiologia Odontológica - e na Identificação Automática de Imagens para montagem de templates. O Radiologista reduz o tempo gasto para realizar um traçado, economiza recursos e pode focar no que realmente importa: a saúde do paciente e o desenvolvimento do seu negócio.</p>
+        <h5 class="text-primary mb-32"><b>{% t pt-BR.navigation.main.artificial_intelligence.title %}</b></h5>
+        <p>{% t pt-BR.navigation.main.artificial_intelligence.subtitle %}</p>
         <div>
-          <a href="#" class="btn btn-secondary mt-3 mb-5 scrollto">QUERO FALAR COM UM CONSULTOR</a>
+          <a href="#" class="btn btn-secondary mt-3 mb-5 scrollto">{% t pt-BR.navigation.main.btn %}</a>
         </div>
       </div>
       <div class="col col-md-6 text-center">
@@ -159,4 +159,4 @@ layout: default
 {% include tomography.html %}
 
 <!-- ======= Fale com um de nossos consultores ======= -->
-{% include faleConosco.html %}
+{% include contact_us.html %}

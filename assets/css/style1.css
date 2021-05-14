@@ -59,8 +59,28 @@ b{
   font-weight: bold;
 }
 
+.mt-80{
+  margin-top: 80px;
+}
+
+.mb-80{
+  margin-bottom: 80px;
+}
+
+.mt-64{
+  margin-top: 64px;
+}
+
+.mb-64{
+  margin-bottom: 64px;
+}
+
 .mt-40{
   margin-top: 40px;
+}
+
+.mt-32{
+  margin-top: 32px;
 }
 
 .mt-24{
@@ -101,6 +121,26 @@ b{
 
 .mr-16{
   margin-right: 16px
+}
+
+.pt-80{
+  padding-top: 80px;
+}
+
+.pt-40{
+  padding-top: 40px;
+}
+
+.pb-80{
+  padding-bottom: 80px;
+}
+
+.pb-64{
+  padding-bottom: 40px;
+}
+
+.pb-40{
+  padding-bottom: 40px;
 }
 
 a:hover{
@@ -251,22 +291,22 @@ a:hover{
 /*--------------------------------------------------------------
 # Soluções
 --------------------------------------------------------------*/
-#solucoes .card{
+#solutions .card{
   height: 90%;
   border-radius: 15px;
   border-color: #E79824 !important;
 }
 
-#solucoes a:hover{
+#solutions a:hover{
   text-decoration: none;
 }
 
-#solucoes a:hover .card{
+#solutions a:hover .card{
   transition: all ease-in-out 0.4s;
   border-color: #AF6625 !important;
 }
 
-#solucoes a:hover .card h6 b{
+#solutions a:hover .card h6 b{
   transition: all ease-in-out 0.4s;
   color: #AF6625;
 }
@@ -274,38 +314,41 @@ a:hover{
 /*--------------------------------------------------------------
 # Depoimentos
 --------------------------------------------------------------*/
-#depoimentos{
+#testimony{
   width: 80%;
   position: relative;
   background-color: #E79824;
   border-radius: 0 0 0 60px;
   margin-left: auto;
-  margin-bottom: 50px;
 }
 
-#depoimentos img{
+#testimony img{
   width: 60px;
   margin-right: 8px;
   border: 2px solid #FFFFFF;
   border-radius: 100%;
 }
 
-#depoimentos .swiper-pagination{
+#testimony .swiper-pagination{
   position: relative;
 }
 
-#depoimentos .swiper-pagination .swiper-pagination-bullet{
+#testimony .swiper-pagination .swiper-pagination-bullet{
   width: 8px;
   height: 8px;
   background-color: #FFFFFF;
   margin: 0 4px;
 }
 
+#testimony .swiper-container-horizontal>.swiper-pagination-bullets{
+  bottom: 0;
+}
+
 
 /*--------------------------------------------------------------
 # Fale Conosco
 --------------------------------------------------------------*/
-#faleConosco img{
+#contact_us img{
   margin-right: 8px;
 }
 
@@ -359,7 +402,7 @@ a:hover{
 /*--------------------------------------------------------------
 # Programa de benefícios
 --------------------------------------------------------------*/
-#cfazApp img{
+#appCfaz img{
   width: 100%;
 }
 
@@ -473,7 +516,7 @@ a:hover{
   width: 100%;
   background: url("../img/headers/radiologia_odontologica.png");
   position: relative;
-  padding: 120px 0 0 0;
+  padding: 80px 0 40px 0;
   border-radius: 0 0 0 130px;
 }
 
@@ -493,7 +536,7 @@ a:hover{
   width: 100%;
   background: url("../img/headers/centros_medicos.png");
   position: relative;
-  padding: 120px 0 0 0;
+  padding: 80px 0 40px 0;
   border-radius: 0 0 0 130px;
 }
 
@@ -504,7 +547,7 @@ a:hover{
   width: 100%;
   background: url("../img/headers/teleradiologia.png");
   position: relative;
-  padding: 120px 0 0 0;
+  padding: 80px 0 40px 0;
   border-radius: 0 0 0 130px;
 }
 
@@ -515,7 +558,7 @@ a:hover{
   width: 100%;
   background: url("../img/headers/odontologia.png");
   position: relative;
-  padding: 120px 0 0 0;
+  padding: 80px 0 40px 0;
   border-radius: 0 0 0 130px;
 }
 
@@ -526,7 +569,7 @@ a:hover{
   width: 100%;
   background: url("../img/headers/estudantes_instituicoes.png");
   position: relative;
-  padding: 120px 0 0 0;
+  padding: 80px 0 40px 0;
   border-radius: 0 0 0 130px;
 }
 

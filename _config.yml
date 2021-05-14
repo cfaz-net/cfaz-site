@@ -12,3 +12,9 @@ baseurl: "/cfaz-site" # the subpath of your site, e.g. /blog
 
 # Build settings
 #theme: minima
+
+# Plugins
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: ["pt-BR", "en", "es"]

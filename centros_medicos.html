@@ -8,10 +8,10 @@ layout: default
     <div class="row justify-content-between">
       <div class="col-md-5 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
         <div data-aos="zoom-out">
-          <h5 class="text-white"><b>Centros Médicos</b></h5>
-          <p class="text-white">Gestão eficiente de ponta a ponta para Centros Médicos, com soluções 100% em Nuvem para realizar todas as etapas do Diagnóstico por Imagem, desde o agendamento de pacientes, passando pela gestão financeira e estratégica do centro, armazenamento automático de imagens, além da criação e distribuição de laudos e exames.</p>
+          <h5 class="text-white"><b>{% t pt-BR.navigation.main.slider.medical_centers_title %}</b></h5>
+          <p class="text-white">{% t pt-BR.navigation.main.slider.medical_centers_subtitle %}</p>
           <div class="text-center text-lg-start">
-            <a href="#" class="btn btn-primary mt-3 mb-5 scrollto">QUERO FALAR COM UM CONSULTOR</a>
+            <a href="#" class="btn btn-primary mt-3 mb-5 scrollto">{% t pt-BR.navigation.main.btn %}</a>
           </div>
         </div>
       </div>
@@ -20,15 +20,15 @@ layout: default
           <div class="card card_header border-3 shadow m-1">
             <div class="card-body text-center">
               <img class="mb-8" src="assets/img/icones/icone_CfazPlus.png" alt="Ícone CfazPlus">
-              <h6><b class="text-primary">Cfaz</b><b class="text-secondary">Plus</b></h6>
-              <p class="text-secondary">Gestão de ponta a ponta, desde o agendamento à entrega do exame para dentistas e pacientes.</p>
+              <h6>{% t pt-BR.navigation.main.cfaz.plus %}</h6>
+              <p class="text-secondary">{% t pt-BR.navigation.main.cfaz.plus_text %}</p>
             </div>
           </div>
           <div class="card card_header border-3 shadow m-1">
             <div class="card-body text-center">
               <img class="mb-8" src="assets/img/icones/icone_CfazMax.png" alt="Ícone CfazMax">
-              <h6><b class="text-primary">Cfaz</b><b class="text-secondary">Max</b></h6>
-              <p class="text-secondary">Gestão, armazenamento, realização e entrega de laudos e exames de Radiologia Odontológica.</p>
+              <h6>{% t pt-BR.navigation.main.cfaz.max %}</h6>
+              <p class="text-secondary">{% t pt-BR.navigation.main.cfaz.max_text %}</p>
             </div>
           </div>
         </div>
@@ -36,15 +36,15 @@ layout: default
           <div class="card card_header border-3 shadow m-1">
             <div class="card-body text-center">
               <img class="mb-8" src="assets/img/icones/icone_CfazManager1.png" alt="Ícone CfazManager">
-              <h6><b class="text-primary">Cfaz</b><b class="text-secondary">Manager</b></h6>
-              <p class="text-secondary">Gestão financeira e estratégica para franquias, redes e clínicas de Radiologia Odontológica.</p>
+              <h6>{% t pt-BR.navigation.main.cfaz.manager %}</h6>
+              <p class="text-secondary">{% t pt-BR.navigation.main.cfaz.manager_text %}</p>
             </div>
           </div>
           <div class="card card_header border-3 shadow m-1">
             <div class="card-body text-center">
               <img class="mb-8" src="assets/img/icones/icone_CfazBusiness.png" alt="Ícone CfazBusiness">
-              <h6><b class="text-primary">Cfaz</b><b class="text-secondary">Business</b></h6>
-              <p class="text-secondary">Marketplace exclusivo para terceirização de laudos, conectando Radiologistas a clínicas de Radiologia Odontológica.</p>
+              <h6>{% t pt-BR.navigation.main.cfaz.business %}</h6>
+              <p class="text-secondary">{% t pt-BR.navigation.main.cfaz.business_text %}</p>
             </div>
           </div>
         </div>
@@ -71,4 +71,4 @@ layout: default
 {% include tomography.html %}
 
 <!-- ======= Fale com um de nossos consultores ======= -->
-{% include faleConosco.html %}
+{% include contact_us.html %}
