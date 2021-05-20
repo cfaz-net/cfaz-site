@@ -1,17 +1,8 @@
-#title: Your awesome title
-#email: your-email@example.com
-#description: >-
-#  Write an awesome description for your new site here. You can edit this
-#  line in _config.yml. It will appear in your document head meta (for
-#  Google search results) and in your feed.xml site description.
-markedown: redcarpet ############# eu
-baseurl: "/cfaz-site" # the subpath of your site, e.g. /blog
-#url: "http://www.cfaz.net"
-#twitter_username: jekyllrb
-#github_username:  jekyll
-
-# Build settings
-#theme: minima
+title: Cfaz.net
+baseurl: "/cfaz-site"
+url: "http://www.cfaz.net"
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Plugins
 plugins:

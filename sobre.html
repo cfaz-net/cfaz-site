@@ -16,8 +16,8 @@ layout: default
 <section id="purpose_view" class="mt-64">
   <div class="container">
     <div class="row">
-      <div class="col col-md-6">
-        <div class="item bg-primary">
+      <div class="col-md-6" data-aos="fade-right">
+        <div class="item bg-primary p-32">
           <div class="d-flex justify-content-center align-items-center mb-24">
             <img src="assets/img/icones/icone_missao.png" class="mr-16" alt="Ícone de foguete">
             <h6 class="text-white"><b>{% t navigation.main.about_us.purpose %}</b></h6>
@@ -25,8 +25,8 @@ layout: default
           <p class="text-white">{% t navigation.main.about_us.purpose_text %}</p>
         </div>
       </div>
-      <div class="col col-md-6">
-        <div class="item bg-primary">
+      <div class="col-md-6" data-aos="fade-left">
+        <div class="item bg-primary p-32">
           <div class="d-flex justify-content-center align-items-center mb-24">
             <img src="assets/img/icones/icone_visao.png" class="mr-16" alt="Ícone de montanhas">
             <h6 class="text-white"><b>{% t navigation.main.about_us.view %}</b></h6>
@@ -43,33 +43,33 @@ layout: default
 <section id="values" class="mt-64">
   <div class="container">
     <div class="row">
-      <div class="col col-md-6">
-        <div class="d-flex align-items-center mb-24">
+      <div class="col-md-6">
+        <div class="d-flex align-items-center mb-24" data-aos="fade-right">
           <img src="assets/img/icones/icone_valores.png" class="mr-16" alt="Ícone de coração">
           <h6><b>{% t navigation.main.about_us.values.title %}</b></h6>
         </div>
-        <article class="mb-32">
+        <article class="mb-32" data-aos="zoom-in" data-aos-delay="200">
           <h6 class="text-primary mb-16"><b>{% t navigation.main.about_us.values.item1 %}</b></h6>
           <p>{% t navigation.main.about_us.values.item1_text %}</p>
         </article>
-        <article>
+        <article data-aos="zoom-in" data-aos-delay="200">
           <h6 class="text-primary mb-16"><b>{% t navigation.main.about_us.values.item2 %}</b></h6>
           <p class="mb-16">{% t navigation.main.about_us.values.item2_text %}</p>
         </article>
-        <article>
+        <article data-aos="zoom-in" data-aos-delay="200">
           <p class="text-secondary"><b>{% t navigation.main.about_us.values.item3_text %}</b></p>
         </article>
       </div>
-      <div class="col col-md-6">
-        <article class="mb-32">
+      <div class="col-md-6">
+        <article class="mb-32" data-aos="zoom-in" data-aos-delay="200">
           <h6 class="text-primary mb-16"><b>{% t navigation.main.about_us.values.item4 %}</b></h6>
           <p>{% t navigation.main.about_us.values.item4_text %}</p>
         </article>
-        <article class="mb-32">
+        <article class="mb-32" data-aos="zoom-in" data-aos-delay="200">
           <h6 class="text-primary mb-16"><b>{% t navigation.main.about_us.values.item5 %}</b></h6>
           <p>{% t navigation.main.about_us.values.item5_text %}</p>
         </article>
-        <article>
+        <article data-aos="zoom-in" data-aos-delay="200">
           <h6 class="text-primary mb-16"><b>{% t navigation.main.about_us.values.item6 %}</b></h6>
           <p>{% t navigation.main.about_us.values.item6_text %}</p>
         </article>
@@ -81,16 +81,18 @@ layout: default
 <!-- ======= Equipe ======= -->
 <section id="team" class="mt-64 pb-64">
   <div class="container">
-    <h6 class="text-center"><b>{% t navigation.main.team.title %}</b></h6>
-    <div id="buttons" class="text-center mt-24">
-      <button class="btn" onclick="filterSelection('all')">{% t navigation.main.team.all %}</button>
-      <button class="btn" onclick="filterSelection('scientific')">{% t navigation.main.team.scientific %}</button>
-      <button class="btn" onclick="filterSelection('marketing_sales')">{% t navigation.main.team.marketing_sales %}</button>
-      <button class="btn" onclick="filterSelection('engineering')">{% t navigation.main.team.engineering %}</button>
-      <button class="btn" onclick="filterSelection('customer_experience')">{% t navigation.main.team.customer_experience %}</button>
+    <div data-aos="zoom-out">
+      <h6 class="text-center"><b>{% t navigation.main.team.title %}</b></h6>
+      <div id="buttons" class="text-center mt-24">
+        <button class="btn" onclick="filterSelection('all')">{% t navigation.main.team.all %}</button>
+        <button class="btn" onclick="filterSelection('scientific')">{% t navigation.main.team.scientific %}</button>
+        <button class="btn" onclick="filterSelection('marketing_sales')">{% t navigation.main.team.marketing_sales %}</button>
+        <button class="btn" onclick="filterSelection('engineering')">{% t navigation.main.team.engineering %}</button>
+        <button class="btn" onclick="filterSelection('customer_experience')">{% t navigation.main.team.customer_experience %}</button>
+      </div>
     </div>
     <div class="row">
-      <div class="col-md-2 filter scientific">
+      <div class="col-md-2 filter scientific" data-aos="zoom-in" data-aos-delay="200">
         <div class="card shadow mt-24">
           <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
           <div class="informations">
@@ -99,7 +101,7 @@ layout: default
           </div>
         </div>
       </div>
-      <div class="col-md-2 filter marketing_sales">
+      <div class="col-md-2 filter marketing_sales" data-aos="zoom-in" data-aos-delay="200">
         <div class="card shadow mt-24">
           <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
           <div class="informations">
@@ -108,7 +110,7 @@ layout: default
           </div>
         </div>
       </div>
-      <div class="col-md-2 filter customer_experience">
+      <div class="col-md-2 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
         <div class="card shadow mt-24">
           <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
           <div class="informations">
@@ -117,7 +119,7 @@ layout: default
           </div>
         </div>
       </div>
-      <div class="col-md-2 filter customer_experience">
+      <div class="col-md-2 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
         <div class="card shadow mt-24">
           <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
           <div class="informations">
@@ -126,7 +128,7 @@ layout: default
           </div>
         </div>
       </div>
-      <div class="col-md-2 filter marketing_sales">
+      <div class="col-md-2 filter marketing_sales" data-aos="zoom-in" data-aos-delay="200">
         <div class="card shadow mt-24">
           <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
           <div class="informations">
@@ -135,7 +137,7 @@ layout: default
           </div>
         </div>
       </div>
-      <div class="col-md-2 filter customer_experience">
+      <div class="col-md-2 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
         <div class="card shadow mt-24">
           <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
           <div class="informations">
@@ -144,7 +146,7 @@ layout: default
           </div>
         </div>
       </div>
-      <div class="col-md-2 filter customer_experience">
+      <div class="col-md-2 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
         <div class="card shadow mt-24">
           <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
           <div class="informations">
@@ -153,7 +155,7 @@ layout: default
           </div>
         </div>
       </div>
-      <div class="col-md-2 filter engineering">
+      <div class="col-md-2 filter engineering" data-aos="zoom-in" data-aos-delay="200">
         <div class="card shadow mt-24">
           <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
           <div class="informations">
@@ -162,7 +164,7 @@ layout: default
           </div>
         </div>
       </div>
-      <div class="col-md-2 filter customer_experience">
+      <div class="col-md-2 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
         <div class="card shadow mt-24">
           <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
           <div class="informations">
@@ -171,7 +173,7 @@ layout: default
           </div>
         </div>
       </div>
-      <div class="col-md-2 filter customer_experience">
+      <div class="col-md-2 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
         <div class="card shadow mt-24">
           <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
           <div class="informations">

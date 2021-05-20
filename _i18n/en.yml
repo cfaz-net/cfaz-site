@@ -56,11 +56,11 @@ navigation:
       students_institutions_text: "Take Cfaz.net to your classroom and apply your knowledge in practice."
     testimony:
       title: "What our customers are saying"
-      testimony1: "<b>Dr. Guilherme A. R. Resende</b><br/><small>Director of Clinics Imagem e Odontologia Digital</small>"
+      testimony1: "<b>Dr. Guilherme A. R. Resende</b><br/><small class='text-white'>Director of Clinics Imagem e Odontologia Digital</small>"
       testimony_text1: "I chose Cfaz.net because at the time they already had a futuristic proposal, offering a 100% online system and the possibility of integrating all units. With the implementation, I encouraged myself to open new units, as everything would be under my control, and even in the palm of my hand, through the cell phone."
-      testimony2: "<b>Dra. Maria Betânia da Silveira e Souza</b><br/><small>Director of Clinics ROC</small>"
+      testimony2: "<b>Dra. Maria Betânia da Silveira e Souza</b><br/><small class='text-white'>Director of Clinics ROC</small>"
       testimony_text2: "Cfaz.net is software that has a heart. In addition to the professionalism offered, this was the differential that made us loyal to the system. The partnership eliminated bureaucracy and, therefore, we work with more freedom. This makes the Radiologist + Dentist + Patient relationship much more efficient and humane. The quantitative results are consequences of the harmony and pleasure of the team's work."
-      testimony3: "<b>Dr. Pedro Lima Emmerich Oliveira</b><br/><small>Director of Clinics Craniofacial</small>"
+      testimony3: "<b>Dr. Pedro Lima Emmerich Oliveira</b><br/><small class='text-white'>Director of Clinics Craniofacial</small>"
       testimony_text3: "Craniofacial and Cfaz have built a working relationship supported by trust and friendship. The software's functionality has often been updated according to Craniofacial's needs. Cfaz.net has simplified company processes, exam deliveries are faster and quality control is more active."
     contact_us:
       title: "Talk to one of our <br/> consultants"
@@ -103,7 +103,7 @@ navigation:
       subtitle: "Cfaz's Artificial Intelligence is present in our Cephalometric Tracing tool - for Dental Radiology - and in Automatic Image Identification for assembling templates. The Radiologist reduces the time it takes to perform a tracing, saves resources and can focus on what really matters: the patient's health and the development of his business."
     tomography: 
       title: "Tomography"
-      subtitle: "Tomography storage and distribution 100% online, in addition to visualizer with MPR volumetric reconstruction (Multiplanar Reconstruction)."
+      subtitle: "Tomography storage and distribution 100% online, in addition <br/> to visualizer with MPR volumetric reconstruction (Multiplanar Reconstruction)."
     teleradiology: 
       title: "<b>We connect your clinic to professionals</b> from all over Brazil and abroad participating for free in our <b>marketplace</b>"
       cfaz_business: "<b>Cfaz</b><b class='text-primary'>Business</b>"

@@ -6,18 +6,18 @@ layout: default
 <section id="hero">
   <div class="container">
     <div class="row justify-content-between">
-      <div class="col-lg-8 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+      <div class="col-lg-8 pt-5 order-2 order-lg-1 d-flex align-items-center">
         <div data-aos="zoom-out">
           <h5 class="text-white"><b>{% t navigation.main.slider.index_title %}</b></h5>
           <p class="text-white">{% t navigation.main.slider.index_subtitle %}</p>
-          <div class="text-center text-lg-start">
+          <div class="text-lg-start">
             <a href="#about" class="btn btn-primary mt-3 mb-5 scrollto">{% t navigation.main.btn %}</a>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 order-1 position-relative aos-animate" data-aos="zoom-out">
+      <div class="col-lg-4 order-1 position-relative mobile-none" data-aos="zoom-out">
         <img class="col-lg-12 position-absolute" src="assets/img/headers/home_nuvem.png" class="img-fluid" alt="Nuvem da header">
-        <img class="col-lg-12 position-absolute" src="assets/img/headers/home_notebook.png" class="img-fluid" alt="Notebook da header">
+        <img class="col-lg-12 position-absolute mt-48 animated" src="assets/img/headers/home_notebook.png" class="img-fluid" alt="Notebook da header">
       </div>
     </div>
   </div>
@@ -27,13 +27,13 @@ layout: default
 <section id="about" class="mt-64">
   <div class="container">
     <div class="row">
-      <div class="col col-md-6">
+      <div class="col-md-6 col-sm-12 aos-init" data-aos="fade-right">
         <h5>{% t navigation.main.about.title %}</h5>
         <p class="mt-32">{% t navigation.main.about.subtitle %}</p>
-        <p class="mt-40"><a href="sobre.html" class="text-primary"><b>{% t navigation.main.about.read_more %}</b></a></p>
+        <p class="mt-40"><a href="sobre.html" class="text-primary hover_underline"><b>{% t navigation.main.about.read_more %}</b></a></p>
       </div>
-      <div class="col col-md-6 text-right">
-        <div style="width: 500px; height: 250px; background-color: gray; margin-left: auto; margin-right: auto;">
+      <div class="col-md-6 col-sm-12 text-right" data-aos="fade-left">
+        <div style="width: 100%; height: 250px; background-color: gray; margin-left: auto; margin-right: auto;">
           video
         </div>
         <div class="text-center">
@@ -42,17 +42,17 @@ layout: default
       </div>
     </div>
   </div>
-</section>
+</section>    
 
 <!-- ======= Soluções ======= -->
 <section id="solutions">
   <div class="container">
     <div class="row">
-      <div class="col col-md-4">
+      <div class="col-md-4" data-aos="fade-up">
         <h5>{% t navigation.main.solutions.health %}</h5>
         <p>{% t navigation.main.solutions.health_text %}</p>
       </div>
-      <a href="{{site.baseurl}}/radiologia_odontologica.html" class="col col-md-4">
+      <a href="{{site.baseurl}}/radiologia_odontologica.html" class="col-md-4" data-aos="zoom-in-up" data-aos-delay="300">
         <div class="card border-3 shadow m-1">
           <div class="card-body text-center">
             <h6 class="text-primary mb-8"><b>{% t navigation.main.solutions.dental_radiology %}</b></h6>
@@ -60,7 +60,7 @@ layout: default
           </div>
         </div>
       </a>
-      <a href="{{site.baseurl}}/centros_medicos.html" class="col col-md-4">
+      <a href="{{site.baseurl}}/centros_medicos.html" class="col-md-4" data-aos="zoom-in-up" data-aos-delay="300">
         <div class="card border-3 shadow m-1">
           <div class="card-body text-center">
             <h6 class="text-primary mb-8"><b>{% t navigation.main.solutions.medical_centers %}</b></h6>
@@ -68,7 +68,7 @@ layout: default
           </div>
         </div>
       </a>
-      <a href="{{site.baseurl}}/telerradiologia.html" class="col col-md-4">
+      <a href="{{site.baseurl}}/telerradiologia.html" class="col-md-4" data-aos="zoom-in-up" data-aos-delay="300">
         <div class="card border-3 shadow m-1">
           <div class="card-body text-center">
             <h6 class="text-primary mb-8"><b>{% t navigation.main.solutions.teleradiology %}</b></h6>
@@ -76,7 +76,7 @@ layout: default
           </div>
         </div>
       </a>
-      <a href="{{site.baseurl}}/odontologia.html" class="col col-md-4">
+      <a href="{{site.baseurl}}/odontologia.html" class="col-md-4" data-aos="zoom-in-up" data-aos-delay="300">
         <div class="card border-3 shadow m-1">
           <div class="card-body text-center">
             <h6 class="text-primary mb-8"><b>{% t navigation.main.solutions.odontology %}</b></h6>
@@ -84,7 +84,7 @@ layout: default
           </div>
         </div>
       </a>
-      <a href="{{site.baseurl}}/estudantes_instituicoes.html" class="col col-md-4">
+      <a href="{{site.baseurl}}/estudantes_instituicoes.html" class="col-md-4" data-aos="zoom-in-up" data-aos-delay="300">
         <div class="card border-3 shadow m-1">
           <div class="card-body text-center">
             <h6 class="text-primary mb-8"><b>{% t navigation.main.solutions.students_institutions %}</b></h6>
@@ -97,10 +97,10 @@ layout: default
 </section>
 
 <!-- ======= Depoimentos ======= -->
-<section id="testimony" class="mt-64 pt-40 pb-40">
-  <h5 class="text-white text-center"><b>{% t navigation.main.testimony.title %}</b></h5>
+<section id="testimony" class="mt-64 pt-40 pb-40 bg-primary">
   <div class="container">
-    <div class="testimonials-slider swiper-container text-center" data-aos="fade-up" data-aos-delay="100">
+    <h5 class="text-white text-center" data-aos="zoom-out"><b>{% t navigation.main.testimony.title %}</b></h5>
+    <div class="testimonials-slider swiper-container text-center" data-aos="zoom-out">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="testimonial-item">
@@ -148,10 +148,10 @@ layout: default
 <!-- ======= Benefícios ======= -->
 <section id="benefit_home" class="mt-64">
   <div class="container">
-    <h5 class="text-white text-center mb-54">{% t navigation.main.benefit.title %}</h5>
+    <h5 class="text-white text-center mb-54" data-aos="zoom-out">{% t navigation.main.benefit.title %}</h5>
     <div class="row">
-      <div class="col-md-6">
-        <div class="d-flex align-items-start mb-32">
+      <div class="col-md-6 col-sm-12">
+        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
           <img src="assets/img/icones/icone_online.png" alt="Ícone 100% online">
           <div>
             <p class="text-white mb-8"><b>{% t navigation.main.benefit.item1 %}</b></p>
@@ -159,7 +159,7 @@ layout: default
           </div>
         </div>
 
-        <div class="d-flex align-items-start mb-32">
+        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
           <img src="assets/img/icones/icone_pac.png" alt="Ícone PAC online">
           <div>
             <p class="text-white"><b>{% t navigation.main.benefit.item2 %}</b></p>
@@ -167,7 +167,7 @@ layout: default
           </div>
         </div>
 
-        <div class="d-flex align-items-start mb-32">
+        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
           <img src="assets/img/icones/icone_CfazManager.png" alt="Ícone RIS online">
           <div>
             <p class="text-white"><b>{% t navigation.main.benefit.item3 %}</b></p>
@@ -175,33 +175,29 @@ layout: default
           </div>
         </div>
       </div>
-      
-      <div class="col-md-6">
-        <div class="d-flex align-items-start mb-32">
+      <div class="col-md-6 col-sm-12">
+        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
           <img src="assets/img/icones/icone_imagem.png" alt="Ícone máxima qualidade de imagem">
           <div>
             <p class="text-white"><b>{% t navigation.main.benefit.item4 %}</b></p>
             <p class="text-white mb-0">{% t navigation.main.benefit.item4_text %}</p>
           </div>
         </div>
-
-        <div class="d-flex align-items-start mb-32">
+        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
           <img src="assets/img/icones/icone_dicon.png" alt="Ícone DICOM">
           <div>
             <p class="text-white"><b>{% t navigation.main.benefit.item5 %}</b></p>
             <p class="text-white mb-0">{% t navigation.main.benefit.item5_text %}</p>
           </div>
         </div>
-
-        <div class="d-flex align-items-start mb-32">
+        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
           <img src="assets/img/icones/icone_STL.png" alt="Ícone mundo online">
           <div>
             <p class="text-white"><b>{% t navigation.main.benefit.item6 %}</b></p>
             <p class="text-white mb-0">{% t navigation.main.benefit.item6_text %}</p>
           </div>
         </div>
-
-        <div class="d-flex align-items-start">
+        <div class="d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
           <img src="assets/img/icones/icone_redes.png" alt="Ícone mundo online">
           <div>
             <p class="text-white"><b>{% t navigation.main.benefit.item7 %}</b></p>
@@ -210,7 +206,7 @@ layout: default
         </div>
       </div>
     </div>
-    <div class="text-center mt-40">
+    <div class="text-center mt-40" data-aos="zoom-out">
       <a href="#about" class="btn btn-primary mt-0 scrollto">{% t navigation.main.btn %}</a>
     </div>
   </div>
@@ -223,20 +219,20 @@ layout: default
 {% include tomography.html %}
 
 <!-- ======= Telerradiologia ======= -->
-<section id="teleradiology">
+<section id="teleradiology" class="mt-64">
   <div class="container">
-      <h5 class="text-white text-center mb-32">{% t navigation.main.teleradiology.title %}</h5>
-      <div class="row d-flex justify-content-center">
-        <div class="col col-md-5 card">
+      <h5 class="text-white text-center mb-32" data-aos="zoom-out">{% t navigation.main.teleradiology.title %}</h5>
+      <div class="row d-flex justify-content-center" data-aos="zoom-out">
+        <div class="col-md-5 col-sm-12 card mt-8">
           <h5 class="mb-0">{% t navigation.main.teleradiology.cfaz_business %}</h5>
           <span></span>
           <p>{% t navigation.main.teleradiology.cfaz_business_text %}</p>
         </div>
-        <div class="col col-md-5 card">
+        <div class="col-md-5 col-sm-12 card mt-8">
           <h5 class="mb-0">{% t navigation.main.teleradiology.cfaz_job %}</h5>
           <span></span>
           <p>{% t navigation.main.teleradiology.cfaz_job_text %}</p>
-          <a class="text-primary mt-24" href="#">{% t navigation.main.teleradiology.know_more %}</a>
+          <a class="text-primary mt-24 hover_underline" href="#">{% t navigation.main.teleradiology.know_more %}</a>
         </div>
       </div>
     </div>
@@ -247,10 +243,10 @@ layout: default
 <section id="appCfaz" class="mt-64">
   <div class="container">
     <div class="row">
-      <div class="col col-md-6">
+      <div class="col-md-6 col-sm-12" data-aos="fade-right">
         <img src="assets/img/cfazApp.png" alt="Imagens CfazMax no Aplicativo">
       </div>
-      <div class="col col-md-6 text-end">
+      <div class="col-md-6 col-sm-12 text-end" data-aos="fade-up">
         <h5 class="mb-32">{% t navigation.main.appCfaz.title %}</h5>
         <p>{% t navigation.main.appCfaz.subtitle %}</p>
         <div class="text-end">
@@ -265,13 +261,13 @@ layout: default
 <section id="benefits_program" class="mt-64">
   <div class="container">
     <div class="row">
-      <div class="col col-md-8">
-        <h5 class="text-primary mb-32">{% t navigation.main.benefits_program.text %}</h5>
-        <div class="text-start">
+      <div class="col-md-8">
+        <h5 class="text-primary mb-32" data-aos="zoom-out">{% t navigation.main.benefits_program.text %}</h5>
+        <div class="text-start" data-aos="fade-right">
           <a href="#" class="btn btn-secondary mt-3 mb-5 scrollto">{% t navigation.main.btn %}</a>
         </div>
       </div>
-      <div class="col col-md-4 text-center">
+      <div class="col-md-4 text-center mobile-none" data-aos="fade-left">
         <img src="assets/img/icones/icone_beneficios.png" alt="Ícone programa de benefícios">
       </div>
     </div>
@@ -327,15 +323,15 @@ layout: default
 </section>
 
 <!-- ======= Meio ambiente ======= -->
-<section id="environment">
+<section id="environment" class=" bg-primary">
   <div class="container">
     <div class="row text-center">
       <div class="col-md-6">
-        <h1 class="text-white"><b>{% t navigation.main.environment.paper_number %}</b></h1>
+        <h1><b><span data-purecounter-start="0" data-purecounter-end="44" data-purecounter-duration="2" class="purecounter text-white"></span></b></h1>
         <p class="text-white"><b>{% t navigation.main.environment.paper_text %}</b></p>
       </div>
       <div class="col-md-6">
-        <h1 class="text-white"><b>{% t navigation.main.environment.tree_number %}</b></h1>
+        <h1><b><span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter text-white"></span></b></h1>
         <p class="text-white"><b>{% t navigation.main.environment.tree_text %}</b></p>
       </div>
     </div>

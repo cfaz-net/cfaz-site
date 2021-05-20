@@ -1,9 +1,3 @@
-/**
-* Template Name: Bootslander - v4.1.0
-* Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -197,7 +191,7 @@
    * Partners slider
    */
   new Swiper(".partners", {
-    slidesPerView: 1,
+    slidesPerView: 2,
     spaceBetween: 10,
     pagination: {
       el: ".swiper-pagination",
@@ -228,4 +222,71 @@
     })
   });
 
+  /**
+   * Form Hubspot
+   */
+  window.addEventListener('load', () => {
+    if(document.getElementById('form_contact')){
+      hbspt.forms.create({
+        region: "na1",
+        portalId: "6654092",
+        formId: "3b9c7778-9d4f-4c82-8439-8af6fb5dcb7b",
+        target: '#form_contact',
+        locale: 'en',
+        translations: {
+          en: {
+            required: "Required field!",
+            invalidDate: "Please enter a real date",
+            submitText: "RECEIVE CONTACT FROM A CONSULTANT",
+            fieldLabels: {
+              firstname: "Name",
+              email: "Electronic mail",
+              phone: "Phone",
+              profissao :"Profession",
+              como_nos_conheceu_: "How did you know us?"
+            },
+            missingSelect: {
+              profissao: 'oi'
+            }
+          },
+          ptBr: {
+            required: "Campo Obrigatório",
+            invalidDate: "Preencha uma data real",
+            submitText: "QUERO FALAR COM UM CONSULTOR",
+            fieldLabels: {
+              firstname: "Nome",
+              email: "E-mail",
+              phone: "Telefone",
+              profissao :"Cargo",
+              como_nos_conheceu_: "Como nos conheceu?"
+            }
+          },
+          es: {
+            required: "Campo obligatorio!",
+            invalidDate: "Complete una fecha real",
+            submitText: "QUIERO HABLAR CON UN CONSULTOR",
+            fieldLabels: {
+              firstname: "Nombre",
+              email: "Correo electrónico",
+              phone: "Teléfono",
+              profissao :"Profesión",
+              como_nos_conheceu_: "¿Como supiste de nosotros?"
+            }
+          }
+        },
+       
+      });
+    }
+  });
+
+  /**
+   * Google Analytics
+   */
+  window.addEventListener('load', () => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-NVH38EZE5V');
+  });
 })()
