@@ -679,40 +679,13 @@ img{
   padding: 48px;
 }
 
-.hs_firstname label{
-  background-color: pink;
-}
-
-#contact_us #form_contact label span{
-  color: #E79824;
-  font-weight: 800;  
-}
-
-.hs-input:not([type=file]){
-  background-color: #FFFFFF !important;
-}
-
-#contact_us #form_contact .hs-button,
-.hs-form-3b9c7778-9d4f-4c82-8439-8af6fb5dcb7b_b2fe2b06-c93f-4400-bc4b-58e908c69ce6 .hs-button,
-.primary{
-  width: 100%;
-  border-radius: 15px;
-  background-color: #E79824;
-  font-weight: 500;
-  letter-spacing: 1px;
-  padding: 11px 16px;
-  text-align: center;
-  color: #FFFFFF;
-  transition: 0.5s;
-}
-
-
 /*--------------------------------------------------------------
 # Benefícios
 --------------------------------------------------------------*/
 #benefit_home{
   background-image: url("../img/benefícios.png");
   background-size: cover;
+  background-attachment: fixed;
   padding: 54px;
 }
 
@@ -726,7 +699,13 @@ img{
 --------------------------------------------------------------*/
 #tomography img{
   width: 50%;
-  margin: 0 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#tomography .tomography-images{
+  display: flex;
+  justify-content: center;
 }
 
 /*--------------------------------------------------------------
@@ -735,6 +714,7 @@ img{
 #teleradiology{
   background-image: url("../img/telerradiologia.png");
   background-size: cover;
+  background-attachment: fixed;
   padding: 54px;
 }
 
@@ -742,7 +722,7 @@ img{
   padding: 48px 56px;
   margin-left: 16px;
   margin-right: 16px;
-  height: 315px;
+  max-height: 315px;
   border-radius: 15px;
   border: none;
 }
@@ -809,6 +789,11 @@ img{
   margin-right: 16px;
 }
 
+#footer .footer-container{
+  display: flex; 
+  justify-content: space-between;
+}
+
 /*-------------------------------------------------------------------------------------------------
 # SOBRE A CFAZ
 -------------------------------------------------------------------------------------------------*/
@@ -816,6 +801,7 @@ img{
   width: 100%;
   background: url("../img/headers/sobre.png");
   padding: 110px 0 32px 0;
+  border-radius: 0 0 0 130px;
 }
 
 #purpose_view .item img{
@@ -911,7 +897,7 @@ img{
 -------------------------------------------------------------------------------------------------*/
 #students_institutions_hero{
   width: 100%;
-  background: url("../img/headers/estudantes_instituicoes.png");
+  background: url("../img/headers/home.png");
   position: relative;
   padding: 160px 0 72px 0;
   border-radius: 0 0 0 130px;
@@ -925,6 +911,7 @@ img{
 #phrase{
   width: 100%;
   background: url("../img/estudantes_instituicoes_fundo_frase.png");
+  background-attachment: fixed;
   padding: 160px 0;
 }
 
@@ -939,10 +926,6 @@ img{
 }
 
 @media screen and (max-width: 992px){
-  .mobile-none{
-    display: none;
-  }
-
   #header .navbar{
     order: 3;
   }
@@ -961,7 +944,61 @@ img{
     margin-right: 16px;
   }
 
+  #tomography img{
+    width: 90%;
+  }
+
+  #tomography .tomography-images{
+    display: inline-block;
+    text-align: center;
+  }
+
+  #teleradiology .card {
+    padding: 24px 32px;
+  }
+
+  #footer .footer-container{
+    display: inline;
+  }
+
+  #footer .footer-mobile{
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  h5{
+    font-size: 21px;
+    line-height: 120%;
+  }
+  h6{
+    font-size: 16px;
+    line-height: 120%;
+  }
+  p{
+    font-size: 12px;
+    line-height: 150%;
+  }
+  small{
+    font-size: 9px;
+    line-height: 120%;
+  }
+  
   .mobile-reverse{
     flex-direction: column-reverse;
+  }  
+  
+  .mobile-none{
+    display: none;
+  }
+
+  #students_institutions_hero,
+  #dental_radiology_hero,
+  #medical_centers_hero,
+  #teleradiology_hero,
+  #odontology_hero{
+    padding: 48px 0 20px 0;
+    border-radius: 0;
+    background-repeat: no-repeat;
   }
 }

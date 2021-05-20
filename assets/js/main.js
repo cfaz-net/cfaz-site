@@ -227,55 +227,26 @@
    */
   window.addEventListener('load', () => {
     if(document.getElementById('form_contact')){
-      hbspt.forms.create({
+      let form_id_ptbr = '3b9c7778-9d4f-4c82-8439-8af6fb5dcb7b';
+      let form_id_es = 'db70410f-7c47-4fcc-b892-97b4a8314c27';
+      //let form_id_en = ''
+
+      let formOptions = {
         region: "na1",
         portalId: "6654092",
-        formId: "3b9c7778-9d4f-4c82-8439-8af6fb5dcb7b",
-        target: '#form_contact',
-        locale: 'en',
-        translations: {
-          en: {
-            required: "Required field!",
-            invalidDate: "Please enter a real date",
-            submitText: "RECEIVE CONTACT FROM A CONSULTANT",
-            fieldLabels: {
-              firstname: "Name",
-              email: "Electronic mail",
-              phone: "Phone",
-              profissao :"Profession",
-              como_nos_conheceu_: "How did you know us?"
-            },
-            missingSelect: {
-              profissao: 'oi'
-            }
-          },
-          ptBr: {
-            required: "Campo Obrigatório",
-            invalidDate: "Preencha uma data real",
-            submitText: "QUERO FALAR COM UM CONSULTOR",
-            fieldLabels: {
-              firstname: "Nome",
-              email: "E-mail",
-              phone: "Telefone",
-              profissao :"Cargo",
-              como_nos_conheceu_: "Como nos conheceu?"
-            }
-          },
-          es: {
-            required: "Campo obligatorio!",
-            invalidDate: "Complete una fecha real",
-            submitText: "QUIERO HABLAR CON UN CONSULTOR",
-            fieldLabels: {
-              firstname: "Nombre",
-              email: "Correo electrónico",
-              phone: "Teléfono",
-              profissao :"Profesión",
-              como_nos_conheceu_: "¿Como supiste de nosotros?"
-            }
-          }
-        },
-       
-      });
+        formId: form_id_ptbr,
+        target: '#form_contact'
+      }
+
+      let language = document.getElementById('language');
+      
+      if(language.value == 'es'){
+        formOptions.formId = form_id_es
+      } else {
+        formOptions.formId = form_id_ptbr
+      }
+      
+      hbspt.forms.create(formOptions);
     }
   });
 

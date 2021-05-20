@@ -71,6 +71,7 @@ permalink: /default/
           <a href="{{ pr-BR }}"><img src="assets/img/icones/bandeira_pt-BR.png" alt="Bandeira do Brasil"></a>
           <a href="{{ es }}"><img src="assets/img/icones/bandeira_es.png" alt="Bandeira da Espanha"></a>
           <a href="{{ en }}"><img src="assets/img/icones/bandeira_en.png" alt="Bandeira do Estados Unidos"></a>
+          <input id="language" type="hidden" value="{{ site.lang }}">
         </div>
       </div>
     </header>
@@ -81,10 +82,9 @@ permalink: /default/
     
     <footer id="footer">
       <div class="container">
-        <div class="d-flex justify-content-between">
+        <div class="footer-container">
           <div>
             <h6 class="text-white"><b>{% t navigation.footer.contact_us %}</b></h6>
-  
             <p class="mt-24 text-white"><b>{% t navigation.footer.commercial %}</b></p>
             <div class="item d-flex align-items-center mt-8 mb-8">
               <img src="assets/img/icones/footer_whatsapp.png" alt="Ícone Whatsapp">
@@ -94,7 +94,6 @@ permalink: /default/
               <img src="assets/img/icones/footer_email.png" alt="Ícone E-mail">
               <p class="mb-0"><a href="#" class="hover_underline">vendas@cfaz.net</a></p>
             </div>
-    
             <p class="mt-24 text-white"><b>{% t navigation.footer.support %}</b></p>
             <div class="item d-flex align-items-center mt-8">
               <img src="assets/img/icones/footer_whatsapp.png" alt="Ícone Whatsapp">
@@ -106,13 +105,12 @@ permalink: /default/
             </div>
           </div>
     
-          <div>
+          <div class="footer-mobile">
             <div class="d-flex align-items-center">
               <img src="assets/img/icones/icone_beneficios.png" alt="Ícone programa de benefícios">
               <h6 class="mb-0"><a href="https://cfaz.fidelimax.com.br/" class="text-white hover_underline"><b>{% t navigation.footer.benefits_program %}</b></a></h6>
             </div>
-    
-            <div class="mt-80">
+            <div class="mt-40">
               <h6 class="text-white"><b>{% t navigation.footer.follow_on_social_media %}</b></h6>
               <div class="mt-24">
                 <a href="https://www.instagram.com/cfaznet/"><img src="assets/img/icones/footer_instagram.png" alt="Ícone Instagram"></a>
@@ -123,7 +121,7 @@ permalink: /default/
             </div>
           </div>
     
-          <div>
+          <div class="footer-mobile">
             <h6 class="text-white"><b>{% t navigation.footer.blog_posts %}</b></h6>
             <p class="mt-32">{% t navigation.footer.newsletter %}</p>
             <div class="mt-24">
