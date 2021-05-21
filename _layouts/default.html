@@ -125,8 +125,7 @@ permalink: /default/
             <h6 class="text-white"><b>{% t navigation.footer.blog_posts %}</b></h6>
             <p class="mt-32">{% t navigation.footer.newsletter %}</p>
             <div class="mt-24">
-              <input placeholder="Digite seu e-mail aqui...">
-              <button cla>{% t navigation.footer.register %}</button>
+              <div id="newsletter"></div>
             </div>
             <div class="mt-24">
               <p class="mt-40"><a href="https://blog.cfaz.net/" class="hover_underline">{% t navigation.footer.all_blog_posts %}</a></p>
@@ -135,6 +134,8 @@ permalink: /default/
         </div>
       </div>
     </footer>
+
+    {% include modal.html %}
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
     <div id="preloader"></div>

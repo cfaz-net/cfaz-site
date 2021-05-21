@@ -226,11 +226,11 @@
    * Form Hubspot
    */
   window.addEventListener('load', () => {
+    let form_id_ptbr = '3b9c7778-9d4f-4c82-8439-8af6fb5dcb7b';
+    let form_id_es = 'db70410f-7c47-4fcc-b892-97b4a8314c27';
+    let form_id_en = '2f423333-00c6-4177-b590-38cc0aec00d3';
+    
     if(document.getElementById('form_contact')){
-      let form_id_ptbr = '3b9c7778-9d4f-4c82-8439-8af6fb5dcb7b';
-      let form_id_es = 'db70410f-7c47-4fcc-b892-97b4a8314c27';
-      //let form_id_en = ''
-
       let formOptions = {
         region: "na1",
         portalId: "6654092",
@@ -239,14 +239,55 @@
       }
 
       let language = document.getElementById('language');
-      
+
       if(language.value == 'es'){
         formOptions.formId = form_id_es
-      } else {
+      }
+      else if(language.value == 'en'){
+        formOptions.formId = form_id_en
+      }
+      else {
         formOptions.formId = form_id_ptbr
       }
       
       hbspt.forms.create(formOptions);
+    }
+
+    if(document.getElementById('form_contact_modal')){
+      let formOptions = {
+        region: "na1",
+        portalId: "6654092",
+        formId: form_id_ptbr,
+        target: '#form_contact_modal'
+      }
+
+      let language = document.getElementById('language');
+
+      if(language.value == 'es'){
+        formOptions.formId = form_id_es
+      }
+      else if(language.value == 'en'){
+        formOptions.formId = form_id_en
+      }
+      else {
+        formOptions.formId = form_id_ptbr
+      }
+      
+      hbspt.forms.create(formOptions);
+    }
+  });
+
+  /**
+   * Newsletter
+   */
+  window.addEventListener('load', () => {
+    if(document.getElementById('newsletter')){
+      hbspt.forms.create({
+        region: "na1",
+        portalId: "6654092",
+        formId: "d9d0ff9f-80df-4d31-9ece-8615c93638f5",
+        target: '#newsletter'
+      });
     }
   });
 

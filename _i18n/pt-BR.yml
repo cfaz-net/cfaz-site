@@ -121,9 +121,9 @@ navigation:
     benefits_program: 
       text: 'Saiba como participar do único Programa de Benefícios que oferece <b>desconto em cursos, livros, proteção radiológica, seguro e equipamentos para a saúde.</b>'
     environment: 
-      paper_number: '55 M'
+      paper_number: 'Mi'
       paper_text: 'de papéis economizados'
-      tree_number: '2 Mil'
+      tree_number: 'K'
       tree_text: 'árvores preservadas'
     system_Cfaz: 
       text: '<b>O futuro é digital e é agora.</b> Levamos os avanços da tecnologia em nuvem <br/>para o seu dia a dia com um sistema amigável, intuitivo e atualizado.'
