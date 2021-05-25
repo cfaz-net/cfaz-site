@@ -263,7 +263,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  github-pages
+  github-pages (~> 214)
   jekyll-feed (~> 0.12)
   jekyll-multiple-languages-plugin
   minima (~> 2.5)
