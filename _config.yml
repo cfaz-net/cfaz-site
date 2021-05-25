@@ -4,6 +4,8 @@ url: "http://www.cfaz.net"
 twitter_username: jekyllrb
 github_username:  jekyll
 
+gems: ['jekyll-multiple-languages']
+
 # Plugins
 plugins:
   - jekyll-multiple-languages-plugin
