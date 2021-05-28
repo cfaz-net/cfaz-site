@@ -1,6 +1,6 @@
 title: Cfaz.net
-baseurl: "/"
-url: "https://site.cfaz.net"
+baseurl: "/cfaz-site"
+url: "https://cfaz-net.github.io"
 twitter_username: jekyllrb
 github_username:  jekyll
 
