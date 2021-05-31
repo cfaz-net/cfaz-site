@@ -43,7 +43,7 @@ http://localhost:4000
 Antes de mandar as alterações para o guthub Pages, você deve sempre buildar o código localmente.
 
 ```
-bundle exec jekyll serve
+jekyll build
 ```
 
 Se mais de uma pessoa estiver fazendo modificações no site, não deve se esquecer de fazer um git pull para baixar as informações que estão na Web para sua máquina local.
