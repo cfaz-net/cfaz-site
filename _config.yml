@@ -3,6 +3,8 @@ baseurl: "/"
 url: "https://site.cfaz.net"
 twitter_username: jekyllrb
 github_username:  jekyll
+include: 
+  - CNAME
 
 # Plugins
 plugins:
