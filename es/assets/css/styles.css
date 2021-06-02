@@ -9,6 +9,7 @@
 # Fonts
 --------------------------------------------------------------*/
 body{
+  position: relative;
   overflow-x: hidden;
 }
 
@@ -211,6 +212,11 @@ b{
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.navbar .dropdown a{
+  cursor: pointer;
 }
 
 .navbar .dropdown ul li {
@@ -555,8 +561,10 @@ img{
 #hero {
   width: 100%;
   background: url("../img/headers/home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  padding: 160px 0 72px 0;
+  padding: 190px 0 72px 0;
   border-radius: 0 0 0 130px;
 }
 
@@ -637,13 +645,6 @@ img{
 /*--------------------------------------------------------------
 # Depoimentos
 --------------------------------------------------------------*/
-#testimony{
-  width: 80%;
-  position: relative;
-  border-radius: 0 0 0 60px;
-  margin-left: auto;
-}
-
 #testimony img{
   width: 60px;
   margin-right: 8px;
@@ -665,7 +666,6 @@ img{
 #testimony .swiper-container-horizontal>.swiper-pagination-bullets{
   bottom: 0;
 }
-
 
 /*--------------------------------------------------------------
 # Fale Conosco
@@ -758,7 +758,7 @@ img{
 #benefits_program .swiper-slide img{
   width: 90%;
   height: auto;
-  padding: 35px;
+  padding: 52px;
 }
 
 #benefits_program .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
@@ -786,7 +786,7 @@ img{
 
 #footer img{
   width: 24px;
-  margin-right: 16px;
+  margin-right: 8px;
 }
 
 #footer .footer-container{
@@ -800,8 +800,9 @@ img{
 #about_hero{
   width: 100%;
   background: url("../img/headers/sobre.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 110px 0 32px 0;
-  border-radius: 0 0 0 130px;
 }
 
 #purpose_view .item img{
@@ -845,6 +846,8 @@ img{
 #dental_radiology_hero{
   width: 100%;
   background: url("../img/headers/radiologia_odontologica.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   padding: 160px 0 72px 0;
   border-radius: 0 0 0 130px;
@@ -865,6 +868,8 @@ img{
 #medical_centers_hero{
   width: 100%;
   background: url("../img/headers/centros_medicos.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   padding: 160px 0 72px 0;
   border-radius: 0 0 0 130px;
@@ -876,6 +881,8 @@ img{
 #teleradiology_hero{
   width: 100%;
   background: url("../img/headers/teleradiologia.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   padding: 160px 0 72px 0;
   border-radius: 0 0 0 130px;
@@ -887,6 +894,8 @@ img{
 #odontology_hero{
   width: 100%;
   background: url("../img/headers/odontologia.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   padding: 160px 0 72px 0;
   border-radius: 0 0 0 130px;
@@ -898,6 +907,8 @@ img{
 #students_institutions_hero{
   width: 100%;
   background: url("../img/headers/home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   padding: 160px 0 72px 0;
   border-radius: 0 0 0 130px;
