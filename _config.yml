@@ -1,5 +1,6 @@
 title: Cfaz.net
 baseurl: ""
+baseurl_root: "site.cfaz.net"
 url: "https://site.cfaz.net"
 twitter_username: jekyllrb
 github_username:  jekyll

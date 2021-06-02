@@ -79,9 +79,9 @@ permalink: /default/
         </nav>
         
         <div class="locale">
-          {% capture pr-BR %}{{ site.url }}{{ page.url  }}{% endcapture %}
-          {% capture es %}{{ site.url }}/es{{ page.url}}{% endcapture %}
-          {% capture en %}{{ site.url }}/en{{ page.url  }}{% endcapture %}
+          {% capture pr-BR %}{{ site.baseurl_root }}{{ page.url  }}{% endcapture %}
+          {% capture es %}{{ site.baseurl_root }}/es{{ page.url}}{% endcapture %}
+          {% capture en %}{{ site.baseurl_root }}/en{{ page.url  }}{% endcapture %}
           <a href="{{ pr-BR }}"><img src="assets/img/icones/bandeira_pt-BR.png" alt="Bandeira do Brasil"></a>
           <a href="{{ es }}"><img src="assets/img/icones/bandeira_es.png" alt="Bandeira da Espanha"></a>
           <a href="{{ en }}"><img src="assets/img/icones/bandeira_en.png" alt="Bandeira do Estados Unidos"></a>
