@@ -26,7 +26,7 @@ navigation:
       ciencia_text: 'Receba um de nossos representantes em sua Instituição de Ensino.'
     slider:
       index_title: 'Soluções inteligentes em Nuvem <br/> para a gestão eficaz e humanizada <br/> de Centros Odontológicos e Médicos.'
-      index_subtitle: 'Cfaz.net é o primeiro sistema 100% online para profissionais e centros de Diagnóstico por Imagem.'
+      index_subtitle: 'Cfaz.net é o primeiro sistema 100% online para profissionais e centros <br/> de Diagnóstico por Imagem.'
       medical_centers_title: 'Centros Médicos'
       medical_centers_subtitle: 'Gestão eficiente de ponta a ponta para Centros Médicos, com soluções 100% em Nuvem para realizar todas as etapas do Diagnóstico por Imagem, desde o agendamento de pacientes, passando pela gestão financeira e estratégica do centro, armazenamento automático de imagens, além da criação e distribuição de laudos e exames.'
       students_institutions_title: 'Estudante e Instituição de Ensino'
@@ -39,7 +39,7 @@ navigation:
       teleradiology_subtitle: 'Plataforma unificada com soluções para realização de laudos radiológicos e um marketplace gratuito integrado, conectando profissionais radiologistas a clínicas e centros radiológicos de todo o Brasil e América Latina.'
     about:
       title: 'Sobre <b>nós</b>'
-      subtitle: 'A Cfaz nasceu há 10 anos em Belo Horizonte, Minas Gerais. Desenvolvemos o Cfaz.net, primeiro sistema 100% online para Centros de Diagnóstico por Imagem. Após o reconhecimento pelo SEED MG e pelo FIEMG Lab como uma das empresas mais inovadoras do mercado. Hoje atendemos a profissionais e centros Radiológicos em todo o Brasil e na América Latina.'
+      subtitle: 'A Cfaz nasceu há 10 anos em Belo Horizonte, Minas Gerais. Desenvolvemos o Cfaz.net, primeiro sistema nativo em nuvem e 100% online para Centros de Diagnóstico por Imagem. Após o reconhecimento pelo SEED MG e pelo FIEMG Lab como uma das empresas mais inovadoras do mercado. Hoje atendemos a profissionais e centros Radiológicos em todo o Brasil e na América Latina.'
       read_more: 'Leia mais e conheça a nossa equipe...'
     solutions:
       health: 'Conheça as nossas <br/><b>soluções para a saúde</b>'

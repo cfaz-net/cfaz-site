@@ -25,8 +25,8 @@ navigation:
       ciencia: "<b class='text-primary'>Cfaz</b><b class='text-secondary'>Ciência</b>"
       ciencia_text: "Receive one of our representatives at your educational institution."
     slider:
-      index_title: "Smart Cloud Solutions <br/> for effective and humanized management <br/> of Dental and Medical Centers."
-      index_subtitle: "Cfaz.net is the first 100% online system for professionals and Diagnostic Imaging centers."
+      index_title: "Smart Cloud Solutions for effective and humanized management of Dental <br/> and Medical Centers."
+      index_subtitle: "Cfaz.net is the first 100% online system for professionals and <br/> Diagnostic Imaging centers."
       medical_centers_title: "Medical Centers"
       medical_centers_subtitle: "End to end efficient management for Medical Centers, with 100% Cloud solutions to perform all stages of Diagnostic Imaging, from scheduling patients, through the center's financial and strategic management, automatic image storage, in addition to creating and distribution of reports and exams."
       students_institutions_title: "Student and Educational Institution"
@@ -39,7 +39,7 @@ navigation:
       teleradiology_subtitle: "Unified platform with solutions for making radiological reports and a free integrated marketplace, connecting radiologists to clinics and radiological centers throughout Brazil and Latin America."
     about:
       title: "About <b>us</b>"
-      subtitle: "Cfaz was born 10 years ago in Belo Horizonte, Minas Gerais. We developed Cfaz.net, the first 100% online system for Diagnostic Imaging Centers. After recognition by SEED MG and FIEMG Lab as one of the most innovative companies in the market. Today we serve professionals and Radiological centers throughout Brazil and Latin America."
+      subtitle: "Cfaz was born 10 years ago in Belo Horizonte, Minas Gerais. We developed Cfaz.net, first native cloud system and 100% online for Diagnostic Imaging Centers. After recognition by SEED MG and FIEMG Lab as one of the most innovative companies in the market. Today we serve professionals and Radiological centers throughout Brazil and Latin America."
       read_more: "Read more and meet our team..."
     solutions:
       health: "Discover our <br/> <b>solutions for health</b>"

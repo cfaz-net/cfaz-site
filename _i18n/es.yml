@@ -25,8 +25,8 @@ navigation:
       ciencia: '<b class="text-primary">Cfaz</b><b class="text-secondary">Ciência</b>'
       ciencia_text: 'Reciba a uno de nuestros representantes en su institución educativa.'
     slider:
-      index_title: 'Soluciones inteligentes en la nube <br/> para una gestión <br/> eficaz y humanizada de los centros médicos y dentales.'
-      index_subtitle: 'Cfaz.net es el primer sistema 100% online para profesionales y centros de diagnóstico por imagen.'
+      index_title: 'Soluciones inteligentes en la nube para <br/> una gestión eficaz y humanizada de los centros médicos y dentales.'
+      index_subtitle: 'Cfaz.net es el primer sistema 100% online para profesionales y centros <br/> de diagnóstico por imagen.'
       medical_centers_title: 'Centros medicos'
       medical_centers_subtitle: 'Gestión eficiente de punta a punta para Centros Médicos, con soluciones 100% Cloud para realizar todas las etapas de Diagnóstico por Imagen, desde la programación de pacientes, pasando por la gestión financiera y estratégica del centro, almacenamiento automático de imágenes, además de la creación y distribución de informes y exámenes.'
       students_institutions_title: 'Institución educativa <br/> y estudiantil'
@@ -39,7 +39,7 @@ navigation:
       teleradiology_subtitle: 'Plataforma unificada con soluciones para la elaboración de informes radiológicos y un marketplace integrado gratuito, que conecta a los radiólogos con clínicas y centros radiológicos en todo Brasil y Latinoamérica.'
     about:
       title: 'Sobre <b>nosotros</b>'
-      subtitle: 'Cfaz nació hace 10 años en Belo Horizonte, Minas Gerais. Desarrollamos Cfaz.net, el primer sistema 100% en línea para centros de diagnóstico por imagen. Tras el reconocimiento de SEED MG y FIEMG Lab como una de las empresas más innovadoras del mercado. Hoy atendemos a profesionales y centros radiológicos en todo Brasil y Latinoamérica.'
+      subtitle: 'Cfaz nació hace 10 años en Belo Horizonte, Minas Gerais. Desarrollamos Cfaz.net, primer sistema de nube nativo y 100% en línea para centros de diagnóstico por imagen. Tras el reconocimiento de SEED MG y FIEMG Lab como una de las empresas más innovadoras del mercado. Hoy atendemos a profesionales y centros radiológicos en todo Brasil y Latinoamérica.'
       read_more: 'Leer más y conocer a nuestro equipo ...'
     solutions:
       health: 'Descubra nuestras <br/> <b> soluciones para la salud </b>'
