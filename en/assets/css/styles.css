@@ -138,7 +138,7 @@ b{
 }
 
 #header .img-fluid{
-  width: 70px;
+  width: 150px;
 }
 
 /*--------------------------------------------------------------
@@ -560,7 +560,7 @@ img{
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../img/headers/home.png");
+  background: url("../img/headers/home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -622,9 +622,9 @@ img{
 # Soluções
 --------------------------------------------------------------*/
 #solutions .card{
-  height: 90%;
   border-radius: 15px;
   border-color: #E79824 !important;
+  min-height: 180px;
 }
 
 #solutions a:hover .card{
@@ -683,7 +683,7 @@ img{
 # Benefícios
 --------------------------------------------------------------*/
 #benefit_home{
-  background-image: url("../img/benefícios.png");
+  background-image: url("../img/benefícios.jpg");
   background-size: cover;
   background-attachment: fixed;
   padding: 54px;
@@ -712,7 +712,7 @@ img{
 # Telerradiologia
 --------------------------------------------------------------*/
 #teleradiology{
-  background-image: url("../img/telerradiologia.png");
+  background-image: url("../img/telerradiologia.jpg");
   background-size: cover;
   background-attachment: fixed;
   padding: 54px;
@@ -799,10 +799,14 @@ img{
 -------------------------------------------------------------------------------------------------*/
 #about_hero{
   width: 100%;
-  background: url("../img/headers/sobre.png");
+  background: url("../img/headers/sobre.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 110px 0 32px 0;
+}
+
+#about span{
+  color: #9D9D9D;
 }
 
 #purpose_view .item img{
@@ -845,7 +849,7 @@ img{
 -------------------------------------------------------------------------------------------------*/
 #dental_radiology_hero{
   width: 100%;
-  background: url("../img/headers/radiologia_odontologica.png");
+  background: url("../img/headers/radiologia_odontologica.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -867,7 +871,7 @@ img{
 -------------------------------------------------------------------------------------------------*/
 #medical_centers_hero{
   width: 100%;
-  background: url("../img/headers/centros_medicos.png");
+  background: url("../img/headers/centros_medicos.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -880,7 +884,7 @@ img{
 -------------------------------------------------------------------------------------------------*/
 #teleradiology_hero{
   width: 100%;
-  background: url("../img/headers/teleradiologia.png");
+  background: url("../img/headers/teleradiologia.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -893,7 +897,7 @@ img{
 -------------------------------------------------------------------------------------------------*/
 #odontology_hero{
   width: 100%;
-  background: url("../img/headers/odontologia.png");
+  background: url("../img/headers/odontologia.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -906,7 +910,7 @@ img{
 -------------------------------------------------------------------------------------------------*/
 #students_institutions_hero{
   width: 100%;
-  background: url("../img/headers/home.png");
+  background: url("../img/headers/home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -921,7 +925,7 @@ img{
 
 #phrase{
   width: 100%;
-  background: url("../img/estudantes_instituicoes_fundo_frase.png");
+  background: url("../img/estudantes_instituicoes_fundo_frase.jpg");
   background-attachment: fixed;
   padding: 160px 0;
 }
