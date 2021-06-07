@@ -8,16 +8,8 @@
 /*--------------------------------------------------------------
 # Fonts
 --------------------------------------------------------------*/
-html{
-  overflow-x: hidden;
-}
-
 body{
   position: relative;
-}
-
-.container{
-  max-width: 1700px !important;
 }
 
 body, h1, h2, h3, h4, h5, h6, a, p, span, button, small{
@@ -654,6 +646,7 @@ img{
 --------------------------------------------------------------*/
 #testimony img{
   width: 60px;
+  height: 60px;
   margin-right: 8px;
   border: 2px solid #FFFFFF;
   border-radius: 100%;
