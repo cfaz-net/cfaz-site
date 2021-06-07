@@ -308,6 +308,6 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-NVH38EZE5V');
+    gtag('config', 'G-9G5F134FT9');
   });
 })()
