@@ -9,7 +9,10 @@ navigation:
       solutions: 'Soluciones'
       testimony: 'Deposiciones'
       about: 'Sobre la Cfaz' 
-      contact_us: 'Hable con nosotros'
+      contact_us: 
+        title: 'Hable con nosotros'
+        commercial: 'Comercial'
+        support: 'Soporte'
     btn_enter: 'ENTRAR'
   main:
     btn: 'QUIERO HABLAR CON UN CONSULTOR'
@@ -39,7 +42,7 @@ navigation:
       teleradiology_subtitle: 'Plataforma unificada con soluciones para la elaboración de informes radiológicos y un marketplace integrado gratuito, que conecta a los radiólogos con clínicas y centros radiológicos en todo Brasil y Latinoamérica.'
     about:
       title: 'Sobre <b>nosotros</b>'
-      subtitle: 'Cfaz nació hace 10 años en Belo Horizonte, Minas Gerais. Desarrollamos Cfaz.net, primer sistema de nube nativo y 100% en línea para centros de diagnóstico por imagen. Tras el reconocimiento de SEED MG y FIEMG Lab como una de las empresas más innovadoras del mercado. Hoy atendemos a profesionales y centros radiológicos en todo Brasil y Latinoamérica.'
+      subtitle: 'Cfaz nació hace <span id="cfaz-age"></span> años en Belo Horizonte, Minas Gerais. Desarrollamos Cfaz.net, primer sistema de nube nativo y 100% en línea para centros de diagnóstico por imagen. Tras el reconocimiento de SEED MG y FIEMG Lab como una de las empresas más innovadoras del mercado. Hoy atendemos a profesionales y centros radiológicos en todo Brasil y Latinoamérica.'
       read_more: 'Leer más y conocer a nuestro equipo ...'
     solutions:
       health: 'Descubra nuestras <br/> <b> soluciones para la salud </b>'

@@ -9,7 +9,10 @@ navigation:
       solutions: "Solutions"
       testimony: "Testimony"
       about: "About Cfaz" 
-      contact_us: "Contact Us"
+      contact_us: 
+        title: "Contact Us"
+        commercial: "Commercial"
+        support: "Support"
     btn_enter: "TO ENTER"
   main:
     btn: "I WANT TO TALK TO A CONSULTANT"
@@ -39,7 +42,7 @@ navigation:
       teleradiology_subtitle: "Unified platform with solutions for making radiological reports and a free integrated marketplace, connecting radiologists to clinics and radiological centers throughout Brazil and Latin America."
     about:
       title: "About <b>us</b>"
-      subtitle: "Cfaz was born 10 years ago in Belo Horizonte, Minas Gerais. We developed Cfaz.net, first native cloud system and 100% online for Diagnostic Imaging Centers. After recognition by SEED MG and FIEMG Lab as one of the most innovative companies in the market. Today we serve professionals and Radiological centers throughout Brazil and Latin America."
+      subtitle: "Cfaz was born <span id='cfaz-age'></span> years ago in Belo Horizonte, Minas Gerais. We developed Cfaz.net, first native cloud system and 100% online for Diagnostic Imaging Centers. After recognition by SEED MG and FIEMG Lab as one of the most innovative companies in the market. Today we serve professionals and Radiological centers throughout Brazil and Latin America."
       read_more: "Read more and meet our team..."
     solutions:
       health: "Discover our <br/> <b>solutions for health</b>"
