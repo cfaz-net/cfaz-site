@@ -1,6 +1,5 @@
 ---
 layout: default
-foundedYear: 2011
 ---
 
 <!-- ======= Hero ======= -->
@@ -12,7 +11,7 @@ foundedYear: 2011
           <h5 class="text-white"><b>{% t navigation.main.slider.index_title %}</b></h5>
           <p class="text-white mt-8">{% t navigation.main.slider.index_subtitle %}</p>
           <div class="text-lg-start">
-            <a class="btn btn-primary mt-3 mb-5" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
+            <a class="btn btn-primary mb-8 mt-16" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
           </div>
         </div>
       </div>
@@ -25,47 +24,53 @@ foundedYear: 2011
 </section>
 
 <!-- ======= Sobre a Cfaz ======= -->
-<section id="about" class="mt-64">
+<!-- <section id="about" class="mt-64">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-12 aos-init" data-aos="fade-right">
         <h5>{% t navigation.main.about.title %}</h5>
         <p class="mt-32">{%t navigation.main.about.subtitle %}</p>
-        <p class="mt-40"><a href="sobre.html" class="text-primary hover_underline"><b>{% t navigation.main.about.read_more %}</b></a></p>
+        <p class="mt-40 mb-16"><a href="sobre.html" class="text-primary hover_underline"><b>{% t navigation.main.about.read_more %}</b></a></p>
       </div>
       <div class="col-md-6 col-sm-12 text-right" data-aos="fade-left">
         <div style="width: 100%; height: 250px; background-color: gray; margin-left: auto; margin-right: auto;">
           video
         </div>
         <div class="text-center">
-          <a class="btn btn-secondary mt-3 mb-5" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
+          <a class="btn btn-secondary mb-8 mt-16" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
         </div>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- ======= Soluções ======= -->
 <section id="solutions" class="mt-64">
   <div class="container">
     <div class="row">
-      <div class="col-md-4" data-aos="fade-up">
+      <div class="col-md-4 mt-32" data-aos="fade-up">
         <h5>{% t navigation.main.solutions.health %}</h5>
         <p>{% t navigation.main.solutions.health_text %}</p>
       </div>
-      <div class="col-md-4" data-aos="zoom-in-up" data-aos-delay="300">
+      <div class="col-md-4 mt-32" data-aos="zoom-in-up" data-aos-delay="300">
         <a href="radiologia_odontologica.html" class="card border-3 shadow">
           <div class="card-body text-center">
             <h6 class="text-primary mb-8"><b>{% t navigation.main.solutions.dental_radiology %}</b></h6>
-            <p>{% t navigation.main.solutions.dental_radiology_text %}</p>
+            <p class="mb-8">{% t navigation.main.solutions.dental_radiology_text %}</p>
+          </div>
+          <div class="card-footer text-center">
+            <p class="text-primary"><b>{% t navigation.main.solutions.view_more %}</b></p>
           </div>
         </a>
       </div>
-      <div class="col-md-4" data-aos="zoom-in-up" data-aos-delay="300">
+      <div class="col-md-4 mt-32" data-aos="zoom-in-up" data-aos-delay="300">
         <a href="centros_medicos.html" class="card border-3 shadow">
           <div class="card-body text-center">
             <h6 class="text-primary mb-8"><b>{% t navigation.main.solutions.medical_centers %}</b></h6>
-            <p>{% t navigation.main.solutions.medical_center_text %}</p>
+            <p class="mb-8">{% t navigation.main.solutions.medical_center_text %}</p>
+          </div>
+          <div class="card-footer text-center">
+            <p class="text-primary"><b>{% t navigation.main.solutions.view_more %}</b></p>
           </div>
         </a>
       </div>
@@ -73,7 +78,10 @@ foundedYear: 2011
         <a href="telerradiologia.html" class="card border-3 shadow">
           <div class="card-body text-center">
             <h6 class="text-primary mb-8"><b>{% t navigation.main.solutions.teleradiology %}</b></h6>
-            <p>{% t navigation.main.solutions.teleradiology_text %}</p>
+            <p class="mb-8">{% t navigation.main.solutions.teleradiology_text %}</p>
+          </div>
+          <div class="card-footer text-center">
+            <p class="text-primary"><b>{% t navigation.main.solutions.view_more %}</b></p>
           </div>
         </a>
       </div>
@@ -81,7 +89,10 @@ foundedYear: 2011
         <a href="odontologia.html" class="card border-3 shadow">
           <div class="card-body text-center">
             <h6 class="text-primary mb-8"><b>{% t navigation.main.solutions.odontology %}</b></h6>
-            <p>{% t navigation.main.solutions.odontology_text %}</p>
+            <p class="mb-8">{% t navigation.main.solutions.odontology_text %}</p>
+          </div>
+          <div class="card-footer text-center">
+            <p class="text-primary"><b>{% t navigation.main.solutions.view_more %}</b></p>
           </div>
         </a>
       </div>
@@ -89,7 +100,10 @@ foundedYear: 2011
         <a href="estudantes_instituicoes.html" class="card border-3 shadow">
           <div class="card-body text-center">
             <h6 class="text-primary mb-8"><b>{% t navigation.main.solutions.students_institutions %}</b></h6>
-            <p>{% t navigation.main.solutions.students_institutions_text %}</p>
+            <p class="mb-8">{% t navigation.main.solutions.students_institutions_text %}</p>
+          </div>
+          <div class="card-footer text-center">
+            <p class="text-primary"><b>{% t navigation.main.solutions.view_more %}</b></p>
           </div>
         </a>
       </div>
@@ -133,6 +147,39 @@ foundedYear: 2011
             </div>  
             <p class="text-white">
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>{% t navigation.main.testimony.testimony_text3 %}<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
+              <img src="assets/img/depoimentos/Depoimentos_Larissa.png" class="testimonial-img" alt="Depoimento de Guilherme, diretor das Clínicas Imagem e Odontologia Digital">
+              <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony4 %}</p>
+            </div>  
+            <p class="text-white">
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>{% t navigation.main.testimony.testimony_text4 %}<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
+              <img src="assets/img/depoimentos/Depoimentos_Angela.png" class="testimonial-img" alt="Depoimento de Guilherme, diretor das Clínicas Imagem e Odontologia Digital">
+              <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony5 %}</p>
+            </div>  
+            <p class="text-white">
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>{% t navigation.main.testimony.testimony_text5 %}<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
+              <img src="assets/img/depoimentos/Depoimentos_Patrícia.png" class="testimonial-img" alt="Depoimento de Guilherme, diretor das Clínicas Imagem e Odontologia Digital">
+              <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony6 %}</p>
+            </div>  
+            <p class="text-white">
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>{% t navigation.main.testimony.testimony_text6 %}<i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
         </div>
@@ -208,7 +255,7 @@ foundedYear: 2011
       </div>
     </div>
     <div class="text-center mt-40" data-aos="zoom-out">
-      <a class="btn btn-primary mt-0" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
+      <a class="btn btn-primary mb-8 mt-16" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
     </div>
   </div>
 </section>
@@ -222,8 +269,8 @@ foundedYear: 2011
 <!-- ======= Telerradiologia ======= -->
 <section id="teleradiology" class="mt-64">
   <div class="container">
-      <h5 class="text-white text-center mb-32" data-aos="zoom-out">{% t navigation.main.teleradiology.title %}</h5>
-      <div class="row d-flex justify-content-center" data-aos="zoom-out">
+      <h5 class="text-white text-center mb-32" data-aos="zoom-in">{% t navigation.main.teleradiology.title %}</h5>
+      <div class="row d-flex justify-content-center" data-aos="zoom-in">
         <div class="col-md-5 col-sm-12 card mt-8">
           <h5 class="mb-0">{% t navigation.main.teleradiology.cfaz_business %}</h5>
           <span></span>
@@ -250,8 +297,8 @@ foundedYear: 2011
       <div class="col-md-6 col-12 text-end" data-aos="fade-up">
         <h5 class="mb-32">{% t navigation.main.appCfaz.title %}</h5>
         <p>{% t navigation.main.appCfaz.subtitle %}</p>
-        <div class="text-end">
-          <a class="btn btn-secondary mt-3 mb-5" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
+        <div class="text-end mobile-none">
+          <a class="btn btn-secondary mb-8 mt-16" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
         </div>
       </div>
     </div>
@@ -265,7 +312,7 @@ foundedYear: 2011
       <div class="col-md-8">
         <h5 class="text-primary mb-32" data-aos="zoom-out">{% t navigation.main.benefits_program.text %}</h5>
         <div class="text-start" data-aos="fade-right">
-          <a class="btn btn-secondary mt-3 mb-5" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
+          <a class="btn btn-secondary mb-8 mt-16" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
         </div>
       </div>
       <div class="col-md-4 text-center mobile-none" data-aos="fade-left">
@@ -316,265 +363,8 @@ foundedYear: 2011
           <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
             <img src="assets/img/empresas_programa_beneficios/durr_dental.png" alt="Empresa participante do programa de benefícios"> 
           </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ======= Programa de benefícios ======= -->
-<section id="benefits_program" class="mt-64">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <h5 class="text-primary mb-32" data-aos="zoom-out">{% t navigation.main.benefits_program.text %}</h5>
-        <div class="text-start" data-aos="fade-right">
-          <a class="btn btn-secondary mt-3 mb-5" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
-        </div>
-      </div>
-      <div class="col-md-4 text-center mobile-none" data-aos="fade-left">
-        <img src="assets/img/icones/icone_beneficios.png" alt="Ícone programa de benefícios">
-      </div>
-    </div>
-  </div>
-
-  <!-- Parceiros -->
-  <div class="partners-container">
-    <div class="container">
-      <small><b>PARCEIROS</b></small>
-      <div class="swiper-container partners mt-8">
-        <div class="swiper-wrapper">
           <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/CI Vatech.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/carestream-dental-logo.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/3dmdigital_azul.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/Lodi_Logo.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/logo tota.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/logo_scientific.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/dentalfactory.hor.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/ff_seguros.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/atelier_uniao.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/ambienttal.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/systhex_logo.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/durr_dental.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ======= Programa de benefícios ======= -->
-<section id="benefits_program" class="mt-64">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <h5 class="text-primary mb-32" data-aos="zoom-out">{% t navigation.main.benefits_program.text %}</h5>
-        <div class="text-start" data-aos="fade-right">
-          <a class="btn btn-secondary mt-3 mb-5" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
-        </div>
-      </div>
-      <div class="col-md-4 text-center mobile-none" data-aos="fade-left">
-        <img src="assets/img/icones/icone_beneficios.png" alt="Ícone programa de benefícios">
-      </div>
-    </div>
-  </div>
-
-  <!-- Parceiros -->
-  <div class="partners-container">
-    <div class="container">
-      <small><b>PARCEIROS</b></small>
-      <div class="swiper-container partners mt-8">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/CI Vatech.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/carestream-dental-logo.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/3dmdigital_azul.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/Lodi_Logo.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/logo tota.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/logo_scientific.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/dentalfactory.hor.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/ff_seguros.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/atelier_uniao.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/ambienttal.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/systhex_logo.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/durr_dental.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ======= Programa de benefícios ======= -->
-<section id="benefits_program" class="mt-64">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <h5 class="text-primary mb-32" data-aos="zoom-out">{% t navigation.main.benefits_program.text %}</h5>
-        <div class="text-start" data-aos="fade-right">
-          <a class="btn btn-secondary mt-3 mb-5" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
-        </div>
-      </div>
-      <div class="col-md-4 text-center mobile-none" data-aos="fade-left">
-        <img src="assets/img/icones/icone_beneficios.png" alt="Ícone programa de benefícios">
-      </div>
-    </div>
-  </div>
-
-  <!-- Parceiros -->
-  <div class="partners-container">
-    <div class="container">
-      <small><b>PARCEIROS</b></small>
-      <div class="swiper-container partners mt-8">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/CI Vatech.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/carestream-dental-logo.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/3dmdigital_azul.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/Lodi_Logo.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/logo tota.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/logo_scientific.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/dentalfactory.hor.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/ff_seguros.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/atelier_uniao.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/ambienttal.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/systhex_logo.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/durr_dental.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ======= Programa de benefícios ======= -->
-<section id="benefits_program" class="mt-64">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <h5 class="text-primary mb-32" data-aos="zoom-out">{% t navigation.main.benefits_program.text %}</h5>
-        <div class="text-start" data-aos="fade-right">
-          <a class="btn btn-secondary mt-3 mb-5" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
-        </div>
-      </div>
-      <div class="col-md-4 text-center mobile-none" data-aos="fade-left">
-        <img src="assets/img/icones/icone_beneficios.png" alt="Ícone programa de benefícios">
-      </div>
-    </div>
-  </div>
-
-  <!-- Parceiros -->
-  <div class="partners-container">
-    <div class="container">
-      <small><b>PARCEIROS</b></small>
-      <div class="swiper-container partners mt-8">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/CI Vatech.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/carestream-dental-logo.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/3dmdigital_azul.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/Lodi_Logo.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/logo tota.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/logo_scientific.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/dentalfactory.hor.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/ff_seguros.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/atelier_uniao.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/ambienttal.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/systhex_logo.png" alt="Empresa participante do programa de benefícios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/durr_dental.png" alt="Empresa participante do programa de benefícios"> 
+            <img src="assets/img/empresas_programa_beneficios/logo_prexion.png" alt="Empresa participante do programa de benefícios"> 
           </div>
         </div>
         <div class="swiper-pagination"></div>
@@ -587,11 +377,11 @@ foundedYear: 2011
 <section id="environment" class=" bg-primary">
   <div class="container">
     <div class="row text-center">
-      <div class="col-md-6">
+      <div class="col col-md-6">
         <h1 class="text-white"><b><span data-purecounter-start="0" data-purecounter-end="46" data-purecounter-duration="2" class="purecounter text-white"></span>{% t navigation.main.environment.paper_number %}</b></h1>
         <p class="text-white"><b>{% t navigation.main.environment.paper_text %}</b></p>
       </div>
-      <div class="col-md-6">
+      <div class="col col-md-6">
         <h1 class="text-white"><b><span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter text-white"></span>{% t navigation.main.environment.tree_number %}</b></h1>
         <p class="text-white"><b>{% t navigation.main.environment.tree_text %}</b></p>
       </div>

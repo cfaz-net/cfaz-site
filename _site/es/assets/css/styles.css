@@ -77,6 +77,7 @@ b{
 .mt-40{margin-top: 40px}
 .mt-32{margin-top: 32px}
 .mt-24{margin-top: 24px}
+.mt-16{margin-top: 16px}
 .mt-8{margin-top: 8px}
 
 /*Margin-bottom*/
@@ -95,6 +96,7 @@ b{
 /*Padding*/
 .p-48{padding: 48px}
 .p-32{padding: 32px}
+.p-24{padding: 24px}
 
 /*Padding-top*/
 .pt-80{padding-top: 80px}
@@ -344,13 +346,12 @@ b{
 .navbar-mobile .dropdown ul {
   position: static;
   display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
+  margin: 0 20px 10px 20px;
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background-color: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background-color: transparent;
+  box-shadow: none;
 }
 
 .navbar-mobile .dropdown ul li {
@@ -624,14 +625,25 @@ img{
   border-radius: 15px;
   border-color: #E79824 !important;
   min-height: 180px;
+  height: 100%;
 }
 
-#solutions a:hover .card{
+#solutions .card-footer{
+  background-color: transparent;
+  border: none;
+}
+
+#solutions .card:hover{
   transition: all ease-in-out 0.4s;
   border-color: #AF6625 !important;
 }
 
-#solutions a:hover .card h6 b{
+#solutions .card:hover h6 b{
+  transition: all ease-in-out 0.4s;
+  color: #AF6625;
+}
+
+#solutions .card:hover .card-footer p b{
   transition: all ease-in-out 0.4s;
   color: #AF6625;
 }
@@ -758,7 +770,7 @@ img{
 #benefits_program .swiper-slide img{
   width: 90%;
   height: auto;
-  padding: 52px;
+  padding: 28px;
 }
 
 #benefits_program .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
@@ -777,7 +789,13 @@ img{
 --------------------------------------------------------------*/
 #footer{
   background-color: #4E4D4D;
-  padding: 64px 0;
+  padding-top: 64px;
+}
+
+#footer .footer-item{
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
 
 #footer p, #footer a{
@@ -792,6 +810,11 @@ img{
 #footer .footer-container{
   display: flex; 
   justify-content: space-between;
+}
+
+#footer .author{
+  border-top: 1px solid #FFFFFF;
+  margin-top: 16px;
 }
 
 /*-------------------------------------------------------------------------------------------------
@@ -938,6 +961,11 @@ img{
     width: 100%;
     border-radius: 0;
   }
+
+  [data-aos] {
+    transform: initial;
+    transition-duration: 0s;
+  }
 }
 
 @media screen and (max-width: 992px){
@@ -964,12 +992,16 @@ img{
   }
 
   #tomography .tomography-images{
-    display: inline-block;
+    display: contents;
     text-align: center;
   }
 
   #teleradiology .card {
     padding: 24px 32px;
+  }
+
+  #footer{
+    text-align: center;
   }
 
   #footer .footer-container{
@@ -978,6 +1010,15 @@ img{
 
   #footer .footer-mobile{
     margin-top: 40px;
+  }
+
+  #footer .footer-item{
+    display: flex;
+    justify-content: center;
+  }
+
+  #newsletter{
+    text-align: center;
   }
 }
 
@@ -1007,6 +1048,7 @@ img{
     display: none;
   }
 
+  #hero,
   #students_institutions_hero,
   #dental_radiology_hero,
   #medical_centers_hero,
@@ -1015,5 +1057,42 @@ img{
     padding: 48px 0 20px 0;
     border-radius: 0;
     background-repeat: no-repeat;
+  }
+
+  #solutions .card {
+    min-height: 120px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .mt-64{
+    margin-top: 32px;
+  }
+
+  .mt-32, .mt-40{
+    margin-top: 16px;
+  }
+
+  #environment h1{
+    font-size: 50px;
+  }
+
+  .navbar .nav-divider{
+    display: none;
+  }
+
+  .navbar > ul > li > .nav-link:before{
+    height: 0;
+  }
+
+  .btn-tertiary{
+    background-color: #FFFFFF;
+    border-radius: 0;
+    color: #E79824;
+  }
+
+  .btn-tertiary:hover {
+    background-color: #FFFFFF;
+    color: #AF6625;
   }
 }

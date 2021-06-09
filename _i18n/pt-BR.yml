@@ -57,6 +57,7 @@ navigation:
       odontology_text: 'Conheça nossas soluções para a gestão de consultórios e redes de consultórios.'
       students_institutions: 'Estudantes e Instituições de Ensino'
       students_institutions_text: 'Leve o Cfaz.net para sua sala de aula e aplique seus conhecimentos na prática.'
+      view_more: "Ver mais"
     testimony:
       title: 'O que os nossos clientes estão falando'
       testimony1: "<b>Dr. Guilherme A. R. Resende</b><br/><small class='text-white'>Diretor das Clínicas Imagem e Odontologia Digital</small>"
@@ -65,6 +66,12 @@ navigation:
       testimony_text2: 'O Cfaz.net é um software que tem coração. Além do profissionalismo oferecido, foi este o diferencial que nos fidelizou ao sistema. A parceria eliminou a burocracia e, assim, trabalhamos com mais liberdade. Isso torna a relação Radiologista + Dentista + Paciente bem mais eficiente e humana. Os resultados quantitativos são consequências da harmonia e do prazer de trabalho da equipe.'
       testimony3: "<b>Dr. Pedro Lima Emmerich Oliveira</b><br/><small class='text-white'>Diretor das Clínicas Craniofacial</small>"
       testimony_text3: 'A Craniofacial e a Cfaz construíram uma relação de trabalho amparada pela confiança e amizade. As funcionalidades do software foram muitas vezes atualizadas de acordo com as necessidades da Craniofacial. O Cfaz.net simplificou os processos da empresa, as entregas de exames são mais rápidas e o controle de qualidade é mais ativo.'
+      testimony4: "<b>Dra. Larissa Veloso</b><br/><small class='text-white'>Diretora das Clínicas Axial</small>"
+      testimony_text4: 'Ao contrário do antigo programa que utilizávamos, que era lento, com layout ultrapassado e o mais absurdo para os dias atuais: precisava ser instalado no computador, o Cfaz.net é super rápido, prático e intuitivo. Não precisa instalar nada, só entrar com email e senha e pronto! É super moderno e com a assistência de suporte ótima! A meu ver, são os que apresentam a melhor forma de trabalhar em Radiologia Odontológica. A equipe é muito bacana, cheia de inovações espetaculares.'
+      testimony5: "<b>Dra. Ângela Maragno</b><br/><small class='text-white'>Diretora da Clínica Precisão</small>"
+      testimony_text5: 'Antes de conhecer o Cfaz.net, eu tinha problemas com assistência técnica e cobrança a cada nova atualização. O atendimento da Cfaz é rápido e eficiente e as atualizações no sistema são constantes e gratuitas. Recomendo a solução a vários colegas e amigos, pois acho o Cfaz.net uma excelente alternativa para o gerenciamento do fluxo de atendimentos e administrativo na clínica, além de ser totalmente online, sem necessidade de baixar programas pesados, fácil de usar e intuitivo, com armazenamento em nuvem e espaço para armazenar arquivos DICOM. Parabéns pelo trabalho e dedicação!'
+      testimony6: "<b>Dra. Patrícia Fernandes Avila</b><br/><small class='text-white'>Diretora da Clínica Precisão</small>"
+      testimony_text6: 'Escolhi o Cfaz.net como o software de gestão da minha clínica devido a sua praticidade, clareza e seu bom atendimento, que é sempre impecável. Como resultado dessa parceria, obtive maior rapidez nos processos e o que mais gosto no sistema é a sua facilidade no manejo e agilidade, a possibilidade de integração com os equipamentos e envio automático para o dentista.'
     contact_us:
       title: 'Fale com um de nossos <br/>consultores'
       subtitle: 'Saiba quais vantagens o Cfaz.net oferece em relação a outros sistemas quanto a economia de tempo, redução de custos e aumento da produtividade e do faturamento.'
