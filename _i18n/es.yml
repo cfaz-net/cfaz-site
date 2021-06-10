@@ -114,7 +114,7 @@ navigation:
       subtitle: 'La Inteligencia Artificial de Cfaz está presente en nuestra herramienta de Trazado Cefalométrico - para Radiología Dental - y en Identificación Automática de Imágenes para ensamblar plantillas. El radiólogo reduce el tiempo que lleva realizar un rastreo, ahorra recursos y puede concentrarse en lo que realmente importa: la salud del paciente y el desarrollo de su negocio.'
     tomography: 
       title: 'Tomografía'
-      subtitle: 'Almacenamiento y distribución de tomografías 100% online, además de <br/> visualizador con reconstrucción volumétrica MPR (Reconstrucción Multiplanar).'
+      subtitle: 'Almacenamiento y distribución de tomografías 100% online, además de visualizador con reconstrucción volumétrica MPR (Reconstrucción Multiplanar).'
     teleradiology: 
       title: '<b>Conectamos su clínica con profesionales</b> de todo Brasil y del exterior que participan de forma gratuita en nuestro <b>marketplace</b>'
       cfaz_business: '<b>Cfaz</b><b class="text-primary">Business</b>'
