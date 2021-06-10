@@ -142,6 +142,16 @@ b{
   width: 150px;
 }
 
+#header .locale img{
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+#header .locale img:hover{
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -802,7 +812,7 @@ img{
   color: #9D9D9D;
 }
 
-#footer img{
+#footer .footer-item img{
   width: 24px;
   margin-right: 8px;
 }
@@ -810,6 +820,20 @@ img{
 #footer .footer-container{
   display: flex; 
   justify-content: space-between;
+}
+
+#footer .blazon{
+  max-width: 300px;
+}
+
+#footer .blazon .row{
+  align-items: center;
+}
+
+#footer .blazon img{
+  width: 100px;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
 
 #footer .author{
@@ -943,7 +967,7 @@ img{
 
 #cfazCiencia .enterprise img{
   width: 70px;
-  margin: 0 8px;
+  margin: 16px 8px;
 }
 
 #phrase{
@@ -965,6 +989,10 @@ img{
   [data-aos] {
     transform: initial;
     transition-duration: 0s;
+  }
+
+  #benefit_home, #teleradiology{
+    padding: 54px 0;
   }
 }
 
