@@ -705,7 +705,7 @@ img{
 # Benefícios
 --------------------------------------------------------------*/
 #benefit_home{
-  background-image: url("../img/benefícios.jpg");
+  background-image: url("../img/benefícios.webp");
   background-size: cover;
   background-attachment: fixed;
   padding: 54px;
@@ -734,7 +734,7 @@ img{
 # Telerradiologia
 --------------------------------------------------------------*/
 #teleradiology{
-  background-image: url("../img/telerradiologia.jpg");
+  background-image: url("../img/telerradiologia.webp");
   background-size: cover;
   background-attachment: fixed;
   padding: 54px;
@@ -957,7 +957,7 @@ img{
 -------------------------------------------------------------------------------------------------*/
 #students_institutions_hero{
   width: 100%;
-  background: url("../img/headers/home.jpg");
+  background: url("../img/headers/home.webp");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
