@@ -330,13 +330,13 @@
    * translation by browser
    */
   window.addEventListener('load', () => {
-    var lang = navigator.language ;
+    var lang = navigator.language;
 
     if(lang == 'es' && location.href != "https://site.cfaz.net/es"){
       document.location.href = "https://site.cfaz.net/es";
     } else if (lang == 'en' && location.href != "https://site.cfaz.net/en"){
       document.location.href = "https://site.cfaz.net/en";
-    } else {
+    } else if (lang == 'pt' && location.href != "https://site.cfaz.net/"){
       document.location.href = "https://site.cfaz.net";
     }
   });
