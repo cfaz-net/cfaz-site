@@ -331,9 +331,10 @@
    */
   window.addEventListener('load', () => {
     var lang = navigator.language ;
-    if(lang == 'es'){
+
+    if(lang == 'es' && location.href != "https://site.cfaz.net/es"){
       document.location.href = "https://site.cfaz.net/es";
-    } else if (lang == 'en'){
+    } else if (lang == 'en' && location.href != "https://site.cfaz.net/en"){
       document.location.href = "https://site.cfaz.net/en";
     } else {
       document.location.href = "https://site.cfaz.net";
