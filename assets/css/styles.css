@@ -175,7 +175,7 @@ b{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 16px 10px 16px;
+  padding: 10px;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;

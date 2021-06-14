@@ -276,16 +276,6 @@
     }
   });
 
-  window.addEventListener('load', ()=> {
-    let cfazAge = document.getElementById('cfaz-age')
-
-    let ageDiffMilliseconds = Date.now() - new Date('2011');
-    let ageDate = new Date(ageDiffMilliseconds);
-    let age = Math.abs(ageDate.getUTCFullYear() - 1970);
-
-    cfazAge.innerHTML = age
-  });
-
   /**
    * Newsletter
    */
@@ -301,6 +291,19 @@
   });
 
   /**
+   * Years Old
+   */
+   window.addEventListener('load', ()=> {
+    let cfazAge = document.getElementById('cfaz-age')
+
+    let ageDiffMilliseconds = Date.now() - new Date('2011');
+    let ageDate = new Date(ageDiffMilliseconds);
+    let age = Math.abs(ageDate.getUTCFullYear() - 1970);
+
+    cfazAge.innerHTML = age
+  });
+
+  /**
    * Google Analytics
    */
   window.addEventListener('load', () => {
@@ -309,5 +312,31 @@
     gtag('js', new Date());
 
     gtag('config', 'G-9G5F134FT9');
+  });
+
+  /**
+   * Hotjar
+   */
+  (function(h,o,t,j,a,r){
+    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+    h._hjSettings={hjid:2448160,hjsv:6};
+    a=o.getElementsByTagName('head')[0];
+    r=o.createElement('script');r.async=1;
+    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+    a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+  /**
+   * translation by browser
+   */
+  window.addEventListener('load', () => {
+    var lang = navigator.language ;
+    if(lang == 'es'){
+      document.location.href = "https://site.cfaz.net/es";
+    } else if (lang == 'en'){
+      document.location.href = "https://site.cfaz.net/en";
+    } else {
+      document.location.href = "https://site.cfaz.net";
+    }
   });
 })()
