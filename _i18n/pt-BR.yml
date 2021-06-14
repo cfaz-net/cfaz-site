@@ -9,6 +9,7 @@ navigation:
       solutions: 'Soluções'
       testimony: 'Depoimentos'
       about: 'Sobre a Cfaz' 
+      blog: "Blog"
       contact_us: 
         title: 'Fale Conosco'
         commercial: 'Comercial'

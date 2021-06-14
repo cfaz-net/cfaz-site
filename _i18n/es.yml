@@ -8,7 +8,8 @@ navigation:
       home: 'Comienzo'
       solutions: 'Soluciones'
       testimony: 'Deposiciones'
-      about: 'Sobre la Cfaz' 
+      about: 'Sobre la Cfaz'
+      blog: "Blog" 
       contact_us: 
         title: 'Hable con nosotros'
         commercial: 'Comercial'
