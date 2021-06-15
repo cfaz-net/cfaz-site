@@ -329,15 +329,15 @@
   /**
    * translation by browser
    */
-  window.addEventListener('load', () => {
-    var lang = navigator.language;
+  var hostname = window.location.hostname;
+  var referrer = document.referrer;
+  var landingPage = !referrer || referrer.indexOf(hostname) == -1;
 
-    if(lang == 'es' && location.href != "https://site.cfaz.net/es"){
-      document.location.href = "https://site.cfaz.net/es";
-    } else if (lang == 'en' && location.href != "https://site.cfaz.net/en"){
-      document.location.href = "https://site.cfaz.net/en";
-    } else if (lang == 'pt' && location.href != "https://site.cfaz.net/"){
-      document.location.href = "https://site.cfaz.net";
-    }
-  });
+  var lang = navigator.language || navigator.userLanguage;
+    
+  if (lang.indexOf('es') == 0 && landingPage){
+    window.location = '/es/';
+  }else if(lang.indexOf('en') == 0 && landingPage){
+    window.location = '/en/';
+  }
 })()
