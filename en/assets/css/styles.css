@@ -883,6 +883,34 @@ img{
   border: 2px solid #E79824;
 }
 
+#team .team{
+  position: relative;
+  overflow: hidden;
+}
+
+#team .team::after{
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: url(../img/equipe/wave.png) no-repeat center bottom;
+  background-size: contain;
+  z-index: 1;
+}
+
+.team .wave {
+  position: absolute;
+  right: -100%;
+  top: 30px;
+  opacity: 0;
+  border-radius: 4px;
+  transition: 0.5s;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: 2;
+}
+
 .filter {
   display: none;
 }
