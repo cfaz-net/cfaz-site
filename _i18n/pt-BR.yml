@@ -139,7 +139,7 @@ navigation:
     system_Cfaz: 
       text: '<b>O futuro é digital e é agora.</b> Levamos os avanços da tecnologia em nuvem <br/>para o seu dia a dia com um sistema amigável, intuitivo e atualizado.'
     cfazCiencia:
-      title: '<b class="text-primary">App</b><b>Ciência</b>'
+      title: '<b class="text-primary">Cfaz</b><b>Ciência</b>'
       about: 'O CfazCiência nasceu com o objetivo de ajudar alunos e Professores a aplicarem os conhecimentos aprendidos em sala de aula na prática, além de facilitar e otimizar o aprendizado sobre Radiologia com os benefícios da tecnologia em nuvem do Cfaz.net.'
       information: 'Receba um de nossos representantes científicos para apresentar e orientar sobre a ferramenta. O Professor e cada aluno terá o seu cadastro individual na plataforma, que poderá ser acessada de casa, da instituição e de qualquer lugar.'
       institutions: 'Instituições que utilizam Cfaz.net'
@@ -182,3 +182,54 @@ navigation:
     register: 'Inscrever'
     follow_on_social_media: 'Acompanhe a Cfaz nas <br/> mídias sociais'
     newsletter: 'Quer ficar por dentro das novidades? <br/> Preencha seu e-mail e receba duas <br/> publicações do Blog por mês.'
+alt:
+  cloud: "Nuvem"
+  laptop: "Notebook com imagem do sistema CfazMax"
+  testimony: "Foto do criador do depoimento"
+  icons:
+    online: "Ícone 100% online"
+    PAC: "Ícone PAC online"
+    RIS: "Ícone RIS online"
+    image_quality: "Ícone com imagem de dente"
+    DICOM: "Ícone DICOM"
+    STl: "Ícone STL"
+    connected_networks: "Ícone de mapa com marcações"
+    gift: "Ícone com embalagem de presente"
+    tomography: "Ícone com aparelho de tomografia"
+    attendance: "Ícone com 3 pessoas"
+    real_time: "Ícone relógio"
+    update: "Ícone de atualização"
+    whatsapp: "Ícone Whatsapp"
+    email: "Ícone E-mail"
+    call_center: "Ícone Central de Atendimento"
+  app: "Imagens CfazMax no Aplicativo"
+  partner_company: "Empresa participante do programa de benefícios"
+  cfaz_plus: "Ícone de um monitor com desenho de um gráfico de pizza e um dente"
+  cfaz_max: "Ícone de um monitor com desenho de um dente"
+  cfaz_manager: "Ícone da aba do navegador com um gráfico de pizza"
+  cfaz_business: "Ícone com imagens de usuários conectados"
+  cfaz_ciencia: "Ícone de radiação"
+  about:
+    purpose: "Ícone de foguete"
+    view: "Ícone de montanhas"
+    values: "Ícone de coração"
+  team: "Membro da equipe Cfaz.net"
+  companies: "Logomarca empresa/instituição que utiliza Cfaz.net"
+  students: "Alunos utilizando o sistema Cfaz.net"
+  students_artificial_intelligence: "Pessoa e Robô encaixando duas peça de quebra-cabeça uma na outra"
+  artificial_intelligence: "Logo Cfaz.net no centro ligando com escudo de segurança, servidores, computador e celular"
+  checklist: "Ícone de checklist"
+  system: "Imagem do sistema CfazMax"
+  tomography: "Imagem Tomografia no sistema Cfaz.net"
+  logo: "Logomarca da Cfaz"
+  flag_es: "Bandeira Espanha"
+  flag_en: "Bandeira Estados Unidos"
+  flag_pr-BR: "Bandeira Brasil"
+  GCP: "Brasão GCP"
+  HIPPA: "Brasão HIPPA"
+  LGPD: "Brasão LGPD"
+  ANVISA: "Brasão ANVISA"
+  instagram: "Ícone Instagram"
+  facebook: "Ícone Facebook"
+  youtube: "Ícone Youtube"
+  linkedin: "Ícone Linkedin"

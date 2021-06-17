@@ -16,15 +16,15 @@ layout: default
         </div>
       </div>
       <div class="col-lg-4 order-1 position-relative mobile-none" data-aos="zoom-out">
-        <img class="col-lg-12 position-absolute" src="assets/img/headers/home_nuvem.png" class="img-fluid" alt="Nuvem da header">
-        <img class="col-lg-12 position-absolute mt-48 animated" src="assets/img/headers/home_notebook.webp" class="img-fluid" alt="Notebook da header">
+        <img class="col-lg-12 position-absolute" src="assets/img/headers/home_nuvem.png" class="img-fluid" alt="{% t alt.cloud %}">
+        <img class="col-lg-12 position-absolute mt-48 animated" src="assets/img/headers/home_notebook.webp" class="img-fluid" alt="{% t alt.laptop %}">
       </div>
     </div>
   </div>
 </section>
 
 <!-- ======= Sobre a Cfaz ======= -->
-<!-- <section id="about" class="mt-64">
+<section id="about" class="mt-64">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-12 aos-init" data-aos="fade-right">
@@ -42,7 +42,7 @@ layout: default
       </div>
     </div>
   </div>
-</section> -->
+</section>
 
 <!-- ======= Soluções ======= -->
 <section id="solutions" class="mt-64">
@@ -120,7 +120,7 @@ layout: default
         <div class="swiper-slide">
           <div class="testimonial-item">
             <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Guilherme.webp" width="60" height="60" class="testimonial-img" alt="Depoimento de Guilherme, diretor das Clínicas Imagem e Odontologia Digital">
+              <img src="assets/img/depoimentos/Depoimentos_Guilherme.webp" width="60" height="60" class="testimonial-img" alt="{% t alt.testimony %}">
               <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony1 %}</p>
             </div>  
             <p class="text-white">
@@ -131,7 +131,7 @@ layout: default
         <div class="swiper-slide">
           <div class="testimonial-item">
             <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Maria-Betania.webp" class="testimonial-img" alt="Depoimento de Guilherme, diretor das Clínicas Imagem e Odontologia Digital">
+              <img src="assets/img/depoimentos/Depoimentos_Maria-Betania.webp" class="testimonial-img" alt="{% t alt.testimony %}">
               <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony2 %}</p>
             </div>  
             <p class="text-white">
@@ -142,7 +142,7 @@ layout: default
         <div class="swiper-slide">
           <div class="testimonial-item">
             <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Pedro.webp" class="testimonial-img" alt="Depoimento de Guilherme, diretor das Clínicas Imagem e Odontologia Digital">
+              <img src="assets/img/depoimentos/Depoimentos_Pedro.webp" class="testimonial-img" alt="{% t alt.testimony %}">
               <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony3 %}</p>
             </div>  
             <p class="text-white">
@@ -153,7 +153,7 @@ layout: default
         <div class="swiper-slide">
           <div class="testimonial-item">
             <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Larissa.webp" class="testimonial-img" alt="Depoimento de Guilherme, diretor das Clínicas Imagem e Odontologia Digital">
+              <img src="assets/img/depoimentos/Depoimentos_Larissa.webp" class="testimonial-img" alt="{% t alt.testimony %}">
               <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony4 %}</p>
             </div>  
             <p class="text-white">
@@ -164,7 +164,7 @@ layout: default
         <div class="swiper-slide">
           <div class="testimonial-item">
             <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Angela.webp" class="testimonial-img" alt="Depoimento de Guilherme, diretor das Clínicas Imagem e Odontologia Digital">
+              <img src="assets/img/depoimentos/Depoimentos_Angela.webp" class="testimonial-img" alt="{% t alt.testimony %}">
               <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony5 %}</p>
             </div>  
             <p class="text-white">
@@ -175,7 +175,7 @@ layout: default
         <div class="swiper-slide">
           <div class="testimonial-item">
             <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Patrícia.webp" class="testimonial-img" alt="Depoimento de Guilherme, diretor das Clínicas Imagem e Odontologia Digital">
+              <img src="assets/img/depoimentos/Depoimentos_Patrícia.webp" class="testimonial-img" alt="{% t alt.testimony %}">
               <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony6 %}</p>
             </div>  
             <p class="text-white">
@@ -186,8 +186,7 @@ layout: default
       </div>
       <div class="swiper-pagination"></div>
     </div>
-  </div>
-  
+  </div>  
 </section>
 
 <!-- ======= Fale com um de nossos consultores ======= -->
@@ -200,7 +199,7 @@ layout: default
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_online.png" alt="Ícone 100% online">
+          <img src="assets/img/icones/icone_online.png" alt="{% t alt.icon_online %}">
           <div>
             <p class="text-white mb-8"><b>{% t navigation.main.benefit.item1 %}</b></p>
             <p class="text-white mb-0">{% t navigation.main.benefit.item1_text %}</p>
@@ -208,7 +207,7 @@ layout: default
         </div>
 
         <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_pac.png" alt="Ícone PAC online">
+          <img src="assets/img/icones/icone_pac.png" alt="{% t alt.icon_PAC %}">
           <div>
             <p class="text-white"><b>{% t navigation.main.benefit.item2 %}</b></p>
             <p class="text-white mb-0">{% t navigation.main.benefit.item2_text %}</p>
@@ -216,7 +215,7 @@ layout: default
         </div>
 
         <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_CfazManager.png" alt="Ícone RIS online">
+          <img src="assets/img/icones/icone_CfazManager.png" alt="{% t alt.icon_RIS %}">
           <div>
             <p class="text-white"><b>{% t navigation.main.benefit.item3 %}</b></p>
             <p class="text-white mb-0">{% t navigation.main.benefit.item3_text %}</p>
@@ -225,28 +224,28 @@ layout: default
       </div>
       <div class="col-md-6 col-sm-12">
         <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_imagem.png" alt="Ícone máxima qualidade de imagem">
+          <img src="assets/img/icones/icone_imagem.png" alt="{% t alt.icons.image_quality %}">
           <div>
             <p class="text-white"><b>{% t navigation.main.benefit.item4 %}</b></p>
             <p class="text-white mb-0">{% t navigation.main.benefit.item4_text %}</p>
           </div>
         </div>
         <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_dicon.png" alt="Ícone DICOM">
+          <img src="assets/img/icones/icone_dicon.png" alt="{% t alt.icons.DICOM %}">
           <div>
             <p class="text-white"><b>{% t navigation.main.benefit.item5 %}</b></p>
             <p class="text-white mb-0">{% t navigation.main.benefit.item5_text %}</p>
           </div>
         </div>
         <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_STL.png" alt="Ícone mundo online">
+          <img src="assets/img/icones/icone_STL.png" alt="{% t alt.icons.STL %}">
           <div>
             <p class="text-white"><b>{% t navigation.main.benefit.item6 %}</b></p>
             <p class="text-white mb-0">{% t navigation.main.benefit.item6_text %}</p>
           </div>
         </div>
         <div class="d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_redes.png" alt="Ícone mundo online">
+          <img src="assets/img/icones/icone_redes.png" alt="{% t alt.icons.connected_networks %}">
           <div>
             <p class="text-white"><b>{% t navigation.main.benefit.item7 %}</b></p>
             <p class="text-white mb-0">{% t navigation.main.benefit.item7_text %}</p>
@@ -292,7 +291,7 @@ layout: default
   <div class="container">
     <div class="row mobile-reverse">
       <div class="col-md-6 col-12" data-aos="fade-right">
-        <img src="assets/img/cfazApp.webp" alt="Imagens CfazMax no Aplicativo">
+        <img src="assets/img/cfazApp.webp" alt="{% t alt.app %}">
       </div>
       <div class="col-md-6 col-12 text-end" data-aos="fade-up">
         <h5 class="mb-32">{% t navigation.main.appCfaz.title %}</h5>
@@ -316,7 +315,7 @@ layout: default
         </div>
       </div>
       <div class="col-md-4 text-center mobile-none" data-aos="fade-left">
-        <img src="assets/img/icones/icone_beneficios.png" alt="Ícone programa de benefícios">
+        <img src="assets/img/icones/icone_beneficios.png" alt="{% t alt.icons.gift %}">
       </div>
     </div>
   </div>
@@ -328,43 +327,43 @@ layout: default
       <div class="swiper-container partners mt-8">
         <div class="swiper-wrapper">
           <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/CI Vatech.png" alt="Empresa participante do programa de benefícios"> 
+            <img src="assets/img/empresas_programa_beneficios/CI Vatech.png" alt="{% t alt.partner_company %}"> 
           </div>
           <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/carestream-dental-logo.png" alt="Empresa participante do programa de benefícios"> 
+            <img src="assets/img/empresas_programa_beneficios/carestream-dental-logo.png" alt="{% t alt.partner_company %}"> 
           </div>
           <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/3dmdigital_azul.png" alt="Empresa participante do programa de benefícios"> 
+            <img src="assets/img/empresas_programa_beneficios/3dmdigital_azul.png" alt="{% t alt.partner_company %}"> 
           </div>
           <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/Lodi_Logo.png" alt="Empresa participante do programa de benefícios"> 
+            <img src="assets/img/empresas_programa_beneficios/Lodi_Logo.png" alt="{% t alt.partner_company %}"> 
           </div>
           <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/logo tota.png" alt="Empresa participante do programa de benefícios"> 
+            <img src="assets/img/empresas_programa_beneficios/logo tota.png" alt="{% t alt.partner_company %}"> 
           </div>
           <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/logo_scientific.png" alt="Empresa participante do programa de benefícios"> 
+            <img src="assets/img/empresas_programa_beneficios/logo_scientific.png" alt="{% t alt.partner_company %}"> 
           </div>
           <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/dentalfactory.hor.png" alt="Empresa participante do programa de benefícios"> 
+            <img src="assets/img/empresas_programa_beneficios/dentalfactory.hor.png" alt="{% t alt.partner_company %}"> 
           </div>
           <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/ff_seguros.png" alt="Empresa participante do programa de benefícios"> 
+            <img src="assets/img/empresas_programa_beneficios/ff_seguros.png" alt="{% t alt.partner_company %}"> 
           </div>
           <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/atelier_uniao.webp" alt="Empresa participante do programa de benefícios"> 
+            <img src="assets/img/empresas_programa_beneficios/atelier_uniao.webp" alt="{% t alt.partner_company %}"> 
           </div>
           <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/ambienttal.webp" alt="Empresa participante do programa de benefícios"> 
+            <img src="assets/img/empresas_programa_beneficios/ambienttal.webp" alt="{% t alt.partner_company %}"> 
           </div>
           <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/systhex_logo.png" alt="Empresa participante do programa de benefícios"> 
+            <img src="assets/img/empresas_programa_beneficios/systhex_logo.png" alt="{% t alt.partner_company %}"> 
           </div>
           <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/durr_dental.png" alt="Empresa participante do programa de benefícios"> 
+            <img src="assets/img/empresas_programa_beneficios/durr_dental.png" alt="{% t alt.partner_company %}"> 
           </div>
           <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/logo_prexion.webp" alt="Empresa participante do programa de benefícios"> 
+            <img src="assets/img/empresas_programa_beneficios/logo_prexion.webp" alt="{% t alt.partner_company %}"> 
           </div>
         </div>
         <div class="swiper-pagination"></div>

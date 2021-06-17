@@ -139,7 +139,7 @@ navigation:
     system_Cfaz: 
       text: '<b>El futuro es digital y lo es ahora.</b> Llevamos los avances de la tecnología en la nube <br/> a su vida diaria con un sistema amigable, intuitivo y actualizado.'
     cfazCiencia:
-      title: '<b class="text-primary">App</b><b>Ciência</b>'
+      title: '<b class="text-primary">Cfaz</b><b>Ciência</b>'
       about: 'CfazCiência nace con el objetivo de ayudar a estudiantes y docentes a aplicar en la práctica los conocimientos aprendidos en el aula, además de facilitar y optimizar el aprendizaje sobre Radiología con los beneficios de la tecnología en la nube de Cfaz.net.'
       information: 'Reciba a uno de nuestros representantes científicos para presentar y asesorar sobre la herramienta. El Docente y cada alumno tendrán su registro individual en la plataforma, a la que se puede acceder desde casa, la institución y desde cualquier lugar.'
       institutions: 'Instituciones que utilizan Cfaz.net'
@@ -182,3 +182,54 @@ navigation:
     register: 'Registrarse'
     follow_on_social_media: 'Siga a Cfaz en <br/> redes sociales'
     newsletter: '¿Quieres estar al tanto de las noticias? <br/> Complete su correo electrónico y reciba dos <br/> entradas de Blog por mes.'
+alt:
+  cloud: "Una nube"
+  laptop: "Portátil con imagen del sistema CfazMax"
+  testimony: "Foto del creador del testimonio."
+  icons:
+    online: "Icono 100% online"
+    PAC: "Icono de PAC en línea"
+    RIS: "Icono de RIS en línea"
+    image_quality: "Icono con imagen de diente"
+    DICOM: "Icono DICOM"
+    STl: "Icono de STL"
+    connected_networks: "Icono de mapa con marcas"
+    gift: "Icono con embalaje de regalo"
+    tomography: "Icono con dispositivo de tomografía"
+    attendance: "Icono de 3 personas"
+    real_time: "Icono de reloj"
+    update: "Icono de actualización"
+    whatsapp: "Icono de whatsapp"
+    email: "Icono de correo electrónico"
+    call_center: "Icono de centro de llamadas"
+  app: "Imágenes de CfazMax en la aplicación"
+  partner_company: "Empresa participante del programa de beneficios"
+  cfaz_plus: "Icono de un monitor con un dibujo de un gráfico circular y un diente"
+  cfaz_max: "Icono de un monitor con un dibujo de un diente"
+  cfaz_manager: "Icono de la pestaña del navegador con un gráfico circular"
+  cfaz_business: "Icono con imágenes de usuarios conectados"
+  cfaz_ciencia: "Icono de radiación"
+  about:
+    purpose: "Icono de cohete"
+    view: "Icono de montañas"
+    values: "Icono de corazon"
+  team: "Miembro del equipo de Cfaz.net"
+  companies: "Logotipo de la empresa / institución que utiliza Cfaz.net"
+  students: "Estudiantes que utilizan el sistema Cfaz.net"
+  students_artificial_intelligence: "Persona y Robot encajando dos piezas de un rompecabezas"
+  artificial_intelligence: "Logotipo de Cfaz.net en el centro que se vincula con el escudo de seguridad, servidores, computadora y teléfono celular."
+  checklist: "Icono de lista de verificación"
+  system: "Imagen del sistema CfazMax"
+  tomography: "Tomografía de imagen en el sistema Cfaz.net"
+  logo: "Logotipo de Cfaz"
+  flag_es: "Bandera de España"
+  flag_en: "Bandera de Estados Unidos"
+  flag_pr-BR: "Bandera de Brasil"
+  GCP: "Certificado GCP"
+  HIPPA: "Certificado HIPPA"
+  LGPD: "Certificado LGPD"
+  ANVISA: "Certificado ANVISA"
+  instagram: "Icono Instagram"
+  facebook: "Icono Facebook"
+  youtube: "Icono Youtube"
+  linkedin: "Icono Linkedin"

@@ -36,7 +36,7 @@ layout: default
       <div class="col-md-6 mt-8" data-aos="fade-right">
         <div class="item bg-primary p-32">
           <div class="d-flex justify-content-center align-items-center mb-24">
-            <img src="assets/img/icones/icone_missao.png" class="mr-16" alt="Ícone de foguete">
+            <img src="assets/img/icones/icone_missao.png" class="mr-16" alt="{% t alt.about.purpose %}">
             <h6 class="text-white"><b>{% t navigation.main.about_us.purpose %}</b></h6>
           </div>
           <p class="text-white">{% t navigation.main.about_us.purpose_text %}</p>
@@ -45,7 +45,7 @@ layout: default
       <div class="col-md-6 mt-8" data-aos="fade-left">
         <div class="item bg-primary p-32">
           <div class="d-flex justify-content-center align-items-center mb-24">
-            <img src="assets/img/icones/icone_visao.png" class="mr-16" alt="Ícone de montanhas">
+            <img src="assets/img/icones/icone_visao.png" class="mr-16" alt="{% t alt.about.view %}">
             <h6 class="text-white"><b>{% t navigation.main.about_us.view %}</b></h6>
           </div>
           <p class="text-white">{% t navigation.main.about_us.view_text %}</p>
@@ -62,7 +62,7 @@ layout: default
     <div class="row">
       <div class="col-md-6">
         <div class="d-flex align-items-center mb-24" data-aos="fade-right">
-          <img src="assets/img/icones/icone_valores.png" class="mr-16" alt="Ícone de coração">
+          <img src="assets/img/icones/icone_valores.png" class="mr-16" alt="{% t alt.about.values %}">
           <h6><b>{% t navigation.main.about_us.values.title %}</b></h6>
         </div>
         <article class="mb-32" data-aos="zoom-in" data-aos-delay="200">
@@ -109,63 +109,120 @@ layout: default
       </div>
     </div>
     <div class="row">
+      <div class="col-md-2 col-sm-3 col-4 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow mt-24">
+          <div class="team">
+            <img src="assets/img/equipe/Alexandre.png" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
+          <div class="informations">
+            <small class="text-primary mt-8"><b>Alexandre Pateis</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.customer_experience %}</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-4 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow mt-24">
+          <div class="team">
+            <img src="#" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
+          <div class="informations">
+            <small class="text-primary mt-8"><b>Caroline de Almeida</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.customer_experience %}</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-4 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow mt-24">
+          <div class="team">
+            <img src="assets/img/equipe/Cleiton.png" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
+          <div class="informations">
+            <small class="text-primary mt-8"><b>Cleiton Pateis</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.customer_experience %}</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-4 filter marketing_sales" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow mt-24">
+          <div class="team">
+            <img src="#" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
+          <div class="informations">
+            <small class="text-primary mt-8"><b>Danilo Rodrigues</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.marketing_sales %}</small>
+          </div>
+        </div>
+      </div>
       <div class="col-md-2 col-sm-3 col-4 filter scientific" data-aos="zoom-in" data-aos-delay="200">
         <div class="card shadow mt-24">
-          <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
-          <div class="informations">
-            <small class="text-primary mt-8"><b>Francisco Limongi</b></small>
-            <small class="mt-8 mb-32">{% t navigation.main.team.customer_experience %}</small>
+          <div class="team">
+            <img src="assets/img/equipe/José.png" alt="{% t alt.team %}">
+            <div class="wave"></div>
           </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-3 col-4 filter marketing_sales" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card shadow mt-24">
-          <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
           <div class="informations">
-            <small class="text-primary mt-8"><b>Francisco Limongi</b></small>
-            <small class="mt-8 mb-32">{% t navigation.main.team.engineering %}</small>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-3 col-4 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card shadow mt-24">
-          <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
-          <div class="informations">
-            <small class="text-primary mt-8"><b>Francisco Limongi</b></small>
-            <small class="mt-8 mb-32">{% t navigation.main.team.customer_experience %}</small>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-3 col-4 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card shadow mt-24">
-          <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
-          <div class="informations">
-            <small class="text-primary mt-8"><b>Francisco Limongi</b></small>
-            <small class="mt-8 mb-32">{% t navigation.main.team.marketing_sales %}</small>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-3 col-4 filter marketing_sales" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card shadow mt-24">
-          <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
-          <div class="informations">
-            <small class="text-primary mt-8"><b>Francisco Limongi</b></small>
-            <small class="mt-8 mb-32">{% t navigation.main.team.marketing_sales %}</small>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-3 col-4 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card shadow mt-24">
-          <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
-          <div class="informations">
-            <small class="text-primary mt-8"><b>Francisco Limongi</b></small>
+            <small class="text-primary mt-8"><b>Dr. José B. Limongi</b></small>
             <small class="mt-8 mb-32">{% t navigation.main.team.scientific %}</small>
           </div>
         </div>
       </div>
+      <div class="col-md-2 col-sm-3 col-4 filter marketing_sales" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow mt-24">
+          <div class="team">
+            <img src="assets/img/equipe/Mariana.png" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
+          <div class="informations">
+            <small class="text-primary mt-8"><b>Dra. Mariana Limongi</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.marketing_sales %}</small>
+          </div>
+        </div>
+      </div>
       <div class="col-md-2 col-sm-3 col-4 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
         <div class="card shadow mt-24">
-          <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
+          <div class="team">
+            <img src="assets/img/equipe/Fabiane.png" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
+          <div class="informations">
+            <small class="text-primary mt-8"><b>Fabiane Soares</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.customer_experience %}</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-4 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow mt-24">
+          <div class="team">
+            <img src="#" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
+          <div class="informations">
+            <small class="text-primary mt-8"><b>Felipe Parreiras</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.customer_experience %}</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-4 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow mt-24">
+          <div class="team">
+            <img src="assets/img/equipe/Fernanda.png" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
+          <div class="informations">
+            <small class="text-primary mt-8"><b>Fernanda Monteiro</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.customer_experience %}</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-4 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow mt-24">
+          <div class="team">
+            <img src="assets/img/equipe/Francisco.png" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Francisco Limongi</b></small>
             <small class="mt-8 mb-32">{% t navigation.main.team.customer_experience %}</small>
@@ -174,28 +231,145 @@ layout: default
       </div>
       <div class="col-md-2 col-sm-3 col-4 filter engineering" data-aos="zoom-in" data-aos-delay="200">
         <div class="card shadow mt-24">
-          <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
+          <div class="team">
+            <img src="assets/img/equipe/Germano.png" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
           <div class="informations">
-            <small class="text-primary mt-8"><b>Francisco Limongi</b></small>
-            <small class="mt-8 mb-32">{% t navigation.main.team.scientific %}</small>
+            <small class="text-primary mt-8"><b>Germano Teixeira</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.engineering %}</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-4 filter marketing_sales" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow mt-24">
+          <div class="team">
+            <img src="assets/img/equipe/Gustavo.png" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
+          <div class="informations">
+            <small class="text-primary mt-8"><b>Gustavo Costa</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.marketing_sales %}</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-4 filter engineering" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow mt-24">
+          <div class="team">
+            <img src="assets/img/equipe/Henrique.png" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
+          <div class="informations">
+            <small class="text-primary mt-8"><b>Henrique Fonseca</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.engineering %}</small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-4 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
         <div class="card shadow mt-24">
-          <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
+          <div class="team">
+            <img src="#" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
           <div class="informations">
-            <small class="text-primary mt-8"><b>Francisco Limongi</b></small>
-            <small class="mt-8 mb-32">{% t navigation.main.team.scientific %}</small>
+            <small class="text-primary mt-8"><b>Lucas Monteiro</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.customer_experience %}</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-4 filter engineering" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow mt-24">
+          <div class="team">
+            <img src="assets/img/equipe/Matheus.png" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
+          <div class="informations">
+            <small class="text-primary mt-8"><b>Matheus Bazzo</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.engineering %}</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-4 filter marketing_sales" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow mt-24">
+          <div class="team">
+            <img src="#" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
+          <div class="informations">
+            <small class="text-primary mt-8"><b>Ramsés Guimarães</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.marketing_sales %}</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-4 filter engineering" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow mt-24">
+          <div class="team">
+            <img src="#" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
+          <div class="informations">
+            <small class="text-primary mt-8"><b>Scheilla Artifon</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.engineering %}</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-4 filter marketing_sales" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow mt-24">
+          <div class="team">
+            <img src="assets/img/equipe/Shirley.png" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
+          <div class="informations">
+            <small class="text-primary mt-8"><b>Shirley Garcia</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.marketing_sales %}</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-4 filter marketing_sales" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow mt-24">
+          <div class="team">
+            <img src="assets/img/equipe/Thales.png" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
+          <div class="informations">
+            <small class="text-primary mt-8"><b>Thales Saboia</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.marketing_sales %}</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-4 filter engineering" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow mt-24">
+          <div class="team">
+            <img src="#" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
+          <div class="informations">
+            <small class="text-primary mt-8"><b>Tiago Pereira</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.engineering %}</small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-4 filter customer_experience" data-aos="zoom-in" data-aos-delay="200">
         <div class="card shadow mt-24">
-          <img src="assets/img/equipe/Francisco.png" alt="Imagem membro da equipe">
+          <div class="team">
+            <img src="assets/img/equipe/Junior.png" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
           <div class="informations">
-            <small class="text-primary mt-8"><b>Francisco Limongi</b></small>
-            <small class="mt-8 mb-32">{% t navigation.main.team.scientific %}</small>
+            <small class="text-primary mt-8"><b>Wenderson Cotta</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.customer_experience %}</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-3 col-4 filter engineering" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow mt-24">
+          <div class="team">
+            <img src="assets/img/equipe/Willian.png" alt="{% t alt.team %}">
+            <div class="wave"></div>
+          </div>
+          <div class="informations">
+            <small class="text-primary mt-8"><b>Willian Varela</b></small>
+            <small class="mt-8 mb-32">{% t navigation.main.team.engineering %}</small>
           </div>
         </div>
       </div>
