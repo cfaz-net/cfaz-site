@@ -106,7 +106,7 @@ permalink: /default/
     </main>
     
     <footer id="footer">
-      <div class="container">
+      <section class="container">
         <div class="footer-container">
           <div>
             <h6 class="text-white"><b>{% t navigation.footer.contact_us %}</b></h6>
@@ -144,24 +144,6 @@ permalink: /default/
                 <a target="_blank" href="https://www.linkedin.com/company/cfaz-net"><img src="assets/img/icones/footer_linkedin.png" alt="{% t alt.linkedin %}"></a>
               </div>
             </div>
-            <div class="blazon card mt-32">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-md-6 mb-8 text-center">
-                    <img src="assets/img/brasoes/gcp.png" alt="{% t alt.GCP %}">
-                  </div>
-                  <!-- <div class="col-md-6 mb-8 text-center">
-                    <img src="assets/img/brasoes/hipaa.png" alt="{% t alt.HIPPA %}">
-                  </div> -->
-                  <div class="col-md-6 mb-8 text-center">
-                    <img src="assets/img/brasoes/LGPD.webp" alt="{% t alt.LGPD %}">
-                  </div>
-                  <!-- <div class="col-md-6 mb-8 text-center">
-                    <img src="assets/img/brasoes/anvisa.png" alt="{% t alt.ANVISA %}">
-                  </div> -->
-                </div>
-              </div>
-            </div>
           </div>
     
           <div class="footer-mobile">
@@ -175,10 +157,42 @@ permalink: /default/
             </div>
           </div>
         </div>
-      </div>
-      <div class="author text-center p-24">
+      </section>
+
+      <div class="divider mt-16"></div>
+
+      <section class="container p-24">
+        <div class="row align-items-center">
+          <div class="col col-md-4">
+            <div class="logo">
+              <a href="index.html"><img src="assets/img/logo.png" alt="{% t alt.logo %}" class="img-fluid"></a>
+            </div>
+          </div>
+          <div class="col col-md-4 text-center">
+            <div class="blazon">
+              <div class="d-flex align-items-center justify-content-center">
+                <div class="p-16">
+                  <img src="assets/img/brasoes/gcp.png" alt="{% t alt.GCP %}">
+                </div>
+                <div class="p-16">
+                  <img src="assets/img/brasoes/LGPD.png" alt="{% t alt.LGPD %}">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-4 text-end">
+            <div class="locale">
+              <a href="{{ pr-BR }}"><img src="assets/img/icones/bandeira_pt-BR.png" alt="{% t alt.flag_pt-BR %}"></a>
+              <a href="{{ es }}"><img src="assets/img/icones/bandeira_es.png" alt="{% t alt.flag_es %}"></a>
+              <a href="{{ en }}"><img src="assets/img/icones/bandeira_en.png" alt="{% t alt.flag_en %}"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="author text-center p-24">
         <p class="text-white">Desenvolvido por Cfaz.net</p>
-      </div>
+      </section>
     </footer>
     
     {% include modal.html %}

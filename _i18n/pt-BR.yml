@@ -93,13 +93,14 @@ navigation:
       item4: 'MÁXIMA QUALIDADE DA IMAGEM'
       item4_text: 'Somos o único sistema de gestão para Radiologia que oferece armazenamento de imagens e exames com 100% da qualidade original.'
       item5: 'DICOM'
-      item5_text: 'Suporte nativo aos protocolos Worklist e PACS, permitindo integração com qualquer aparelho. Além disso, o DICOM Printer gratuito permite a integração com todos os tipos de impressoras DRY.'
+      item5_text: 'Suporte nativo a Worklist e PACS, permitindo integração com qualquer aparelho. Além disso, o DICOM Printer gratuito permite a integração com todos os tipos de impressoras DRY.'
       item6: 'STL'
       item6_text: 'Suporte completo para modelos digitais: armazenamento, visualização e distribuição.'
       item7: 'GESTÃO UNIFICADA DE REDES DE CLÍNICAS'
       item7_text: 'Administre toda a rede de clínicas ou centros médicos em um único sistema, visualizando indicadores de toda a rede ou de cada centro separadamente.'
       item8: 'TOMOGRAFIA'
-      item8_text: 'Armazenamento e distribuição de tomografias 100% online, além de visualizador com reconstrução volumétrica MPR (Multiplanar Reconstruction)'
+      item8_text: 'Armazenamento e distribuição de tomografias 100% online. Com o Cfaz.net o solicitante pode visualizar as tomografias diretamente na plataforma online, sem a necessidade de instalação de nenhum software ou de baixar o arquivo na própria maquina.'
+      item8_text2: "The DicomViewer developed by our engineering team allows to visualize the volumetric reconstruction MPR (Multiplanar Reconstruction) of the tomography. It also offers tools for volume manipulation, allowing you to change the axes of visualization of the cuts, in addition to applying filters and performing measurements."
       benefit_productivity:
         title: 'Te ajudamos a aumentar a sua <b>produtividade</b>, reduzir custos e melhorar seus resultados'
         item1: 'GESTÃO UNIFICADA DE REDES ODONTOLÓGICAS OU MÉDICAS'
@@ -111,11 +112,12 @@ navigation:
         item4: 'EXCELÊNCIA NO ATENDIMENTO'
         item4_text: 'Um time qualificado e multidisciplinar realiza o nosso atendimento de forma humanizada, em tempo real, via Whatsapp, telefone, e-mail ou ainda Chat Direto no sistema.'
     artificial_intelligence:
-      title: 'Tecnologia desenvolvida pelo nosso time de Engenharia'
+      title: 'Inteligência Artificial e Tecnologias desenvolvidas por nossos engenheiros'
       subtitle: 'A Inteligência Artificial da Cfaz está presente em nossa ferramenta de Traçados Cefalométricos - para a Radiologia Odontológica - e na Identificação Automática de Imagens para montagem de templates. O Radiologista reduz o tempo gasto para realizar um traçado, economiza recursos e pode focar no que realmente importa: a saúde do paciente e o desenvolvimento do seu negócio.'
     tomography: 
       title: 'Tomografia'
-      subtitle: 'Armazenamento e distribuição de tomografias 100% online, além de visualizador com reconstrução volumétrica MPR (Multiplanar Reconstruction).'
+      subtitle: 'Armazenamento e distribuição de tomografias 100% online. Com o Cfaz.net o solicitante pode visualizar as tomografias diretamente na plataforma online, sem a necessidade de instalação de nenhum software ou de baixar o arquivo na própria maquina.'
+      subtitle2: "The DicomViewer developed by our engineering team allows to visualize the volumetric reconstruction MPR (Multiplanar Reconstruction) of the tomography. It also offers tools for volume manipulation, allowing you to change the axes of visualization of the cuts, in addition to applying filters and performing measurements."
     teleradiology: 
       title: '<b>Conectamos sua clínica a profissionais</b> de todo o Brasil e do exterior participando gratuitamente do nosso <b>marketplace</b>'
       cfaz_business: '<b>Cfaz</b><b class="text-primary">Business</b>'
