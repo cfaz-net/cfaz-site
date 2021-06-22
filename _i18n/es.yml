@@ -29,7 +29,7 @@ navigation:
       ciencia: '<b class="text-primary">Cfaz</b><b class="text-secondary">Ciência</b>'
       ciencia_text: 'Reciba a uno de nuestros representantes en su institución educativa.'
     slider:
-      index_title: 'Soluciones inteligentes en la nube para <br/> una gestión eficaz y humanizada de los centros médicos y dentales.'
+      index_title: 'Soluciones inteligentes en la nube para <br/> una gestión eficaz y humanizada de los <br/> centros médicos y dentales.'
       index_subtitle: 'Cfaz.net es el primer sistema 100% online para profesionales y centros <br/> de diagnóstico por imagen.'
       medical_centers_title: 'Centros medicos'
       medical_centers_subtitle: 'Gestión eficiente de punta a punta para Centros Médicos, con soluciones 100% Cloud para realizar todas las etapas de Diagnóstico por Imagen, desde la programación de pacientes, pasando por la gestión financiera y estratégica del centro, almacenamiento automático de imágenes, además de la creación y distribución de informes y exámenes.'
@@ -132,7 +132,7 @@ navigation:
       title1: '<b class="text-white">App</b><b>Cfaz</b>'
       subtitle: 'Portal de imágenes y exámenes gratuitos para sus solicitantes y pacientes, disponible en una aplicación web móvil, con historial completo del paciente y acceso en línea a través de teléfonos inteligentes, tabletas, además de la computadora.'
     benefits_program: 
-      text: 'Descubra cómo participar en el único Programa de Beneficios que ofrece <b>descuentos en cursos, libros, protección radiológica, seguros y equipos de salud.</b>'
+      text: 'Descubra cómo participar en el único Programa <br/> de Beneficios que ofrece <b>descuentos en cursos, <br/> libros, protección radiológica, seguros y <br/> equipos de salud.</b>'
     environment: 
       paper_number: 'Mi'
       paper_text: 'de papeles guardados.'
@@ -180,7 +180,6 @@ navigation:
     call_center: 'Ir al centro de llamadas'
     benefits_program: 'Programa de beneficios'
     blog_posts: 'Publicaciones de BLOG'
-    all_blog_posts: 'Ver todas las publicaciones del blog'
     register: 'Registrarse'
     follow_on_social_media: 'Siga a Cfaz en <br/> redes sociales'
     newsletter: '¿Quieres estar al tanto de las noticias? <br/> Complete su correo electrónico y reciba dos <br/> entradas de Blog por mes.'

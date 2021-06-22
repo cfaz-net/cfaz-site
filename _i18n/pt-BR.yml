@@ -132,7 +132,7 @@ navigation:
       title1: '<b class="text-white">App</b><b>Cfaz</b>'
       subtitle: 'Portal gratuito de imagens e exames para seus solicitantes e pacientes, disponível em um Aplicativo Web Mobile, com histórico completo de pacientes e acesso online via smartphone, tablet, além do computador.'
     benefits_program: 
-      text: 'Saiba como participar do único Programa de Benefícios que oferece <b>desconto em cursos, livros, proteção radiológica, seguro e equipamentos para a saúde.</b>'
+      text: 'Saiba como participar do único Programa de Benefícios que oferece <b>desconto em cursos, <br/> livros, proteção radiológica, seguro e equipamentos <br/> para a saúde.</b>'
     environment: 
       paper_number: 'Mi'
       paper_text: 'de papéis economizados'
@@ -180,7 +180,6 @@ navigation:
     call_center: 'Ir para a central de atendimento'
     benefits_program: 'Programa de Benefícios'
     blog_posts: 'Posts do BLOG'
-    all_blog_posts: 'Ver todos os posts do blog'
     register: 'Inscrever'
     follow_on_social_media: 'Acompanhe a Cfaz nas <br/> mídias sociais'
     newsletter: 'Quer ficar por dentro das novidades? <br/> Preencha seu e-mail e receba duas <br/> publicações do Blog por mês.'
