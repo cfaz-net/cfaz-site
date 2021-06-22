@@ -93,6 +93,9 @@ b{
 /*Margin-right*/
 .mr-16{margin-right: 16px}
 
+/*Margin-left*/
+.ml-16{margin-left: 16px}
+
 /*Padding*/
 .p-48{padding: 48px}
 .p-32{padding: 32px}
@@ -140,6 +143,14 @@ b{
   height: 60px;
 }
 
+#header.header-scrolled .btn-tertiary{
+  background-color: #EBA947;
+}
+
+#header.header-scrolled .btn-tertiary:hover{
+  background-color: #AF6625;
+}
+
 .logo{
   width: 150px;
 }
@@ -174,15 +185,34 @@ b{
 }
 
 .navbar a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 8px 16px;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
   transition: 0.3s;
 }
+
+.navbar .btn-tertiary{
+  margin-left: 16px;
+  border-radius: 4px;
+  background-color: #E79824;
+  color: #FFFFFF;
+}
+
+.navbar .btn-tertiary:hover{
+  background-color: #AF6625;
+  color: #FFFFFF;
+}
+
+.navbar .btn-tertiary a{
+  padding: 10px;
+}
+
 
 .navbar a i {
   font-size: 12px;
@@ -490,18 +520,6 @@ b{
   box-shadow: 0 0 0 0.25rem rgb(143 143 143 / 50%);
 }
 
-/* btn-tertiary */
-.btn-tertiary{
-  background-color: #E79824;
-  border-radius: 15px;
-  color: #FFFFFF;
-}
-
-.btn-tertiary:hover{
-  background-color: #AF6625;
-  color: #FFFFFF;
-}
-
 /* btn-back-to-top */
 .back-to-top {
   position: fixed;
@@ -648,6 +666,7 @@ img{
 #solutions .card:hover{
   transition: all ease-in-out 0.4s;
   border-color: #AF6625 !important;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
 #solutions .card:hover h6 b{
