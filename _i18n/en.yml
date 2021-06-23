@@ -6,7 +6,13 @@ navigation:
   header:
     menu: 
       home: "Home"
-      solutions: "Solutions"
+      solutions:
+        title: "Solutions"
+        dental_radiology: "Radiology Dental"
+        medical_centers: "Medical Centers"
+        teleradiology: "Teleradiology"
+        odontology: "Odontology"
+        students_institutions: "Student and Educational Institution"
       testimony: "Testimony"
       about: "About Cfaz" 
       blog: "Blog"
@@ -58,7 +64,6 @@ navigation:
       odontology_text: "Discover our solutions for office management and office networks."
       students_institutions: "Students and Educational Institutions"
       students_institutions_text: "Take Cfaz.net to your classroom and apply your knowledge in practice."
-      view_more: "View more"
     testimony:
       title: "What our customers are saying"
       testimony1: "<b>Dr. Guilherme A. R. Resende</b><br/><small class='text-white'>Director of Clinics Imagem e Odontologia Digital</small>"
@@ -100,7 +105,7 @@ navigation:
       item7_text: "Manage the entire network of clinics or medical centers in a single system, viewing indicators for the entire network or each center separately."
       item8: "TOMOGRAPHY"
       item8_text: "Storage and distribution of CT scans 100% online. With Cfaz.net, the applicant can view the tomographies directly on the online platform, without the need to install any software or download the file on the machine itself."
-      item8_text2: "El DicomViewer desarrollado por nuestro equipo de ingeniería permite visualizar la reconstrucción volumétrica MPR (Reconstrucción Multiplanar) de la tomografía. También ofrece herramientas para manipulación de volumen, lo que le permite cambiar los ejes de visualización de los cortes, además de aplicar filtros y realizar mediciones."
+      item8_text2: "The DicomViewer developed by our engineering team allows to visualize the volumetric reconstruction MPR (Multiplanar Reconstruction) of the tomography. It also offers tools for volume manipulation, allowing you to change the axes of visualization of the cuts, in addition to applying filters and performing measurements."
       benefit_productivity:
         title: "We help you increase your <b> productivity </b>, reduce costs and improve your results"
         item1: "UNIFIED MANAGEMENT OF DENTAL OR MEDICAL NETWORKS"
@@ -117,6 +122,7 @@ navigation:
     tomography: 
       title: "Tomography"
       subtitle: "Storage and distribution of CT scans 100% online. With Cfaz.net, the applicant can view the tomographies directly on the online platform, without the need to install any software or download the file on the machine itself."
+      subtitle2: "The DicomViewer developed by our engineering team allows to visualize the volumetric reconstruction MPR (Multiplanar Reconstruction) of the tomography. It also offers tools for volume manipulation, allowing you to change the axes of visualization of the cuts, in addition to applying filters and performing measurements."
     teleradiology: 
       title: "<b>We connect your clinic to professionals</b> from all over Brazil and abroad participating for free in our <b>marketplace</b>"
       cfaz_business: "<b>Cfaz</b><b class='text-primary'>Business</b>"
