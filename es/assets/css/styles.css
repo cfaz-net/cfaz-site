@@ -199,6 +199,7 @@ b{
 
 .navbar .btn-tertiary{
   margin-left: 16px;
+  margin-right: 16px;
   border-radius: 4px;
   background-color: #E79824;
   color: #FFFFFF;
@@ -656,6 +657,10 @@ img{
   border-color: #E79824 !important;
   min-height: 180px;
   height: 100%;
+}
+
+#solutions .card-body{
+  padding: 30px;
 }
 
 #solutions .card-footer{
