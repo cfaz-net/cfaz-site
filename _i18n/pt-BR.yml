@@ -84,7 +84,7 @@ navigation:
       data_security: "SEGURANÇA DOS DADOS"
       data_security_text: "Nossos clientes se beneficiam com a segurança e a robustez da mesma infraestrutura de nuvem utilizada pela Google em serviços como seu Buscador, Gmail e Youtube."
       storage: "ARMAZENAMENTO POR 20 ANOS"
-      storage_text: "Atendendo as normas de todos conselhos de saúde: CFO, CFM, ANVISA etc."
+      storage_text: "Atendendo as normas de todos conselhos de saúde: CFO, CFM e ANVISA."
       LGPD: "ADEQUAÇÃO À LGPD"
       LGPD_text: "Adotamos os mais avançados protocolos de segurança para garantir a integridade e a inviolabilidade dos dados dos pacientes, além de nos comprometermos a não utilizar ou compartilhar os dados sem seu consentimento."
     benefit:
