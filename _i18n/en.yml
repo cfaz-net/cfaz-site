@@ -18,8 +18,8 @@ navigation:
       blog: "Blog"
       contact_us: 
         title: "Contact Us"
-        commercial: "Commercial"
-        support: "Support"
+        commercial: "I want to know the system"
+        support: "Need help"
     btn_enter: "TO ENTER"
   main:
     btn: "I WANT TO TALK TO A CONSULTANT"
@@ -74,7 +74,7 @@ navigation:
       testimony_text3: "Craniofacial and Cfaz have built a working relationship supported by trust and friendship. The software's functionality has often been updated according to Craniofacial's needs. Cfaz.net has simplified company processes, exam deliveries are faster and quality control is more active."
       testimony4: "<b>Dra. Larissa Veloso</b><br/><small class='text-white'>Directress of the Clínicas Axial</small>"
       testimony_text4: "Unlike the old program we used, which was slow, with an outdated layout and the most absurd for today: it needed to be installed on the computer, Cfaz.net is super fast, practical and intuitive. You don't need to install anything, just enter your email and password and you're done! It's super modern and with great support assistance! In my opinion, they are the ones that present the best way to work in Dental Radiology. The team is very nice, full of spectacular innovations."
-      testimony5: "<b>Dra. Ângela Maragno</b><br/><small class='text-white'>Directress of Clínica Precisão</small>"
+      testimony5: "<b>Dra. Ângela Maragno</b><br/><small class='text-white'>Directress of Clínica Santa Rita</small>"
       testimony_text5: "Before I got to know Cfaz.net, I had problems with technical assistance and charging for each new update. Cfaz's service is fast and efficient and system updates are constant and free. I recommend the solution to several colleagues and friends, as I think Cfaz.net is an excellent alternative for managing the flow of care and administrative services in the clinic, in addition to being completely online, without the need to download heavy programs, easy to use and intuitive, with cloud storage and space to store DICOM files. Congratulations for your work and dedication!"
       testimony6: "<b>Dra. Patrícia Fernandes Avila</b><br/><small class='text-white'>Directress of Clínica Precisão</small>"
       testimony_text6: "I chose Cfaz.net as my clinic's management software due to its practicality, clarity and good service, which is always impeccable. As a result of this partnership, I got faster processes and what I like most about the system is its ease of handling and agility, the possibility of integration with the equipment and automatic sending to the dentist."
@@ -154,6 +154,7 @@ navigation:
       text: "Take <b>digital transformation</b> to your classroom and discover the benefits of Cfaz.net technology, used by more than 1,150 clinicians and Radiologists in Brazil and Latin America."
     about_us:
       title: "About Us"
+      subtitle: "Meet our team"
       purpose: "Mission"
       purpose_text: "We have the mission of offering our customers the solutions and the competitive advantages needed so that they can dedicate their efforts to what really matters: the health of the patient and the growth of their business. We seek to make the experience of all people involved from scheduling, management to exam delivery more humane, in addition to making these processes more efficient with the benefits of cloud technology, such as security, high quality and speed."
       view: "View"
@@ -187,7 +188,7 @@ navigation:
     blog_posts: "BLOG Posts"
     register: "Register"
     follow_on_social_media: "Follow Cfaz on <br/> social media"
-    newsletter: "Want to stay on top of news? <br/> Fill in your email and receive two <br/> Blog entries per month."
+    newsletter: "Want to stay on top of news for <br/> your area? Fill in your e-mail and <br/> sign up for our Newsletter."
 alt:
   cloud: "Cloud"
   laptop: "Laptop with CfazMax system image"
