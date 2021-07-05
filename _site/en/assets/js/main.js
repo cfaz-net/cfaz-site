@@ -324,7 +324,7 @@
     r=o.createElement('script');r.async=1;
     r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
     a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-%27,%27.js?sv=%27');
+  })(window,document,'https://static.hotjar.com/c/hotjar-%27','%27.js?sv=%27');
   
   /**
    * translation by browser
