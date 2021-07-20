@@ -116,6 +116,9 @@ navigation:
         item3_text: "Automatically store the images and deliver them to applicants in real time, right after the image is acquired, with just one click."
         item4: "EXCELLENCE IN SERVICE"
         item4_text: "A qualified and multidisciplinary team performs our service in a humanized way, in real time, via Whatsapp, phone, e-mail or even Direct Chat in the system."
+    register:
+      title: "Join Cfazjob and <b>earn</b> 10 Credits"
+      button: "REGISTER"
     artificial_intelligence:
       title: "Artificial Intelligence and Technologies developed by our engineers"
       subtitle: "Cfaz's Artificial Intelligence is present in our Cephalometric Tracing tool - for Dental Radiology - and in Automatic Image Identification for assembling templates. The Radiologist reduces the time it takes to perform a tracing, saves resources and can focus on what really matters: the patient's health and the development of his business."

@@ -116,6 +116,9 @@ navigation:
         item3_text: "Armazene automaticamente as imagens e entregue para solicitantes em tempo real, logo em seguida à aquisição da imagem, com apenas um clique."
         item4: "EXCELÊNCIA NO ATENDIMENTO"
         item4_text: "Um time qualificado e multidisciplinar realiza o nosso atendimento de forma humanizada, em tempo real, via Whatsapp, telefone, e-mail ou ainda Chat Direto no sistema."
+    register:
+      title: "Cadastre-se no Cfazjob e <b>ganhe</b> 10 Créditos"
+      button: "CADASTRAR"
     artificial_intelligence:
       title: "Inteligência Artificial e Tecnologias desenvolvidas por nossos engenheiros"
       subtitle: "A Inteligência Artificial da Cfaz está presente em nossa ferramenta de Traçados Cefalométricos - para a Radiologia Odontológica - e na Identificação Automática de Imagens para montagem de templates. O Radiologista reduz o tempo gasto para realizar um traçado, economiza recursos e pode focar no que realmente importa: a saúde do paciente e o desenvolvimento do seu negócio."
