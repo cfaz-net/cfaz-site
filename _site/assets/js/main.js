@@ -327,8 +327,8 @@
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 
   /**
- * Pixell Facebook
- */
+   * Pixell Facebook
+   */
   !function(f,b,e,v,n,t,s){
     if(f.fbq)return;n=f.fbq=function(){
       n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)
@@ -340,6 +340,18 @@
       'https://connect.facebook.net/en_US/fbevents.js');
       fbq('init', '981313072668923');
       fbq('track', 'PageView');
+
+  /**
+   * Elastic
+   */
+   ;(function(d, s, c) {
+     var j = d.createElement(s),
+       t = d.getElementsByTagName(s)[0]
+ 
+     j.src = 'assets/js/elastic-apm-rum.umd.min.js'
+     j.onload = function() {elasticApm.init(c)}
+     t.parentNode.insertBefore(j, t)
+   })(document, 'script', {serviceName: 'cfaz-site-frontend', serverUrl: 'https://f96389a6cd1d452aa9360d67fb2ac784.apm.us-east1.gcp.elastic-cloud.com:443'})
   
   /**
    * translation by browser
