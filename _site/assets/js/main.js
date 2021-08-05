@@ -296,6 +296,8 @@
    window.addEventListener('load', ()=> {
     let cfazAge = document.getElementById('cfaz-age')
 
+    if(!cfazAge){return}
+
     let ageDiffMilliseconds = Date.now() - new Date('2011');
     let ageDate = new Date(ageDiffMilliseconds);
     let age = Math.abs(ageDate.getUTCFullYear() - 1970);
