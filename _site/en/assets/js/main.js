@@ -293,7 +293,7 @@
   /**
    * Years Old
    */
-   window.addEventListener('load', ()=> {
+  window.addEventListener('load', ()=> {
     let cfazAge = document.getElementById('cfaz-age')
 
     if(!cfazAge){return}
@@ -303,6 +303,23 @@
     let age = Math.abs(ageDate.getUTCFullYear() - 1970);
 
     cfazAge.innerHTML = age
+  });
+
+  /**
+   * institutional video
+   */
+  window.addEventListener('load', () => {
+    let language = document.getElementById('language');
+    let video = document.getElementById("video");
+    let image = document.getElementById("image");
+    
+    if (language.value == 'es' || language.value == 'en'){
+      video.classList.add("disappear");
+      image.classList.remove("disappear");
+    } else {
+      video.classList.remove("disappear");
+      image.classList.add("disappear");
+    }
   });
 
   /**
