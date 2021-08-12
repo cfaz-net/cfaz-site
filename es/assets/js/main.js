@@ -306,12 +306,15 @@
   });
 
   /**
-   * institutional video
+   * Institutional video
    */
   window.addEventListener('load', () => {
-    let language = document.getElementById('language');
     let video = document.getElementById("video");
     let image = document.getElementById("image");
+    
+    if(!video && !image){return}
+    
+    let language = document.getElementById('language');
     
     if (language.value == 'es' || language.value == 'en'){
       video.classList.add("disappear");
