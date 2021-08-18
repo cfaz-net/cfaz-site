@@ -876,7 +876,7 @@ footer .blazon img{
 }
 
 #about .disappear{
-  display: none;
+  display: none !important;
 }
 
 #purpose_view .item img{
