@@ -178,7 +178,7 @@ navigation:
     team:
       title: "Team"
       all: "All"
-      scientific: "Scientific"
+      scientific: "Radiologist"
       marketing_sales: "Marketing and sales"
       engineering: "Engineering"
       customer_experience: "Customer Experience"
