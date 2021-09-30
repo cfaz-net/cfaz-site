@@ -334,6 +334,19 @@
     gtag('js', new Date());
 
     gtag('config', 'G-9G5F134FT9');
+    gtag('config', 'AW-754517111');
+  });
+
+  window.addEventListener('load', () => {
+    gtag('event', 'page_view', {
+      'send_to': 'AW-754517111',
+      'value': 'replace with value',
+      'items': [{
+        'id': 'replace with value',
+        'location_id': 'replace with value',
+        'google_business_vertical': 'custom'
+      }]
+    });
   });
 
   /**
