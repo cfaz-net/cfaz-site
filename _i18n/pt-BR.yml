@@ -51,6 +51,7 @@ navigation:
       title: "Sobre <b>nós</b>"
       subtitle: "A Cfaz nasceu há <span id='cfaz-age'></span> anos em Belo Horizonte, Minas Gerais. Desenvolvemos o Cfaz.net, primeiro sistema nativo em nuvem e 100% online para Centros de Diagnóstico por Imagem. Após o reconhecimento pelo SEED MG e pelo FIEMG Lab como uma das empresas mais inovadoras do mercado. Hoje atendemos a profissionais e centros Radiológicos em todo o Brasil e na América Latina."
       read_more: "Leia mais e conheça a nossa equipe..."
+      video: "Vídeo sobre cfaz.net"
     solutions:
       health: "Conheça as nossas <br/><b>soluções para a saúde</b>"
       health_text: "Gestão eficiente de ponta a ponta para facilitar, automatizar e agilizar a entrega de resultados."

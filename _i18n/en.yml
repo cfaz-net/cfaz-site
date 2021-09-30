@@ -51,6 +51,7 @@ navigation:
       title: "About <b>us</b>"
       subtitle: "Cfaz was born <span id='cfaz-age'></span> years ago in Belo Horizonte, Minas Gerais. We developed Cfaz.net, first native cloud system and 100% online for Diagnostic Imaging Centers. After recognition by SEED MG and FIEMG Lab as one of the most innovative companies in the market. Today we serve professionals and Radiological centers throughout Brazil and Latin America."
       read_more: "Read more and meet our team..."
+      video: "Video about cfaz.net"
     solutions:
       health: "Discover our <br/> <b>solutions for health</b>"
       health_text: "Efficient end-to-end management to facilitate, automate and streamline the delivery of results."
