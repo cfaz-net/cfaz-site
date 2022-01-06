@@ -40,7 +40,7 @@ http://localhost:4000
 
 ## Como mandar para a Web as alterações que fiz no site localmente?
 
-Antes de mandar as alterações para o guthub Pages, você deve sempre buildar o código localmente.
+Antes de mandar as alterações para o github Pages, você deve sempre buildar o código localmente.
 
 ```
 jekyll build
