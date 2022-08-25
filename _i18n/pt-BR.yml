@@ -200,7 +200,8 @@ navigation:
     benefits_program: "Programa de Benefícios"
     blog_posts: "Posts do BLOG"
     register: "Inscrever"
-    follow_on_social_media: "Acompanhe a Cfaz nas <br/> mídias sociais"
+    follow_on_social_media: "Acompanhe a Cfaz nas mídias sociais"
+    download_app: "Baixe nosso aplicativo"
     newsletter: "Quer ficar por dentro das novidades para <br/> sua área? Preencha seu e-mail e <br/> cadastre-se na nossa Newsletter."
 alt:
   cloud: "Nuvem"
