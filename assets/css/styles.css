@@ -860,6 +860,10 @@ footer .app-mobile img{
   margin-bottom: 10px;
 }
 
+#footer .footer-item small{
+  margin: 0 5px;
+}
+
 /*-------------------------------------------------------------------------------------------------
 # SOBRE A CFAZ
 -------------------------------------------------------------------------------------------------*/
@@ -1106,10 +1110,6 @@ footer .app-mobile img{
   #footer .footer-item{
     display: flex;
     justify-content: center;
-  }
-
-  #footer .footer-item small{
-    margin-left: 5px;
   }
 
   #newsletter{
