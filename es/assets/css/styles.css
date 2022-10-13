@@ -1145,6 +1145,15 @@ footer .app-mobile img{
   #solutions .card {
     min-height: 120px;
   }
+
+  .navbar .btn-tertiary{
+    margin-top: 20px;
+  }
+
+  .navbar .btn-tertiary a,
+  .navbar .btn-tertiary a:checked{
+    color: #FFFFFF;
+  }
 }
 
 @media screen and (max-width: 500px){
