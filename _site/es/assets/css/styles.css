@@ -1103,6 +1103,19 @@ footer .app-mobile img{
   #newsletter{
     text-align: center;
   }
+
+  .navbar .btn-tertiary{
+    margin-top: 20px;
+  }
+
+  .navbar .btn-tertiary a,
+  .navbar .btn-tertiary a:checked{
+    color: #FFFFFF;
+  }
+
+  .mobile-none{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px){
@@ -1125,10 +1138,6 @@ footer .app-mobile img{
   
   .mobile-reverse{
     flex-direction: column-reverse;
-  }  
-  
-  .mobile-none{
-    display: none;
   }
 
   #hero,
@@ -1144,15 +1153,6 @@ footer .app-mobile img{
 
   #solutions .card {
     min-height: 120px;
-  }
-
-  .navbar .btn-tertiary{
-    margin-top: 20px;
-  }
-
-  .navbar .btn-tertiary a,
-  .navbar .btn-tertiary a:checked{
-    color: #FFFFFF;
   }
 }
 
