@@ -192,6 +192,7 @@ navigation:
       marketing_sales: "Marketing and sales"
       engineering: "Engineering"
       customer_experience: "Customer Experience"
+    cookies_confirmation: "We use cookies and other similar technologies to improve your experience on our services, personalize advertising and recommend content of interest to you. By using our services, you consent to such monitoring. We also inform you that we have updated our <a style='color:#115cfa;'' href='privacy_policy.html'>Privacy Policy</a>."
   footer:
     contact_us: "Contact us"
     commercial: "Commercial"

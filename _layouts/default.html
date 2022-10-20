@@ -215,6 +215,17 @@ permalink: /default/
       </section>
     </footer>
 
+    <div id="cookieNotice" class="light display-right">
+    <div class="cookiesModal">
+      <div>
+        <span>{% t navigation.main.cookies_confirmation %}</span>
+      </div>
+      <div>
+        <button class="btn btn-secondary btn-sm" onclick="acceptCookieConsent();">Aceitar</button>
+      </div>
+    </div>
+  </div>
+
     {% include modal.html %}
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -230,6 +241,7 @@ permalink: /default/
     <!-- JS File -->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/filter_team.js"></script>
+    <script src="assets/js/cookie_consent.js"></script>
 
     <!-- Hubspot -->
     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
