@@ -148,7 +148,7 @@ navigation:
     appCfaz: 
       title: "<strong class='text-primary'>App</strong><strong>Cfaz</strong>"
       title1: "<strong class='text-white'>App</strong><strong>Cfaz</strong>"
-      subtitle: "Portal de imágenes y exámenes gratuitos para sus solicitantes y pacientes, disponible en una aplicación web móvil, con historial completo del paciente y acceso en línea a través de teléfonos inteligentes, tabletas, además de la computadora."
+      subtitle: "Portal de imágenes y exámenes gratuitos para sus solicitantes y pacientes, disponible en una aplicación móvil, con historial completo del paciente y acceso en línea a través de teléfonos inteligentes, tabletas, además de la computadora."
     benefits_program: 
       text: "Descubra cómo participar en el único Programa <br/> de Beneficios que ofrece <strong>descuentos en cursos, <br/> libros, protección radiológica, seguros y <br/> equipos de salud.</strong>"
     environment: 
