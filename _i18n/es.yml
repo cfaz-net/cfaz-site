@@ -192,7 +192,7 @@ navigation:
       marketing_sales: "Marketing y ventas"
       engineering: "Ingenieria"
       customer_experience: "Experiencia del cliente"
-    cookies_confirmation: "Utilizamos cookies y otras tecnologías similares para mejorar su experiencia en nuestros servicios, personalizar la publicidad y recomendarle contenido de su interés. Al utilizar nuestros servicios, usted acepta dicho seguimiento. También le informamos que hemos actualizado nuestra <a style='color:#115cfa;'' href='privacy_policy.html'>Política de Privacidad</a>."
+    cookies_confirmation: Usamos cookies y otras tecnologías similares para mejorar su experiencia en nuestros servicios, pero no las usamos con fines de seguimiento. <br/>Al utilizar nuestros servicios, usted acepta dicho seguimiento. También le informamos que hemos actualizado nuestra <a target="_blank" href="https://cfaz.net/privacy_policy.html">Política de Privacidad</a>
   footer:
     contact_us: "Hable con nosotros"
     commercial: "Comercial"
