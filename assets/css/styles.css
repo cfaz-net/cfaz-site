@@ -17,6 +17,22 @@
 }
 
 /*--------------------------------------------------------------
+# Background
+--------------------------------------------------------------*/
+#hospital,
+#odontology-medicine,
+#social,
+#cfaz-science,
+#newsletter,
+#api,
+#storage,
+#humanized-technical-support,
+#dicom{
+    background-image: url(../img/background/background.png);
+    background-size: cover;
+}
+
+/*--------------------------------------------------------------
 # Index / Inicial
 --------------------------------------------------------------*/
 #hero {
@@ -49,21 +65,6 @@
 #plans-values .card{
     border-radius: 20px 60px 20px 60px;
     border: none;
-}
-
-/*--------------------------------------------------------------
-# Hospital
---------------------------------------------------------------*/
-#hospital,
-#odontology-medicine,
-#social,
-#cfaz-science,
-#newsletter,
-#api,
-#storage,
-#humanized-technical-support{
-    background-image: url(../img/background/background.png);
-    background-size: cover;
 }
 
 /*--------------------------------------------------------------
