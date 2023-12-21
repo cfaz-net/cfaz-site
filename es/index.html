@@ -7,7 +7,7 @@
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-M5XT6T9');</script>
-    <!-- End Google Tag Manager -->
+
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -34,666 +34,1099 @@
     <link href="assets/img/favicon.ico" rel="icon">
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Carousel -->
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- Template Main CSS File -->
+    <link href="assets/css/custom.css" rel="stylesheet">
     <link href="assets/css/styles.css" rel="stylesheet">
   </head>
 
   <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5XT6T9"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5XT6T9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 
-    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
-      <div class="container d-flex align-items-center justify-content-between">
-
-        <div class="logo">
-          <a href="index.html"><img src="assets/img/logo.png" alt="Logotipo de Cfaz" class="img-fluid"></a>
+    <header id="header" class="container-fluid fixed-top d-flex align-items-center justify-content-between bg-white">
+      <a class="navbar-brand" href="index.html"><img src="assets/img/Logo.png" alt="Logomarca cfaz" style="width: 60%"></a>
+      
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="hospitais.html">Hospitais</a></li>
+              <li class="nav-item"><a class="nav-link" href="radiologia.html">Radiologia</a></li>
+              <li class="nav-item"><a class="nav-link" href="odontologia-medicina.html">Odontologia e Medicina</a></li>
+              <li class="nav-item"><a class="nav-link" href="veterinaria.html">Veterinária</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html#contact">Contatos</a></li>
+              <li class="nav-item"><a class="nav-link" target="_blank" href="http://kb.cfaz.net/">Blog</a></li>
+              <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nós</a></li>
+            </ul>
+          </div>
         </div>
+      </nav>
 
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto active" href="index.html#hero">Comienzo</a></li>
-            <li class="nav-divider"></li>
-            <li class="dropdown">
-              <a class="nav-link">Soluciones<i class="bi bi-chevron-down"></i></a>
-              <ul>
-                <li><a href="dental_radiology.html">Radiología Dental</a></li>
-                <li><a href="medical_centers.html">Centros medicos</a></li>
-                <li><a href="teleradiology.html">Telerradiología</a></li>
-                <li><a href="odontology.html">Odontología</a></li>
-                <li><a href="students_institutions.html">Institución educativa y estudiantil</a></li>
-              </ul>
-            </li>
-            <li class="nav-divider"></li>
-            <li><a class="nav-link scrollto" href="index.html#testimony">Deposiciones</a></li>
-            <li class="nav-divider"></li>
-            <li><a class="nav-link scrollto" href="index.html#about">Sobre la Cfaz</a></li>
-            <li class="nav-divider"></li>
-            <li class="dropdown">
-              <a class="nav-link">Hable con nosotros<i class="bi bi-chevron-down"></i></a>
-              <ul>
-                <li><a href="index.html#contact_us">Comercial</a></li>
-                <li><a target="_blank" href="http://kb.cfaz.net/">Necesito ayuda</a></li>
-              </ul>
-            </li>
-            <li class="nav-divider"></li>
-            <li><a class="nav-link" target="_blank" href="https://blog.cfaz.net/">Blog</a></li>
-            <li class="btn-tertiary"><a class="login-cfaz" target="_blank" href="https://max.cfaz.net/">ENTRAR</a>
-            </li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-
-        <div class="locale">
-          
-          
-          
-          <a href="/"><img src="assets/img/icones/bandeira_pt-BR.png" alt=""></a>
-          <a href="/es/"><img src="assets/img/icones/bandeira_es.png" alt="Bandera de España"></a>
-          <a href="/en/"><img src="assets/img/icones/bandeira_en.png" alt="Bandera de Estados Unidos"></a>
-          <input id="language" type="hidden" value="es">
-        </div>
+      <div class="locale">
+        
+        
+        
+        <a href="/"><img src="assets/img/icons/bandeira_pt-BR.png" alt=""></a>
+        <a href="/es/"><img src="assets/img/icons/bandeira_es.png" alt=""></a>
+        <a href="/en/"><img src="assets/img/icons/bandeira_en.png" alt=""></a>
+        <input id="language" type="hidden" value="es">
       </div>
+      <a class="btn btn-cta" target="_blank" href="https://max.cfaz.net/">Entrar</a>
     </header>
 
     <main>
       <!-- ======= Hero ======= -->
-<section id="hero">
-  <div class="container">
-    <div class="row justify-content-between">
-      <div class="col-lg-8 pt-5 order-2 order-lg-1 d-flex align-items-center">
-        <div data-aos="zoom-out">
-          <h2 class="text-white"><strong>Soluciones inteligentes en la nube para <br/> una gestión eficaz y humanizada de los <br/> centros médicos y dentales.</strong></h2>
-          <p class="text-white mt-8">Cfaz.net es el primer sistema 100% online para profesionales y centros <br/> de diagnóstico por imagen.</p>
-          <div class="text-lg-start">
-            <a class="btn btn-primary mb-8 mt-16" data-bs-toggle="modal" data-bs-target="#contact_modal">QUIERO HABLAR CON UN CONSULTOR</a>
+<section id="hero" class="hero-initial">
+  <div class="container-fluid">
+    <div class="d-flex align-items-center justify-content-around">
+      <div>
+        <h2>Soluções em Nuvem para <br>
+          <strong class="text-secondary">Gestão de Centros de Saúde</strong> e <br>
+          <strong class="text-secondary">Distribuição de Exames</strong>
+        </h2>
+      </div>
+      <img src="assets/img/header.png" class="img-fluid" alt="Imagem tela inicial">
+    </div>
+    <div class="text-center mt-2">
+      <img src="./assets/img/icons/header_button_down.png">
+    </div>
+  </div>
+</section>
+
+<!-- ======= Planos ======= -->
+<section id="plans" class="mb-5">
+  <div class="container text-center">
+    <a class="btn btn-secondary d-inline-flex justify-content-between align-items-flex-start" target="_blank" href="https://max.cfaz.net/users/sign_in">
+      <img class="me-3" src="./assets/img/icons/btn_cloud.png">
+      <span>Plano Inicial Gratuito</span>
+    </a>
+
+    <div class="row gy-3 mt-3">
+      <div class="col-md-4">
+        <div class="card shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plans_1.png">
+            <h5 class="card-title mt-3 mb-0">Telerradiologia</h5>
+            <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_telerradiologia">
+              <img class="me-3" src="./assets/img/icons/btn_phone.png">
+              <span>Ligamos para você</span>
+            </a>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 order-1 position-relative mobile-none" data-aos="zoom-out">
-        <img class="col-lg-12 position-absolute" src="assets/img/headers/home_nuvem.png" class="img-fluid" alt="Una nube">
-        <img class="col-lg-12 position-absolute mt-48 animated" src="assets/img/headers/home_notebook.webp" class="img-fluid" alt="Portátil con imagen del sistema CfazMax">
+      <div class="col-md-4">
+        <div class="card shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plans_2.png">
+            <h5 class="card-title mt-3 mb-0">Consultórios</h5>
+            <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_consultorios">
+              <img class="me-3" src="./assets/img/icons/btn_phone.png">
+              <span>Ligamos para você</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plans_3.png">
+            <h5 class="card-title mt-3 mb-0">Clínicas</h5>
+            <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_clinicas">
+              <img class="me-3" src="./assets/img/icons/btn_phone.png">
+              <span>Ligamos para você</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plans_4.png">
+            <h5 class="card-title mt-3 mb-0">Centros de Radiologia</h5>
+            <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_centros_radiologia">
+              <img class="me-3" src="./assets/img/icons/btn_phone.png">
+              <span>Ligamos para você</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plans_5.png">
+            <h5 class="card-title mt-3 mb-0">Centrais de Laudo</h5>
+            <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_centrais_laudo">
+              <img class="me-3" src="./assets/img/icons/btn_phone.png">
+              <span>Ligamos para você</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plans_6.png">
+            <h5 class="card-title mt-3 mb-0">Hospitais</h5>
+            <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_hospitais">
+              <img class="me-3" src="./assets/img/icons/btn_phone.png">
+              <span>Ligamos para você</span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ======= Sobre a Cfaz ======= -->
-<section id="about" class="mt-64">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-sm-12 aos-init" data-aos="fade-right">
-        <h2>Sobre <strong>nosotros</strong></h2>
-        <p class="mt-32">Cfaz nació hace <span id='cfaz-age'></span> años en Belo Horizonte, Minas Gerais. Desarrollamos Cfaz.net, primer sistema de nube nativo y 100% en línea para centros de diagnóstico por imagen. Tras el reconocimiento de SEED MG y FIEMG Lab como una de las empresas más innovadoras del mercado. Hoy atendemos a profesionales y centros radiológicos en todo Brasil y Latinoamérica.</p>
-        <p class="mt-40 mb-16"><a href="about.html" class="text-primary hover_underline"><strong>Leer más y conocer a nuestro equipo ...</strong></a></p>
+<!-- ======= Hospitais ======= -->
+<section id="hospital" class="pt-5 pb-4">
+  <div class="container-fluid">
+    <section class="d-flex align-items-center justify-content-between">
+      <div class="col-md-5">
+        <h1 class="text-primary"><strong>Hospitais</strong></h1>
+        <p>Software em Nuvem para realizar a gestão de atendimentos em <strong>Hospitais</strong> e <strong>Centros de Diagnóstico por Imagem</strong>, incluindo API para Interoperabilidade com todos os sistemas do mercado.</p>
+        <p><strong>Distribuição Online</strong> de exames para Dentistas e Médicos solicitantes.</p>
       </div>
-      <div class="col-md-6 col-sm-12" data-aos="fade-left">
-        <div id="video">
-          <iframe title="" width="100%" height="315" src="https://www.youtube.com/embed/rU-TzkDtKBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div id="image" class="disappear">
-          <img alt="" src="assets/img/Logo_Cfaz.net_nuvem.png" style="width:200px;">
+      <div class="col-md-7">
+        <img src="./assets/img/hospital.png">
+      </div>
+    </section>
+
+    <section class="d-grid mt-5" style="grid-template-columns: 20% 20% 20% 20% 20%;">
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/ris_pacs_online.png">
+          <p class="card-title mt-3 mb-0">RIS e PACS Online</p>
         </div>
       </div>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/certificacao_anvisa.png">
+          <p class="card-title mt-3 mb-0">Certificação ANVISA</p>
+        </div>
+      </div>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/lgpd.png">
+          <p class="card-title mt-3 mb-0">LGPD</p>
+        </div>
+      </div>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/telerradiologia.png">
+          <p class="card-title mt-3 mb-0">Telerradiologia</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/integracao_dicom.png">
+          <p class="card-title mt-3 mb-0">Integração DICOM</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="d-grid mt-3" style="grid-template-columns: 25% 25% 25% 25%">
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/api_interoperabilidade.png">
+          <p class="card-title mt-3 mb-0">API para Interoperabilidade</p>
+        </div>
+      </div>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/suporte_tecnico_humanizado.png">
+          <p class="card-title mt-3 mb-0">Suporte Técnico Humanizado</p>
+        </div>
+      </div>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/google_cloud_platform.png">
+          <p class="card-title mt-3 mb-0">Google Cloud Platform</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/armazenamento_20anos.png">
+          <p class="card-title mt-3 mb-0">Armazenamento por 20 anos</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center mt-4">
+      <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start" href="hospitais.html">
+        <img class="me-3" src="./assets/img/icons/btn-link.png">
+        <span>Saiba mais</span>
+      </a>
     </div>
   </div>
 </section>
 
-<!-- ======= Soluções ======= -->
-<section id="solutions" class="mt-64">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 mt-32" data-aos="fade-up">
-        <h2>Descubra nuestras <br/> <strong> soluciones para la salud </strong></h2>
-        <p class="mt-16">Gestión eficiente de principio a fin para facilitar, automatizar y optimizar la entrega de resultados.</p>
+<!-- ======= Radiologia ======= -->
+<section id="radiology" class="pt-5 pb-4">
+  <div class="container-fluid">
+    <section class="d-flex justify-content-between">
+      <div class="text-center">
+        <img src="./assets/img/radiologia.png">
       </div>
-      <div class="col-md-4 mt-32" data-aos="zoom-in-up" data-aos-delay="300">
-        <a href="dental_radiology.html" class="card border-3">
-          <div class="card-body text-center">
-            <h3 class="text-primary mb-16"><strong>Radiología dental</strong></h3>
-            <p class="mb-8">Soluciones para la gestión de franquicias, redes y clínicas de Radiología Dental.</p>
-          </div>
-        </a>
+      <div class="col-md-5">
+        <h1 class="text-primary"><strong>Radiologia</strong></h1>
+        <p>Soluções Inteligentes em Nuvem para realizar a gestão de ponta a ponta de <strong>Centros de Diagnóstico
+            por Imagem</strong>, incluindo Radiologia Odontológica, Radiologia Médica, Mamografia,
+          Ultrassonografia, Tomografia Computadorizada, Densitometria Óssea, Ressonância Magnética e
+          Angiografia.</p>
+        <p>Ferramentas completas de gestão também para <strong>Radiologistas Laudadores, Centros de Laudo e
+            Hospitais.</strong></p>
+        <p><strong>Distribuição Online</strong> de exames para Dentistas e Médicos solicitantes.</p>
       </div>
-      <div class="col-md-4 mt-32" data-aos="zoom-in-up" data-aos-delay="300">
-        <a href="medical_centers.html" class="card border-3">
-          <div class="card-body text-center">
-            <h3 class="text-primary mb-16"><strong>Centros medicos</strong></h3>
-            <p class="mb-8">Gestión integral para redes y centros de diagnóstico por imágenes.</p>
-          </div>
-        </a>
+    </section>
+
+    <section class="d-grid mt-5" style="grid-template-columns: 20% 20% 20% 20% 20%;">
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/ris_pacs_online.png">
+          <p class="card-title mt-3 mb-0">RIS e PACS Online</p>
+        </div>
       </div>
-      <div class="col-md-4 mt-32" data-aos="zoom-in-up" data-aos-delay="300">
-        <a href="teleradiology.html" class="card border-3">
-          <div class="card-body text-center">
-            <h3 class="text-primary mb-16"><strong>Telerradiología</strong></h3>
-            <p class="mb-8">Descubra cómo conectamos a los radiólogos con los centros de salud a través de una plataforma en la nube.</p>
-          </div>
-        </a>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/certificacao_anvisa.png">
+          <p class="card-title mt-3 mb-0">Certificação ANVISA</p>
+        </div>
       </div>
-      <div class="col-md-4 mt-32" data-aos="zoom-in-up" data-aos-delay="300">
-        <a href="odontology.html" class="card border-3">
-          <div class="card-body text-center">
-            <h3 class="text-primary mb-16"><strong>Odontología</strong></h3>
-            <p class="mb-8">Descubra nuestras soluciones para la gestión de oficinas y redes de oficinas.</p>
-          </div>
-        </a>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/lgpd.png">
+          <p class="card-title mt-3 mb-0">LGPD</p>
+        </div>
       </div>
-      <div class="col-md-4 mt-32" data-aos="zoom-in-up" data-aos-delay="300">
-        <a href="students_institutions.html" class="card border-3">
-          <div class="card-body text-center">
-            <h3 class="text-primary mb-16"><strong>Estudiantes e instituciones educativas</strong></h3>
-            <p class="mb-8">Lleve Cfaz.net a su salón de clases y aplique sus conocimientos en la práctica.</p>
-          </div>
-        </a>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/telerradiologia.png">
+          <p class="card-title mt-3 mb-0">Telerradiologia</p>
+        </div>
       </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/integracao_dicom.png">
+          <p class="card-title mt-3 mb-0">Integração DICOM</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="d-grid mt-3" style="grid-template-columns: 25% 25% 25% 25%">
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/inteligencia_artificial.png">
+          <p class="card-title mt-3 mb-0">Inteligência <br> Artificial</p>
+        </div>
+      </div>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/suporte_tecnico_humanizado.png">
+          <p class="card-title mt-3 mb-0">Suporte Técnico <br> Humanizado</p>
+        </div>
+      </div>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/google_cloud_platform.png">
+          <p class="card-title mt-3 mb-0">Google Cloud <br> Platform</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/armazenamento_20anos.png">
+          <p class="card-title mt-3 mb-0">Armazenamento por <br> 20 anos</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center mt-4">
+      <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start" href="radiologia.html">
+        <img class="me-3" src="./assets/img/icons/btn-link.png">
+        <span>Saiba mais</span>
+      </a>
     </div>
+  </div>
+</section>
+
+<!-- ======= Odontologia e Medicina ======= -->
+<section id="odontology-medicine" class="pt-5 pb-4">
+  <div class="container-fluid">
+    <section class="d-flex justify-content-between">
+      <div class="col-md-5">
+        <h1 class="text-primary"><strong>Odontologia e Medicina</strong></h1>
+        <p>Tecnologia de ponta e Excelência em atendimento para gerenciar countriestoda a experiência de atendimento ao paciente, além permitir countries
+          controlar a gestão administrativa e financeira de <strong>Consultórios, countriesClínicas</strong> e <strong>Franquias Odontológicas e Médicas.</strong>
+        </p>
+      </div>
+      <div class="text-center">
+        <img src="./assets/img/odontologia_medicina.png">
+      </div>
+    </section>
+
+    <section class="d-grid mt-5" style="grid-template-columns: 20% 20% 20% 20% 20%;">
+      <div class="me-4 card shadow py-2 border-0 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/gestao_financeira.png">
+          <p class="card-title mt-3 mb-0">Gestão Financeira</p>
+        </div>
+      </div>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/gestao_multiclinicas.png">
+          <p class="card-title mt-3 mb-0">Gestão Multiclínicas</p>
+        </div>
+      </div>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/gestao_ convenios.png">
+          <p class="card-title mt-3 mb-0">Gestão de Convênios</p>
+        </div>
+      </div>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/emissao_nota.png">
+          <p class="card-title mt-3 mb-0">Emissão de Nota Fiscal</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/relatorios_customizaveis.png">
+          <p class="card-title mt-3 mb-0">Relatórios 100% <br> Customizáveis</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="d-grid mt-3" style="grid-template-columns: 25% 25% 25% 25%">
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/agenda_online.png">
+          <p class="card-title mt-3 mb-0">Agenda Online + Comunicação <br> Integrada com Whatsapp</p>
+        </div>
+      </div>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/suporte_tecnico_humanizado.png">
+          <p class="card-title mt-3 mb-0">PEP - Prontuário Eletrônico <br> do Paciente</p>
+        </div>
+      </div>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/suporte_tecnico_humanizado.png">
+          <p class="card-title mt-3 mb-0">Suporte Técnico <br> Humanizado</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/assinatura_digital.png">
+          <p class="card-title mt-3 mb-0">Assinatura Digital de <br> Documentos</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center mt-4">
+      <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start" href="odontologia-medicina.html">
+        <img class="me-3" src="./assets/img/icons/btn-link.png">
+        <span>Saiba mais</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Veterinária ======= -->
+<section id="vet" class="pt-5 pb-4 position-relative">
+  <div class="vet-graphic-image"></div>
+  <div class="container-fluid">
+    <section class="d-flex justify-content-between">
+      <div class="text-center">
+        <img src="./assets/img/veterinaria.png">
+      </div>
+      <div class="col-md-5">
+        <h1 class="text-primary"><strong>Veterinária</strong></h1>
+        <p>Software completo em Nuvem para realizar toda a experiência de atendimento ao paciente, além de controlar a gestão financeira e 
+          administrativa de <strong>Clínicas e Hospitais Veterinários, Centros de Diagnóstico por Imagem</strong> e <strong>Profissionais Volantes.</strong></p>
+        <p><strong>Distribuição Online</strong> de exames para Tutores e Médicos Veterinários solicitantes.</p>        
+      </div>
+    </section>
+
+    <section class="d-grid mt-5" style="grid-template-columns: 20% 20% 20% 20% 20%;">
+      <div class="me-4 card shadow py-2 border-0 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/ris_pacs_online.png">
+          <p class="card-title mt-3 mb-0">RIS e PACS Online</p>
+        </div>
+      </div>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/gestao_financeira.png">
+          <p class="card-title mt-3 mb-0">Gestão Financeira e Estratégica</p>
+        </div>
+      </div>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/emissao_nota.png">
+          <p class="card-title mt-3 mb-0">Emissão de Nota Fiscal</p>
+        </div>
+      </div>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/telerradiologia.png">
+          <p class="card-title mt-3 mb-0">Telerradiologia</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/integracao_dicom.png">
+          <p class="card-title mt-3 mb-0">Integração DICOM</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="d-grid mt-3" style="grid-template-columns: 25% 25% 25% 25%">
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/agenda_online.png">
+          <p class="card-title mt-3 mb-0">Agenda Online + Comunicação <br> Integrada com Whatsapp</p>
+        </div>
+      </div>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/suporte_tecnico_humanizado.png">
+          <p class="card-title mt-3 mb-0">Suporte Técnico <br> Humanizado</p>
+        </div>
+      </div>
+      <div class="me-4 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/laudo_voz.png">
+          <p class="card-title mt-3 mb-0">Laudo por voz + acesso via <br> QR Code</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/relatorios_customizaveis.png">
+          <p class="card-title mt-3 mb-0">Relatórios 100% <br> Customizáveis</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center mt-4">
+      <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start" href="veterinaria.html">
+        <img class="me-3" src="./assets/img/icons/btn-link.png">
+        <span>Saiba mais</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Onde estamos ======= -->
+<section id="countries" class="py-5">
+  <div class="container-fluid">
+    <section class="d-flex justify-content-between align-items-center mb-5">
+      <h2><strong>Mais de 1000 Centros de Saúde em todo o Brasil e <br> em mais de 10 países na América Latina e Europa</strong></h2>
+      <img src="./assets/img/bandeiras.png">
+    </section>
+    
+    <section class="swiper-container partners">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(1)">
+          <img class="segment-image-1" src="./assets/img/clientes/animagem.png" alt="Empresa parceira">
+          <p class="segment-text-1 mb-0 d-none text-secondary">Hospital</p>
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(2)">
+          <img class="segment-image-2" src="./assets/img/clientes/begmax.png" alt="Empresa parceira">
+          <p class="segment-text-2 mb-0 d-none text-secondary">Radiologia odontológica</p> 
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(3)">
+          <img class="segment-image-3" src="./assets/img/clientes/cimo.png" alt="Empresa parceira">
+          <p class="segment-text-3 mb-0 d-none text-secondary">Radiologia odontológica</p>
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(4)">
+          <img class="segment-image-4" src="./assets/img/clientes/ciro.png" alt="Empresa parceira">
+          <p class="segment-text-4 mb-0 d-none text-secondary">Radiologia odontológica</p> 
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(5)">
+          <img class="segment-image-5" src="./assets/img/clientes/drx.png" alt="Empresa parceira">
+          <p class="segment-text-5 mb-0 d-none text-secondary">Radiologia odontológica</p>
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(6)">
+          <img class="segment-image-6" src="./assets/img/clientes/eco-x.png" alt="Empresa parceira">
+          <p class="segment-text-6 mb-0 d-none text-secondary">Hospital</p>
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(7)">
+          <img class="segment-image-7" src="./assets/img/clientes/hs_vet.png" alt="Empresa parceira">
+          <p class="segment-text-7 mb-0 d-none text-secondary">Veterinária</p>
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(8)">
+          <img class="segment-image-8" src="./assets/img/clientes/imagem.png" alt="Empresa parceira">
+          <p class="segment-text-8 mb-0 d-none text-secondary">Radiologia odontológica</p>
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(9)">
+          <img class="segment-image-9" src="./assets/img/clientes/iorn.png" alt="Empresa parceira">
+          <p class="segment-text-9 mb-0 d-none text-secondary">Radiologia odontológica</p>
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(10)">
+          <img class="segment-image-10" src="./assets/img/clientes/maxilare.png" alt="Empresa parceira">
+          <p class="segment-text-10 mb-0 d-none text-secondary">Radiologia odontológica</p> 
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(11)">
+          <img class="segment-image-11" src="./assets/img/clientes/movax.png" alt="Empresa parceira">
+          <p class="segment-text-11 mb-0 d-none text-secondary">Radiologia odontológica</p>
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(12)">
+          <img class="segment-image-12" src="./assets/img/clientes/nr.png" alt="Empresa parceira">
+          <p class="segment-text-12 mb-0 d-none text-secondary">Radiologia odontológica</p>
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(13)">
+          <img class="segment-image-13" src="./assets/img/clientes/oi_digital.png" alt="Empresa parceira">
+          <p class="segment-text-13 mb-0 d-none text-secondary">Radiologia odontológica</p> 
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(14)">
+          <img class="segment-image-14" src="./assets/img/clientes/perboyre.png" alt="Empresa parceira">
+          <p class="segment-text-14 mb-0 d-none text-secondary">Radiologia odontológica</p>
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(15)">
+          <img class="segment-image-15" src="./assets/img/clientes/raio_max.png" alt="Empresa parceira">
+          <p class="segment-text-15 mb-0 d-none text-secondary">Veterinária</p>
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(16)">
+          <img class="segment-image-16" src="./assets/img/clientes/roc.png" alt="Empresa parceira">
+          <p class="segment-text-16 mb-0 d-none text-secondary">Radiologia odontológica</p>
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(17)">
+          <img class="segment-image-17" src="./assets/img/clientes/tradit3d.png" alt="Empresa parceira">
+          <p class="segment-text-17 mb-0 d-none text-secondary">Radiologia odontológica</p>
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(18)">
+          <img class="segment-image-18" src="./assets/img/clientes/uno_vet.png" alt="Empresa parceira">
+          <p class="segment-text-18 mb-0 d-none text-secondary">Veterinária</p>
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(19)">
+          <img class="segment-image-19"  src="assets/img/clientes/vamos_sorrir.png" alt="Empresa parceira">
+          <p class="segment-text-19 mb-0 d-none text-secondary">Radiologia odontológica</p>
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center" onclick="showSegment(20)">
+          <img class="segment-image-20" src="assets/img/clientes/xe_vet.png" alt="Empresa parceira">
+          <p class="segment-text-20 mb-0 d-none text-secondary">Veterinária</p>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
   </div>
 </section>
 
 <!-- ======= Depoimentos ======= -->
-<section id="testimony" class="mt-64 pt-40 pb-40 bg-primary">
-  <div class="container">
-    <h2 class="text-white text-center" data-aos="zoom-out"><strong>Lo que nuestros clientes estan diciendo</strong></h2>
-    <div class="testimonials-slider swiper-container text-center" data-aos="zoom-out">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimento_Nani.webp" width="60" height="60" class="testimonial-img" alt="Foto del creador del testimonio.">
-              <p class="text-white m-0 text-start"><strong>Dra. Weslaine</strong><br/><small class='text-white'>Ecard Uniradiographic - Unidade Moema - São Paulo</small></p>
+<section id="customer-testimonial" class="my-4">
+  <div class="container-fluid">
+    <h1 class="text-center text-secondary"><strong>A satisfação dos nossos clientes comprova nossos resultados</strong></h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card border-0 shadow mt-5">
+          <iframe class="mx-3" src="https://www.youtube.com/embed/0zTsBuB6pso?si=RhBrORfW8d-H1uax" title="YouTube video player" height="210" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="card-body">
+            <p class="mb-0"><b>Felipe Costa</b></p>
+            <small class="text-secondary-light">Responsável pela Batistela Radiologia</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 shadow mt-5">
+          <iframe class="mx-3" src="https://www.youtube.com/embed/qBMqtl-nkIs?si=ymHh6OCu8vLkPpyc" title="YouTube video player" height="210" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="card-body">
+            <p class="mb-0"><b>Ana Tokus</b></p>
+            <small class="text-secondary-light">Radiologia Odontológica - Catanduva- SP</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 shadow mt-5">
+          <iframe class="mx-3" src="https://www.youtube.com/embed/BKo3c94clKo?si=OJb_bpQrXuyhUoAa" title="YouTube video player" height="210" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="card-body">
+            <p class="mb-0"><b>Vinícius Gripp</b></p>
+            <small class="text-secondary-light">Uniradiographic - Unidade Moema - SP</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Segurança e Credibilidade ======= -->
+<section id="security-credibility" class="mt-5 py-4">
+  <div>
+    <section class="container-fluid">
+      <div class="d-flex justify-content-around flex-wrap gy-3 mt-3">
+        <div class="card text-center shadow border-0 p-3">
+          <div class="card-body">
+            <img src="./assets/img/icons/pessoas.png">
+            <h3 class="card-title mt-3 mb-0">10Mi</h3>
+            <p class="text-secondary-light">Mais de 10 milhões de <br> pacientes atendidos</p>
+          </div>
+        </div>
+        <div class="card text-center shadow border-0 p-3">
+          <div class="card-body">
+            <img src="./assets/img/icons/exames.png">
+            <h3 class="card-title mt-3 mb-0">50Mi</h3>
+            <p class="text-secondary-light">Mais de 50 milhões de <br> exames distribuídos</p>
+          </div>
+        </div>
+        <div class="card text-center shadow border-0 p-3">
+          <div class="card-body">
+            <img src="./assets/img/icons/nuvem.png">
+            <h3 class="card-title mt-3 mb-0">130Tb</h3>
+            <p class="text-secondary-light">Mais de 130 Terabytes de <br> dados e imagens <br> armazenados na Nuvem</p>
+          </div>
+        </div>
+        <div class="card text-center shadow border-0 p-3">
+          <div class="card-body">
+            <img src="./assets/img/icons/tempo_em_mercado.png">
+            <h3 class="card-title mt-3 mb-0">10 anos</h3>
+            <p class="text-secondary-light">Mais de 10 anos <br> de história</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="my-5 border-2 text-secondary-light">
+    <section class="container-fluid d-flex justify-content-around flex-wrap">
+      <div class="text-center">
+        <img class="mb-3" src="./assets/img/icons/certificado_anvisa.png">
+        <p class="mb-0">ANVISA</p>
+        <small><a class="text-secondary hover_underline" target="_blank" href="https://consultas.anvisa.gov.br/#/saude/25351182044202394/?nomeProduto=Cfaz.net" class="text-secondary-light">Registro: 82578410001</a></small>
+      </div>
+      <div class="text-center">
+        <img class="mb-3" src="./assets/img/icons/certificado_hippaa.png">
+        <p>HIPPA</p>
+      </div>
+      <div class="text-center">
+        <img class="mb-3" src="./assets/img/icons/certificado_lgpd.png">
+        <p>LGPD</p>
+      </div>
+      <div class="text-center">
+        <img class="mb-3" src="./assets/img/icons/certificado_gdpr.png">
+        <p>GDPR</p>
+      </div>
+      <div class="text-center">
+        <img class="mb-3" src="./assets/img/icons/certificado_google_cloud.png">
+        <p>Google Cloud Platform</p>
+      </div>
+    </section>
+  </div>
+</section>
+
+<!-- ======= Planos - Valores ======= -->
+<section id="plans-values" class="py-5">
+  <div class="container-fluid text-center">
+    <h2 class="mb-4"><strong>Planos sob medida para a Gestão de Centros de Saúde e Distribuição de Exames</strong></h2>
+    <a class="btn btn-secondary d-inline-flex justify-content-between align-items-flex-start" target="_blank" href="https://max.cfaz.net/users/sign_in">
+      <img class="me-3" src="./assets/img/icons/btn_cloud.png">
+      <span>Plano Inicial Gratuito</span>
+    </a>
+
+    <div class="row gy-3 mt-3">
+      <div class="col-md-4">
+        <div class="card text-start shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/telerradiologia_white.png">
+            <div class="text-center">
+              <h5 class="text-secondary-light my-3">Telerradiologia</h5>
+              <small class="text-secondary-light">a partir de</small>
+              <h1 style="line-height: 1">
+                <strong>R$ 99</strong> 
+                <small class="text-secondary-light mb-0">(50 exames)</small>
+              </h1>
+              <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-4" data-bs-toggle="modal" data-bs-target="#modal_telerradiologia">
+                <img class="me-3" src="./assets/img/icons/btn_phone.png">
+                <span>Ligamos para você</span>
+              </a>
             </div>
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>La odontología se ha transformado a través de la era digital, siguiendo una tendencia global e irreversible. <br/>Puedo decir que Cfaz.net es una empresa que colabora para que la radiología dental siga este flujo de forma continua y segura.<br/>Su sistema 100% online posibilita la integración entre equipos y ordenadores, permitiendo que la las imágenes adquiridas para la empresa se ejecutan en un servidor en la nube, con seguridad y respeto a la LGPD. Los radiólogos pueden informar de forma remota con una variedad de herramientas; Los aspirantes profesionales reciben los exámenes de sus pacientes en línea, con acceso 24/7 en cualquier parte del mundo. Además, el equipo siempre está enfocado en las actualizaciones (sin costo adicional por eso), y el soporte está disponible para contactar (horario comercial) para lo que sea necesario. ¡Estoy satisfecho y no recomiendo su uso!<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimento_Flavia.webp" width="60" height="60" class="testimonial-img" alt="Foto del creador del testimonio.">
-              <p class="text-white m-0 text-start"><strong>Dra Flávia Manfrin</strong><br/><small class='text-white'>Radiologia Odontológica - Catanduva- sp</small></p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>¿Por qué Cfaz.net? <br/> Para mí es el mejor programa ya que a través de él puedo realizar los informes de exámenes además de controlar todos los aspectos administrativos de mi clínica, incluso a distancia. Es un programa intuitivo, donde puedo llevar informes de exámenes, indicadores, etc. El servicio es impecable, siempre nos atienden rápido, y lo mejor: solucionan nuestros problemas. Cada vez que necesité apoyo me atendieron bien y aclararon mis dudas. Además, el sistema permite al administrador, en mi caso, configurar el software de la forma que mejor se adapte a mi clínica, es decir, es un programa personalizado para cada tipo de necesidad. Estoy muy satisfecho.<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimento_Marileide.webp" width="60" height="60" class="testimonial-img" alt="Foto del creador del testimonio.">
-              <p class="text-white m-0 text-start"><strong>Dra. Marileide Inácio</strong><br/><small class='text-white'>DocSul Serviços Odontológicos</small></p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>En DocSul Radiologia estamos muy satisfechos con el servicio brindado por Cfaz.net. Este sistema de gestión de radiología es muy eficaz e innovador y el personal es muy atento y responde con prontitud. Recomendamos el servicio Cfaz.net.<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimento_Cristiane.webp" width="60" height="60" class="testimonial-img" alt="Foto del creador del testimonio.">
-              <p class="text-white m-0 text-start"><strong>Cristiane Vaccarezza</strong><br/><small class='text-white'>C.V. Radiologia Odontológica</small></p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>Nuestra relación con Cfaznet comenzó en 2017. Y digo relación, porque para nosotros es realmente una asociación. Usar Cfaz nos mantiene en línea con todo lo más moderno: Integración con equipos de la clínica, almacenamiento en la nube, posibilidad de trabajar en cualquier lugar con conexión a internet, actualizaciones frecuentes de la plataforma, novedades añadidas sin costo y lo mejor, una sensacional red de soporte, que es no contento con corregir posibles errores, está interesado en ayudar con todas las necesidades del cliente (socio). Todo esto es Cfaz. Estamos muy contentos con la decisión de migrar a Cfaz. Se lo recomiendo a todo el mundo, sin miedo a equivocarme.<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Guilherme.webp" width="60" height="60" class="testimonial-img" alt="Foto del creador del testimonio.">
-              <p class="text-white m-0 text-start"><strong>Dr. Guilherme A. R. Resende</strong><br/><small class='text-white'>Director de Clínicas Imagem e Odontologia Digital</small></p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>Elegí Cfaz.net porque en ese momento ya tenían una propuesta futurista, ofreciendo un sistema 100% online y la posibilidad de integrar todas las unidades. Con la implementación, me animé a abrir nuevas unidades, ya que todo estaría bajo mi control, e incluso en la palma de mi mano, a través del celular.<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Maria-Betania.webp" class="testimonial-img" alt="Foto del creador del testimonio.">
-              <p class="text-white m-0 text-start"><strong>Dra. Maria Betânia da Silveira e Souza</strong><br/><small class='text-white'>Directora de Clínicas ROC</small></p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>Cfaz.net es un software que tiene corazón. Además de la profesionalidad ofrecida, este fue el diferencial que nos hizo fieles al sistema. La asociación eliminó la burocracia y, por lo tanto, trabajamos con más libertad. Esto hace que la relación Radiólogo + Dentista + Paciente sea mucho más eficiente y humana. Los resultados cuantitativos son consecuencia de la armonía y el placer del trabajo en equipo.<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Pedro.webp" class="testimonial-img" alt="Foto del creador del testimonio.">
-              <p class="text-white m-0 text-start"><strong>Dr. Pedro Lima Emmerich Oliveira</strong><br/><small class='text-white'>Director de Clínicas Craniofacial</small></p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>Craniofacial y Cfaz han construido una relación de trabajo respaldada por la confianza y la amistad. La funcionalidad del software a menudo se ha actualizado de acuerdo con las necesidades de Craniofacial. Cfaz.net ha simplificado los procesos de la empresa, las entregas de exámenes son más rápidas y el control de calidad es más activo.<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Larissa.webp" class="testimonial-img" alt="Foto del creador del testimonio.">
-              <p class="text-white m-0 text-start"><strong>Dra. Larissa Veloso</strong><br/><small class='text-white'>Directora de el Clínicas Axial</small></p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>A diferencia del antiguo programa que usábamos, que era lento, con un diseño desactualizado y el más absurdo para hoy: necesitaba ser instalado en la computadora, Cfaz.net es súper rápido, práctico e intuitivo. No necesita instalar nada, solo ingrese su correo electrónico y contraseña y ¡listo! ¡Es súper moderno y cuenta con una gran asistencia técnica! En mi opinión, son los que presentan la mejor forma de trabajar en Radiología Dental. El equipo es muy agradable, lleno de novedades espectaculares.<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Angela.webp" class="testimonial-img" alt="Foto del creador del testimonio.">
-              <p class="text-white m-0 text-start"><strong>Dra. Ângela Maragno</strong><br/><small class='text-white'>Directora de Clínica Santa Rita</small></p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>Antes de conocer Cfaz.net, tenía problemas con la asistencia técnica y el cobro por cada nueva actualización. El servicio de Cfaz es rápido y eficiente y las actualizaciones del sistema son constantes y gratuitas. Recomiendo la solución a varios compañeros y amigos, ya que creo que Cfaz.net es una excelente alternativa para gestionar el flujo de atención y administración en la clínica, además de estar completamente online, sin necesidad de descargar programas pesados, fácil de usar e intuitivo, con almacenamiento en la nube y espacio para almacenar archivos DICOM. ¡Felicitaciones por tu trabajo y dedicación!<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Patrícia.webp" class="testimonial-img" alt="Foto del creador del testimonio.">
-              <p class="text-white m-0 text-start"><strong>Dra. Patrícia Fernandes Avila</strong><br/><small class='text-white'>Directora de Clínica Precisão</small></p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>Elegí Cfaz.net como software de gestión de mi clínica por su practicidad, claridad y buen servicio, siempre impecable. Como resultado de esta asociación, obtuve procesos más rápidos y lo que más me gusta del sistema es su facilidad de manejo y agilidad, la posibilidad de integración con el equipo y envío automático al odontólogo.<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
           </div>
         </div>
       </div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </div>  
-</section>
-
-<!-- ======= Fale com um de nossos consultores ======= -->
-<section id="contact_us" class="mt-64 mb-64">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-7 col-sm-12">
-        <div data-aos="fade-right">
-          <h2 class="text-primary"><strong>Habla con uno de nuestros consultores</strong></h2>
-          <p class="mb-32">Descubra qué ventajas ofrece Cfaz.net sobre otros sistemas en términos de ahorro de tiempo, reducción de costos y aumento de la productividad y facturación.</p>
-        </div>
-        <div class="mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <div class="d-flex align-items-center">
-            <img src="assets/img/icones/icone_check.png" alt="Icono de lista de verificación">
-            <h3 class="mb-0"><strong>SEGURIDAD DE DATOS</strong></h3>
-          </div>
-          <p>Nuestros clientes se benefician de la seguridad y solidez de la misma infraestructura en la nube que utiliza Google en servicios como su motor de búsqueda, Gmail y Youtube.</p>
-        </div>
-        <div class="mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <div class="d-flex align-items-center">
-            <img src="assets/img/icones/icone_check.png" alt="Icono de lista de verificación">
-            <h3 class="mb-0"><strong>ALMACENAMIENTO DURANTE 20 AÑOS</strong></h3>
-          </div>
-          <p>Cumpliendo con los estándares de todos los consejos de salud: CFO, CFM y ANVISA.</p>
-          <small>*Válido durante a vigência do contrato</small>
-        </div>
-        <div data-aos="zoom-in" data-aos-delay="200">
-          <div class="d-flex align-items-center">
-            <img src="assets/img/icones/icone_check.png" alt="Icono de lista de verificación">
-            <h3 class="mb-0"><strong>APTITUD PARA LGPD</strong></h3>
-          </div>
-          <p>Adoptamos los protocolos de seguridad más avanzados para garantizar la integridad e inviolabilidad de los datos del paciente, además de comprometernos a no utilizar ni compartir datos sin su consentimiento.</p>
-        </div>
-      </div>
-      <div class="col-md-5 col-sm-12" data-aos="fade-left">
-        <div class="card shadow form">
-          <div id="form_contact" class="d-flex justify-content-center"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ======= Benefícios ======= -->
-<section id="benefit_home" class="mt-64">
-  <div class="container">
-    <h2 class="text-white text-center mb-54" data-aos="zoom-out">Lleve la <strong> transformación digital </strong> a su negocio</h2>
-    <div class="row">
-      <div class="col-md-6 col-sm-12">
-        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_online.png" alt="">
-          <div>
-            <p class="text-white mb-8"><strong>CFAZ.NET NACE COMO EL 1er SISTEMA 100% ONLINE DE RADIOLOGÍA</strong></p>
-            <p class="text-white mb-0">La experiencia se simplifica desde el principio, asegurando mayor agilidad y eficiencia para la realización de exámenes y para la gestión de la clínica o centro médico.</p>
-          </div>
-        </div>
-
-        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_pac.png" alt="">
-          <div>
-            <p class="text-white"><strong>PACS EN LÍNEA</strong></p>
-            <p class="text-white mb-0">Integración DICOM con todos los dispositivos del mercado y almacenamiento 100% seguro en la Nube, gracias a la infraestructura proporcionada por Google Cloud Platform.</p>
-          </div>
-        </div>
-
-        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_CfazManager.png" alt="">
-          <div>
-            <p class="text-white"><strong>RIS EN LÍNEA</strong></p>
-            <p class="text-white mb-0">Horarios, PEP (Historial Electrónico del Paciente), Integración con cualquier equipo que utilice el protocolo DICOM (PACS / Worklist), Gestión Financiera, Control de Contratos y Desautorizaciones, todo puede ser accedido desde cualquier lugar por los administradores de la clínica.</p>
+      <div class="col-md-4">
+        <div class="card text-start shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/consultorios_white.png">
+            <div class="text-center">
+              <h5 class="text-secondary-light my-3">Consultórios</h5>
+              <small class="text-secondary-light">a partir de</small>
+              <h1 style="line-height: 1"><strong>R$ 99/mês</strong></h1>
+              <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-4" data-bs-toggle="modal" data-bs-target="#modal_consultorios">
+                <img class="me-3" src="./assets/img/icons/btn_phone.png">
+                <span>Ligamos para você</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_imagem.png" alt="Icono con imagen de diente">
-          <div>
-            <p class="text-white"><strong>CALIDAD DE IMAGEN MÁXIMA</strong></p>
-            <p class="text-white mb-0">Somos el único sistema de gestión de Radiología que ofrece almacenamiento de imágenes y exámenes con calidad 100% original.</p>
-          </div>
-        </div>
-        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_dicon.png" alt="Icono DICOM">
-          <div>
-            <p class="text-white"><strong>DICOM</strong></p>
-            <p class="text-white mb-0">Native support for Worklist and PACS, allowing integration with any device. In addition, the free DICOM Printer allows integration with all types of DRY printers.</p>
-          </div>
-        </div>
-        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_STL.png" alt="">
-          <div>
-            <p class="text-white"><strong>STL</strong></p>
-            <p class="text-white mb-0">Soporte completo para modelos digitales: almacenamiento, visualización y distribución.</p>
-          </div>
-        </div>
-        <div class="d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_redes.png" alt="Icono de mapa con marcas">
-          <div>
-            <p class="text-white"><strong>GESTIÓN UNIFICADA DE RED CLÍNICA</strong></p>
-            <p class="text-white mb-0">Gestione toda la red de clínicas o centros médicos en un solo sistema, visualizando indicadores para toda la red o para cada centro por separado.</p>
+      <div class="col-md-4">
+        <div class="card text-start shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/clinicas_white.png">
+            <div class="text-center">
+              <h5 class="text-secondary-light my-3">Clínicas</h5>
+              <small class="text-secondary-light">a partir de</small>
+              <h1 style="line-height: 1"><strong>R$ 159/mês</strong></h1>
+              <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-4" data-bs-toggle="modal" data-bs-target="#modal_clinicas">
+                <img class="me-3" src="./assets/img/icons/btn_phone.png">
+                <span>Ligamos para você</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="text-center mt-40" data-aos="zoom-out">
-      <a class="btn btn-primary mb-8 mt-16" data-bs-toggle="modal" data-bs-target="#contact_modal">QUIERO HABLAR CON UN CONSULTOR</a>
-    </div>
-  </div>
-</section>
-
-<!-- ======= Inteligência Artificial ======= -->
-<section id="artificial_intelligence" class="mt-64">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-sm-12" data-aos="fade-right">
-        <h2 class="text-primary mb-32"><strong>Inteligencia artificial y tecnologías desarrolladas por nuestros ingenieros</strong></h2>
-        <p class="mb-8">La Inteligencia Artificial de Cfaz está presente en nuestra herramienta de Trazado Cefalométrico - para Radiología Dental - y en Identificación Automática de Imágenes para ensamblar plantillas. El radiólogo reduce el tiempo que lleva realizar un rastreo, ahorra recursos y puede concentrarse en lo que realmente importa: la salud del paciente y el desarrollo de su negocio.</p>
-        <div class="mobile-none">
-          <a class="btn btn-secondary mb-8 mt-16" data-bs-toggle="modal" data-bs-target="#contact_modal">QUIERO HABLAR CON UN CONSULTOR</a>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12" data-aos="fade-up">
-        <img src="assets/img/IA.webp" alt="Logotipo de Cfaz.net en el centro que se vincula con el escudo de seguridad, servidores, computadora y teléfono celular.">
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ======= Tomografia ======= -->
-<section id="tomography" class="mt-64">
-  <div class="container">
-    <div>
-      <div class="mb-40" data-aos="zoom-in">
-        <h2 class="text-primary mb-32"><strong>Tomografía</strong></h2>
-        <div class="row">
-          <div class="col col-md-6 col-sm-12">
-            <p>Almacenamiento y distribución de tomografías computarizadas 100% en línea. Con Cfaz.net, el solicitante puede visualizar las tomografías directamente en la plataforma online, sin necesidad de instalar ningún software o descargar el archivo en la propia máquina.</p>
-          </div>
-          <div class="col col-md-6 col-sm-12">
-            <p>El DicomViewer desarrollado por nuestro equipo de ingeniería permite visualizar la reconstrucción volumétrica MPR (Reconstrucción Multiplanar) de la tomografía. También ofrece herramientas para manipulación de volumen, lo que le permite cambiar los ejes de visualización de los cortes, además de aplicar filtros y realizar mediciones.</p>
+      <div class="col-md-4">
+        <div class="card text-start shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/centro_radiologia_white.png">
+            <div class="text-center">
+              <h5 class="text-secondary-light my-3">Centros de Radiologia</h5>
+              <small class="text-secondary-light">a partir de</small>
+              <h1 style="line-height: 1"><strong>R$ 199/mês</strong></h1>
+              <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-4" data-bs-toggle="modal" data-bs-target="#modal_centros_radiologia">
+                <img class="me-3" src="./assets/img/icons/btn_phone.png">
+                <span>Ligamos para você</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="tomography-images" data-aos="zoom-in" data-aos-delay="200">
-        <img class="shadow mt-8" src="assets/img/tomografia1.webp" alt="Tomografía de imagen en el sistema Cfaz.net">
-        <img class="shadow mt-8" src="assets/img/tomografia2.webp" alt="Tomografía de imagen en el sistema Cfaz.net">
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ======= Telerradiologia ======= -->
-<section id="teleradiology" class="mt-64">
-  <div class="container">
-      <h2 class="text-white text-center mb-32" data-aos="zoom-in"><strong>Conectamos su clínica con profesionales</strong> de todo Brasil y del exterior que participan de forma gratuita en nuestro <strong>marketplace</strong></h2>
-      <div class="row d-flex justify-content-center" data-aos="zoom-in">
-        <div class="col-md-5 col-sm-12 card mt-8">
-          <h2 class="mb-0"><strong>Cfaz</strong><strong class='text-primary'>Business</strong></h2>
-          <span></span>
-          <p>Mercado exclusivo para <strong class='text-secondary'>subcontratación de informes</strong>, que conecta a los radiólogos con los centros médicos de Brasil y América Latina.</p>
-        </div>
-        <div class="col-md-5 col-sm-12 card mt-8">
-          <h2 class="mb-0"><strong>Cfaz</strong><strong class='text-primary'>Job</strong></h2>
-          <span></span>
-          <p>Solución específica para <strong class='text-secondary'>creación de informes</strong> y subcontratación, a través del marketplace CfazBusiness.</p>
-          <a class="text-primary mt-24 hover_underline" href="teleradiology.html">Conozca más sobre nuestras soluciones para teleradiología</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ======= CfazApp ======= -->
-<section id="appCfaz" class="mt-64">
-  <div class="container">
-    <div class="row mobile-reverse">
-      <div class="col-md-6 col-12" data-aos="fade-right">
-        <img src="assets/img/cfazApp.webp" alt="Imágenes de CfazMax en la aplicación">
-      </div>
-      <div class="col-md-6 col-12 text-end" data-aos="fade-up">
-        <h2 class="mb-32"><strong class='text-primary'>App</strong><strong>Cfaz</strong></h2>
-        <p>Portal de imágenes y exámenes gratuitos para sus solicitantes y pacientes, disponible en una aplicación móvil, con historial completo del paciente y acceso en línea a través de teléfonos inteligentes, tabletas, además de la computadora.</p>
-        <div class="text-end mobile-none">
-          <a class="btn btn-secondary mb-8 mt-16" data-bs-toggle="modal" data-bs-target="#contact_modal">QUIERO HABLAR CON UN CONSULTOR</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ======= Programa de benefícios ======= -->
-<section id="benefits_program" class="mt-64">
-  <div class="container">
-    <div class="row align-items-center mb-24">
-      <div class="col-md-8">
-        <h2 class="text-primary mb-32" data-aos="zoom-out">Descubra cómo participar en el único Programa <br/> de Beneficios que ofrece <strong>descuentos en cursos, <br/> libros, protección radiológica, seguros y <br/> equipos de salud.</strong></h2>
-        <div class="text-start" data-aos="fade-right">
-          <a class="btn btn-secondary mb-8 mt-16" data-bs-toggle="modal" data-bs-target="#contact_modal">QUIERO HABLAR CON UN CONSULTOR</a>
-        </div>
-      </div>
-      <div class="col-md-4 text-center mobile-none" data-aos="fade-left">
-        <img src="assets/img/icones/icone_beneficios.png" alt="Icono con embalaje de regalo">
-      </div>
-    </div>
-  </div>
-
-  <!-- Parceiros -->
-  <div class="partners-container">
-    <div class="container">
-      <small><strong>PARCEIROS</strong></small>
-      <div class="swiper-container partners mt-8">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/CI Vatech.png" alt="Empresa participante del programa de beneficios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/carestream-dental-logo.png" alt="Empresa participante del programa de beneficios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/3dmdigital_azul.png" alt="Empresa participante del programa de beneficios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/Lodi_Logo.png" alt="Empresa participante del programa de beneficios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/logo tota.png" alt="Empresa participante del programa de beneficios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/dentalfactory.hor.png" alt="Empresa participante del programa de beneficios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/ff_seguros.png" alt="Empresa participante del programa de beneficios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/atelier_uniao.webp" alt="Empresa participante del programa de beneficios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/ambienttal.webp" alt="Empresa participante del programa de beneficios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/systhex_logo.png" alt="Empresa participante del programa de beneficios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/durr_dental.png" alt="Empresa participante del programa de beneficios"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/logo_prexion.webp" alt="Empresa participante del programa de beneficios"> 
+      <div class="col-md-4">
+        <div class="card text-start shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/centrais_laudo_white.png">
+            <div class="text-center">
+              <h5 class="text-secondary-light my-3">Centrais de Laudo</h5>
+              <small class="text-secondary-light">a partir de</small>
+              <h1 style="line-height: 1"><strong>R$ 249/mês</strong></h1>
+              <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-4" data-bs-toggle="modal" data-bs-target="#modal_centrais_laudo">
+                <img class="me-3" src="./assets/img/icons/btn_phone.png">
+                <span>Ligamos para você</span>
+              </a>
+            </div>
           </div>
         </div>
-        <div class="swiper-pagination"></div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-start shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/hospitais_white.png">
+            <div class="text-center">
+              <h5 class="text-secondary-light my-3">Hospitais</h5>
+              <small class="text-secondary-light">a partir de</small>
+              <h1 style="line-height: 1"><strong>R$ 399/mês</strong></h1>
+              <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-4" data-bs-toggle="modal" data-bs-target="#modal_hospitais">
+                <img class="me-3" src="./assets/img/icons/btn_phone.png">
+                <span>Ligamos para você</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ======= Meio ambiente ======= -->
-<section id="environment" class=" bg-primary">
-  <div class="container">
-    <div class="row text-center">
-      <div class="col col-md-6">
-        <h1 class="text-white"><strong><span data-purecounter-start="0" data-purecounter-end="46" data-purecounter-delay="2" data-purecounter-duration="2" class="purecounter text-white"></span>Mi</strong></h1>
-        <p class="text-white"><strong>de papeles guardados.</strong></p>
+<section id="environment">
+  <div class="container-fluid d-flex align-items-center justify-content-around py-5">
+    <div class="text-center">
+      <img src="./assets/img/icons/environment_papeis.png">
+      <h3 class="text-environment mt-4 mb-3">143Mi</h3>
+      <p class="text-secondary-light">Mais de 143 milhões de folhas <br> de papel economizadas</p>
+    </div>
+    <div class="text-center my-3">
+      <img src="./assets/img/icons/environment_filme_radiografico.png">
+      <h3 class="text-environment mt-4 mb-3">48Mi</h3>
+      <p class="text-secondary-light">Mais de 48 milhões de filmes <br> radiográficos economizados</p>
+    </div>
+    <div class="text-center">
+      <img src="./assets/img/icons/environment_arvore.png">
+      <h3 class="text-environment mt-4 mb-3">19mil</h3>
+      <p class="text-secondary-light">Mais de 19 mil árvores <br> poupadas</p>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Contatos ======= -->
+<section id="contact" class="my-5">
+  <div class="container-fluid">
+    <h2 class="text-center"><strong>Contatos</strong></h2>
+    <div class="row mt-5">
+      <div class="col">
+        <div class="card shadow border-0 py-3 px-3" style="height: 264px;">
+          <div class="card-body">
+            <h2 class="mb-4"><strong>Suporte Técnico</strong></h2>
+            <div class="d-flex align-items-center mb-4">
+              <img src="./assets/img/icons/icon-whatsapp.png">
+              <a class="ms-3 mb-0 text-secondary hover_underline" target="_blank" href="https://api.whatsapp.com/send?phone=553139560980&text=Ol%C3%A1%20Natalia!%20Eu%20gostaria%20de%20saber%20mais%20sobre%20o%20sistema%20de%20voc%C3%AAs.%20%3A">(31) 3956-0980</a>
+            </div>
+            <div class="d-flex align-items-center mb-4">
+              <img src="./assets/img/icons/icon-email.png">
+              <a class="ms-3 mb-0 text-secondary hover_underline" target="_blank" href="mailto:suporte@cfaz.net">suporte@cfaz.net</a>
+            </div>
+            <div class="d-flex align-items-center">
+              <img src="./assets/img/icons/icon-suporte.png">
+              <a class="ms-3 mb-0 text-secondary hover_underline" target="_blank" href="https://max.cfaz.net/">Ir para a central de atendimento</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col col-md-6">
-        <h1 class="text-white"><strong><span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="3" class="purecounter text-white"></span>K</strong></h1>
-        <p class="text-white"><strong>árboles preservados.</strong></p>
+      <div class="col-md-5">
+        <div class="sales card shadow border-0 py-4 px-5" style="height: 328px; margin-top: -32px;">
+          <div class="card-body">
+            <h2 class="mb-4"><strong>Vendas</strong></h2>
+            <div class="d-flex align-items-center mb-4">
+              <img src="./assets/img/icons/icon-whatsapp.png">
+              <p class="mb-0"><a class="ms-3 mb-0 text-secondary hover_underline" target="_blank" href="https://api.whatsapp.com/send?phone=5538998321411&text=Ol%C3%A1%20Natalia!%20Eu%20gostaria%20de%20saber%20mais%20sobre%20o%20sistema%20de%20voc%C3%AAs.%20%3A">(38) 9 9832-1411</a> <small>Natália</small></p>
+            </div>
+            <div class="d-flex align-items-center">
+              <img src="./assets/img/icons/icon-email.png">
+              <a class="ms-3 mb-0 text-secondary hover_underline" target="_blank" href="mailto:vendas@cfaz.net">vendas@cfaz.net</a>
+            </div>
+          </div>
+        </div>
       </div>
+      <div class="col">
+        <div class="card shadow border-0 py-3 px-3" style="height: 264px;">
+          <div class="card-body">
+            <h2 class="mb-4"><strong>Financeiro</strong></h2>
+            <div class="d-flex align-items-center mb-4">
+              <img src="./assets/img/icons/icon-whatsapp.png">
+              <a class="ms-3 mb-0 text-secondary hover_underline" target="_blank" href="https://api.whatsapp.com/send?phone=553139560980&text=Ol%C3%A1%20Natalia!%20Eu%20gostaria%20de%20saber%20mais%20sobre%20o%20sistema%20de%20voc%C3%AAs.%20%3A">(31) 3956-0980</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </div>
+</section>
+
+<!-- ======= Redes sociais ======= -->
+<section id="social" class="py-5">
+  <div class="class-fluid">
+    <h2 class="text-center mb-4">Siga-nos em nossos canais e mídias sociais!</h2>
+    <div class="d-flex align-items-center justify-content-around">
+      <div class="text-center">
+        <img src="./assets/img/icons/social_instagram.png" alt="">
+        <p class="text-secondary-light mt-2">@cfaznet</p>
+      </div>
+      <div class="text-center">
+        <img src="./assets/img/icons/social_tiktok.png" alt="">
+        <p class="text-secondary-light mt-2">@cfaznet</p>
+      </div>
+      <div class="text-center">
+        <img src="./assets/img/icons/social_linkedin.png" alt="">
+        <p class="text-secondary-light mt-2">@cfaznet</p>
+      </div>
+      <div class="text-center">
+        <img src="./assets/img/icons/social_youtube.png" alt="">
+        <p class="text-secondary-light mt-2">@cfaznet</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Programa de Benefícios ======= -->
+<section id="benefits-program" class="pt-5 pb-4">
+  <div class="container-fluid">
+    <section class="d-flex justify-content-between">
+      <div class="text-center">
+        <img src="./assets/img/benefits-program.png">
+      </div>
+      <div>
+        <h1 class="text-primary"><strong>Programa de Benefícios</strong></h1>
+        <p>Faça parte do Programa de Benefícios mais completo do mercado!</p>
+        <p>Indique a Cfaz para colegas e amigos, compartilhe nossas <br> vantagens nas redes sociais e aproveite descontos gratuitos, resgate <br> de brindes e prêmios exclusivos!</p>
+      </div>
+    </section>
+
+    <section class="swiper-container partners mt-5">
+      <p>Parceiros</p>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira1.png" alt="Empresa parceira">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira2.png" alt="Empresa parceira">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira3.png" alt="Empresa parceira">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira3.png" alt="Empresa parceira">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira4.png" alt="Empresa parceira">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira5.png" alt="Empresa parceira">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira6.png" alt="Empresa parceira">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira7.png" alt="Empresa parceira">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira8.png" alt="Empresa parceira">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira9.png" alt="Empresa parceira">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira10.png" alt="Empresa parceira">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira11.png" alt="Empresa parceira">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira12.png" alt="Empresa parceira">
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+  </div>
+</section>
+
+<!-- ======= Cfaz Ciência ======= -->
+<section id="cfaz-science" class="py-5">
+  <div class="container-fluid">
+    <section class="d-flex justify-content-between">
+      <div class="col-md-5">
+        <h1 class="text-secondary"><strong>Cfaz Ciência: Incentivo ao desenvolvimento científico da Radiologia</strong></h1>
+        <p>Isenção de implantação e condições especiais para utilização do Cfaz.net por Alunos e Instituições de Ensino em Odontologia e Radiologia.</p>
+        <p>Entre em contato para começar a utilizar nosso sistema como apoio na sala de aula ou nas clínicas-escolas!</p>
+        <a class="btn btn-primary d-inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#contact_modal">
+          <img class="me-3" src="./assets/img/icons/icone-telefone.png">
+          <span>Ligamos para você</span>
+        </a>
+      </div>
+      <div class="text-center">
+        <img src="./assets/img/cfaz-ciencia.png">
+      </div>
+    </section>
+
+    <section class="d-flex justify-content-center mt-5">
+      <img src="./assets/img/clientes/cfaz-ciencia-1.png" alt="">
+      <img src="./assets/img/clientes/cfaz-ciencia-2.png" alt="">
+      <img src="./assets/img/clientes/cfaz-ciencia-3.png" alt="">
+      <img src="./assets/img/clientes/cfaz-ciencia-4.png" alt="">
+      <img src="./assets/img/clientes/cfaz-ciencia-5.png" alt="">
+    </section>
+
+    <section class="mt-4">
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="card border-0 shadow mt-5">
+            <iframe class="mx-3" src="https://www.youtube.com/embed/N3Q1F_ZW7yI?si=k4sGipadTJZveVWe" title="YouTube video player" height="210" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="card-body d-flex align-items-center">
+              <img src="./assets/img/icons/cfaz-ciencia-ufmg.png" width="40">
+              <p class="mb-0 ms-2"><b>Prof. Yuri Nejaim</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow mt-5">
+            <iframe class="mx-3" src="https://www.youtube.com/embed/npilAq8uCPU?si=s0MN5Z8TFtAErehr" title="YouTube video player" height="210" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="card-body d-flex align-items-center">
+              <img src="./assets/img/icons/cfaz-ciencia-lodi.png" width="40">
+              <p class="mb-0 ms-2"><b>Dr. Gilson Franco - Lodi UEPG </b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+<!-- ======= Aplicativo ======= -->
+<section id="app" class="mt-5">
+  <section class="d-flex justify-content-between align-items-center">
+    <div class="col-md-6 text-center">
+      <div class="container-fluid">
+        <h1>App mobile gratuito <br> Disponível na App Store <br> e na Play Store</h1>
+        <a class="btn btn-primary d-inline-flex justify-content-between align-items-flex-start mt-2" target="_blank" href="https://apps.apple.com/us/app/cfaz-net/id1609074748">
+          <img class="me-3" src="./assets/img/icons/app-apple.png">
+          <span class="text-secondary">App Store</span>
+        </a>
+        <a class="btn btn-primary d-inline-flex justify-content-between align-items-flex-start mt-2" target="_blank" href="https://play.google.com/store/apps/details?id=max.cfaz.net&pli=1">
+          <img class="me-3" src="./assets/img/icons/app-google.png">
+          <span class="text-secondary">Play Store</span>
+        </a>
+      </div>
+    </div>
+    <div class="text-center">
+      <img src="./assets/img/app.png">
+    </div>
+  </section>
+</section>
+
+<!-- ======= Notícias / newsletter ======= -->
+<section id="newsletter" class="position-relative py-5">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <h2 class="col-md-10 text-center"><strong>Quer ficar por dentro de novidades sobre a Cfaz e notícias sobre Radiologia, Odontologia, Medicina e Veterinária?</strong></h2>
+      <p>INPUT NEWSLETTER</p>
     </div>
   </div>
 </section>
     </main>
 
-    <footer id="footer">
-      <section class="container">
-        <div class="footer-container">
-          <div>
-            <h3 class="text-white"><strong>Hable con nosotros</strong></h3>
-            <p class="mt-24 text-white"><strong>Comercial</strong></p>
-            <div class="footer-item mt-8 mb-8">
-              <img src="assets/img/icones/footer_whatsapp.png" alt="Icono de whatsapp">
-              <p class="mb-0"><a class="hover_underline" target="_blank" href="https://api.whatsapp.com/send?phone=5538998321411&text=Ol%C3%A1%20Natalia!%20Eu%20gostaria%20de%20saber%20mais%20sobre%20o%20sistema%20de%20voc%C3%AAs.%20%3A">(38) 9 9832-1411</a><small>Natália</small></p>
-            </div>
-            <div class="footer-item mt-8">
-              <img src="assets/img/icones/footer_email.png" alt="Icono de correo electrónico">
-              <p class="mb-0"><a href="mailto:vendas@cfaz.net" class="hover_underline">vendas@cfaz.net</a></p>
-            </div>
-            <p class="mt-24 text-white"><strong>Soporte</strong></p>
-            <div class="footer-item mt-8">
-              <img src="assets/img/icones/footer_whatsapp.png" alt="Icono de whatsapp">
-              <p class="mb-0"><a class="hover_underline" target="_blank" href="https://api.whatsapp.com/send?phone=553139560980&text=Ol%C3%A1!%20Eu%20gostaria%20de%20tirar%20algumas%20d%C3%BAvidas%20sobre%20o%20sistema">(31) 3956-0980</a></p>
-            </div>
-            <div class="footer-item mt-8">
-              <img src="assets/img/icones/footer_fone.png" alt="Icono de centro de llamadas">
-              <p class="mb-0"><a class="hover_underline" target="_blank" href="http://kb.cfaz.net/">Ir al centro de llamadas</a></p>
-            </div>
+    <footer id="footer" class="pt-4 pb-3">
+      <div class="container-fluid">
+        <section class="d-flex justify-content-between align-items-center">
+          <a href="index.html"><img src="../assets/img/footer_logo.png" alt=""></a>
+          
+          <div class="d-flex align-items-end justify-content-around">
+            <img class="me-4" src="../assets/img/icons/footer-hippaa.png" alt="">
+            <img class="me-4" src="../assets/img/icons/footer-lgpd.png" alt="">
+            <img class="me-4" src="../assets/img/icons/footer-google.png" alt="">
+            <img src="../assets/img/icons/footer-anvisa.png" alt="">
           </div>
 
-          <div class="footer-mobile">
-            <div class="footer-item">
-              <img src="assets/img/icones/icone_beneficios.png" alt="Icono con embalaje de regalo">
-              <h3 class="mb-0"><a target="_blank" href="https://beneficios.cfaz.net/" class="text-white hover_underline"><strong>Programa de beneficios</strong></a></h3>
-            </div>
+          <div class="locale">
             
-            <div class="mt-24">
-              <p class="text-white mb-16"><strong>Siga a Cfaz en redes sociales</strong></p>
-              <a target="_blank" href="https://www.instagram.com/cfaznet/"><img src="assets/img/icones/footer_instagram.png" alt="Icono Instagram"></a>
-              <a target="_blank" href="https://www.facebook.com/cfaz.net/"><img src="assets/img/icones/footer_facebook.png" alt="Icono Facebook"></a>
-              <a target="_blank" href="https://www.youtube.com/channel/UCv14GXXqg2RBbXZcc3qZqcg"><img src="assets/img/icones/footer_youtube.png" alt="Icono Youtube"></a>
-              <a target="_blank" href="https://www.linkedin.com/company/cfaz-net"><img src="assets/img/icones/footer_linkedin.png" alt="Icono Linkedin"></a>
-            </div>
-
-            <div class="app-mobile mt-40">
-              <p class="text-white mb-8"><strong>Descarga nuestra aplicación</strong></p>
-              <a href="https://play.google.com/store/apps/details?id=max.cfaz.net" target="_blank"><img src="../assets/img/app_android.png"></a>
-              <a href="https://apps.apple.com/us/app/cfaz-net/id1609074748" target="_blank"><img src="../assets/img/app_ios.png"></a>
-            </div>
+            
+            
+            <a href="/"><img src="assets/img/icons/bandeira_pt-BR.png" alt=""></a>
+            <a href="/es/"><img src="assets/img/icons/bandeira_es.png" alt=""></a>
+            <a href="/en/"><img src="assets/img/icons/bandeira_en.png" alt=""></a>
+            <input id="language" type="hidden" value="es">
           </div>
+        </section>
+      </div>
 
-          <div class="footer-mobile">
-            <h3 class="text-white"><strong>Publicaciones de BLOG</strong></h3>
-            <p class="mt-32">¿Quiere estar al tanto de las noticias de <br/> su área? Complete su correo electrónico y <br/> suscríbase a nuestro Newsletter.</p>
-            <div class="mt-24">
-              <div id="newsletter"></div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <hr class="border border-1">
 
-      <div class="divider mt-16"></div>
-
-      <section class="container p-16">
-        <div class="row align-items-center">
-          <div class="col col-md-4 mobile-none">
-            <div class="logo">
-              <a href="index.html"><img src="assets/img/logo.png" alt="Logotipo de Cfaz" class="img-fluid"></a>
-            </div>
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+          <div style="line-height: 100%;">
+            <small class="text-white-gray">Desenvolvido por Cfaz.net</small><br>
+            <small class="text-white-gray">2013 - <span id="current_year"></span></small>
           </div>
-          <div class="col col-md-4 col-sm-12 text-center">
-            <div class="blazon">
-              <div class="d-flex align-items-center justify-content-center">
-                <div class="p-16">
-                  <img src="assets/img/brasoes/gcp.png" alt="Certificado GCP">
-                </div>
-                <div class="p-16">
-                  <img src="assets/img/brasoes/LGPD.png" alt="Certificado LGPD">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col col-md-4 text-end mobile-none">
-            <div class="locale">
-              <a href="/"><img src="assets/img/icones/bandeira_pt-BR.png" alt=""></a>
-              <a href="/es/"><img src="assets/img/icones/bandeira_es.png" alt="Bandera de España"></a>
-              <a href="/en/"><img src="assets/img/icones/bandeira_en.png" alt="Bandera de Estados Unidos"></a>
-            </div>
+          <div>
+            <a class="text-white-gray hover_underline" href="privacy_policy.html" target="_blank">
+              <small class="text-white-gray">Política de Privacidade</small>
+            </a>
           </div>
         </div>
-      </section>
-
-      <div class="divider"></div>
-
-      <section class="author d-flex align-items-center justify-content-evenly p-24">
-        <small class="text-white">Desenvolvido por Cfaz.net</small>
-        <small><a class="text-white" href="privacy_policy.html" target="_blank">Política de privacidade</a></small>
-      </section>
+      </div>
     </footer>
 
     <div id="cookieNotice" class="light display-right">
     <div class="cookiesModal">
       <div>
-        <span>Usamos cookies y otras tecnologías similares para mejorar su experiencia en nuestros servicios, pero no las usamos con fines de seguimiento. <br/>Al utilizar nuestros servicios, usted acepta dicho seguimiento. También le informamos que hemos actualizado nuestra <a target="_blank" href="https://cfaz.net/privacy_policy.html">Política de Privacidad</a></span>
+        <span></span>
       </div>
       <div>
         <button class="btn btn-secondary btn-sm" onclick="acceptCookieConsent();">Aceitar</button>
@@ -701,19 +1134,91 @@
     </div>
   </div>
 
-    <!-- Modal -->
-<div class="modal fade" id="contact_modal" tabindex="-1" aria-labelledby="contact_modal" aria-hidden="true">
-	<div class="modal-dialog modal-lg">
+    <!-- Modal Telerradiologia -->
+<div class="modal fade" id="modal_telerradiologia" tabindex="-1" aria-labelledby="modal_telerradiologia" aria-hidden="true">
+	<div class="modal-dialog">
 		<div class="modal-content">
-			<div class="modal-header align-items-start">
-				<div>
-					<h2><strong>Habla con uno de nuestros consultores</strong></h2>
-					<small>Descubra las múltiples ventajas que ofrece el sistema Cfaz.net sobre otros sistemas en términos de ahorro de tiempo, reducción de costos y aumento de la productividad y los ingresos.</small>
-				</div>
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<div class="modal-body">
-				<div id="form_contact_modal"></div>
+				<div id="telerradiologia"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Consultórios -->
+<div class="modal fade" id="modal_consultorios" tabindex="-1" aria-labelledby="modal_consultorios" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div id="consultorios"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Clinicas -->
+<div class="modal fade" id="modal_clinicas" tabindex="-1" aria-labelledby="modal_clinicas" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div id="clinicas"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Centros de Radiologia -->
+<div class="modal fade" id="modal_centros_radiologia" tabindex="-1" aria-labelledby="modal_centros_radiologia" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div id="centros_radiologia"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Centros de Radiologia -->
+<div class="modal fade" id="modal_centrais_laudo" tabindex="-1" aria-labelledby="modal_centrais_laudo" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div id="centrais_laudo"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Hospitais -->
+<div class="modal fade" id="modal_hospitais" tabindex="-1" aria-labelledby="modal_hospitais" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div id="hospitais"></div>
 			</div>
 		</div>
 	</div>
@@ -727,6 +1232,12 @@
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script> 
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- Carousel -->
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
     <!-- JS File -->
@@ -742,5 +1253,19 @@
 
     <!-- Google Ads -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-754517111%22%3E"></script>
+
+    <!-- Card de parceiros (quando passa o mouse, mostra o segmento) -->
+    <script>  
+      function showSegment(num){
+        check_class_none = document.querySelector(".segment-image-" + num).classList.contains("d-none")
+        if(!check_class_none){
+          document.querySelector(".segment-image-" + num).classList.add('d-none')
+          document.querySelector(".segment-text-" + num).classList.remove('d-none')
+        } else {
+          document.querySelector(".segment-image-" + num).classList.remove('d-none')
+          document.querySelector(".segment-text-" + num).classList.add('d-none')
+        }
+      }
+    </script>
   </body>
   </html>
