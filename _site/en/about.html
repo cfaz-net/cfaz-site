@@ -7,7 +7,7 @@
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-M5XT6T9');</script>
-    <!-- End Google Tag Manager -->
+
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -34,98 +34,75 @@
     <link href="assets/img/favicon.ico" rel="icon">
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Carousel -->
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- Template Main CSS File -->
+    <link href="assets/css/custom.css" rel="stylesheet">
     <link href="assets/css/styles.css" rel="stylesheet">
   </head>
 
   <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5XT6T9"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5XT6T9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 
-    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
-      <div class="container d-flex align-items-center justify-content-between">
-
-        <div class="logo">
-          <a href="index.html"><img src="assets/img/logo.png" alt="Cfaz.net logo" class="img-fluid"></a>
+    <header id="header" class="container-fluid fixed-top d-flex align-items-center justify-content-between bg-white">
+      <a class="navbar-brand" href="index.html"><img src="assets/img/Logo.png" alt="Logomarca cfaz" style="width: 60%"></a>
+      
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="hospitais.html">Hospitais</a></li>
+              <li class="nav-item"><a class="nav-link" href="radiologia.html">Radiologia</a></li>
+              <li class="nav-item"><a class="nav-link" href="odontologia-medicina.html">Odontologia e Medicina</a></li>
+              <li class="nav-item"><a class="nav-link" href="veterinaria.html">Veterinária</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html#contact">Contatos</a></li>
+              <li class="nav-item"><a class="nav-link" target="_blank" href="http://kb.cfaz.net/">Blog</a></li>
+              <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nós</a></li>
+            </ul>
+          </div>
         </div>
+      </nav>
 
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto active" href="index.html#hero">Home</a></li>
-            <li class="nav-divider"></li>
-            <li class="dropdown">
-              <a class="nav-link">Solutions<i class="bi bi-chevron-down"></i></a>
-              <ul>
-                <li><a href="dental_radiology.html">Radiology Dental</a></li>
-                <li><a href="medical_centers.html">Medical Centers</a></li>
-                <li><a href="teleradiology.html">Teleradiology</a></li>
-                <li><a href="odontology.html">Odontology</a></li>
-                <li><a href="students_institutions.html">Student and Educational Institution</a></li>
-              </ul>
-            </li>
-            <li class="nav-divider"></li>
-            <li><a class="nav-link scrollto" href="index.html#testimony">Testimony</a></li>
-            <li class="nav-divider"></li>
-            <li><a class="nav-link scrollto" href="index.html#about">About Cfaz</a></li>
-            <li class="nav-divider"></li>
-            <li class="dropdown">
-              <a class="nav-link">Contact Us<i class="bi bi-chevron-down"></i></a>
-              <ul>
-                <li><a href="index.html#contact_us">I want to know the system</a></li>
-                <li><a target="_blank" href="http://kb.cfaz.net/">Need help</a></li>
-              </ul>
-            </li>
-            <li class="nav-divider"></li>
-            <li><a class="nav-link" target="_blank" href="https://blog.cfaz.net/">Blog</a></li>
-            <li class="btn-tertiary"><a class="login-cfaz" target="_blank" href="https://max.cfaz.net/">TO ENTER</a>
-            </li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-
-        <div class="locale">
-          
-          
-          
-          <a href="/about.html"><img src="assets/img/icones/bandeira_pt-BR.png" alt=""></a>
-          <a href="/es/about.html"><img src="assets/img/icones/bandeira_es.png" alt="Flag spain"></a>
-          <a href="/en/about.html"><img src="assets/img/icones/bandeira_en.png" alt="United States flag"></a>
-          <input id="language" type="hidden" value="en">
-        </div>
+      <div class="locale">
+        
+        
+        
+        <a href="/about.html"><img src="assets/img/icons/bandeira_pt-BR.png" alt=""></a>
+        <a href="/es/about.html"><img src="assets/img/icons/bandeira_es.png" alt=""></a>
+        <a href="/en/about.html"><img src="assets/img/icons/bandeira_en.png" alt=""></a>
+        <input id="language" type="hidden" value="en">
       </div>
+      <a class="btn btn-cta" target="_blank" href="https://max.cfaz.net/">Entrar</a>
     </header>
 
     <main>
       <!-- ======= Hero Section ======= -->
-<section id="about_hero">
+<!-- <section id="about_hero">
   <div class="container">
     <div data-aos="zoom-out">
-      <h2 class="text-white text-center"><strong>About Us</b></h2>
-      <a class="text-white text-center hover_underline nav-link scrollto" href="about.html#team">Meet our team</a>
+      <h2 class="text-white text-center"><strong></b></h2>
+      <a class="text-white text-center hover_underline nav-link scrollto" href="about.html#team"></a>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- ======= Sobre a Cfaz ======= -->
-<section id="about" class="mt-64">
+<!-- <section id="about" class="mt-64">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-12 aos-init" data-aos="fade-right">
         <div id="years_old"></div>
-        <p class="mt-32">Cfaz was born <span id='cfaz-age'></span> years ago in Belo Horizonte, Minas Gerais. We developed Cfaz.net, first native cloud system and 100% online for Diagnostic Imaging Centers. After recognition by SEED MG and FIEMG Lab as one of the most innovative companies in the market. Today we serve professionals and Radiological centers throughout Brazil and Latin America.</p>
+        <p class="mt-32"></p>
       </div>
       <div class="col-md-6 col-sm-12 text-right" data-aos="fade-left">
         <div id="video">
@@ -137,696 +114,642 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- ======= Missão e Visão ======= -->
-<section id="purpose_view" class="mt-64">
+<!-- <section id="purpose_view" class="mt-64">
   <div class="container">
     <div class="row">
       <div class="col-md-6 mt-8" data-aos="fade-right">
         <div class="item bg-primary p-32">
           <div class="d-flex justify-content-center align-items-center mb-24">
-            <img src="assets/img/icones/icone_missao.png" class="mr-16" alt="Rocket icon">
-            <h3 class="text-white"><strong>Mission</strong></h3>
+            <img src="assets/img/icones/icone_missao.png" class="mr-16" alt="">
+            <h3 class="text-white"><strong></strong></h3>
           </div>
-          <p class="text-white">We have the mission of offering our customers the solutions and the competitive advantages needed so that they can dedicate their efforts to what really matters: the health of the patient and the growth of their business. We seek to make the experience of all people involved from scheduling, management to exam delivery more humane, in addition to making these processes more efficient with the benefits of cloud technology, such as security, high quality and speed.</p>
+          <p class="text-white"></p>
         </div>
       </div>
       <div class="col-md-6 mt-8" data-aos="fade-left">
         <div class="item bg-primary p-32">
           <div class="d-flex justify-content-center align-items-center mb-24">
-            <img src="assets/img/icones/icone_visao.png" class="mr-16" alt="Mountains icon">
-            <h3 class="text-white"><strong>View</strong></h3>
+            <img src="assets/img/icones/icone_visao.png" class="mr-16" alt="">
+            <h3 class="text-white"><strong></strong></h3>
           </div>
-          <p class="text-white">As a pioneer in providing 100% online solutions for Dental Radiology and with almost 10 years of experience, we want to consolidate ourselves as a reference in Latin America in cloud solutions for the end-to-end management of medical and dental centers.</p>
+          <p class="text-white"></p>
         </div>
       </div>
     </div>
   </div>
   
-</section>
+</section> -->
 
 <!-- ======= Valores ======= -->
-<section id="values" class="mt-64">
+<!-- <section id="values" class="mt-64">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
         <div class="d-flex align-items-center mb-24" data-aos="fade-right">
-          <img src="assets/img/icones/icone_valores.png" class="mr-16" alt="Heart icon">
-          <h3><strong>Values</strong></h3>
+          <img src="assets/img/icones/icone_valores.png" class="mr-16" alt="">
+          <h3><strong></strong></h3>
         </div>
         <article class="mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <h3 class="text-primary mb-16"><strong>Excellence with People</strong></h3>
-          <p>Having a commitment to excellence to exceed expectations and delight our customers is in our DNA. We seek this commitment on a daily basis, through a relaxed, pleasant work environment based on cooperation and mutual development of the team. With a multidisciplinary team and real-time service, we guarantee excellence to our customers at all times during their experience with us.</p>
+          <h3 class="text-primary mb-16"><strong></strong></h3>
+          <p></p>
         </article>
         <article data-aos="zoom-in" data-aos-delay="200">
-          <h3 class="text-primary mb-16"><strong>Data security</strong></h3>
-          <p class="mb-16">Ensuring the security of our customers' data is our responsibility. For this, we constantly invest in cutting edge technologies. We have one of the best cloud computing providers in the world: Google Cloud Platform.</p>
+          <h3 class="text-primary mb-16"><strong></strong></h3>
+          <p class="mb-16"></p>
         </article>
         <article class="mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <p class="text-secondary"><strong>Cfaz.net customers benefit from the security and robustness of the same cloud infrastructure used by Google in services such as its search engine, Gmail, Youtube etc.</strong></p>
+          <p class="text-secondary"><strong></strong></p>
         </article>
       </div>
       <div class="col-md-6">
         <article class="mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <h3 class="text-primary mb-16"><strong>Respect and Transparency</strong></h3>
-          <p>Respect and transparency are the basis of our communication, both between team members and in the relationship with our customers. We respect differences and freedom of expression. We celebrate our successes and achievements, while accepting and reflecting on our mistakes, always in search of constant evolution.</p>
+          <h3 class="text-primary mb-16"><strong></strong></h3>
+          <p></p>
         </article>
         <article class="mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <h3 class="text-primary mb-16"><strong>Environmental sustainability</strong></h3>
-          <p>Consumers are becoming more and more aware of the impact their habits can have on the environment. With storage and distribution of exams via the cloud, in addition to initiatives to support nature preservation, Cfaz is a company committed to its environmental responsibility.</p>
+          <h3 class="text-primary mb-16"><strong></strong></h3>
+          <p></p>
         </article>
         <article data-aos="zoom-in" data-aos-delay="200">
-          <h3 class="text-primary mb-16"><strong>Innovation and technology</strong></h3>
-          <p>Contribute to the continuous evolution of the entire diagnostic imaging ecosystem, bringing innovation and cutting-edge technology to clinics, offices, medical centers and, especially, to patients.</p>
+          <h3 class="text-primary mb-16"><strong></strong></h3>
+          <p></p>
         </article>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- ======= Equipe ======= -->
-<section id="team" class="mt-64 pb-64">
+<!-- <section id="team" class="mt-64 pb-64">
   <div class="container">
     <div data-aos="zoom-out">
-      <h3 class="text-center"><strong>Team</strong></h3>
+      <h3 class="text-center"><strong></strong></h3>
       <div id="buttons" class="text-center mt-24">
-        <button class="btn" onclick="filterSelection('all')">All</button>
-        <button class="btn" onclick="filterSelection('scientific')">Radiologist</button>
-        <button class="btn" onclick="filterSelection('marketing_sales')">Marketing and sales</button>
-        <button class="btn" onclick="filterSelection('engineering')">Engineering</button>
-        <button class="btn" onclick="filterSelection('customer_experience')">Customer Experience</button>
+        <button class="btn" onclick="filterSelection('all')"></button>
+        <button class="btn" onclick="filterSelection('scientific')"></button>
+        <button class="btn" onclick="filterSelection('marketing_sales')"></button>
+        <button class="btn" onclick="filterSelection('engineering')"></button>
+        <button class="btn" onclick="filterSelection('customer_experience')"></button>
       </div>
     </div>
     <div class="row" data-aos="zoom-in" data-aos-delay="200">
       <div class="col-md-2 col-sm-3 col-6 filter engineering">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Alexandre.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Alexandre.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Alexandre Pateis</b></small><br/>
-            <small class="mt-8 mb-32">Engineering</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Angelica.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Angelica.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Angelica Ribeiro</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter engineering">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Ariana.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Ariana.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Ariana Silva</b></small><br/>
-            <small class="mt-8 mb-32">Engineering</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Carol.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Carol.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Caroline de Almeida</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/caroline_avatar.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/caroline_avatar.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Caroline Barreto</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Claudio_daniel.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Claudio_daniel.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Claudio Daniel</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter engineering">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Claudio_felix.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Claudio_felix.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Claudio Felix</b></small><br/>
-            <small class="mt-8 mb-32">Engineering</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter marketing_sales">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Cleiton.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Cleiton.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Cleiton Pateis</b></small><br/>
-            <small class="mt-8 mb-32">Marketing and sales</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter scientific">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/José.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/José.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Dr. José B. Limongi</b></small><br/>
-            <small class="mt-8 mb-32">Radiologist</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter scientific">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Mariana.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Mariana.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Dra. Mariana Limongi</b></small><br/>
-            <small class="mt-8 mb-32">Radiologist</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Fabiane.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Fabiane.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Fabiane Soares</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Felipe.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Felipe.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Felipe Parreiras</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Fernanda.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Fernanda.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Fernanda Monteiro</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Francisco.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Francisco.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Francisco Limongi</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter marketing_sales">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Geovanna.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Geovanna.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Geovanna Gelan</b></small><br/>
-            <small class="mt-8 mb-32">Marketing and sales</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter engineering">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Germano.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Germano.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Germano Teixeira</b></small><br/>
-            <small class="mt-8 mb-32">Engineering</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter engineering">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Guilhobel.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Guilhobel.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Guilherme Sales</b></small><br/>
-            <small class="mt-8 mb-32">Engineering</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter engineering">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Gustavo_bigogno.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Gustavo_bigogno.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Gustavo Bigogno</b></small><br/>
-            <small class="mt-8 mb-32">Engineering</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter marketing_sales">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Gustavo.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Gustavo.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Gustavo Costa</b></small><br/>
-            <small class="mt-8 mb-32">Marketing and sales</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Izaque.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Izaque.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Izaque Lima</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Jessica_gomes.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Jessica_gomes.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Jessica Gomes</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Jonathan_avatar.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Jonathan_avatar.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Jonathan Eduardo</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter engineering">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/joao.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/joao.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>João Pedro Périco</b></small><br/>
-            <small class="mt-8 mb-32">Engineering</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Junior.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Junior.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Junior Cotta</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter engineering">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Junior_Triquez.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Junior_Triquez.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Junior Triquez</b></small><br/>
-            <small class="mt-8 mb-32">Engineering</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter marketing_sales">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Kadu.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Kadu.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Kadu Morais</b></small><br/>
-            <small class="mt-8 mb-32">Marketing and sales</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Leticia.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Leticia.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Letícia Pereira</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/leticia_veloso.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/leticia_veloso.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Leticia Veloso</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Lucas.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Lucas.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Lucas Monteiro</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter marketing_sales">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Luiza.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Luiza.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Luiza Hilkelmann</b></small><br/>
-            <small class="mt-8 mb-32">Marketing and sales</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/monique_avatar.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/monique_avatar.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Monique Gama</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter marketing_sales">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Natalia.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Natalia.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Natália Dória</b></small><br/>
-            <small class="mt-8 mb-32">Marketing and sales</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/otavio.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/otavio.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Otavio Henrique</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Rayane.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Rayane.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Rayane Pereira</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Roberto.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Roberto.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Roberto Bloch</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter marketing_sales">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Sarah.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Sarah.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Sarah Soares</b></small><br/>
-            <small class="mt-8 mb-32">Marketing and sales</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter engineering">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Scheilla.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Scheilla.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Scheilla Artifon</b></small><br/>
-            <small class="mt-8 mb-32">Engineering</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Thainá.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Thainá.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Thainá Azevedo</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter marketing_sales">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Thales.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Thales.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Thales Saboia</b></small><br/>
-            <small class="mt-8 mb-32">Marketing and sales</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter engineering">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Tiago.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Tiago.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Tiago Pereira</b></small><br/>
-            <small class="mt-8 mb-32">Engineering</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter customer_experience">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Walbert.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Walbert.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Walbertt da Paz</b></small><br/>
-            <small class="mt-8 mb-32">Customer Experience</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
       <div class="col-md-2 col-sm-3 col-6 filter engineering">
         <div class="card shadow mt-24">
           <div class="team">
-            <img src="assets/img/equipe/Willian.png" alt="Cfaz.net team member">
+            <img src="assets/img/equipe/Willian.png" alt="">
             <div class="wave"></div>
           </div>
           <div class="informations">
             <small class="text-primary mt-8"><b>Willian Varela</b></small><br/>
-            <small class="mt-8 mb-32">Engineering</small>
+            <small class="mt-8 mb-32"></small>
           </div>
         </div>
       </div>
     </div>
   </div>
-</section>
+</section> -->
     </main>
 
-    <footer id="footer">
-      <section class="container">
-        <div class="footer-container">
-          <div>
-            <h3 class="text-white"><strong>Contact us</strong></h3>
-            <p class="mt-24 text-white"><strong>Commercial</strong></p>
-            <div class="footer-item mt-8 mb-8">
-              <img src="assets/img/icones/footer_whatsapp.png" alt="Whatsapp icon">
-              <p class="mb-0"><a class="hover_underline" target="_blank" href="https://api.whatsapp.com/send?phone=5538998321411&text=Ol%C3%A1%20Natalia!%20Eu%20gostaria%20de%20saber%20mais%20sobre%20o%20sistema%20de%20voc%C3%AAs.%20%3A">(38) 9 9832-1411</a><small>Natália</small></p>
-            </div>
-            <div class="footer-item mt-8">
-              <img src="assets/img/icones/footer_email.png" alt="Email icon">
-              <p class="mb-0"><a href="mailto:vendas@cfaz.net" class="hover_underline">vendas@cfaz.net</a></p>
-            </div>
-            <p class="mt-24 text-white"><strong>Support</strong></p>
-            <div class="footer-item mt-8">
-              <img src="assets/img/icones/footer_whatsapp.png" alt="Whatsapp icon">
-              <p class="mb-0"><a class="hover_underline" target="_blank" href="https://api.whatsapp.com/send?phone=553139560980&text=Ol%C3%A1!%20Eu%20gostaria%20de%20tirar%20algumas%20d%C3%BAvidas%20sobre%20o%20sistema">(31) 3956-0980</a></p>
-            </div>
-            <div class="footer-item mt-8">
-              <img src="assets/img/icones/footer_fone.png" alt="Call center icon">
-              <p class="mb-0"><a class="hover_underline" target="_blank" href="http://kb.cfaz.net/">Go to the call center</a></p>
-            </div>
+    <footer id="footer" class="pt-4 pb-3">
+      <div class="container-fluid">
+        <section class="d-flex justify-content-between align-items-center">
+          <a href="index.html"><img src="../assets/img/footer_logo.png" alt=""></a>
+          
+          <div class="d-flex align-items-end justify-content-around">
+            <img class="me-4" src="../assets/img/icons/footer-hippaa.png" alt="">
+            <img class="me-4" src="../assets/img/icons/footer-lgpd.png" alt="">
+            <img class="me-4" src="../assets/img/icons/footer-google.png" alt="">
+            <img src="../assets/img/icons/footer-anvisa.png" alt="">
           </div>
 
-          <div class="footer-mobile">
-            <div class="footer-item">
-              <img src="assets/img/icones/icone_beneficios.png" alt="Icon with gift packaging">
-              <h3 class="mb-0"><a target="_blank" href="https://beneficios.cfaz.net/" class="text-white hover_underline"><strong>Benefits Program</strong></a></h3>
-            </div>
+          <div class="locale">
             
-            <div class="mt-24">
-              <p class="text-white mb-16"><strong>Follow Cfaz on social media</strong></p>
-              <a target="_blank" href="https://www.instagram.com/cfaznet/"><img src="assets/img/icones/footer_instagram.png" alt="Instagram icon"></a>
-              <a target="_blank" href="https://www.facebook.com/cfaz.net/"><img src="assets/img/icones/footer_facebook.png" alt="Facebook icon"></a>
-              <a target="_blank" href="https://www.youtube.com/channel/UCv14GXXqg2RBbXZcc3qZqcg"><img src="assets/img/icones/footer_youtube.png" alt="Youtube icon"></a>
-              <a target="_blank" href="https://www.linkedin.com/company/cfaz-net"><img src="assets/img/icones/footer_linkedin.png" alt="Linkedin icon"></a>
-            </div>
-
-            <div class="app-mobile mt-40">
-              <p class="text-white mb-8"><strong>Download our app</strong></p>
-              <a href="https://play.google.com/store/apps/details?id=max.cfaz.net" target="_blank"><img src="../assets/img/app_android.png"></a>
-              <a href="https://apps.apple.com/us/app/cfaz-net/id1609074748" target="_blank"><img src="../assets/img/app_ios.png"></a>
-            </div>
+            
+            
+            <a href="/about.html"><img src="assets/img/icons/bandeira_pt-BR.png" alt=""></a>
+            <a href="/es/about.html"><img src="assets/img/icons/bandeira_es.png" alt=""></a>
+            <a href="/en/about.html"><img src="assets/img/icons/bandeira_en.png" alt=""></a>
+            <input id="language" type="hidden" value="en">
           </div>
+        </section>
+      </div>
 
-          <div class="footer-mobile">
-            <h3 class="text-white"><strong>BLOG Posts</strong></h3>
-            <p class="mt-32">Want to stay on top of news for <br/> your area? Fill in your e-mail and <br/> sign up for our Newsletter.</p>
-            <div class="mt-24">
-              <div id="newsletter"></div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <hr class="border border-1">
 
-      <div class="divider mt-16"></div>
-
-      <section class="container p-16">
-        <div class="row align-items-center">
-          <div class="col col-md-4 mobile-none">
-            <div class="logo">
-              <a href="index.html"><img src="assets/img/logo.png" alt="Cfaz.net logo" class="img-fluid"></a>
-            </div>
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+          <div style="line-height: 100%;">
+            <small class="text-white-gray">Desenvolvido por Cfaz.net</small><br>
+            <small class="text-white-gray">2013 - <span id="current_year"></span></small>
           </div>
-          <div class="col col-md-4 col-sm-12 text-center">
-            <div class="blazon">
-              <div class="d-flex align-items-center justify-content-center">
-                <div class="p-16">
-                  <img src="assets/img/brasoes/gcp.png" alt="GCP blazon">
-                </div>
-                <div class="p-16">
-                  <img src="assets/img/brasoes/LGPD.png" alt="LGPD blazon">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col col-md-4 text-end mobile-none">
-            <div class="locale">
-              <a href="/about.html"><img src="assets/img/icones/bandeira_pt-BR.png" alt=""></a>
-              <a href="/es/about.html"><img src="assets/img/icones/bandeira_es.png" alt="Flag spain"></a>
-              <a href="/en/about.html"><img src="assets/img/icones/bandeira_en.png" alt="United States flag"></a>
-            </div>
+          <div>
+            <a class="text-white-gray hover_underline" href="privacy_policy.html" target="_blank">
+              <small class="text-white-gray">Política de Privacidade</small>
+            </a>
           </div>
         </div>
-      </section>
-
-      <div class="divider"></div>
-
-      <section class="author d-flex align-items-center justify-content-evenly p-24">
-        <small class="text-white">Desenvolvido por Cfaz.net</small>
-        <small><a class="text-white" href="privacy_policy.html" target="_blank">Política de privacidade</a></small>
-      </section>
+      </div>
     </footer>
 
     <div id="cookieNotice" class="light display-right">
     <div class="cookiesModal">
       <div>
-        <span>We use cookies and other similar technologies to improve your experience on our services, but we don't use them for tracking purposes. <br/>By using our services, you agree to such monitoring. We also inform you that we have updated our <a target="_blank" href="https://cfaz.net/privacy_policy.html">Privacy Policy</a></span>
+        <span></span>
       </div>
       <div>
         <button class="btn btn-secondary btn-sm" onclick="acceptCookieConsent();">Aceitar</button>
@@ -834,19 +757,91 @@
     </div>
   </div>
 
-    <!-- Modal -->
-<div class="modal fade" id="contact_modal" tabindex="-1" aria-labelledby="contact_modal" aria-hidden="true">
-	<div class="modal-dialog modal-lg">
+    <!-- Modal Telerradiologia -->
+<div class="modal fade" id="modal_telerradiologia" tabindex="-1" aria-labelledby="modal_telerradiologia" aria-hidden="true">
+	<div class="modal-dialog">
 		<div class="modal-content">
-			<div class="modal-header align-items-start">
-				<div>
-					<h2><strong>Talk to one of our consultants</strong></h2>
-					<small>Discover the many advantages that the Cfaz.net system offers over other systems in terms of saving time, reducing costs and increasing productivity and revenue.</small>
-				</div>
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<div class="modal-body">
-				<div id="form_contact_modal"></div>
+				<div id="telerradiologia"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Consultórios -->
+<div class="modal fade" id="modal_consultorios" tabindex="-1" aria-labelledby="modal_consultorios" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div id="consultorios"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Clinicas -->
+<div class="modal fade" id="modal_clinicas" tabindex="-1" aria-labelledby="modal_clinicas" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div id="clinicas"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Centros de Radiologia -->
+<div class="modal fade" id="modal_centros_radiologia" tabindex="-1" aria-labelledby="modal_centros_radiologia" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div id="centros_radiologia"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Centros de Radiologia -->
+<div class="modal fade" id="modal_centrais_laudo" tabindex="-1" aria-labelledby="modal_centrais_laudo" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div id="centrais_laudo"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Hospitais -->
+<div class="modal fade" id="modal_hospitais" tabindex="-1" aria-labelledby="modal_hospitais" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div id="hospitais"></div>
 			</div>
 		</div>
 	</div>
@@ -860,6 +855,12 @@
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script> 
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- Carousel -->
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
     <!-- JS File -->
@@ -875,5 +876,19 @@
 
     <!-- Google Ads -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-754517111%22%3E"></script>
+
+    <!-- Card de parceiros (quando passa o mouse, mostra o segmento) -->
+    <script>  
+      function showSegment(num){
+        check_class_none = document.querySelector(".segment-image-" + num).classList.contains("d-none")
+        if(!check_class_none){
+          document.querySelector(".segment-image-" + num).classList.add('d-none')
+          document.querySelector(".segment-text-" + num).classList.remove('d-none')
+        } else {
+          document.querySelector(".segment-image-" + num).classList.remove('d-none')
+          document.querySelector(".segment-text-" + num).classList.add('d-none')
+        }
+      }
+    </script>
   </body>
   </html>

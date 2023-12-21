@@ -11,7 +11,7 @@ permalink: /default/
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-M5XT6T9');</script>
-    <!-- End Google Tag Manager -->
+
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -38,177 +38,100 @@ permalink: /default/
     <link href="assets/img/favicon.ico" rel="icon">
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Carousel -->
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- Template Main CSS File -->
+    <link href="assets/css/custom.css" rel="stylesheet">
     <link href="assets/css/styles.css" rel="stylesheet">
   </head>
 
   <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5XT6T9"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5XT6T9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 
-    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
-      <div class="container d-flex align-items-center justify-content-between">
-
-        <div class="logo">
-          <a href="index.html"><img src="assets/img/logo.png" alt="{% t alt.logo %}" class="img-fluid"></a>
+    <header id="header" class="container-fluid fixed-top d-flex align-items-center justify-content-between bg-white">
+      <a class="navbar-brand" href="index.html"><img src="assets/img/Logo.png" alt="Logomarca cfaz" style="width: 60%"></a>
+      
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="hospitais.html">Hospitais</a></li>
+              <li class="nav-item"><a class="nav-link" href="radiologia.html">Radiologia</a></li>
+              <li class="nav-item"><a class="nav-link" href="odontologia-medicina.html">Odontologia e Medicina</a></li>
+              <li class="nav-item"><a class="nav-link" href="veterinaria.html">Veterinária</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html#contact">Contatos</a></li>
+              <li class="nav-item"><a class="nav-link" target="_blank" href="http://kb.cfaz.net/">Blog</a></li>
+              <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nós</a></li>
+            </ul>
+          </div>
         </div>
+      </nav>
 
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto active" href="index.html#hero">{% t navigation.header.menu.home %}</a></li>
-            <li class="nav-divider"></li>
-            <li class="dropdown">
-              <a class="nav-link">{% t navigation.header.menu.solutions.title %}<i class="bi bi-chevron-down"></i></a>
-              <ul>
-                <li><a href="dental_radiology.html">{% t navigation.header.menu.solutions.dental_radiology %}</a></li>
-                <li><a href="medical_centers.html">{% t navigation.header.menu.solutions.medical_centers %}</a></li>
-                <li><a href="teleradiology.html">{% t navigation.header.menu.solutions.teleradiology %}</a></li>
-                <li><a href="odontology.html">{% t navigation.header.menu.solutions.odontology %}</a></li>
-                <li><a href="students_institutions.html">{% t navigation.header.menu.solutions.students_institutions %}</a></li>
-              </ul>
-            </li>
-            <li class="nav-divider"></li>
-            <li><a class="nav-link scrollto" href="index.html#testimony">{% t navigation.header.menu.testimony %}</a></li>
-            <li class="nav-divider"></li>
-            <li><a class="nav-link scrollto" href="index.html#about">{% t navigation.header.menu.about %}</a></li>
-            <li class="nav-divider"></li>
-            <li class="dropdown">
-              <a class="nav-link">{% t navigation.header.menu.contact_us.title %}<i class="bi bi-chevron-down"></i></a>
-              <ul>
-                <li><a href="index.html#contact_us">{% t navigation.header.menu.contact_us.commercial %}</a></li>
-                <li><a target="_blank" href="http://kb.cfaz.net/">{% t navigation.header.menu.contact_us.support %}</a></li>
-              </ul>
-            </li>
-            <li class="nav-divider"></li>
-            <li><a class="nav-link" target="_blank" href="https://blog.cfaz.net/">{% t navigation.header.menu.blog %}</a></li>
-            <li class="btn-tertiary"><a class="login-cfaz" target="_blank" href="https://max.cfaz.net/">{% t navigation.header.btn_enter %}</a>
-            </li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-
-        <div class="locale">
-          {% capture pr-BR %}{{ page.url}}{% endcapture %}
-          {% capture es %}/es{{ page.url}}{% endcapture %}
-          {% capture en %}/en{{ page.url}}{% endcapture %}
-          <a href="{{ pr-BR }}"><img src="assets/img/icones/bandeira_pt-BR.png" alt="{% t alt.flag_pt-BR %}"></a>
-          <a href="{{ es }}"><img src="assets/img/icones/bandeira_es.png" alt="{% t alt.flag_es %}"></a>
-          <a href="{{ en }}"><img src="assets/img/icones/bandeira_en.png" alt="{% t alt.flag_en %}"></a>
-          <input id="language" type="hidden" value="{{ site.lang }}">
-        </div>
+      <div class="locale">
+        {% capture pr-BR %}{{ page.url}}{% endcapture %}
+        {% capture es %}/es{{ page.url}}{% endcapture %}
+        {% capture en %}/en{{ page.url}}{% endcapture %}
+        <a href="{{ pr-BR }}"><img src="assets/img/icons/bandeira_pt-BR.png" alt="{% t alt.flag_pt-BR %}"></a>
+        <a href="{{ es }}"><img src="assets/img/icons/bandeira_es.png" alt="{% t alt.flag_es %}"></a>
+        <a href="{{ en }}"><img src="assets/img/icons/bandeira_en.png" alt="{% t alt.flag_en %}"></a>
+        <input id="language" type="hidden" value="{{ site.lang }}">
       </div>
+      <a class="btn btn-cta" target="_blank" href="https://max.cfaz.net/">Entrar</a>
     </header>
 
     <main>
       {{content}}
     </main>
 
-    <footer id="footer">
-      <section class="container">
-        <div class="footer-container">
+    <footer id="footer" class="pt-4 pb-3">
+      <div class="container-fluid">
+        <section class="d-flex justify-content-between align-items-center">
+          <a href="index.html"><img src="../assets/img/footer_logo.png" alt=""></a>
+          
+          <div class="d-flex align-items-end justify-content-around">
+            <img class="me-4" src="../assets/img/icons/footer-hippaa.png" alt="">
+            <img class="me-4" src="../assets/img/icons/footer-lgpd.png" alt="">
+            <img class="me-4" src="../assets/img/icons/footer-google.png" alt="">
+            <img src="../assets/img/icons/footer-anvisa.png" alt="">
+          </div>
+
+          <div class="locale">
+            {% capture pr-BR %}{{ page.url}}{% endcapture %}
+            {% capture es %}/es{{ page.url}}{% endcapture %}
+            {% capture en %}/en{{ page.url}}{% endcapture %}
+            <a href="{{ pr-BR }}"><img src="assets/img/icons/bandeira_pt-BR.png" alt="{% t alt.flag_pt-BR %}"></a>
+            <a href="{{ es }}"><img src="assets/img/icons/bandeira_es.png" alt="{% t alt.flag_es %}"></a>
+            <a href="{{ en }}"><img src="assets/img/icons/bandeira_en.png" alt="{% t alt.flag_en %}"></a>
+            <input id="language" type="hidden" value="{{ site.lang }}">
+          </div>
+        </section>
+      </div>
+
+      <hr class="border border-1">
+
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+          <div style="line-height: 100%;">
+            <small class="text-white-gray">Desenvolvido por Cfaz.net</small><br>
+            <small class="text-white-gray">2013 - <span id="current_year"></span></small>
+          </div>
           <div>
-            <h3 class="text-white"><strong>{% t navigation.footer.contact_us %}</strong></h3>
-            <p class="mt-24 text-white"><strong>{% t navigation.footer.commercial %}</strong></p>
-            <div class="footer-item mt-8 mb-8">
-              <img src="assets/img/icones/footer_whatsapp.png" alt="{% t alt.icons.whatsapp %}">
-              <p class="mb-0"><a class="hover_underline" target="_blank" href="https://api.whatsapp.com/send?phone=5538998321411&text=Ol%C3%A1%20Natalia!%20Eu%20gostaria%20de%20saber%20mais%20sobre%20o%20sistema%20de%20voc%C3%AAs.%20%3A">(38) 9 9832-1411</a><small>Natália</small></p>
-            </div>
-            <div class="footer-item mt-8">
-              <img src="assets/img/icones/footer_email.png" alt="{% t alt.icons.email %}">
-              <p class="mb-0"><a href="mailto:vendas@cfaz.net" class="hover_underline">vendas@cfaz.net</a></p>
-            </div>
-            <p class="mt-24 text-white"><strong>{% t navigation.footer.support %}</strong></p>
-            <div class="footer-item mt-8">
-              <img src="assets/img/icones/footer_whatsapp.png" alt="{% t alt.icons.whatsapp %}">
-              <p class="mb-0"><a class="hover_underline" target="_blank" href="https://api.whatsapp.com/send?phone=553139560980&text=Ol%C3%A1!%20Eu%20gostaria%20de%20tirar%20algumas%20d%C3%BAvidas%20sobre%20o%20sistema">(31) 3956-0980</a></p>
-            </div>
-            <div class="footer-item mt-8">
-              <img src="assets/img/icones/footer_fone.png" alt="{% t alt.icons.call_center %}">
-              <p class="mb-0"><a class="hover_underline" target="_blank" href="http://kb.cfaz.net/">{% t navigation.footer.call_center %}</a></p>
-            </div>
-          </div>
-
-          <div class="footer-mobile">
-            <div class="footer-item">
-              <img src="assets/img/icones/icone_beneficios.png" alt="{% t alt.icons.gift %}">
-              <h3 class="mb-0"><a target="_blank" href="https://beneficios.cfaz.net/" class="text-white hover_underline"><strong>{% t navigation.footer.benefits_program %}</strong></a></h3>
-            </div>
-            
-            <div class="mt-24">
-              <p class="text-white mb-16"><strong>{% t navigation.footer.follow_on_social_media %}</strong></p>
-              <a target="_blank" href="https://www.instagram.com/cfaznet/"><img src="assets/img/icones/footer_instagram.png" alt="{% t alt.instagram %}"></a>
-              <a target="_blank" href="https://www.facebook.com/cfaz.net/"><img src="assets/img/icones/footer_facebook.png" alt="{% t alt.facebook %}"></a>
-              <a target="_blank" href="https://www.youtube.com/channel/UCv14GXXqg2RBbXZcc3qZqcg"><img src="assets/img/icones/footer_youtube.png" alt="{% t alt.youtube %}"></a>
-              <a target="_blank" href="https://www.linkedin.com/company/cfaz-net"><img src="assets/img/icones/footer_linkedin.png" alt="{% t alt.linkedin %}"></a>
-            </div>
-
-            <div class="app-mobile mt-40">
-              <p class="text-white mb-8"><strong>{% t navigation.footer.download_app %}</strong></p>
-              <a href="https://play.google.com/store/apps/details?id=max.cfaz.net" target="_blank"><img src="../assets/img/app_android.png"></a>
-              <a href="https://apps.apple.com/us/app/cfaz-net/id1609074748" target="_blank"><img src="../assets/img/app_ios.png"></a>
-            </div>
-          </div>
-
-          <div class="footer-mobile">
-            <h3 class="text-white"><strong>{% t navigation.footer.blog_posts %}</strong></h3>
-            <p class="mt-32">{% t navigation.footer.newsletter %}</p>
-            <div class="mt-24">
-              <div id="newsletter"></div>
-            </div>
+            <a class="text-white-gray hover_underline" href="privacy_policy.html" target="_blank">
+              <small class="text-white-gray">Política de Privacidade</small>
+            </a>
           </div>
         </div>
-      </section>
-
-      <div class="divider mt-16"></div>
-
-      <section class="container p-16">
-        <div class="row align-items-center">
-          <div class="col col-md-4 mobile-none">
-            <div class="logo">
-              <a href="index.html"><img src="assets/img/logo.png" alt="{% t alt.logo %}" class="img-fluid"></a>
-            </div>
-          </div>
-          <div class="col col-md-4 col-sm-12 text-center">
-            <div class="blazon">
-              <div class="d-flex align-items-center justify-content-center">
-                <div class="p-16">
-                  <img src="assets/img/brasoes/gcp.png" alt="{% t alt.GCP %}">
-                </div>
-                <div class="p-16">
-                  <img src="assets/img/brasoes/LGPD.png" alt="{% t alt.LGPD %}">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col col-md-4 text-end mobile-none">
-            <div class="locale">
-              <a href="{{ pr-BR }}"><img src="assets/img/icones/bandeira_pt-BR.png" alt="{% t alt.flag_pt-BR %}"></a>
-              <a href="{{ es }}"><img src="assets/img/icones/bandeira_es.png" alt="{% t alt.flag_es %}"></a>
-              <a href="{{ en }}"><img src="assets/img/icones/bandeira_en.png" alt="{% t alt.flag_en %}"></a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="divider"></div>
-
-      <section class="author d-flex align-items-center justify-content-evenly p-24">
-        <small class="text-white">Desenvolvido por Cfaz.net</small>
-        <small><a class="text-white" href="privacy_policy.html" target="_blank">Política de privacidade</a></small>
-      </section>
+      </div>
     </footer>
 
     <div id="cookieNotice" class="light display-right">
@@ -232,6 +155,12 @@ permalink: /default/
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script> 
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- Carousel -->
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
     <!-- JS File -->
@@ -247,5 +176,19 @@ permalink: /default/
 
     <!-- Google Ads -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-754517111%22%3E"></script>
+
+    <!-- Card de parceiros (quando passa o mouse, mostra o segmento) -->
+    <script>  
+      function showSegment(num){
+        check_class_none = document.querySelector(".segment-image-" + num).classList.contains("d-none")
+        if(!check_class_none){
+          document.querySelector(".segment-image-" + num).classList.add('d-none')
+          document.querySelector(".segment-text-" + num).classList.remove('d-none')
+        } else {
+          document.querySelector(".segment-image-" + num).classList.remove('d-none')
+          document.querySelector(".segment-text-" + num).classList.add('d-none')
+        }
+      }
+    </script>
   </body>
   </html>
