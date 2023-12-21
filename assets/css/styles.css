@@ -60,7 +60,8 @@
 #cfaz-science,
 #newsletter,
 #api,
-#storage{
+#storage,
+#humanized-technical-support{
     background-image: url(../img/background/background.png);
     background-size: cover;
 }
@@ -236,17 +237,24 @@
 /*--------------------------------------------------------------
 # Planos sob medida (hospitais, centrais de laudo e centros de radiologia)
 --------------------------------------------------------------*/
-.plan-v{
+#hospital-tailor-made-plans .plan-v{
     background-image: url(../img/icons/plano-v.png);
     background-repeat: no-repeat;
+    background-position: center;
     width: 16px;
     height: 16px;
 }
 
-.plan-x{
+#hospital-tailor-made-plans .plan-x{
     background-image: url(../img/icons/plano-x.png);
     background-repeat: no-repeat;
+    background-position: center;
     width: 16px;
     height: 16px;
 }
 
+#hospital-tailor-made-plans tr th{
+    width: 200px;
+    max-width: 200px !important;
+    font-weight: normal !important;
+}
