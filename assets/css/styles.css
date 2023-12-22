@@ -28,7 +28,8 @@
 #storage,
 #humanized-technical-support,
 #dicom,
-#lgpd{
+#lgpd,
+#visualization-3d-mpr{
     background-image: url(../img/background/background.png);
     background-size: cover;
 }
@@ -259,4 +260,30 @@
     width: 200px;
     max-width: 200px !important;
     font-weight: normal !important;
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Radiologia
+--------------------------------------------------------------*/
+#title-radiology{
+    background-image: url(../img/background/bg-radiologia.png);
+    background-size: cover;
+    margin-top: 64px;
+    padding: 24px 0;
+}
+
+/*--------------------------------------------------------------
+# Odontologia e Medicina
+--------------------------------------------------------------*/
+#title-odontologia-medicina{
+    background-image: url(../img/background/bg-odontologia-medicina.png);
+    background-size: cover;
+    margin-top: 64px;
+    padding: 24px 0;
 }
