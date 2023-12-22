@@ -1,7 +1,3 @@
----
-permalink: /default/
----
-
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
@@ -78,19 +74,36 @@ permalink: /default/
       </nav>
 
       <div class="locale">
-        {% capture pr-BR %}{{ page.url}}{% endcapture %}
-        {% capture es %}/es{{ page.url}}{% endcapture %}
-        {% capture en %}/en{{ page.url}}{% endcapture %}
-        <a href="{{ pr-BR }}"><img src="assets/img/icons/bandeira_pt-BR.png" alt="{% t alt.flag_pt-BR %}"></a>
-        <a href="{{ es }}"><img src="assets/img/icons/bandeira_es.png" alt="{% t alt.flag_es %}"></a>
-        <a href="{{ en }}"><img src="assets/img/icons/bandeira_en.png" alt="{% t alt.flag_en %}"></a>
-        <input id="language" type="hidden" value="{{ site.lang }}">
+        
+        
+        
+        <a href="/odontologia_medicina.html"><img src="assets/img/icons/bandeira_pt-BR.png" alt=""></a>
+        <a href="/es/odontologia_medicina.html"><img src="assets/img/icons/bandeira_es.png" alt=""></a>
+        <a href="/en/odontologia_medicina.html"><img src="assets/img/icons/bandeira_en.png" alt=""></a>
+        <input id="language" type="hidden" value="pt-BR">
       </div>
       <a class="btn btn-cta" target="_blank" href="https://max.cfaz.net/">Entrar</a>
     </header>
 
     <main>
-      {{content}}
+      <!-- ======= Hero ======= -->
+<section id="title-odontologia-medicina" class="text-center">
+  <h3 class="text-primary"><strong>Odontologia e Medicina</strong></h3>
+</section>
+
+<!-- ======= Informações ======= -->
+<section id="informations" class="my-5 pb-5">
+  <div class="container-fluid d-flex align-items-center justify-content-around">
+    <div class="col-md-5">
+      <p>Tecnologia de ponta e Excelência em atendimento para gerenciar toda a experiência de atendimento ao paciente,
+        além permitir controlar a gestão administrativa e financeira de <strong>Consultórios, Clínicas e Franquias
+          Odontológicas</strong> e <strong>Médicas.</strong></p>
+    </div>
+    <img src="./assets/img/odontologia_medicina.png">
+  </div>
+</section>
+
+
     </main>
 
     <footer id="footer" class="pt-4 pb-3">
@@ -106,13 +119,13 @@ permalink: /default/
           </div>
 
           <div class="locale">
-            {% capture pr-BR %}{{ page.url}}{% endcapture %}
-            {% capture es %}/es{{ page.url}}{% endcapture %}
-            {% capture en %}/en{{ page.url}}{% endcapture %}
-            <a href="{{ pr-BR }}"><img src="assets/img/icons/bandeira_pt-BR.png" alt="{% t alt.flag_pt-BR %}"></a>
-            <a href="{{ es }}"><img src="assets/img/icons/bandeira_es.png" alt="{% t alt.flag_es %}"></a>
-            <a href="{{ en }}"><img src="assets/img/icons/bandeira_en.png" alt="{% t alt.flag_en %}"></a>
-            <input id="language" type="hidden" value="{{ site.lang }}">
+            
+            
+            
+            <a href="/odontologia_medicina.html"><img src="assets/img/icons/bandeira_pt-BR.png" alt=""></a>
+            <a href="/es/odontologia_medicina.html"><img src="assets/img/icons/bandeira_es.png" alt=""></a>
+            <a href="/en/odontologia_medicina.html"><img src="assets/img/icons/bandeira_en.png" alt=""></a>
+            <input id="language" type="hidden" value="pt-BR">
           </div>
         </section>
       </div>
@@ -137,7 +150,7 @@ permalink: /default/
     <div id="cookieNotice" class="light display-right">
     <div class="cookiesModal">
       <div>
-        <span>{% t navigation.main.cookies_confirmation %}</span>
+        <span></span>
       </div>
       <div>
         <button class="btn btn-secondary btn-sm" onclick="acceptCookieConsent();">Aceitar</button>
@@ -145,7 +158,95 @@ permalink: /default/
     </div>
   </div>
 
-    {% include modal.html %}
+    <!-- Modal Telerradiologia -->
+<div class="modal fade" id="modal_telerradiologia" tabindex="-1" aria-labelledby="modal_telerradiologia" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div id="telerradiologia"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Consultórios -->
+<div class="modal fade" id="modal_consultorios" tabindex="-1" aria-labelledby="modal_consultorios" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div id="consultorios"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Clinicas -->
+<div class="modal fade" id="modal_clinicas" tabindex="-1" aria-labelledby="modal_clinicas" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div id="clinicas"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Centros de Radiologia -->
+<div class="modal fade" id="modal_centros_radiologia" tabindex="-1" aria-labelledby="modal_centros_radiologia" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div id="centros_radiologia"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Centrais de Laudo -->
+<div class="modal fade" id="modal_centrais_laudo" tabindex="-1" aria-labelledby="modal_centrais_laudo" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div id="centrais_laudo"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Hospitais -->
+<div class="modal fade" id="modal_hospitais" tabindex="-1" aria-labelledby="modal_hospitais" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div id="hospitais"></div>
+			</div>
+		</div>
+	</div>
+</div>
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
     <div id="preloader"></div>
