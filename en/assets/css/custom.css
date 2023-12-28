@@ -226,3 +226,7 @@ body::-webkit-scrollbar-thumb {
 .align-items-flex-start{
     align-items: flex-start !important;
 }
+
+.h-85{
+    height: 85%;
+}
