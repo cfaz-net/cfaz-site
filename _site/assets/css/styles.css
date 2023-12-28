@@ -291,3 +291,13 @@
     margin-top: 64px;
     padding: 24px 0;
 }
+
+/*--------------------------------------------------------------
+# Veterinaria
+--------------------------------------------------------------*/
+#title-vet{
+    background-image: url(../img/background/bg-vet.png);
+    background-size: cover;
+    margin-top: 64px;
+    padding: 24px 0;
+}
