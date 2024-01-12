@@ -161,30 +161,28 @@
   //   });
   // }
 
-  /**
-   * Initiate gallery lightbox 
-   */
-  // const galleryLightbox = GLightbox({
-  //   selector: '.gallery-lightbox'
-  // });
+  /* Equipe */
+  const galleryLightbox = GLightbox({
+    selector: '.gallery-lightbox'
+  });
 
   /**
-   * Testimonials slider
+   * Slide sobre - valores
    */
-  // new Swiper('.testimonials-slider', {
-  //   speed: 600,
-  //   loop: true,
-  //   autoplay: {
-  //     delay: 5000,
-  //     disableOnInteraction: false
-  //   },
-  //   slidesPerView: 'auto',
-  //   pagination: {
-  //     el: '.swiper-pagination',
-  //     type: 'bullets',
-  //     clickable: true
-  //   }
-  // });
+  new Swiper('.values-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });
 
   /* Slider */
   new Swiper(".partners", {
@@ -230,6 +228,18 @@
         target: '#telerradiologia'
       }
 
+      let language = document.getElementById('language');
+
+      if(language.value == 'es'){
+        formOptions.formId = "71dc0388-92d1-4fff-96a8-299545e061a2"
+      }
+      else if(language.value == 'en'){
+        formOptions.formId = "7304222d-f161-4b9a-a5eb-bd09c878309d"
+      }
+      else {
+        formOptions.formId = "e376ceaf-f166-44ea-ae5e-1b3496892a43"
+      }
+
       hbspt.forms.create(formOptions);
     }
 
@@ -240,6 +250,18 @@
         portalId: "6654092",
         formId: "44bd69ae-b894-4476-bb23-c7125e388247",
         target: '#consultorios'
+      }
+
+      let language = document.getElementById('language');
+
+      if(language.value == 'es'){
+        formOptions.formId = "6654ab5b-cf37-4d4f-a106-be4e2d015356"
+      }
+      else if(language.value == 'en'){
+        formOptions.formId = "17e87934-5cff-4a92-9afb-1845d4b555b5"
+      }
+      else {
+        formOptions.formId = "44bd69ae-b894-4476-bb23-c7125e388247"
       }
 
       hbspt.forms.create(formOptions);
@@ -254,6 +276,18 @@
         target: '#clinicas'
       }
 
+      let language = document.getElementById('language');
+
+      if(language.value == 'es'){
+        formOptions.formId = "8ab0e137-c5f5-4142-a724-6433d984c018"
+      }
+      else if(language.value == 'en'){
+        formOptions.formId = "5524c00f-30fa-4e9f-ba9b-f744a583b032"
+      }
+      else {
+        formOptions.formId = "e0fcad69-c758-4bc7-b694-fe44cefb1af6"
+      }
+
       hbspt.forms.create(formOptions);
     }
 
@@ -264,6 +298,18 @@
         portalId: "6654092",
         formId: "59d0ff11-a63b-4368-9ad7-725c4630dd9f",
         target: '#centros_radiologia'
+      }
+
+      let language = document.getElementById('language');
+
+      if(language.value == 'es'){
+        formOptions.formId = "144a3f19-8c64-4d08-9f58-263364713c72"
+      }
+      else if(language.value == 'en'){
+        formOptions.formId = "4baf0807-b2f9-4bb6-aad0-f6a9defcfdac"
+      }
+      else {
+        formOptions.formId = "59d0ff11-a63b-4368-9ad7-725c4630dd9f"
       }
 
       hbspt.forms.create(formOptions);
@@ -278,6 +324,18 @@
         target: '#centrais_laudo'
       }
 
+      let language = document.getElementById('language');
+
+      if(language.value == 'es'){
+        formOptions.formId = "cac19070-6f81-448d-a8b4-2bb381f6764e"
+      }
+      else if(language.value == 'en'){
+        formOptions.formId = "88fbde29-8c19-4068-b5e0-fb7a323211ef"
+      }
+      else {
+        formOptions.formId = "86fe8d85-ad8c-4ea9-ae7e-0d202564ba12"
+      }
+
       hbspt.forms.create(formOptions);
     }
 
@@ -290,23 +348,47 @@
         target: '#hospitais'
       }
 
+      let language = document.getElementById('language');
+
+      if(language.value == 'es'){
+        formOptions.formId = "5c5b47be-394c-4476-a44e-33702123e046"
+      }
+      else if(language.value == 'en'){
+        formOptions.formId = "0ebd0468-934c-4c70-9432-e392a96b5be8"
+      }
+      else {
+        formOptions.formId = "61452a6c-845e-4bf4-9fba-caa40a989e02"
+      }
+
       hbspt.forms.create(formOptions);
     }
   });
+  
+  /* Hubspot - Newsletter */
+  window.addEventListener('load', () => {
+    if(document.getElementById('newsletter')){
+      let formOptions = {
+        region: "na1",
+        portalId: "6654092",
+        formId: "8e7177fa-cb2f-4a31-934b-81e3a4c91ef8",
+        target: '#newsletter'
+      }
 
-  /**
-   * Newsletter
-   */
-  // window.addEventListener('load', () => {
-  //   if(document.getElementById('newsletter')){
-  //     hbspt.forms.create({
-  //       region: "na1",
-  //       portalId: "6654092",
-  //       formId: "d9d0ff9f-80df-4d31-9ece-8615c93638f5",
-  //       target: '#newsletter'
-  //     });
-  //   }
-  // });
+      let language = document.getElementById('language');
+
+      if(language.value == 'es'){
+        formOptions.formId = "b5f6f6fe-dfe8-442c-ac00-82619ceff512"
+      }
+      else if(language.value == 'en'){
+        formOptions.formId = "424ea7dc-406f-4818-a201-239b235335a8"
+      }
+      else {
+        formOptions.formId = "8e7177fa-cb2f-4a31-934b-81e3a4c91ef8"
+      }
+
+      hbspt.forms.create(formOptions);
+    }
+  });
 
   /**
    * Years Old
@@ -413,18 +495,16 @@
   //    t.parentNode.insertBefore(j, t)
   //  })(document, 'script', {serviceName: 'cfaz-site-frontend', serverUrl: 'https://f96389a6cd1d452aa9360d67fb2ac784.apm.us-east1.gcp.elastic-cloud.com:443'})
   
-  /**
-   * translation by browser
-   */
-  // var hostname = window.location.hostname;
-  // var referrer = document.referrer;
-  // var landingPage = !referrer || referrer.indexOf(hostname) == -1;
+  /* Tradução pelo browser */
+  var hostname = window.location.hostname;
+  var referrer = document.referrer;
+  var landingPage = !referrer || referrer.indexOf(hostname) == -1;
 
-  // var lang = navigator.language || navigator.userLanguage;
+  var lang = navigator.language || navigator.userLanguage;
     
-  // if (lang.indexOf('es') == 0 && landingPage){
-  //   window.location = '/es/';
-  // }else if(lang.indexOf('en') == 0 && landingPage){
-  //   window.location = '/en/';
-  // }
+  if (lang.indexOf('es') == 0 && landingPage){
+    window.location = '/es/';
+  }else if(lang.indexOf('en') == 0 && landingPage){
+    window.location = '/en/';
+  }
 })()
