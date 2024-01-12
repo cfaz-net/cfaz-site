@@ -34,7 +34,7 @@ function w3RemoveClass(element, name) {
 // Add active class to the current button (highlight it)
 if(document.getElementById('team')){
   var btnContainer = document.getElementById("buttons");
-  var btns = btnContainer.getElementsByClassName("btn");
+  var btns = btnContainer.getElementsByClassName("nav-link");
   for (var i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", function(){
       var current = document.getElementsByClassName("active");

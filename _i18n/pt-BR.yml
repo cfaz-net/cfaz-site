@@ -5,5 +5,13 @@ locales:
 navigation:
   header:
   main:
+    team:
+      title: "Equipe"
+      all: "Todos"
+      scientific: "Radiologista"
+      marketing_sales: "Marketing e Vendas"
+      engineering: "Engenharia"
+      customer_experience: "Experiência do cliente"
   footer:
 alt:
+  team: Membro da equipe Cfaz.net
