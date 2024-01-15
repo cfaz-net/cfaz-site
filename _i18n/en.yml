@@ -5,5 +5,6 @@ locales:
 navigation:
   header:
   main:
+    cookies_confirmation: We use cookies and other similar technologies to improve your experience on our services, but we don't use them for tracking purposes. By using our services, you agree to such monitoring.
   footer:
 alt:

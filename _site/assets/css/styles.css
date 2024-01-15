@@ -477,3 +477,23 @@ select.hs-input{
   margin: 0;
   color: var(--bs-primary);
 }
+
+/*--------------------------------------------------------------
+# Politica de Privacidade
+--------------------------------------------------------------*/
+#title-privacy-policy {
+  background-image: url(../img/background/background.png);
+  background-size: cover;
+  margin-top: 64px;
+  padding: 24px 0;
+}
+
+#privacy-policy p,
+#privacy-policy b{
+  color: var(--bs-primary-light);
+}
+
+#privacy-policy h2{
+  color: var(--bs-primary);
+  font-weight: bold;
+}

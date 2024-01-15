@@ -126,7 +126,7 @@ permalink: /default/
             <small class="text-white-gray">2013 - <span id="current_year"></span></small>
           </div>
           <div>
-            <a class="text-white-gray hover_underline" href="privacy_policy.html" target="_blank">
+            <a class="text-white-gray hover_underline" href="politica_privacidade.html" target="_blank">
               <small class="text-white-gray">Política de Privacidade</small>
             </a>
           </div>
@@ -134,16 +134,16 @@ permalink: /default/
       </div>
     </footer>
 
-    <div id="cookieNotice" class="light display-right">
-    <div class="cookiesModal">
-      <div>
-        <span>{% t navigation.main.cookies_confirmation %}</span>
-      </div>
-      <div>
-        <button class="btn btn-secondary btn-sm" onclick="acceptCookieConsent();">Aceitar</button>
+    <div id="cookieNotice" class="position-fixed fixed-bottom bg-white p-4 m-3 rounded shadow">
+      <div class="d-flex align-items-center justify-content-center">
+        <div>
+          <span>{% t navigation.main.cookies_confirmation %}</span>
+        </div>
+        <div>
+          <button class="btn btn-secondary btn-sm" onclick="acceptCookieConsent();">Aceitar</button>
+        </div>
       </div>
     </div>
-  </div>
 
     {% include modal.html %}
 
