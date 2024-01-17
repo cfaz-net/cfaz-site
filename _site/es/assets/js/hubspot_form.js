@@ -1,103 +1,24 @@
-(function () {
-  "use strict";
-  /* ------ Formulários Hubspot ------ */
-  window.addEventListener('load', () => {
-    // Telerradiologia
-    if (document.getElementById('telerradiologia')) {
-      let formOptions = {
-        region: "na1",
-        portalId: "6654092",
-        formId: "e376ceaf-f166-44ea-ae5e-1b3496892a43",
-        target: '#telerradiologia'
-      }
+window.addEventListener('load', () => {
+  const formOptions = {
+    region: 'na1',
+    portalId: '6654092',
+  };
 
+  const createHubspotForm = (targetId, ptFormId, esFormId, enFormId) => {
+    if (document.getElementById(targetId)) {
       let language = document.getElementById('language');
-
-      if (language.value == 'es') {
-        formOptions.formId = "71dc0388-92d1-4fff-96a8-299545e061a2"
-      }
-      else if (language.value == 'en') {
-        formOptions.formId = "7304222d-f161-4b9a-a5eb-bd09c878309d"
-      }
-      else {
-        formOptions.formId = "e376ceaf-f166-44ea-ae5e-1b3496892a43"
-      }
-
-      hbspt.forms.create(formOptions);
+      formOptions.formId = language.value === 'es' ? esFormId : (language.value === 'en' ? enFormId : ptFormId);
+      formOptions.target = `#${targetId}`;
+      hbspt.forms.create({ ...formOptions });
     }
+  };
 
-    // Consultório
-    if (document.getElementById('consultorios')) {
-      let formOptions = {
-        region: "na1",
-        portalId: "6654092",
-        formId: "44bd69ae-b894-4476-bb23-c7125e388247",
-        target: '#consultorios'
-      }
-
-      hbspt.forms.create(formOptions);
-    }
-
-    // Clinica
-    if (document.getElementById('clinicas')) {
-      let formOptions = {
-        region: "na1",
-        portalId: "6654092",
-        formId: "e0fcad69-c758-4bc7-b694-fe44cefb1af6",
-        target: '#clinicas'
-      }
-
-      hbspt.forms.create(formOptions);
-    }
-
-    // Centros de Radiologia
-    if (document.getElementById('centros_radiologia')) {
-      let formOptions = {
-        region: "na1",
-        portalId: "6654092",
-        formId: "59d0ff11-a63b-4368-9ad7-725c4630dd9f",
-        target: '#centros_radiologia'
-      }
-
-      hbspt.forms.create(formOptions);
-    }
-
-    // Centrais de Laudo
-    if (document.getElementById('centrais_laudo')) {
-      let formOptions = {
-        region: "na1",
-        portalId: "6654092",
-        formId: "86fe8d85-ad8c-4ea9-ae7e-0d202564ba12",
-        target: '#centrais_laudo'
-      }
-
-      hbspt.forms.create(formOptions);
-    }
-
-    // Hospitais
-    if (document.getElementById('hospitais')) {
-      let formOptions = {
-        region: "na1",
-        portalId: "6654092",
-        formId: "61452a6c-845e-4bf4-9fba-caa40a989e02",
-        target: '#hospitais'
-      }
-
-      hbspt.forms.create(formOptions);
-    }
-  });
-
-  /**
-   * Newsletter
-   */
-  // window.addEventListener('load', () => {
-  //   if(document.getElementById('newsletter')){
-  //     hbspt.forms.create({
-  //       region: "na1",
-  //       portalId: "6654092",
-  //       formId: "d9d0ff9f-80df-4d31-9ece-8615c93638f5",
-  //       target: '#newsletter'
-  //     });
-  //   }
-  // });
-})
+  createHubspotForm('telerradiologia', 'e376ceaf-f166-44ea-ae5e-1b3496892a43', '71dc0388-92d1-4fff-96a8-299545e061a2', '7304222d-f161-4b9a-a5eb-bd09c878309d');
+  createHubspotForm('consultorios', '44bd69ae-b894-4476-bb23-c7125e388247', '6654ab5b-cf37-4d4f-a106-be4e2d015356', '17e87934-5cff-4a92-9afb-1845d4b555b5');
+  createHubspotForm('clinicas', 'e0fcad69-c758-4bc7-b694-fe44cefb1af6', '8ab0e137-c5f5-4142-a724-6433d984c018', '5524c00f-30fa-4e9f-ba9b-f744a583b032');
+  createHubspotForm('centros_radiologia', '59d0ff11-a63b-4368-9ad7-725c4630dd9f', '144a3f19-8c64-4d08-9f58-263364713c72', '4baf0807-b2f9-4bb6-aad0-f6a9defcfdac');
+  createHubspotForm('centrais_laudo', '86fe8d85-ad8c-4ea9-ae7e-0d202564ba12', 'cac19070-6f81-448d-a8b4-2bb381f6764e', '88fbde29-8c19-4068-b5e0-fb7a323211ef');
+  createHubspotForm('hospitais', '61452a6c-845e-4bf4-9fba-caa40a989e02', '5c5b47be-394c-4476-a44e-33702123e046', '0ebd0468-934c-4c70-9432-e392a96b5be8');
+  createHubspotForm('cfaz_ciencia', '4f26070d-aea1-4334-b8f5-4957692f4f4a', '580a6e2a-1d1a-4bef-89f6-7b6a43a7eb63', '657c46ae-3642-49c9-8813-06da2b03d380');
+  createHubspotForm('newsletter', '8e7177fa-cb2f-4a31-934b-81e3a4c91ef8', 'b5f6f6fe-dfe8-442c-ac00-82619ceff512', '424ea7dc-406f-4818-a201-239b235335a8');
+});
