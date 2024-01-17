@@ -4,6 +4,14 @@ locales:
   es-419: Español (América Latina)
 navigation:
   header:
+    hospitals: Hospitals
+    radiology: Radiology
+    dentistry_medicine: Dentistry and Medicine
+    veterinary: Veterinary
+    contacts: Contacts
+    blog: Blog
+    about_us: About Us
+    enter: To enter
   main:
     cookies_confirmation: We use cookies and other similar technologies to improve your experience on our services, but we don't use them for tracking purposes. By using our services, you agree to such monitoring.
   footer:

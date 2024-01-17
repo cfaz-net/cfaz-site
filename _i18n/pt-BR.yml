@@ -4,7 +4,99 @@ locales:
   es-419: Español (América Latina)
 navigation:
   header:
+    hospitals: Hospitais
+    radiology: Radiologia
+    dentistry_medicine: Odontologia e Medicina
+    veterinary: Veterinária
+    contacts: Contatos
+    blog: Blog
+    about_us: Sobre Nós
+    enter: Entrar
   main:
+    index:
+      button_contact: Ligamos para você
+      button_know_more : Saiba mais
+      from: a partir de
+      hero: Soluções em Nuvem para <br> <strong class="text-secondary">Gestão de Centros de Saúde</strong> e <br> <strong class="text-secondary">Distribuição de Exames</strong>
+      plans: 
+        free_starter_plan: Plano Inicial Gratuito
+        teleradiology: Telerradiologia
+        consultancies: Consultórios
+        clinics: Clínicas
+        radiology_centers: Centros de Radiologia
+        reporting_centers: Centrais de Laudo
+        hospitals: Hospitais
+      hospital:
+        text: Software em Nuvem para realizar a gestão de atendimentos em <strong>Hospitais</strong> e <strong>Centros de Diagnóstico por Imagem</strong>, incluindo API para Interoperabilidade com todos os sistemas do mercado.
+        text2: <strong>Distribuição Online</strong> de exames para Dentistas e Médicos solicitantes.
+      radiologia:
+        title: Radiologia
+        text: Soluções Inteligentes em Nuvem para realizar a gestão de ponta a ponta de <strong>Centros de Diagnóstico por Imagem</strong>, incluindo Radiologia Odontológica, Radiologia Médica, Mamografia, Ultrassonografia, Tomografia Computadorizada, Densitometria Óssea, Ressonância Magnética e Angiografia.
+        text2: Ferramentas completas de gestão também para <strong>Radiologistas Laudadores, Centros de Laudo e Hospitais.</strong>
+        text3: <strong>Distribuição Online</strong> de exames para Dentistas e Médicos solicitantes.
+      odontology_medicine:
+        text: Tecnologia de ponta e Excelência em atendimento para gerenciar countriestoda a experiência de atendimento ao paciente, além permitir countries controlar a gestão administrativa e financeira de <strong>Consultórios, countriesClínicas</strong> e <strong>Franquias Odontológicas e Médicas.</strong>
+      veterinary:
+        text: Software completo em Nuvem para realizar toda a experiência de atendimento ao paciente, além de controlar a gestão financeira e administrativa de <strong>Clínicas e Hospitais Veterinários, Centros de Diagnóstico por Imagem</strong> e <strong>Profissionais Volantes.</strong>
+        text2: <strong>Distribuição Online</strong> de exames para Tutores e Médicos Veterinários solicitantes.
+      countries:
+        title: <strong>Mais de 1000 Centros de Saúde em todo o Brasil e <br> em mais de 10 países na América Latina e Europa</strong>
+        hospital: Hospital
+        dental_radiology: Radiologia odontológica
+      customer_testimonial:
+        title: A satisfação dos nossos clientes comprova nossos resultado
+      security_credibility:
+        patients_served: Mais de 10 milhões de <br> pacientes atendidos
+        distributed_exams: Mais de 50 milhões de <br> exames distribuídos
+        stored_cloud: Mais de 130 Terabytes de <br> dados e imagens <br> armazenados na Nuvem
+        years_history: Mais de 10 anos <br> de história
+        years: anos
+        anvisa: ANVISA
+        record: Registro
+        hippa: HIPPA
+        gdpr: GDPR
+      plans_values:
+        title: Planos sob medida para a Gestão de Centros de Saúde e Distribuição de Exames
+      environment:
+        paper_saved: Mais de 143 milhões de folhas <br> de papel economizadas
+        saved_radiographs: Mais de 48 milhões de filmes <br> radiográficos economizados
+        trees_spared: Mais de 19 mil árvores <br> poupadas
+      social:
+        title: Siga-nos em nossos canais e mídias sociais!
+      benefits_program:
+        benefits_program: Programa de Benefícios
+        text: Faça parte do Programa de Benefícios mais completo do mercado!
+        text2: Indique a Cfaz para colegas e amigos, compartilhe nossas <br> vantagens nas redes sociais e aproveite descontos gratuitos, resgate <br> de brindes e prêmios exclusivos!
+        partners: Parceiros
+      cfaz_science:
+        title: "Cfaz Ciência: Incentivo ao desenvolvimento científico da Radiologia"
+        text: Isenção de implantação e condições especiais para utilização do Cfaz.net por Alunos e Instituições de Ensino em Odontologia e Radiologia.
+        text2: Entre em contato para começar a utilizar nosso sistema como apoio na sala de aula ou nas clínicas-escolas!
+      benefits:
+        ris_pacs_online: RIS e PACS Online
+        anvisa: Certificação ANVISA
+        lgpd: LGPD
+        dicom_integration: Integração DICOM
+        api_Interoperability: API para Interoperabilidade
+        humanized_technical_support: Suporte Técnico Humanizado
+        google_cloud_platform: Google Cloud Platform
+        storage: Armazenamento por 20 anos
+        artificial_intelligence: Inteligência Artificial
+        financial_management: Gestão Financeira
+        multiclinic_management: Gestão Multiclínicas
+        agreement_management: Gestão de Convênios
+        invoice_issuance: Emissão de Nota Fiscal
+        customizable_reports: Relatórios 100% Customizáveis
+        online_calendar: Agenda Online + Comunicação Integrada com Whatsapp
+        pep: PEP - Prontuário Eletrônico do Paciente
+        digital_signature: Assinatura Digital de <br> Documentos
+        financial_strategic_management: Gestão Financeira e Estratégica
+        voice_report: Laudo por voz + acesso via QR Code
+        customizable_reports: Relatórios 100% <br> Customizáveis
+
+
+
+
     team:
       title: "Equipe"
       all: "Todos"
