@@ -17,6 +17,7 @@ navigation:
       button_contact: Ligamos para você
       button_know_more : Saiba mais
       from: a partir de
+      month: mês
       hero: Soluções em Nuvem para <br> <strong class="text-secondary">Gestão de Centros de Saúde</strong> e <br> <strong class="text-secondary">Distribuição de Exames</strong>
       plans: 
         free_starter_plan: Plano Inicial Gratuito
@@ -37,10 +38,11 @@ navigation:
       odontology_medicine:
         text: Tecnologia de ponta e Excelência em atendimento para gerenciar countriestoda a experiência de atendimento ao paciente, além permitir countries controlar a gestão administrativa e financeira de <strong>Consultórios, countriesClínicas</strong> e <strong>Franquias Odontológicas e Médicas.</strong>
       veterinary:
+        title: Veterinária
         text: Software completo em Nuvem para realizar toda a experiência de atendimento ao paciente, além de controlar a gestão financeira e administrativa de <strong>Clínicas e Hospitais Veterinários, Centros de Diagnóstico por Imagem</strong> e <strong>Profissionais Volantes.</strong>
         text2: <strong>Distribuição Online</strong> de exames para Tutores e Médicos Veterinários solicitantes.
       countries:
-        title: <strong>Mais de 1000 Centros de Saúde em todo o Brasil e <br> em mais de 10 países na América Latina e Europa</strong>
+        title: Mais de 1000 Centros de Saúde em todo o Brasil e <br> em mais de 10 países na América Latina e Europa
         hospital: Hospital
         dental_radiology: Radiologia odontológica
       customer_testimonial:
@@ -63,6 +65,12 @@ navigation:
         trees_spared: Mais de 19 mil árvores <br> poupadas
       social:
         title: Siga-nos em nossos canais e mídias sociais!
+      contact:
+        title: Contatos
+        technical_support: Suporte Técnico
+        call_center: Ir para a central de atendimento
+        sales: Vendas
+        financial: Financeiro
       benefits_program:
         benefits_program: Programa de Benefícios
         text: Faça parte do Programa de Benefícios mais completo do mercado!
@@ -71,7 +79,9 @@ navigation:
       cfaz_science:
         title: "Cfaz Ciência: Incentivo ao desenvolvimento científico da Radiologia"
         text: Isenção de implantação e condições especiais para utilização do Cfaz.net por Alunos e Instituições de Ensino em Odontologia e Radiologia.
-        text2: Entre em contato para começar a utilizar nosso sistema como apoio na sala de aula ou nas clínicas-escolas!
+        text2: Entre em contato para começar a utilizar nosso sistema como apoio na sala de aula ou nas clínicas-escolas
+      app: App mobile gratuito <br> Disponível na App Store <br> e na Play Store
+      newsletter: Quer ficar por dentro de novidades sobre a Cfaz e notícias sobre Radiologia, Odontologia, Medicina e Veterinária?
       benefits:
         ris_pacs_online: RIS e PACS Online
         anvisa: Certificação ANVISA
@@ -93,10 +103,14 @@ navigation:
         financial_strategic_management: Gestão Financeira e Estratégica
         voice_report: Laudo por voz + acesso via QR Code
         customizable_reports: Relatórios 100% <br> Customizáveis
-
-
-
-
+    footer:
+      developed: Desenvolvido por Cfaz.net
+      privacy_policy: Política de Privacidade
+    
+    
+    
+    
+    
     team:
       title: "Equipe"
       all: "Todos"

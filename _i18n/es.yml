@@ -11,94 +11,106 @@ navigation:
     contacts: Contacto
     blog: Blog
     about_us: Sobre nosotros
+  000000000000000000000  enter: Entrar
   main:
     index:
-      button_contact: Ligamos para você
-      button_know_more : Saiba mais
-      from: a partir de
-      hero: Soluções em Nuvem para <br> <strong class="text-secondary">Gestão de Centros de Saúde</strong> e <br> <strong class="text-secondary">Distribuição de Exames</strong>
+      button_contact: Te llamamos
+      button_know_more : Conocer mejor
+      from: desde
+      month: mes
+      hero: Soluciones en la nube para la gestión de centros de salud y distribución de exámenes
       plans: 
-        free_starter_plan: Plano Inicial Gratuito
-        teleradiology: Telerradiologia
-        consultancies: Consultórios
+        free_starter_plan: Plan Inicial Gratuito
+        teleradiology: Telerradiología
+        consultancies: Consultorios
         clinics: Clínicas
-        radiology_centers: Centros de Radiologia
-        reporting_centers: Centrais de Laudo
-        hospitals: Hospitais
+        radiology_centers: Centros de Radiología
+        reporting_centers: Centros de Informes
+        hospitals: Hospitales
       hospital:
-        text: Software em Nuvem para realizar a gestão de atendimentos em <strong>Hospitais</strong> e <strong>Centros de Diagnóstico por Imagem</strong>, incluindo API para Interoperabilidade com todos os sistemas do mercado.
-        text2: <strong>Distribuição Online</strong> de exames para Dentistas e Médicos solicitantes.
+        text: Software en la Nube para la gestión de la atención en Hospitales y <strong>Centros de Diagnóstico por Imagen</strong>, incluyendo API para la Interoperabilidad con todos los sistemas del mercado.
+        text2: <strong>Distribución online</strong> de exámenes a Odontólogos y Médicos solicitantes.
       radiologia:
-        title: Radiologia
-        text: Soluções Inteligentes em Nuvem para realizar a gestão de ponta a ponta de <strong>Centros de Diagnóstico por Imagem</strong>, incluindo Radiologia Odontológica, Radiologia Médica, Mamografia, Ultrassonografia, Tomografia Computadorizada, Densitometria Óssea, Ressonância Magnética e Angiografia.
-        text2: Ferramentas completas de gestão também para <strong>Radiologistas Laudadores, Centros de Laudo e Hospitais.</strong>
-        text3: <strong>Distribuição Online</strong> de exames para Dentistas e Médicos solicitantes.
+        title: Radiología
+        text: Soluciones Inteligentes en la Nube para llevar a cabo la gestión integral de <strong>Centros de Diagnóstico por Imágenes</strong>, incluyendo Radiología Dental, Radiología Médica, Mamografía, Ultrasonografía, Tomografía Computarizada, Densitometría Ósea, Resonancia Magnética y Angiografía.
+        text2: Herramientas de gestión completas también para <strong>Radiólogos Reportantes, Centros de Reportes y Hospitales</strong>.
+        text3: <strong>Distribución online</strong> de exámenes a Odontólogos y Médicos solicitantes.
       odontology_medicine:
-        text: Tecnologia de ponta e Excelência em atendimento para gerenciar countriestoda a experiência de atendimento ao paciente, além permitir countries controlar a gestão administrativa e financeira de <strong>Consultórios, countriesClínicas</strong> e <strong>Franquias Odontológicas e Médicas.</strong>
+        text: Tecnología de punta y Excelencia en el servicio para gestionar toda la experiencia de atención al paciente, además de permitir el control de la gestión administrativa y financiera de <strong>Consultorios, Clínicas y Franquicias Dentales y Médicas.</strong>
       veterinary:
-        text: Software completo em Nuvem para realizar toda a experiência de atendimento ao paciente, além de controlar a gestão financeira e administrativa de <strong>Clínicas e Hospitais Veterinários, Centros de Diagnóstico por Imagem</strong> e <strong>Profissionais Volantes.</strong>
-        text2: <strong>Distribuição Online</strong> de exames para Tutores e Médicos Veterinários solicitantes.
+        title: Medicina Veterinaria
+        text: Completo software en la Nube para realizar toda la experiencia de atención al paciente, además de controlar la gestión financiera y administrativa de <strong>Clínicas y Hospitales Veterinarios, Centros de Diagnóstico por Imagen y Profesionales del Vuelo.</strong>
+        text2: <strong>Distribuição Online</strong> de exámenes para Dueños de Mascotas y Veterinarios solicitantes.
       countries:
-        title: <strong>Mais de 1000 Centros de Saúde em todo o Brasil e <br> em mais de 10 países na América Latina e Europa</strong>
+        title: Más de 1000 Centros de Salud en todo Brasil y en más de 10 países de América Latina y Europa
         hospital: Hospital
-        dental_radiology: Radiologia odontológica
+        dental_radiology: Radiólogos Reportantes
       customer_testimonial:
-        title: A satisfação dos nossos clientes comprova nossos resultado
+        title: La satisfacción de nuestros clientes avala nuestros resultados.
       security_credibility:
-        patients_served: Mais de 10 milhões de <br> pacientes atendidos
-        distributed_exams: Mais de 50 milhões de <br> exames distribuídos
-        stored_cloud: Mais de 130 Terabytes de <br> dados e imagens <br> armazenados na Nuvem
-        years_history: Mais de 10 anos <br> de história
-        years: anos
+        patients_served: Más de 10 millones de pacientes atendidos
+        distributed_exams: Más de 50 millones de exámenes distribuidos
+        stored_cloud: Más de 130 Terabytes de datos e imágenes almacenados en la Nube
+        years_history: Más de 10 años de historia
+        years: años
         anvisa: ANVISA
         record: Registro
         hippa: HIPPA
         gdpr: GDPR
       plans_values:
-        title: Planos sob medida para a Gestão de Centros de Saúde e Distribuição de Exames
+        title: Planes a medida para la Gestión de Centros de Salud y Distribución de Exámenes
       environment:
-        paper_saved: Mais de 143 milhões de folhas <br> de papel economizadas
-        saved_radiographs: Mais de 48 milhões de filmes <br> radiográficos economizados
-        trees_spared: Mais de 19 mil árvores <br> poupadas
+        paper_saved: Más de 143 millones de hojas de papel ahorradas
+        saved_radiographs: Más de 48 millones de películas radiográficas salvadas
+        trees_spared: Más de 19 mil árboles salvados
       social:
-        title: Siga-nos em nossos canais e mídias sociais!
+        title: ¡Síguenos en nuestros canales y redes sociales!
+      contact:
+        title: Contactos
+        technical_support: Soporte técnico
+        call_center: Ir al centro de atención
+        sales: Ventas
+        financial: Financiero
       benefits_program:
-        benefits_program: Programa de Benefícios
-        text: Faça parte do Programa de Benefícios mais completo do mercado!
-        text2: Indique a Cfaz para colegas e amigos, compartilhe nossas <br> vantagens nas redes sociais e aproveite descontos gratuitos, resgate <br> de brindes e prêmios exclusivos!
-        partners: Parceiros
+        benefits_program: Programa de Beneficios
+        text: ¡Se parte del Programa de Beneficios más completo del mercado!
+        text2: ¡Recomienda Cfaz a compañeros y amigos, comparte nuestras ventajas en las redes sociales y disfruta de descuentos gratuitos, canje de regalos y premios exclusivos!
+        partners: Socios
       cfaz_science:
-        title: "Cfaz Ciência: Incentivo ao desenvolvimento científico da Radiologia"
-        text: Isenção de implantação e condições especiais para utilização do Cfaz.net por Alunos e Instituições de Ensino em Odontologia e Radiologia.
-        text2: Entre em contato para começar a utilizar nosso sistema como apoio na sala de aula ou nas clínicas-escolas!
+        title: "Cfaz Ciência: Fomentando el desarrollo científico de la Radiología"
+        text: Exención de implementación y condiciones especiales para el uso de Cfaz.net por parte de Estudiantes e Instituciones Educativas en Odontología y Radiología.
+        text2: ¡Ponte en contacto para comenzar a utilizar nuestro sistema como apoyo en el aula o clínicas escolares!
+      app: Aplicación móvil gratuita Disponible en App Store y Play Store
+      newsletter: ¿Quieres enterarte de novedades sobre Cfaz y noticias sobre Radiología, Odontología, Medicina y Veterinaria?
       benefits:
-        ris_pacs_online: RIS e PACS Online
-        anvisa: Certificação ANVISA
-        lgpd: LGPD
-        dicom_integration: Integração DICOM
-        api_Interoperability: API para Interoperabilidade
-        humanized_technical_support: Suporte Técnico Humanizado
-        google_cloud_platform: Google Cloud Platform
-        storage: Armazenamento por 20 anos
-        artificial_intelligence: Inteligência Artificial
-        financial_management: Gestão Financeira
-        multiclinic_management: Gestão Multiclínicas
-        agreement_management: Gestão de Convênios
-        invoice_issuance: Emissão de Nota Fiscal
-        customizable_reports: Relatórios 100% Customizáveis
-        online_calendar: Agenda Online + Comunicação Integrada com Whatsapp
-        pep: PEP - Prontuário Eletrônico do Paciente
-        digital_signature: Assinatura Digital de <br> Documentos
-        financial_strategic_management: Gestão Financeira e Estratégica
-        voice_report: Laudo por voz + acesso via QR Code
-        customizable_reports: Relatórios 100% <br> Customizáveis
-
-
-
-
-
-        
-
+        ris_pacs_online: RIS y PACS Online
+        anvisa: Certificación ANVISA
+        lgpd: LGPD 
+        dicom_integration: Integración DICOM
+        api_Interoperability: API para Interoperabilidad
+        humanized_technical_support: Soporte Técnico Humanizado
+        google_cloud_platform: Google Cloud Platform 
+        storage: Almacenamiento durante 20 años
+        artificial_intelligence: Inteligencia artificial
+        financial_management: Gestión financiera
+        multiclinic_management: Gestión multiclínica
+        agreement_management: Gestión de Seguros de Salud
+        invoice_issuance: Emisión de Faccturas Fiscales
+        customizable_reports: Informes 100% personalizables
+        online_calendar: Calendario Online + Comunicación Integrada con Whatsapp
+        pep: PEP - Historia Médica Electrónica del paciente
+        digital_signature: Firma de documentos digitales
+        financial_strategic_management: Gestión Financiera y Estratégica
+        voice_report: Informe de voz + acceso mediante Código QR
+        customizable_reports: Informes 100% personalizables
+    footer:
+      developed: Desarrollado por Cfaz.net
+      privacy_policy: Política de privacidad
+    
+    
+    
+    
+    
     cookies_confirmation: Usamos cookies y otras tecnologías similares para mejorar su experiencia en nuestros servicios, pero no las usamos con fines de seguimiento. Al utilizar nuestros servicios, usted acepta dicho seguimiento.
   footer:
 alt:
