@@ -18,6 +18,7 @@ navigation:
       button_know_more : Saiba mais
       from: a partir de
       month: mês
+      exams: exames
       hero: Soluções em Nuvem para <br> <strong class="text-secondary">Gestão de Centros de Saúde</strong> e <br> <strong class="text-secondary">Distribuição de Exames</strong>
       plans: 
         free_starter_plan: Plano Inicial Gratuito
@@ -152,11 +153,25 @@ navigation:
         subtitle: Segurança e confiabilidade no tratamento dos dados
         text: Todos os dados coletados através do Cfaz.net são armazenados de maneira segura, seguindo as rígidas normas e padrões estabelecidos pela ISO 27001.
         text2: Oferecemos ferramentas para a gestão eficiente dos termos de consentimento assinados pelos pacientes na coleta dos dados, para que os Centros de Saúde estejam também em conformidade com as regulamentações.
-
-{% t navigation.main.hospitais.lgpd.text2 %}
-
-
-
+    radiology:
+      informations:
+        text: Soluções Inteligentes em Nuvem para realizar a gestão de ponta a ponta de <strong>Centros de Diagnóstico por Imagem</strong>, incluindo Radiologia Odontológica, Radiologia Médica, Mamografia, Ultrassonografia, Tomografia Computadorizada, Densitometria Óssea, Ressonância Magnética e Angiografia.
+        text1: Ferramentas completas de gestão também para <strong>Radiologistas Laudadores, Centros de Laudo</strong> e <strong>Hospitais.</strong>
+        text2: Distribuição Online de exames para Dentistas e Médicos solicitantes.
+      views_3d_mpr:
+        title: Visualizações 3D e MPR para Tomografia
+        subtitle: Armazenamento, visualização e distribuição de tomografias, e suporte completo para modelos digitais (STL), 100% online
+        text: Visualize as tomografias sem a necessidade de instalação de nenhum software ou de baixar o arquivo na própria máquina. 
+        text2: Nosso DicomViewer permite visualizar a reconstrução volumétrica MPR (Multiplanar Reconstruction) da tomografia.
+        text3: Conte com ferramentas para manipulação do volume e mude os eixos de visualização dos cortes, aplique filtros e realize medidas.
+      teleradiology_radiology:
+        subtitle: Acesso rápido de qualquer lugar, proporcionando redução de custos, flexibilidade e escalabilidade.
+        text: Conectamos seu Centro de Radiologia a profissionais de todo o Brasil e do exterior por meio de uma plataforma unificada com soluções projetadas para facilitar a terceirização de laudos e exames. Você envia as imagens para seus laudadores e recebe os laudos concluídos, tudo pelo Cfaz.net.
+      tailor_made_plans: Planos sob medida para a Gestão de Centros de Hospitais, Centros de Radiolgia e Distribuição de Exames
+      humanized_support:
+        testimony:
+          text: “A rede de suporte é sensacional, atendendo a todas as nossas necessidades. Estamos muito felizes com a decisão de migrar para a Cfaz.”
+          information: Cristiane Vaccarezza - CV Radiologia Odontológica - Cliente Cfaz desde 2017
     plans_services_features:
       cfaz_app: Aplicativo Cfaz
       agendas: Agendas
@@ -176,20 +191,9 @@ navigation:
       integration_devices_printers: Integração com Aparelhos e Impressoras
       report_center_customer_management: Gestão de Clientes de Central de Laudos
       dropbox: "Armazenamento externo: Dropbox"
-
-
-
-
-
-
     footer:
       developed: Desenvolvido por Cfaz.net
       privacy_policy: Política de Privacidade
-    
-    
-    
-    
-    
     team:
       title: "Equipe"
       all: "Todos"

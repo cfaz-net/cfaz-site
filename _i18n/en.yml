@@ -152,17 +152,28 @@ navigation:
         subtitle: Security and reliability in data processing
         text: All data collected through Cfaz.net is stored securely, following the strict norms and standards established by ISO 27001.
         text2: We offer tools for the efficient management of consent forms signed by patients when collecting data, so that Health Centers are also in compliance with regulations.
-
-    
-    
-    
+    radiology:
+      informations:
+        text: Intelligent Cloud Solutions to carry out end-to-end management of <strong>Diagnostic Imaging Centers</strong>, including Dental Radiology, Medical Radiology, Mammography, Ultrasonography, Computed Tomography, Bone Densitometry, Magnetic Resonance Imaging and Angiography.
+        text1: Complete management tools also for <strong>Reporting Radiologists, Reporting Centers</strong> and <strong>Hospitals.</strong>
+        text2: Online distribution of exams to requesting Dentists and Doctors.
+      views_3d_mpr:
+        title: 3D Visualizations and MPR for Tomography
+        subtitle: Storage, visualization and distribution of CT scans, and full support for digital models (STL), 100% online
+        text: View the CT scans without the need to install any software or download the file onto the machine itself.
+        text2: Our DicomViewer allows you to visualize the MPR (Multiplanar Reconstruction) volumetric reconstruction of the tomography.
+        text3: Count on tools for manipulating volume and changing the visualization axes of cuts, applying filters and taking measurements.
+      teleradiology_radiology:
+        subtitle: Quick access from anywhere, providing cost savings, flexibility and scalability.
+        text: We connect your Radiology Center to professionals from all over Brazil and abroad through a unified platform with solutions designed to facilitate the outsourcing of reports and exams. You send the images to your reviewers and receive the completed reports, all through Cfaz.net.
+      tailor_made_plans: Tailor-made plans for the Management of Hospital Centers, Radiology Centers and Test Distribution
+      humanized_support:
+        testimony:
+          text: “The support network is sensational, meeting all our needs. We are very happy with the decision to migrate to Cfaz.”
+          information: Cristiane Vaccarezza - CV Dental Radiology - Cfaz client since 2017
     footer:
       developed: Developed by Cfaz.net
       privacy_policy: Privacy Policy
-
-
-
-
     cookies_confirmation: We use cookies and other similar technologies to improve your experience on our services, but we don't use them for tracking purposes. By using our services, you agree to such monitoring.
   footer:
 alt:
