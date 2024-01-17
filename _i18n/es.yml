@@ -85,7 +85,7 @@ navigation:
       benefits:
         ris_pacs_online: RIS y PACS Online
         anvisa: Certificación ANVISA
-        lgpd: LGPD 
+        lgpd: LGPD, GDPR y HIPPA 
         dicom_integration: Integración DICOM
         api_Interoperability: API para Interoperabilidad
         humanized_technical_support: Soporte Técnico Humanizado
@@ -103,6 +103,84 @@ navigation:
         financial_strategic_management: Gestión Financiera y Estratégica
         voice_report: Informe de voz + acceso mediante Código QR
         customizable_reports: Informes 100% personalizables
+    hospitais:
+      informations:
+        text: Software en la Nube para la gestión de la atención en Hospitales y <strong>Centros de Diagnóstico por Imagen</strong>, incluyendo API para la Interoperabilidad con todos los sistemas del mercado.
+        text2: <strong>Distribuição Online</strong> de exámenes a Odontólogos y Médicos solicitantes.
+      ris_pacs:
+        title: RIS y PACS 100% Online
+        text: Con el <strong>RIS</strong> en Nube de Cfaz.net, podrá garantizar agilidad en todos los procesos de su Centro de Radiología, incluyendo Programación, Registros Electrónicos de Pacientes (PEP), Gestión Financiera y Control de Planes de Salud.
+        text2: Además, nuestro <strong>PACS</strong> en Nube está 100% integrado con el <strong>RIS</strong>, a través del servicio Worklist. Esta integración asegura una gestión eficiente y unificada de todos los procesos del Centro de Salud.
+      api_Interoperability:
+        subtitle: Integración con todos los sistemas del mercado.
+        text: Integración de la información con todos los sistemas del mercado, permitiendo la digitalización de todos los procesos en su Centro de Salud.
+        text2: Más eficiencia en el día a día de tu equipo y de tus pacientes!
+      anvisa:
+        text: Cfaz es un fabricante de productos médicos (software) debidamente registrado y certificado por ANVISA (Brasil).
+        text2: Al utilizar software certificado como Cfaz.net, los profesionales y especialmente los pacientes atendidos pueden contar con la seguridad y confiabilidad de un producto evaluado y aprobado por la máxima autoridad en regulación sanitaria de Brasil.
+      storage:
+        text: "Cumpliendo con las normas de todos los consejos de salud en Brasil: CFO, CFM y ANVISA."
+        text2: Almacenamiento ilimitado y 100% seguro en la Nube, con la máxima calidad de imágenes y exámenes. Gracias a la infraestructura proporcionada por Google Cloud Platform, empresa de referencia mundial en seguridad de datos y estabilidad de conexiones.
+        note: "*Válido durante la vigencia del contrato"
+      teleradiology:
+        text: Conectamos su Centro de Radiología con profesionales de todo el mundo a través de una plataforma unificada con soluciones diseñadas para facilitar la subcontratación de informes y exámenes. Usted envía las imágenes a sus revisores y recibe los informes completos, todo a través de Cfaz.net.
+        testimony:
+          text: “Cfaz.net nos conecta con radiólogos y centros de imágenes, lo que lo hace ideal para la telerradiología. Su plataforma en la nube online optimiza el trabajo, creando para mi un flujo digital eficiente para más de 30 centros de radiología en América Latina y Europa.”
+          information: Dra. Monica Pinã - Propietaria de TRADIT 3D - Cliente de Cfaz hace 2 años
+      tailor_made_plans: Planes a medida para la Gestión de Hospitales, Centros de Informes y Centros de Radiología
+      humanized_support:
+        text: <strong>¡La mejor experiencia de cliente del mercado!</strong>
+        text2: No haga cola ni sea atendido por robots. Con Cfaz, te atenderán, de media, en 2 minutos.
+        text3: ¡Nuestro equipo multidisciplinario recibe capacitación intensiva para que tengas rápidamente la solución que necesitas!
+        real_time_service: Servicio en tiempo real
+        days_week: "Lunes a Viernes: 8am a 6pm <br> Sábado: 8 am a 12 pm"
+        channels: "Canales: Chat directo en el sistema, WhatsApp, teléfono o correo electrónico."
+      google_cloud_platform:
+        text: Nuestros clientes se benefician de la seguridad y robustez de la misma infraestructura Cloud utilizada por Google en servicios como su Buscador, Gmail y Youtube.
+        text2: Sus datos permanecen a salvo de pérdidas o daños. No se preocupe por los servidores, los discos duros de respaldo, la reinstalación del sistema, etc.
+        text3: ¡Además, migramos datos de su antiguo sistema a Cfaz.net!
+      dicom:
+        title: Integración DICOM con todos los dispositivos del mercado
+        subtitle: Acceso rápido a resultados e información centralizada con nuestro PACS Online
+        text: Soporte nativo para Worklist y PACS, permitiendo la integración con cualquier dispositivo e impresoras DRY, para una impresión inteligente, cuando sea necesario, ahorrando tiempo y recursos.
+      ia:
+        title: I.A.
+        subtitle: La Inteligencia Artificial ya está en nuestro presente y potencia la Radiología.
+        text: Cfaz ya utiliza A.I. en la herramienta de Trazado Cefalométrico, que puede alcanzar el 99% de precisión, y en la Identificación Automática de Imágenes, reduciendo al máximo el tiempo empleado por el Radiólogo y ahorrando recursos.
+        text2: ¡Optimiza y moderniza tu negocio!
+      lgpd:
+        subtitle: Seguridad y confiabilidad en el procesamiento de datos
+        text: Todos los datos recopilados a través de Cfaz.net se almacenan de forma segura, siguiendo las estrictas normas y estándares establecidos por la norma ISO 27001.
+        text2: Ofrecemos herramientas para la gestión eficiente de los consentimientos firmados por los pacientes en la recogida de datos, para que los Centros de Salud también cumplan con la normativa.
+
+    plans_services_features:
+      cfaz_app: Aplicación Cfaz
+      agendas: Agendas
+      patient_management: El manejo del paciente
+      service_management: Gestión De Servicios
+      requestor_management: Gestión de solicitantes
+      exams_conducting_outsourcing: "Exámenes: realización y subcontratación"
+      online_request: Órdenes Online
+      queries: Consultas
+      management_agreements_procedures: Gestión de Planes de Salud 
+      employee_permission_management: Gestión de empleados y permisos
+      online_recipe: Receta Online
+      document_management: Gestión de documentos
+      digital_signature: Firma digital
+      print: Imprimir
+      exams: Exámenes: IA, gestión de exámenes, gestión de análisis cefalométricos, HD, MPR y visores 3D, STL, distribución
+      integration_devices_printers: Integración con dispositivos e impresoras
+      report_center_customer_management: Centro de informes Gestión de clientes
+      dropbox: "Almacenamiento externo: Dropbox"
+
+
+
+
+
+
+
+
+
     footer:
       developed: Desarrollado por Cfaz.net
       privacy_policy: Política de privacidad

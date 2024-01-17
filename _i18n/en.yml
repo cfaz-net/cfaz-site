@@ -13,6 +13,156 @@ navigation:
     about_us: About Us
     enter: To enter
   main:
+    index:
+      button_contact: We call you
+      button_know_more : Know more
+      from: from
+      month: month
+      hero: Cloud Solutions for <br> <strong class="text-secondary">Health Center Management</strong> and <br> <strong class="text-secondary">Exam Distribution</strong>
+      plans: 
+        free_starter_plan: Free Starter Plan
+        teleradiology: Teleradiology
+        consultancies: Consultancies
+        clinics: Clinics
+        radiology_centers: Radiology Centers
+        reporting_centers: Reporting Centers
+        hospitals: Hospitals
+      hospital:
+        text: Cloud software to manage care in <strong>Hospitals</strong> and <strong>Diagnostic Imaging Centers</strong>, including API for interoperability with all systems on the market.
+        text2: <strong>Online Distribution</strong> of exams for requesting Dentists and Doctors.
+      radiologia:
+        title: Radiology
+        text: Intelligent Cloud Solutions to carry out end-to-end management of <strong>Diagnostic Imaging Centers</strong>, including Dental Radiology, Medical Radiology, Mammography, Ultrasonography, Computed Tomography, Bone Densitometry, Magnetic Resonance Imaging and Angiography.
+        text2: Complete management tools also for <strong>Reporting Radiologists, Reporting Centers and Hospitals.</strong>
+        text3: <strong>Online Distribution</strong> of exams for requesting Dentists and Doctors.
+      odontology_medicine:
+        text: Cutting-edge technology and Excellence in service to manage the entire patient care experience, in addition to allowing countries to control the administrative and financial management of <strong>Office Offices, CountryClinics</strong> and <strong>Dental and Medical Franchises.</strong>
+      veterinary:
+        title: Veterinary
+        text: Complete Cloud software to carry out the entire patient care experience, in addition to controlling the financial and administrative management of <strong>Veterinary Clinics and Hospitals, Diagnostic Imaging Centers</strong> and <strong>Flying Professionals.</strong >
+        text2: <strong>Online Distribution</strong> of exams for Pet Owners and requesting Veterinarians.
+      countries:
+        title: More than 1000 Health Centers throughout Brazil and in more than 10 countries in Latin America and Europe
+        hospital: Hospital
+        dental_radiology: Dental radiology
+      customer_testimonial:
+        title: The satisfaction of our customers proves our results
+      security_credibility:
+        patients_served: More than 10 million patients served
+        distributed_exams: More than 50 million <br> exams distributed
+        stored_cloud: More than 130 Terabytes of <br> data and images <br> stored in the Cloud
+        years_history: More than 10 years of history
+        years: years
+        anvisa: ANVISA
+        record: Record
+        hippa: HIPPA
+        gdpr: GDPR
+      plans_values:
+        title: Tailor-made plans for the Management of Health Centers and Distribution of Exams
+      environment:
+        paper_saved: More than 143 million sheets of paper saved
+        saved_radiographs: More than 48 million x-ray films saved
+        trees_spared: More than 19 thousand trees spared
+      social:
+        title: Follow us on our channels and social media!
+      contact:
+        title: Contacts
+        technical_support: Technical support
+        call_center: Go to the call center
+        sales: Sales
+        financial: Financial
+      benefits_program:
+        benefits_program: Benefits Program
+        text: Be part of the most complete Benefits Program on the market!
+        text2: Recommend Cfaz to colleagues and friends, share our advantages on social media and enjoy free discounts, redemption of exclusive gifts and prizes!
+        partners: Partners
+      cfaz_science:
+        title: "Cfaz Ciência: Encouraging the scientific development of Radiology"
+        text: Exemption from implementation and special conditions for the use of Cfaz.net by Students and Educational Institutions in Dentistry and Radiology.
+        text2: Get in touch to start using our system as support in the classroom or school clinics
+      app: Free mobile app <br> Available on the App Store <br> and Play Store
+      newsletter: Do you want to stay up to date with news about Cfaz and news about Radiology, Dentistry, Medicine and Veterinary Medicine?
+      benefits:
+        ris_pacs_online: RIS and PACS Online
+        anvisa: Certification ANVISA
+        lgpd: LGPD
+        dicom_integration: DICOM integration
+        api_Interoperability: API for Interoperability
+        humanized_technical_support: Humanized Technical Support
+        google_cloud_platform: Google Cloud Platform
+        storage: Storage for 20 years
+        artificial_intelligence: Artificial intelligence
+        financial_management: Financial management
+        multiclinic_management: Multiclinic Management
+        agreement_management: Agreement Management
+        invoice_issuance: Invoice issuance
+        customizable_reports: 100% Customizable Reports
+        online_calendar: Online Calendar + Integrated Communication with Whatsapp
+        pep: PEP - Electronic Patient Record
+        digital_signature: Digital Signature of <br> Documents
+        financial_strategic_management: Financial and Strategic Management
+        voice_report: Voice report + access via QR Code
+        customizable_reports: 100% <br> Customizable Reports
+    hospitais:
+      informations:
+        text: Cloud software to manage care in <strong>Hospitals</strong> and <strong>Diagnostic Imaging Centers</strong>, including API for interoperability with all systems on the market.
+        text2: <strong>Online Distribution</strong> of exams for requesting Dentists and Doctors.
+      ris_pacs:
+        title: RIS e PACS 100% Online
+        text: With <strong>RIS</strong> in the Cfaz.net Cloud you guarantee agility in all processes at your Radiology Center, including Scheduling, Electronic Patient Record (PEP), Financial Management and Control of Agreements and Disallowances.
+        text2: Furthermore, our Cloud <strong>PACS</strong> is 100% integrated with RIS, through the Worklist service. This integration guarantees efficient and unified management of all Health Center processes.
+      api_Interoperability:
+        subtitle: Integration with all systems on the market
+        text: Integration of information with all systems on the market, allowing the digitalization of all processes in your Health Center.
+        text2: More efficiency in the daily lives of your team and your patients!
+      anvisa:
+        text: Cfaz is a manufacturer of medical products (software) duly registered and certified by ANVISA.
+        text2: When using certified software such as Cfaz.net, the professionals and especially the patients involved can count on the safety and reliability of a product evaluated and approved by the highest authority in health regulation in Brazil.
+      storage:
+        text: "Complying with the standards of all health councils: CFO, CFM and ANVISA."
+        text2: Unlimited and 100% secure storage in the Cloud, with maximum quality of images and exams. Thanks to the infrastructure provided by Google Cloud Platform, a global reference company in data security and connection stability.
+        note: "*Valid during the term of the contract"
+      teleradiology:
+        text: We connect your Radiology Center to professionals from all over Brazil and abroad through a unified platform with solutions designed to facilitate the outsourcing of reports and exams. You send the images to your reviewers and receive the completed reports, all through Cfaz.net.
+        testimony:
+          text: “Cfaz.net connects us with radiologists and imaging centers, making it ideal for teleradiology. Its online cloud platform optimizes work, creating an efficient digital flow for more than 30 radiology centers in Latin America and Europe.”
+          information: Dr. Monica Pinã - Owner of TRADIT 3D - Cfaz client for 2 years
+      tailor_made_plans: Tailor-made plans for the Management of Hospitals, Reporting Centers and Radiology Centers
+      humanized_support:
+        text: The <strong>Best Customer Experience</strong> on the Market!
+        text2: Don't wait in line or be served by robots. With Cfaz, you will be served, on average, in 2 minutes.
+        text3: Our multidisciplinary team receives intensive training so that you quickly have the solution you need!
+        real_time_service: Real-time service
+        days_week: "Monday to Friday: 8am to 6pm <br> Saturday: 8am to 12pm"
+        channels: "Channels: Direct chat in the system, WhatsApp, telephone or email."
+      google_cloud_platform:
+        text: Our customers benefit from the security and robustness of the same Cloud infrastructure used by Google in services such as its Search Engine, Gmail and Youtube.
+        text2: Your data remains safe from loss or damage. Don't worry about servers, backup hard drives, system reinstallation, etc.
+        text3: Furthermore, we migrate data from your old system to Cfaz.net!
+      dicom:
+        title: DICOM integration with all devices on the market
+        subtitle: Quick access to results and centralized information with our PACS Online
+        text: Native support for Worklist and PACS, allowing integration with any device and DRY printers, for intelligent printing, when necessary, saving time and resources.
+      ia:
+        title: A.I.
+        subtitle: Artificial Intelligence is already part of our present and enhances Radiology.
+        text: Cfaz already uses A.I. in the Cephalometric Tracings tool, which can reach 99% accuracy, and in Automatic Image Identification, reducing the time spent by the Radiologist as much as possible, and saving resources.
+        text2: Optimize and modernize your business!
+      lgpd:
+        subtitle: Security and reliability in data processing
+        text: All data collected through Cfaz.net is stored securely, following the strict norms and standards established by ISO 27001.
+        text2: We offer tools for the efficient management of consent forms signed by patients when collecting data, so that Health Centers are also in compliance with regulations.
+
+    
+    
+    
+    footer:
+      developed: Developed by Cfaz.net
+      privacy_policy: Privacy Policy
+
+
+
+
     cookies_confirmation: We use cookies and other similar technologies to improve your experience on our services, but we don't use them for tracking purposes. By using our services, you agree to such monitoring.
   footer:
 alt:

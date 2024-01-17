@@ -11,8 +11,8 @@ layout: default
 <section id="informations" class="py-5">
   <div class="container-xxl d-flex align-items-center justify-content-around">
     <div class="col-md-6" data-aos="zoom-in">
-      <p class="text-secondary-light">Software em Nuvem para realizar a gestão de atendimentos em <strong>Hospitais</strong> e <strong>Centros de Diagnóstico por Imagem</strong>, incluindo API para Interoperabilidade com todos os sistemas do mercado.</p>
-      <p class="text-secondary-light"><strong>Distribuição Online</strong> de exames para Dentistas e Médicos solicitantes.</p>
+      <p class="text-secondary-light">{% t navigation.main.hospitais.informations.text %}</p>
+      <p class="text-secondary-light">{% t navigation.main.hospitais.informations.text2 %}</p>
     </div>
     <img src="./assets/img/hospital.png" alt="Profissionais da saúde" data-aos="zoom-in">
   </div>
@@ -31,9 +31,9 @@ layout: default
     </div>
     <div class="col-md-6">
       <h2 class="text-primary"><strong>{% t navigation.main.index.benefits.api_Interoperability %}</strong></h2>
-      <p><strong>Integração com todos os sistemas do mercado</strong></p>
-      <p>Integração de informações com todos os sistemas do mercado, <br> permitindo a digitalização de todos os processos do seu Centro <br> de Saúde.</p>
-      <p>Mais eficiência no dia a dia da sua equipe e de seus pacientes!</p>
+      <p><strong>{% t navigation.main.hospitais.api_Interoperability.subtitle %}</strong></p>
+      <p>{% t navigation.main.hospitais.api_Interoperability.text %}</p>
+      <p>{% t navigation.main.hospitais.api_Interoperability.text2 %}</p>
     </div>
   </div>
 </section>
@@ -53,14 +53,14 @@ layout: default
   <div class="d-flex align-items-center justify-content-between" data-aos="fade-up">
     <div class="container-xxl">
       <h2 class="text-primary"><strong>{% t navigation.main.index.plans.teleradiology %}</strong></h2>
-      <p>Conectamos seu Centro de Radiologia a profissionais de todo o Brasil e do exterior por meio de uma plataforma unificada com soluções projetadas para facilitar a terceirização de laudos e exames. Você envia as imagens para seus laudadores e recebe os laudos concluídos, tudo pelo Cfaz.net.</p>
+      <p>{% t navigation.main.hospitais.teleradiology.text %}</p>
       <div class="card shadow py-2 border-0 card shadow py-2 border-0">
         <div class="card-body d-flex align-items-center justify-content-between">
           <img src="./assets/img/depoimento-monica.png" alt="Foto da Dra. Monica">
           <div class="ms-3" style="line-height: 110%;">
-            <small>“O Cfaz.net nos conecta com radiologistas e centros de imagem, sendo ideal para telerradiologia. Sua plataforma online na nuvem otimiza o trabalho, criando um fluxo digital eficiente para mais de 30 centros radiológicos na América Latina e Europa.”</small><br>
+            <small>{% t navigation.main.hospitais.teleradiology.testimony.text %}</small><br>
             <div class="mt-2">
-              <small class="text-secondary-light">Dra. Monica Pinã - Proprietária TRADIT 3D - Cliente Cfaz há 2 anos</small>
+              <small class="text-secondary-light">{% t navigation.main.hospitais.teleradiology.testimony.information %}</small>
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@ layout: default
 <section id="hospital-tailor-made-plans" class="py-5">
   <div class="container-xxl" data-aos="fade-up">
     <div class="row d-flex justify-content-center text-center">
-      <h2 class="col-md-6 mb-4">Planos sob medida para a Gestão de Hospitais, Centrais de Laudo e Centros de Radiologia</h2>
+      <h2 class="col-md-6 mb-4">{% t navigation.main.hospitais.teleradiology.tailor_made_plans %}</h2>
     </div>
     <table class="table">
       <thead>
@@ -104,43 +104,43 @@ layout: default
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Aplicativo Cfaz</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.cfaz_app %}</th>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Programa de Benefícios</th>
+          <th class="text-secondary">{% t navigation.main.index.benefits_program.benefits_program %}</th>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Agendas</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.agendas %}</th>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Gestão de Pacientes</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.patient_management %}</th>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Gestão de Atendimentos</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.service_management %}</th>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Gestão de Solicitantes</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.requestor_management %}</th>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Exames - Realização e Terceirização</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.exams_conducting_outsourcing %}</th>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
@@ -152,62 +152,61 @@ layout: default
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Pedidos Online</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.online_request %}</th>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Consultas</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.queries %}</th>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Gestão de Convênios e Procedimentos</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.management_agreements_procedures %}</th>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Gestão de Colaboradores e Permissões</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.management_agreements_procedures %}</th>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Receita Online</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.online_recipe %}</th>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Gestão de documentos</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.document_management %}</th>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Assinatura Digital</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.digital_signature %}</th>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Impressão</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.print %}</th>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Exames - IA, Gestão de Exames, Gestão de <br> Análises Cefalométricas, HDs, <br> 
-            Visualizadores MPR e 3D, STL, Distribuição</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.exams %}</th>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Integração com Aparelhos e Impressoras</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.integration_devices_printers %}</th>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
@@ -219,13 +218,13 @@ layout: default
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Gestão de Clientes de Central de Laudos</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.report_center_customer_management %}</th>
           <td class="plan-x"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
         </tr>
         <tr>
-          <th class="text-secondary">Armazenamento externo - Dropbox</th>
+          <th class="text-secondary">{% t navigation.main.plans_services_features.dropbox %}</th>
           <td class="plan-x"></td>
           <td class="plan-v"></td>
           <td class="plan-v"></td>
