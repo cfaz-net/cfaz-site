@@ -80,9 +80,9 @@
         
         
         
-        <a href="/hospitais.html"><img src="assets/img/icons/bandeira_pt-BR.png" alt=""></a>
-        <a href="/es/hospitais.html"><img src="assets/img/icons/bandeira_es.png" alt=""></a>
-        <a href="/en/hospitais.html"><img src="assets/img/icons/bandeira_en.png" alt=""></a>
+        <a href="/hospitais.html"><span class="position-absolute" style="z-index:-1">pt</span><img src="assets/img/icons/bandeira_pt-BR.png" aria-label="" alt=""></a>
+        <a href="/es/hospitais.html"><span class="position-absolute" style="z-index:-1">es</span><img src="assets/img/icons/bandeira_es.png" aria-label="" alt=""></a>
+        <a href="/en/hospitais.html"><span class="position-absolute" style="z-index:-1">en</span><img src="assets/img/icons/bandeira_en.png" aria-label="" alt=""></a>
         <input id="language" type="hidden" value="pt-BR">
       </div>
       <a class="btn btn-cta" target="_blank" href="https://max.cfaz.net/">Entrar</a>
@@ -101,7 +101,7 @@
       <p class="text-secondary-light">Software em Nuvem para realizar a gestão de atendimentos em <strong>Hospitais</strong> e <strong>Centros de Diagnóstico por Imagem</strong>, incluindo API para Interoperabilidade com todos os sistemas do mercado.</p>
       <p class="text-secondary-light"><strong>Distribuição Online</strong> de exames para Dentistas e Médicos solicitantes.</p>
     </div>
-    <img src="./assets/img/hospital.png" data-aos="zoom-in">
+    <img src="./assets/img/hospital.png" alt="Profissionais da saúde" data-aos="zoom-in">
   </div>
 </section>
 
@@ -118,7 +118,7 @@
       Essa integração garante uma gestão eficiente e unificada de todos os processos do Centro de Saúde.</p>
   </div>
   <div class="col-md-6 text-center">
-    <img src="./assets/img/servicos-funcionalidades/ris-pacs.png" alt="">
+    <img src="./assets/img/servicos-funcionalidades/ris-pacs.png" alt="Demonstração da funcionalidade no sistema">
   </div>
 </div>
 </section>
@@ -127,7 +127,7 @@
 <section class="py-5">
   <div class="container-xxl d-flex align-items-center justify-content-between" data-aos="fade-up">
     <div class="col-md-6 text-center">
-      <img src="./assets/img/servicos-funcionalidades/api-interoperabilidade.png" alt="">
+      <img src="./assets/img/servicos-funcionalidades/api-interoperabilidade.png" alt="Aparelhos eletronicos se conectando">
     </div>
     <div class="col-md-6">
       <h2 class="text-primary"><strong>API para Interoperabilidade</strong></h2>
@@ -160,7 +160,7 @@
   <!-- ======= Armazenamento por 20 anos* ======= -->
 <div class="container-xxl d-flex align-items-center justify-content-between" data-aos="fade-up">
   <div class="col-md-6 text-center">
-    <img src="./assets/img/servicos-funcionalidades/armazenamento.png" alt="">
+    <img src="./assets/img/servicos-funcionalidades/armazenamento.png" alt="Aparelhos conectados a um servidor">
   </div>
   <div class="col-md-6">
     <h2 class="text-primary"><strong>Armazenamento por 20 anos*</strong></h2>
@@ -179,7 +179,7 @@
       <p>Conectamos seu Centro de Radiologia a profissionais de todo o Brasil e do exterior por meio de uma plataforma unificada com soluções projetadas para facilitar a terceirização de laudos e exames. Você envia as imagens para seus laudadores e recebe os laudos concluídos, tudo pelo Cfaz.net.</p>
       <div class="card shadow py-2 border-0 card shadow py-2 border-0">
         <div class="card-body d-flex align-items-center justify-content-between">
-          <img src="./assets/img/depoimento-monica.png">
+          <img src="./assets/img/depoimento-monica.png" alt="Foto da Dra. Monica">
           <div class="ms-3" style="line-height: 110%;">
             <small>“O Cfaz.net nos conecta com radiologistas e centros de imagem, sendo ideal para telerradiologia. Sua plataforma online na nuvem otimiza o trabalho, criando um fluxo digital eficiente para mais de 30 centros radiológicos na América Latina e Europa.”</small><br>
             <div class="mt-2">
@@ -190,7 +190,7 @@
       </div>
     </div>
     <div class="col-md-6 text-end">
-      <img src="./assets/img/servicos-funcionalidades/telerradiologia.png" alt="">
+      <img src="./assets/img/servicos-funcionalidades/telerradiologia.png" alt="Demonstração da funcionalidade no sistema">
     </div>
   </div>
 </section>
@@ -206,15 +206,15 @@
         <tr>
           <th scope="col"></th>
           <th scope="col" class="text-center">
-            <img class="mb-2" src="./assets/img/icons/centro_radiologia_white.png" alt="">
+            <img class="mb-2" src="./assets/img/icons/plan_centro_radiologia_white.png" alt="Ícone de um aparelho de radiologia">
             <p class="text-secondary-light">Centros de Radiologia</p>
           </th>
           <th scope="col" class="text-center">
-            <img class="mb-2" src="./assets/img/icons/centrais_laudo_white.png" alt="">
+            <img class="mb-2" src="./assets/img/icons/plan_centrais_laudo_white.png" alt="Ícone de uma folha com checklist">
             <p class="text-secondary-light">Centrais de Laudo</p>
           </th>
           <th scope="col" class="text-center">
-            <img class="mb-2" src="./assets/img/icons/hospitais_white.png" alt="">
+            <img class="mb-2" src="./assets/img/icons/plan_hospitais_white.png" alt="Ícone de um hospital">
             <p class="text-secondary-light">Hospitais</p>
           </th>
         </tr>
@@ -358,26 +358,26 @@
           <td class="text-center">
             <small>a partir de </small>
             <p class="mb-0"><strong>R$ 199/mês</strong></p>
-            <a class="btn btn-primary inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_centros_radiologia">
-              <img class="me-3" src="./assets/img/icons/btn_phone.png">
+            <button class="btn btn-primary inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_centros_radiologia">
+              <img class="me-3" src="./assets/img/icons/btn_phone.png" alt="Ícone de telefone">
               <span class="text-primary">Ligamos para você</span>
-            </a>
+            </button>
           </td>
           <td class="text-center">
             <small>a partir de </small>
             <p class="mb-0"><strong>R$ 249/mês</strong></p>
-            <a class="btn btn-primary inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_centrais_laudo">
-              <img class="me-3" src="./assets/img/icons/btn_phone.png">
+            <button class="btn btn-primary inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_centrais_laudo">
+              <img class="me-3" src="./assets/img/icons/btn_phone.png" alt="Ícone de telefone">
               <span class="text-primary">Ligamos para você</span>
-            </a>
+            </button>
           </td>
           <td class="text-center">
             <small>a partir de </small>
             <p class="mb-0"><strong>R$ 399/mês</strong></p>
-            <a class="btn btn-primary inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_hospitais">
-              <img class="me-3" src="./assets/img/icons/btn_phone.png">
+            <button class="btn btn-primary inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_hospitais">
+              <img class="me-3" src="./assets/img/icons/btn_phone.png" alt="Ícone de telefone">
               <span class="text-primary">Ligamos para você</span>
-            </a>
+            </button>
           </td>
         </tr>
         </tr>
@@ -406,7 +406,7 @@
     </div>
   </div>
   <div class="col-md-6 text-center">
-    <img src="./assets/img/servicos-funcionalidades/suporte-tecnico.png" width="350" alt="">
+    <img src="./assets/img/servicos-funcionalidades/suporte-tecnico.png" alt="Funcionário atendendo cliente" width="350">
   </div>
 </div>
 </section>
@@ -416,7 +416,7 @@
   <!-- ======= Google Cloud Platform ======= -->
 <div class="container-xxl d-flex align-items-center justify-content-between" data-aos="fade-up">
   <div class="col-md-6 text-center">
-    <img src="./assets/img/servicos-funcionalidades/google-cloud.png" alt="">
+    <img src="./assets/img/servicos-funcionalidades/google-cloud.png" alt="Tela com dados protegidos na google cloud platform">
   </div>
   <div class="col-md-6">
     <h2 class="text-primary"><strong>Google Cloud Platform</strong></h2>
@@ -439,7 +439,7 @@
     <p>Suporte nativo a Worklist e PACS, permitindo integração com qualquer aparelho e impressoras DRY, para impressões de forma inteligente, quando necessário, economizando tempo e recursos.</p>
   </div>
   <div class="col-md-6 text-end">
-    <img src="./assets/img/servicos-funcionalidades/dicom.png" alt="">
+    <img src="./assets/img/servicos-funcionalidades/dicom.png" alt="Profissionais de radiologia trabalhando">
   </div>
 </div>
 </section>
@@ -449,7 +449,7 @@
   <!-- ======= I.A. ======= -->
 <div class="container-xxl d-flex align-items-center justify-content-between" data-aos="fade-up">
   <div class="col-md-6 text-center">
-    <img class="w-90" src="./assets/img/servicos-funcionalidades/ia.png" alt="">
+    <img class="w-90" src="./assets/img/servicos-funcionalidades/ia.png" alt="Demonstração da funcionalidade no sistema">
   </div>
   <div class="col-md-6">
     <h2 class="text-primary"><strong>I.A.</strong></h2>
@@ -471,7 +471,7 @@
     <p>Oferecemos ferramentas para a gestão eficiente dos termos de consentimento assinados pelos pacientes na coleta dos dados, para que os Centros de Saúde estejam também em conformidade com as regulamentações.</p>
   </div>
   <div class="col-md-6 text-center">
-    <img src="./assets/img/servicos-funcionalidades/lgpd.png" alt="">
+    <img src="./assets/img/servicos-funcionalidades/lgpd.png" alt="Pessoa adicionando objetos em um cofre">
   </div>
 </div>
 </section>
@@ -486,18 +486,18 @@
           <div class="card-body">
             <h2 class="mb-4"><strong>Suporte Técnico</strong></h2>
             <div class="d-flex align-items-center mb-4">
-              <img src="./assets/img/icons/icon-whatsapp.png">
+              <img src="./assets/img/icons/icon-whatsapp.png" alt="Ícone do whatsapp">
               <a class="ms-3 mb-0 text-secondary hover_underline" target="_blank"
                 href="https://api.whatsapp.com/send?phone=553139560980&text=Ol%C3%A1%20Natalia!%20Eu%20gostaria%20de%20saber%20mais%20sobre%20o%20sistema%20de%20voc%C3%AAs.%20%3A">(31)
                 3956-0980</a>
             </div>
             <div class="d-flex align-items-center mb-4">
-              <img src="./assets/img/icons/icon-email.png">
+              <img src="./assets/img/icons/icon-email.png" alt="Ícone de envelope">
               <a class="ms-3 mb-0 text-secondary hover_underline" target="_blank"
                 href="mailto:suporte@cfaz.net">suporte@cfaz.net</a>
             </div>
             <div class="d-flex align-items-center">
-              <img src="./assets/img/icons/icon-suporte.png">
+              <img src="./assets/img/icons/icon-suporte.png" alt="Icone de pessoa utilizando headset">
               <a class="ms-3 mb-0 text-secondary hover_underline" target="_blank" href="https://max.cfaz.net/">Ir para a
                 central de atendimento</a>
             </div>
@@ -509,13 +509,13 @@
           <div class="card-body">
             <h2 class="mb-4"><strong>Vendas</strong></h2>
             <div class="d-flex align-items-center mb-4">
-              <img src="./assets/img/icons/icon-whatsapp.png">
+              <img src="./assets/img/icons/icon-whatsapp.png" alt="Ícone do whatsapp">
               <p class="mb-0"><a class="ms-3 mb-0 text-secondary hover_underline" target="_blank"
                   href="https://api.whatsapp.com/send?phone=5538998321411&text=Ol%C3%A1%20Natalia!%20Eu%20gostaria%20de%20saber%20mais%20sobre%20o%20sistema%20de%20voc%C3%AAs.%20%3A">(38)
                   9 9832-1411</a> <small>Natália</small></p>
             </div>
             <div class="d-flex align-items-center">
-              <img src="./assets/img/icons/icon-email.png">
+              <img src="./assets/img/icons/icon-email.png" alt="Ícone de envelope">
               <a class="ms-3 mb-0 text-secondary hover_underline" target="_blank"
                 href="mailto:vendas@cfaz.net">vendas@cfaz.net</a>
             </div>
@@ -527,7 +527,7 @@
           <div class="card-body">
             <h2 class="mb-4"><strong>Financeiro</strong></h2>
             <div class="d-flex align-items-center mb-4">
-              <img src="./assets/img/icons/icon-whatsapp.png">
+              <img src="./assets/img/icons/icon-whatsapp.png" alt="Ícone do whatsapp">
               <a class="ms-3 mb-0 text-secondary hover_underline" target="_blank"
                 href="https://api.whatsapp.com/send?phone=553139560980&text=Ol%C3%A1%20Natalia!%20Eu%20gostaria%20de%20saber%20mais%20sobre%20o%20sistema%20de%20voc%C3%AAs.%20%3A">(31)
                 3956-0980</a>
@@ -545,18 +545,18 @@
         <h1>App mobile gratuito <br> Disponível na App Store <br> e na Play Store</h1>
         <a class="btn btn-primary d-inline-flex justify-content-between align-items-flex-start mt-2" target="_blank"
           href="https://apps.apple.com/us/app/cfaz-net/id1609074748">
-          <img class="me-3" src="./assets/img/icons/app-apple.png">
+          <img class="me-3" src="./assets/img/icons/app-apple.png" alt="Ícone da apple store">
           <span class="text-secondary">App Store</span>
         </a>
         <a class="btn btn-primary d-inline-flex justify-content-between align-items-flex-start mt-2" target="_blank"
           href="https://play.google.com/store/apps/details?id=max.cfaz.net&pli=1">
-          <img class="me-3" src="./assets/img/icons/app-google.png">
+          <img class="me-3" src="./assets/img/icons/app-google.png" alt="Ícone da google play console">
           <span class="text-secondary">Play Store</span>
         </a>
       </div>
     </div>
     <div class="text-center">
-      <img src="./assets/img/app.png">
+      <img src="./assets/img/app.png" alt="Imagem do sistema em um aplicativo">
     </div>
   </section>
 </section>
@@ -574,22 +574,22 @@
     <footer id="footer" class="pt-4 pb-3">
       <div class="container-xxl">
         <section class="d-flex justify-content-between align-items-center">
-          <a href="index.html"><img src="../assets/img/footer_logo.png" alt=""></a>
+          <a href="index.html"><img src="../assets/img/footer_logo.png" alt="Logo da cfaz"></a>
           
           <div class="d-flex align-items-end justify-content-around">
-            <img class="me-4" src="../assets/img/icons/footer-hippaa.png" alt="">
-            <img class="me-4" src="../assets/img/icons/footer-lgpd.png" alt="">
-            <img class="me-4" src="../assets/img/icons/footer-google.png" alt="">
-            <img src="../assets/img/icons/footer-anvisa.png" alt="">
+            <img class="me-4" src="../assets/img/icons/footer-hippaa.png" alt="Logo da HIPPA">
+            <img class="me-4" src="../assets/img/icons/footer-lgpd.png" alt="Logo da LGPD">
+            <img class="me-4" src="../assets/img/icons/footer-google.png" alt="Logo da Google Cloud Platform">
+            <img src="../assets/img/icons/footer-anvisa.png" alt="Logo da Anvisa">
           </div>
 
           <div class="locale">
             
             
             
-            <a href="/hospitais.html"><img src="assets/img/icons/bandeira_pt-BR.png" alt=""></a>
-            <a href="/es/hospitais.html"><img src="assets/img/icons/bandeira_es.png" alt=""></a>
-            <a href="/en/hospitais.html"><img src="assets/img/icons/bandeira_en.png" alt=""></a>
+            <a href="/hospitais.html"><span class="position-absolute" style="z-index:-1">pt</span><img src="assets/img/icons/bandeira_pt-BR.png" aria-label="" alt=""></a>
+            <a href="/es/hospitais.html"><span class="position-absolute" style="z-index:-1">es</span><img src="assets/img/icons/bandeira_es.png" aria-label="" alt=""></a>
+            <a href="/en/hospitais.html"><span class="position-absolute" style="z-index:-1">en</span><img src="assets/img/icons/bandeira_en.png" aria-label="" alt=""></a>
             <input id="language" type="hidden" value="pt-BR">
           </div>
         </section>
@@ -713,48 +713,44 @@
 	</div>
 </div>
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<!-- Modal Cfaz-ciencia -->
+<div class="modal fade" id="modal_cfaz_science" tabindex="-1" aria-labelledby="modal_cfaz_science" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Fale com um de nossos consultores</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div id="cfaz_ciencia"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><img src="assets/img/icons/seta_cima.png" alt="Ícone de seta para cima"></a>
     <div id="preloader"></div>
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/aos/aos.js"></script>
+    <script charset="utf-8" type="text/javascript" src="assets/vendor/aos/aos.js"></script>
+    <!-- <script charset="utf-8" type="text/javascript" src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+    <script charset="utf-8" type="text/javascript" src="assets/vendor/swiper/swiper-bundle.min.js"></script> 
+    <script charset="utf-8" type="text/javascript" src="assets/vendor/hubspot/hubspot.js"></script>
     <script>AOS.init({})</script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/purecounter/purecounter.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script> 
 
     <!-- JS File -->
-    <script src="assets/js/main.js"></script>
-    <!-- <script src="assets/js/hubspot_form.js"></script> -->
-    <script src="assets/js/filter_team.js"></script>
-    <script src="assets/js/cookie_consent.js"></script>
-
-    <!-- Hubspot -->
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+    <script charset="utf-8" type="text/javascript" src="assets/js/main.js"></script>
+    <script charset="utf-8" type="text/javascript" src="assets/js/hubspot_form.js"></script>
+    <script charset="utf-8" type="text/javascript" src="assets/js/filter_team.js"></script>
+    <script charset="utf-8" type="text/javascript" src="assets/js/cookie_consent.js"></script>
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NVH38EZE5V%22%3E"></script>
 
     <!-- Google Ads -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-754517111%22%3E"></script>
-
-    <!-- Card de parceiros (quando passa o mouse, mostra o segmento) -->
-    <script>  
-      function showSegment(num){
-        check_class_none = document.querySelector(".segment-image-" + num).classList.contains("d-none")
-        if(!check_class_none){
-          document.querySelector(".segment-image-" + num).classList.add('d-none')
-          document.querySelector(".segment-text-" + num).classList.remove('d-none')
-        } else {
-          document.querySelector(".segment-image-" + num).classList.remove('d-none')
-          document.querySelector(".segment-text-" + num).classList.add('d-none')
-        }
-      }
-    </script>
   </body>
   </html>

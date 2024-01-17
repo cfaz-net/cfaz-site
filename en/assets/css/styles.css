@@ -1,14 +1,4 @@
-/*--------------------------------------------------------------
-# Grid
---------------------------------------------------------------*/
-.d-inline-flex {
-  display: inline-flex;
-}
-
-/*--------------------------------------------------------------
-# Buttons
---------------------------------------------------------------*/
-.btn-icon {
+.btn-icon{
   width: 22px;
   height: 22px;
   background-size: 22px;
@@ -16,18 +6,12 @@
   background-position: center;
 }
 
-/*--------------------------------------------------------------
-# Background
---------------------------------------------------------------*/
-.background {
+.background{
   background-image: url(../img/background/background.png);
   background-size: cover;
 }
 
-/*--------------------------------------------------------------
-# Index / Inicial
---------------------------------------------------------------*/
-#hero {
+#hero{
   width: 100%;
   background: url("../img/headers/home.webp");
   background-repeat: no-repeat;
@@ -37,16 +21,25 @@
   border-radius: 0 0 0 130px;
 }
 
-#hero.hero-initial {
-  background-image: url(../img/header_graphic.png);
+#hero.hero-initial{
+  background-image: url(../img/background/header_graphic.png);
   background-size: 200px;
   background-position-y: bottom;
 }
 
-/*--------------------------------------------------------------
-# Planos / plans
---------------------------------------------------------------*/
-#plans {
+#title-hospitais,
+#title-radiology,
+#title-odontologia-medicina,
+#title-vet,
+#title-about,
+#title-privacy-policy{
+  background-size: cover;
+  margin-top: 64px;
+  padding: 24px 0;
+}
+
+/* Planos / plans */
+#plans{
   background-image: url(../img/background/plans.png);
   background-size: contain;
   background-position-y: 170px;
@@ -54,15 +47,18 @@
 }
 
 #plans .card,
-#plans-values .card {
+#plans-values .card{
   border-radius: 20px 60px 20px 60px;
   border: none;
 }
 
-/*--------------------------------------------------------------
-# Veterinaria
---------------------------------------------------------------*/
-#vet .vet-graphic-image {
+#plans h1,
+#plans-values h1{
+  font-size: 20px;
+}
+
+/* Veterinaria */
+#vet .vet-graphic-image{
   background-image: url(../img/background/bg_vet.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -73,13 +69,13 @@
   left: 0;
 }
 
-#countries {
+#countries{
   background-image: url(../img/background/bg_onde_estamos.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#countries .swiper-slide {
+#countries .swiper-slide{
   background-color: var(--bs-white-light);
   height: 160px;
   border-radius: 10px 40px 10px 40px;
@@ -90,12 +86,12 @@
 
 #countries .swiper-container-horizontal>.swiper-pagination-bullets,
 #benefits-program .swiper-container-horizontal>.swiper-pagination-bullets,
-#values .swiper-container-horizontal>.swiper-pagination-bullets {
+#values .swiper-container-horizontal>.swiper-pagination-bullets{
   bottom: 0;
 }
 
 #countries .swiper-slide img,
-#benefits-program .swiper-slide img {
+#benefits-program .swiper-slide img{
   width: 90%;
   height: auto;
   padding: 0px;
@@ -103,115 +99,85 @@
 
 #countries .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
 #benefits-program .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
-#values .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+#values .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
   background-color: var(--bs-white-light);
   border: 1px solid var(--bs-primary);
 }
 
 #countries .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active,
 #benefits-program .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active,
-#values .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+#values .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active{
   background-color: var(--bs-primary);
 }
 
-/*--------------------------------------------------------------
-# Depoimentos
---------------------------------------------------------------*/
-#customer-testimonial .card {
-  background-image: url(../img/background/background.png);
+/* Depoimentos */
+#customer-testimonial .card{
   background-size: auto;
-  background-repeat: no-repeat;
 }
 
 #customer-testimonial iframe,
-#cfaz-science iframe {
+#cfaz-science iframe{
   margin-top: -32px;
   border-radius: 10px;
 }
 
-/*--------------------------------------------------------------
-# Informações
---------------------------------------------------------------*/
-#security-credibility {
-  background-image: url(../img/background/background.png);
-  background-size: auto;
-  background-repeat: no-repeat;
-}
-
-#security-credibility .card {
+/* Informações */
+#security-credibility .card{
   width: 300px;
   border-radius: 20px 60px 20px 60px;
 }
 
-/*--------------------------------------------------------------
-# Planos - Valores
---------------------------------------------------------------*/
-#environment {
+#security-credibility .card-title,
+#environment .text-environment{
+  font-size: 47px;
+  line-height: 120%;
+}
+
+/* Planos - Valores */
+#environment{
   background-image: url(../img/background/environment.png);
   background-size: auto;
   background-repeat: no-repeat;
 }
 
-/*--------------------------------------------------------------
-# Contatos
---------------------------------------------------------------*/
-#contact .sales {
+/* Contatos */
+#contact .sales{
   background-image: url(../img/background/bg_contact_sales.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 
-/*--------------------------------------------------------------
-# Programa de Benefícios
---------------------------------------------------------------*/
-#benefits-program .swiper-slide {
+/* Programa de Benefícios */
+#benefits-program .swiper-slide{
   background-color: var(--bs-white-light);
   border-radius: 10px;
   margin-bottom: 30px;
 }
 
-/*--------------------------------------------------------------
-# Rodapé
---------------------------------------------------------------*/
-#footer {
+/* Rodapé */
+#footer{
   background-image: url(../img/background/bg-footer.png);
   background-size: auto;
 }
 
-#footer .locale img {
+#footer .locale img{
   filter: gray;
-  /* IE6-9 */
   -webkit-filter: grayscale(100%);
-  /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
 
-#footer .locale img:hover {
+#footer .locale img:hover{
   filter: none;
-  /* IE6-9 */
   -webkit-filter: grayscale(0%);
-  /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
 
-
-
-
-
-
-/*--------------------------------------------------------------
-# Hospitais
---------------------------------------------------------------*/
-#title-hospitais {
+/* Hospitais */
+#title-hospitais{
   background-image: url(../img/background/bg-hospitais.png);
-  background-size: cover;
-  margin-top: 64px;
-  padding: 24px 0;
 }
 
-/*--------------------------------------------------------------
-# Anvisa
---------------------------------------------------------------*/
-#anvisa .anvisa-graphic-image {
+/* Anvisa */
+#anvisa .anvisa-graphic-image{
   background-image: url(../img/background/bg-anvisa.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -222,7 +188,7 @@
   left: 0;
 }
 
-#anvisa .anvisa-image {
+#anvisa .anvisa-image{
   background-image: url(../img/servicos-funcionalidades/certificacao-anvisa.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -233,11 +199,8 @@
   right: 0;
 }
 
-
-/*--------------------------------------------------------------
-# Planos sob medida (hospitais, centrais de laudo e centros de radiologia)
---------------------------------------------------------------*/
-#hospital-tailor-made-plans .plan-v {
+/* Planos sob medida (hospitais, centrais de laudo e centros de radiologia) */
+#hospital-tailor-made-plans .plan-v{
   background-image: url(../img/icons/plano-v.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -245,7 +208,7 @@
   height: 16px;
 }
 
-#hospital-tailor-made-plans .plan-x {
+#hospital-tailor-made-plans .plan-x{
   background-image: url(../img/icons/plano-x.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -253,49 +216,28 @@
   height: 16px;
 }
 
-#hospital-tailor-made-plans tr th {
+#hospital-tailor-made-plans tr th{
   width: 200px;
   max-width: 200px !important;
   font-weight: normal !important;
 }
 
-
-
-
-
-
-
-/*--------------------------------------------------------------
-# Radiologia
---------------------------------------------------------------*/
-#title-radiology {
+/* Radiologia */
+#title-radiology{
   background-image: url(../img/background/bg-radiologia.png);
-  background-size: cover;
-  margin-top: 64px;
-  padding: 24px 0;
 }
 
-/*--------------------------------------------------------------
-# Odontologia e Medicina
---------------------------------------------------------------*/
-#title-odontologia-medicina {
+/* Odontologia e Medicina */
+#title-odontologia-medicina{
   background-image: url(../img/background/bg-odontologia-medicina.png);
-  background-size: cover;
-  margin-top: 64px;
-  padding: 24px 0;
 }
 
-/*--------------------------------------------------------------
-# Veterinaria
---------------------------------------------------------------*/
-#title-vet {
+/* Veterinaria */
+#title-vet{
   background-image: url(../img/background/bg-vet.png);
-  background-size: cover;
-  margin-top: 64px;
-  padding: 24px 0;
 }
 
-#informations .vet-graphic-image {
+#informations .vet-graphic-image{
   background-image: url(../img/background/bg-vet-right.png);
   background-size: auto;
   background-repeat: no-repeat;
@@ -306,31 +248,26 @@
   right: 0;
 }
 
-/*--------------------------------------------------------------
-# Sobre
---------------------------------------------------------------*/
-#title-about {
+/* Sobre */
+#title-about{
   background-image: url(../img/background/bg-sobre.png);
-  background-size: cover;
-  margin-top: 64px;
-  padding: 24px 0;
 }
 
-#mission.card {
+#mission.card{
   background-image: url(../img/icons/icone-missao.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
 
-#view.card {
+#view.card{
   background-image: url(../img/icons/icone-visao.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
 
-#values .values-container {
+#values .values-container{
   background-image: url(../img/icons/icone-valores.png);
   background-size: auto;
   background-repeat: no-repeat;
@@ -343,13 +280,12 @@
 }
 
 #team .nav-link:hover,
-#team .nav-link.active {
+#team .nav-link.active{
   border-left: 4px solid var(--bs-cta);
   color: var(--bs-cta);
 }
 
-
-#team .card {
+#team .card{
   border: none;
   height: 90%;
 }
@@ -358,16 +294,16 @@
   width: 100%;
 }
 
-#team .informations {
+#team .informations{
   padding: 8px 16px;
 }
 
-#team .team {
+#team .team{
   position: relative;
   overflow: hidden;
 }
 
-#team .team::after {
+#team .team::after{
   position: absolute;
   content: "";
   left: 0;
@@ -379,7 +315,7 @@
   z-index: 1;
 }
 
-.team .wave {
+.team .wave{
   position: absolute;
   right: -100%;
   top: 30px;
@@ -390,18 +326,15 @@
   z-index: 2;
 }
 
-.filter {
+.filter{
   display: none;
 }
 
-.show {
+.show{
   display: block;
 }
 
-
-/*--------------------------------------------------------------
-# Formulários hubspot
---------------------------------------------------------------*/
+/* Formulários hubspot */
 #newsletter form{
   display: flex;
   align-items: end;
@@ -478,16 +411,7 @@ select.hs-input{
   color: var(--bs-primary);
 }
 
-/*--------------------------------------------------------------
-# Politica de Privacidade
---------------------------------------------------------------*/
-#title-privacy-policy {
-  background-image: url(../img/background/background.png);
-  background-size: cover;
-  margin-top: 64px;
-  padding: 24px 0;
-}
-
+/* Politica de Privacidade */
 #privacy-policy p,
 #privacy-policy b{
   color: var(--bs-primary-light);
@@ -499,7 +423,7 @@ select.hs-input{
 }
 
 /* btn-back-to-top */
-.back-to-top {
+.back-to-top{
   position: fixed;
   visibility: hidden;
   opacity: 0;
@@ -513,18 +437,18 @@ select.hs-input{
   transition: all 0.4s;
 }
 
-.back-to-top i {
+.back-to-top i{
   font-size: 28px;
   color: #FFFFFF;
   line-height: 0;
 }
 
-.back-to-top:hover {
+.back-to-top:hover{
   background-color: #AF6625;
   color: #FFFFFF;
 }
 
-.back-to-top.active {
+.back-to-top.active{
   visibility: visible;
   opacity: 1;
 }
