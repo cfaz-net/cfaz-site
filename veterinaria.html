@@ -12,11 +12,8 @@ layout: default
   <div class="vet-graphic-image"></div>
   <div class="container-xxl d-flex align-items-center justify-content-around">
     <div class="col-md-6" data-aos="zoom-in">
-      <p class="text-secondary-light">Software completo em Nuvem para realizar toda a experiência de atendimento ao paciente veterinário, além de
-        controlar a gestão financeira e administrativa de <strong>Clínicas Veterinárias, Centros de Radiologia
-          Veterinária,
-          Radiologistas Laudadores Volantes</strong> e <strong>Hospitais Veterinários.</strong></p>
-      <p class="text-secondary-light"><strong>Distribuição Online</strong> de exames para Tutores e Médicos Veterinários solicitantes.</p>
+      <p class="text-secondary-light">{% t navigation.main.veterinary.informations.text1 %}</p>
+      <p class="text-secondary-light">{% t navigation.main.veterinary.informations.text2 %}</p>
     </div>
     <img src="./assets/img/veterinaria.png" alt="Veterinária com um raio-x na mão, olhando para cima e a frente um cachorro feliz" data-aos="zoom-in">
   </div>
@@ -29,9 +26,9 @@ layout: default
       <img src="./assets/img/servicos-funcionalidades/ris-pacs.png" alt="Demonstração da funcionalidade no sistema">
     </div>
     <div class="col-md-6">
-      <h2 class="text-primary"><strong>RIS e PACS 100% Online</strong></h2>
-      <p>Com o <strong>RIS</strong> em Nuvem do Cfaz.net você garante agilidade em todos os processos do seu Centro de Radiologia, incluindo Agendamentos, Prontuário do paciente, Gestão Financeira e Controle de Convênios e Parcerias.</p>
-      <p>Além disso, nosso <strong>PACS</strong> em Nuvem é 100% integrado com o RIS, através do serviço de Worklist. Essa integração garante uma gestão eficiente e unificada de todos os processos do Centro de Saúde.</p>
+      <h2 class="text-primary"><strong>{% t navigation.main.hospitais.ris_pacs.title %}</strong></h2>
+      <p>{% t navigation.main.veterinary.ris_pacs.text1 %}</p>
+      <p>{% t navigation.main.veterinary.ris_pacs.text2 %}</p>
     </div>
   </div>
 </section>
@@ -42,12 +39,10 @@ layout: default
     <div class="col-md-6 container-xxl">
       <div>
         <h2 class="text-primary"><strong>{% t navigation.main.index.benefits.online_calendar %}</strong></h2>
-        <p><strong>Organize os agendamentos e envie pedidos automaticamente pelo WhatsApp!</strong></p>
-        <p>Agendas ilimitadas, separadas por profissional, por sala, por tipo de exame, por unidade: liberdade para você
-          organizar os agendamentos da clínica de acordo com sua necessidade. </p>
-        <p>Gerencie o controle de retornos, pacientes em espera e ausentes, através de relatórios que também são 100%
-          customizáveis. </p>
-        <p>Realize a entrega automática de exames através do WhatsApp, com o custo a partir de R$ 0,35 por mensagem.</p>
+        <p><strong>{% t navigation.main.veterinary.online_agenda.subtitle %}</strong></p>
+        <p>{% t navigation.main.veterinary.online_agenda.text1 %}</p>
+        <p>{% t navigation.main.veterinary.online_agenda.text2 %}</p>
+        <p>{% t navigation.main.veterinary.online_agenda.text3 %}</p>
       </div>
     </div>
     <div class="text-end">
@@ -64,9 +59,8 @@ layout: default
     </div>
     <div class="col-md-6">
       <h2 class="text-primary"><strong>{% t navigation.main.index.benefits.financial_strategic_management %}</strong></h2>
-      <p>Eficiência operacional, organização, otimização de recursos, agilidade na tomada de decisões, melhoria de
-        desempenho, conformidade e governança…</p>
-      <p>Centralize os seus processos de gestão com a Cfaz!</p>
+      <p>{% t navigation.main.veterinary.financial_management_strategic.text1 %}</p>
+      <p>{% t navigation.main.veterinary.financial_management_strategic.text2 %}</p>
     </div>
   </div>
 </section>
@@ -75,11 +69,9 @@ layout: default
 <section id="management-flow" class="py-5">
   <div class="container-xxl d-flex align-items-center justify-content-between" data-aos="fade-up">
     <div class="col-md-6">
-      <h2 class="text-primary"><strong>Fluxo de Gestão Cfaz</strong></h2>
-      <p>Centralize em uma mesma plataforma a realização e distribuição de exames, além de toda a gestão financeira e
-        estratégica do seu Centro Veterinário!</p>
-      <p><strong>Ganhe agilidade e eficiência, economize recursos e foque no que realmente importa: a saúde do paciente
-          e o desenvolvimento do seu negócio.</strong></p>
+      <h2 class="text-primary"><strong>{% t navigation.main.veterinary.management_flow.title %}</strong></h2>
+      <p>{% t navigation.main.veterinary.management_flow.text1 %}</p>
+      <p><strong>{% t navigation.main.veterinary.management_flow.text2 %}</strong></p>
     </div>
     <div class="col-md-6 text-center">
       VIDEO YOUTUBE
@@ -88,18 +80,15 @@ layout: default
 </section>
 
 <!-- ======= Telerradiologia ======= -->
-<section id="management-flow" class="background py-5">
+<section class="background py-5">
   <div class="container-xxl d-flex align-items-center justify-content-between" data-aos="fade-up">
     <div class="text-center">
       <img class="w-90" src="./assets/img/servicos-funcionalidades/telerradiologia-vet.png"  alt="Demonstração da funcionalidade no sistema">
     </div>
     <div class="col-md-6">
       <h2 class="text-primary"><strong>{% t navigation.main.index.plans.teleradiology %}</strong></h2>
-      <p><strong>Acesso rápido de qualquer lugar, proporcionando redução de custos, flexibilidade e
-          escalabilidade</strong></p>
-      <p>Conectamos seu Centro de Imagem a profissionais de todo o Brasil e do exterior por meio de uma plataforma
-        unificada com soluções projetadas para facilitar a terceirização de laudos e exames. Você envia as imagens para
-        seus laudadores e recebe os laudos concluídos, tudo pelo Cfaz.net.</p>
+      <p><strong>{% t navigation.main.veterinary.teleradiology.subtitle %}</strong></p>
+      <p>{% t navigation.main.veterinary.teleradiology.text %}</p>
     </div>
   </div>
 </section>
@@ -110,10 +99,10 @@ layout: default
 </section>
 
 <!-- ======= Planos sob medida (todos os planos) ======= -->
-<section id="hospital-tailor-made-plans" class="py-5">
+<section id="tailor-made-plans" class="py-5">
   <div class="container-xxl" data-aos="fade-up">
     <div class="row d-flex justify-content-center text-center">
-      <h2 class="col-md-6 mb-4">Planos sob medida para a Gestão de Centros de Hospitais, Centros de Radiolgia e Distribuição de Exames</h2>
+      <h2 class="col-md-6 mb-4">{% t navigation.main.veterinary.tailor_made_plans %}</h2>
     </div>
     <table class="table">
       <thead>
@@ -396,18 +385,18 @@ layout: default
 </section>
 
 <!-- ======= Laudo por voz + Acesso via QR Code ======= -->
-<section id="" class="background py-5">
+<section class="background py-5">
   <div class="d-flex align-items-center justify-content-between" data-aos="fade-up">
     <div class="container-xxl">
       <div>
         <h2 class="text-primary"><strong>{% t navigation.main.index.benefits.voice_report %}</strong></h2>
-        <p>Na Cfaz você conta com diversas facilidades para a emissão de laudos de forma prática e eficiente.</p>
+        <p>{% t navigation.main.veterinary.voice_report.text %}</p>
         <ul>
-          <li>QR code no laudo para acesso rápido ao resultado, sem precisar de login;</li>
-          <li>Laudos em voz e com máscaras personalizadas e automáticas;</li>
-          <li>Ferramentas de medição e marcação das imagens;</li>
-          <li>Reconhecimento de voz para laudo narrado;</li>
-          <li>Compartilhe e saiba quando o laudo for visualizado.</li>
+          <li>{% t navigation.main.veterinary.voice_report.item1 %}</li>
+          <li>{% t navigation.main.veterinary.voice_report.item2 %}</li>
+          <li>{% t navigation.main.veterinary.voice_report.item3 %}</li>
+          <li>{% t navigation.main.veterinary.voice_report.item4 %}</li>
+          <li>{% t navigation.main.veterinary.voice_report.item5 %}</li>
         </ul>
       </div>
     </div>
@@ -424,7 +413,7 @@ layout: default
 
 <!-- ======= Gestão Multiclínicas ======= -->
 <section id="multiclinic-management" class="background py-5">
-  {% include multiclinic-management.html %}
+  {% include multiclinic_management.html %}
 </section>
 
 <!-- ======= Dicom ======= -->
@@ -434,9 +423,9 @@ layout: default
       <img src="./assets/img/servicos-funcionalidades/dicom.png" alt="Profissionais de radiologia trabalhando">
     </div>
     <div class="col-md-6">
-      <h2 class="text-primary"><strong>Integração DICOM com todos os aparelhos do mercado</strong></h2>
-      <p><strong>Acesso rápido aos resultados e informações centralizadas com nosso PACS Online</strong></p>
-      <p>Suporte nativo a Worklist e PACS, permitindo integração com qualquer aparelho e impressoras DRY, para impressões de forma inteligente, quando necessário, economizando tempo e recursos.</p>
+      <h2 class="text-primary"><strong>{% t navigation.main.veterinary.dicom.title %}</strong></h2>
+      <p><strong>{% t navigation.main.veterinary.dicom.subtitle %}</strong></p>
+      <p>{% t navigation.main.veterinary.dicom.text %}</p>
     </div>
   </div>
 </section>
@@ -446,11 +435,9 @@ layout: default
   <div class="container-xxl d-flex align-items-center justify-content-between" data-aos="fade-up">
     <div class="col-md-6">
       <h2 class="text-primary"><strong>{% t navigation.main.index.benefits.customizable_reports %}</strong></h2>
-      <p>Controle o desempenho do seu negócio, tendo uma ampla visão de processos e crie qualquer tipo de relatório
-        necessário com nossa ferramenta de agrupamentos.</p>
-      <p><strong>Monte relatórios financeiros</strong>, como cálculo de comissões, lançamentos de despesas e receitas.</p>
-      <p>Faça a <strong>gestão de produtividade e gestão estratégica</strong> de agendamentos, ticket médio, horários de
-        pico, mapa de parceiros, controle dos procedimentos e entrega de exames.</p>
+      <p>{% t navigation.main.veterinary.customizable_reports.text1 %}</p>
+      <p>{% t navigation.main.veterinary.customizable_reports.text2 %}</p>
+      <p>{% t navigation.main.veterinary.customizable_reports.text3 %}</p>
     </div>
     <div class="col-md-6 text-center">
       <img class="w-90" src="./assets/img/servicos-funcionalidades/relatorios-customizaveis-vet.png" alt="Demonstração da funcionalidade no sistema">

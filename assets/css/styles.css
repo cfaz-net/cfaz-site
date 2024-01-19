@@ -200,7 +200,7 @@
 }
 
 /* Planos sob medida (hospitais, centrais de laudo e centros de radiologia) */
-#hospital-tailor-made-plans .plan-v{
+#tailor-made-plans .plan-v{
   background-image: url(../img/icons/plano-v.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -208,7 +208,7 @@
   height: 16px;
 }
 
-#hospital-tailor-made-plans .plan-x{
+#tailor-made-plans .plan-x{
   background-image: url(../img/icons/plano-x.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -216,7 +216,7 @@
   height: 16px;
 }
 
-#hospital-tailor-made-plans tr th{
+#tailor-made-plans tr th{
   width: 200px;
   max-width: 200px !important;
   font-weight: normal !important;

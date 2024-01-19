@@ -11,9 +11,7 @@ layout: default
 <section id="informations" class="my-5 pb-5">
   <div class="container-xxl d-flex align-items-center justify-content-around" data-aos="zoom-in">
     <div class="col-md-6">
-      <p class="text-secondary-light">Tecnologia de ponta e Excelência em atendimento para gerenciar toda a experiência de atendimento ao paciente,
-        além permitir controlar a gestão administrativa e financeira de <strong>Consultórios, Clínicas e Franquias
-          Odontológicas</strong> e <strong>Médicas.</strong></p>
+      <p class="text-secondary-light">{% t navigation.main.odontologia_medicina.informations %}</p>
     </div>
     <img src="./assets/img/odontologia-medicina.png" alt="Profissional da saúde fazendo anotações em seu computador e máquina de radiologia atras" data-aos="zoom-in">
   </div>
@@ -24,12 +22,10 @@ layout: default
   <div class="container-xxl d-flex align-items-center justify-content-between" data-aos="fade-up">
     <div class="col-md-6">
       <h2 class="text-primary"><strong>{% t navigation.main.index.benefits.online_calendar %}</strong></h2>
-      <p><strong>Organize os agendamentos e envie pedidos automaticamente pelo WhatsApp!</strong></p>
-      <p>Agendas ilimitadas, separadas por profissional, por sala, por tipo de exame, por unidade: liberdade para você
-        organizar os agendamentos da clínica de acordo com sua necessidade. </p>
-      <p>Gerencie o controle de retornos, pacientes em espera e ausentes, através de relatórios que também são 100%
-        customizáveis. </p>
-      <p>Realize a entrega automática de exames através do WhatsApp, com o custo a partir de R$ 0,35 por mensagem.</p>
+      <p><strong>{% t navigation.main.odontologia_medicina.online_agenda.text %}</strong></p>
+      <p>{% t navigation.main.odontologia_medicina.online_agenda.text1 %}</p>
+      <p>{% t navigation.main.odontologia_medicina.online_agenda.text2 %}</p>
+      <p>{% t navigation.main.odontologia_medicina.online_agenda.text3 %}</p>
     </div>
     <div class="text-end">
       <img class="w-90" src="./assets/img/servicos-funcionalidades/agenda-online.png" alt="Demonstração da funcionalidade no sistema">
@@ -45,9 +41,7 @@ layout: default
     </div>
     <div class="col-md-6">
       <h2 class="text-primary"><strong>{% t navigation.main.index.benefits.pep %}</strong></h2>
-      <p>Com o PEP do Cfaz.net você tem uma ferramenta online que agiliza o acesso a informações clínicas por meio do
-        histórico dos dados e exames dos pacientes, além de reduzir erros de documentação, e possibilitar a análise de
-        dados mais eficiente.</p>
+      <p>{% t navigation.main.odontologia_medicina.pep.text %}</p>
     </div>
   </div>
 </section>
@@ -57,12 +51,9 @@ layout: default
   <div class="container-xxl d-flex align-items-center justify-content-between" data-aos="fade-up">
     <div class="col-md-6">
       <h2 class="text-primary"><strong>{% t navigation.main.index.benefits.financial_management %}</strong></h2>
-      <p>Falta de transparência financeira, dificuldades de previsão de fluxo de caixa, ausência de planejamento
-        estratégico, acúmulo de dívidas...</p>
-      <p>São inúmeros os problemas que a falta de uma boa gestão financeira pode ocasionar.</p>
-      <p>
-        Centralize toda a Gestão Financeira no Cfaz.net: ferramentas completas e relatórios 100% customizáveis, para que
-        você possa visualizar os resultados da sua Clínica ou Consultório de acordo com sua necessidade.</p>
+      <p>{% t navigation.main.odontologia_medicina.financial_management.text %}</p>
+      <p>{% t navigation.main.odontologia_medicina.financial_management.text2 %}</p>
+      <p>{% t navigation.main.odontologia_medicina.financial_management.text3 %}</p>
     </div>
     <div class="col-md-6 text-center">
       <img class="w-90" src="./assets/img/servicos-funcionalidades/gestao-financeira.png" alt="Demonstração da funcionalidade no sistema">
@@ -77,10 +68,9 @@ layout: default
       <img src="./assets/img/servicos-funcionalidades/gestao-convenios-glosas.png" alt="Demonstração da funcionalidade no sistema">
     </div>
     <div class="col-md-6">
-      <h2 class="text-primary"><strong>Gestão de Convênios e Glosas</strong></h2>
-      <p>O Cfaz.net conta com diversas funcionalidades para facilitar a sua vida e a gestão do seu negócio!</p>
-      <p>Com nossa ferramenta de lotes você pode realizar o controle financeiro de seus convênios! É possível criar
-        lotes de pedidos filtrando por convênio e por período, inclusive, retirando as glosas para futura revisão.</p>
+      <h2 class="text-primary"><strong>{% t navigation.main.odontologia_medicina.management_agreements_glossaries.title %}</strong></h2>
+      <p>{% t navigation.main.odontologia_medicina.management_agreements_glossaries.text %}</p>
+      <p>{% t navigation.main.odontologia_medicina.management_agreements_glossaries.text2 %}</p>
     </div>
   </div>
 </section>
@@ -91,10 +81,10 @@ layout: default
 </section>
 
 <!-- ======= Planos sob medida (consultorios e clinicas) ======= -->
-<section id="hospital-tailor-made-plans" class="my-5">
+<section id="tailor-made-plans" class="my-5">
   <div class="container-xxl" data-aos="fade-up">
     <div class="row d-flex justify-content-center text-center">
-      <h2 class="col-md-6 mb-4">Planos sob medida para a Gestão de Consultórios e Clínicas</h2>
+      <h2 class="col-md-6 mb-4">{% t navigation.main.odontologia_medicina.tailor_made_plans.title %}</h2>
     </div>
     <table class="table">
       <thead>
@@ -218,10 +208,8 @@ layout: default
   <div class="container-xxl d-flex align-items-center justify-content-between" data-aos="fade-up">
     <div class="col-md-6">
       <h2 class="text-primary"><strong>{% t navigation.main.index.benefits.digital_signature %}</strong></h2>
-      <p>Praticidade e agilidade na assinatura e preenchimento de documentos digitais, como laudos, Termos de
-        Consentimento do Paciente, fichas de anamnese e formulários de exames.
-        Além de facilitar a adequação à LGPD, esse recurso reduz custos com impressão, tornando todo o processo digital
-        para nossos clientes, com a segurança do armazenamento em Nuvem!</p>
+      <p>{% t navigation.main.odontologia_medicina.digital_signature.text1 %}</p>
+      <p>{% t navigation.main.odontologia_medicina.digital_signature.text2 %}</p>
     </div>
     <div class="col-md-6 text-center">
       <img src="./assets/img/servicos-funcionalidades/assinatura-digital.png" alt="Demonstração da funcionalidade no sistema">
@@ -237,18 +225,16 @@ layout: default
     </div>
     <div class="col-md-6">
       <h2 class="text-primary"><strong>{% t navigation.main.index.benefits.customizable_reports %}</strong></h2>
-      <p>Controle o desempenho do seu negócio, tendo uma ampla visão de processos e crie qualquer tipo de relatório
-        necessário com nossa ferramenta de agrupamentos.</p>
-      <p><strong>Monte relatórios financeiros</strong>, como cálculo de comissões, lançamentos de despesas e receitas.</p>
-      <p>Faça a <strong>gestão de produtividade e gestão estratégica</strong> de agendamentos, ticket médio, horários de
-        pico, mapa de parceiros, controle dos procedimentos e entrega de exames.</p>
+      <p>{% t navigation.main.odontologia_medicina.customizable_reports.text1 %}</p>
+      <p>{% t navigation.main.odontologia_medicina.customizable_reports.text2 %}</p>
+      <p>{% t navigation.main.odontologia_medicina.customizable_reports.text3 %}</p>
     </div>
   </div>
 </section>
 
 <!-- ======= Gestão Multiclínicas ======= -->
 <section id="multiclinic-management" class="my-5">
-  {% include multiclinic-management.html %}
+  {% include multiclinic_management.html %}
 </section>
 
 <!-- ======= LGPD ======= -->
