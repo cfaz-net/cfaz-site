@@ -18,7 +18,7 @@ navigation:
       button_know_more : Conocer mejor
       from: desde
       month: mes
-      exams: exames
+      exams: exámenes
       hero: Soluciones en la nube para la gestión de centros de salud y distribución de exámenes
       plans: 
         free_starter_plan: Plan Inicial Gratuito
@@ -126,7 +126,7 @@ navigation:
       teleradiology:
         text: Conectamos su Centro de Radiología con profesionales de todo el mundo a través de una plataforma unificada con soluciones diseñadas para facilitar la subcontratación de informes y exámenes. Usted envía las imágenes a sus revisores y recibe los informes completos, todo a través de Cfaz.net.
         testimony:
-          text: “Cfaz.net nos conecta con radiólogos y centros de imágenes, lo que lo hace ideal para la telerradiología. Su plataforma en la nube online optimiza el trabajo, creando para mi un flujo digital eficiente para más de 30 centros de radiología en América Latina y Europa.”
+          text: “Cfaz.net conecta Tradit3D con radiólogos y centros de imágenes, lo que lo hace ideal para Telerradiología. Su plataforma en la nube en línea optimiza el trabajo, creando un flujo digital eficiente para que nuestro Centro de Informes pueda atender a más de 30 Centros de Radiología en América Latina y Europa.”
           information: Dra. Monica Pinã - Propietaria de TRADIT 3D - Cliente de Cfaz hace 2 años
       tailor_made_plans: Planes a medida para la Gestión de Hospitales, Centros de Informes y Centros de Radiología
       humanized_support:

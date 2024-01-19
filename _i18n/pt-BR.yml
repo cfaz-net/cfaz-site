@@ -126,7 +126,7 @@ navigation:
       teleradiology:
         text: Conectamos seu Centro de Radiologia a profissionais de todo o Brasil e do exterior por meio de uma plataforma unificada com soluções projetadas para facilitar a terceirização de laudos e exames. Você envia as imagens para seus laudadores e recebe os laudos concluídos, tudo pelo Cfaz.net.
         testimony:
-          text: “O Cfaz.net nos conecta com radiologistas e centros de imagem, sendo ideal para telerradiologia. Sua plataforma online na nuvem otimiza o trabalho, criando um fluxo digital eficiente para mais de 30 centros radiológicos na América Latina e Europa.”
+          text: “O Cfaz.net conecta a Tradit3D com radiologistas e centros de imagem, sendo ideal para Telerradiologia. Sua plataforma online na nuvem otimiza o trabalho, criando um fluxo digital eficiente para que nossa Central de Laudos possa atender mais de 30 Centros de Radiologia na América Latina e Europa.”
           information: Dra. Monica Pinã - Proprietária TRADIT 3D - Cliente Cfaz há 2 anos
       tailor_made_plans: Planos sob medida para a Gestão de Hospitais, Centrais de Laudo e Centros de Radiologia
       humanized_support:
@@ -314,4 +314,18 @@ navigation:
       privacy_policy: Política de Privacidade
     cookies_confirmation: Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços, mas não utilizamos para fins de rastreamento. Ao utilizar nossos serviços, você concorda com tal monitoramento. 
 alt:
+  hero:
+    header: Imagem tela inicial
+    button: Botão indicando para baixo
+  plans:
+    free_starter_plan: Ícone de nuvem
+    teleradiology: 
+
+
+
+
+
+
+
+
   team: Membro da equipe Cfaz.net
