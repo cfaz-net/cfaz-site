@@ -64,11 +64,16 @@ layout: default
   {% include anvisa.html %}
 </section>
 
+<!-- ======= LGPD ======= -->
+<section class="py-5">
+  {% include lgpd.html %}
+</section>
+
 <!-- ======= Planos sob medida (telerradiologia, centros de radiologia, centrais de laudo e hospitais) ======= -->
 <section id="tailor-made-plans" class="py-5">
   <div class="container-xxl" data-aos="fade-up">
     <div class="row d-flex justify-content-center text-center">
-      <h2 class="col-md-6 mb-4">{% t navigation.main.radiology.tailor_made_plans %}</h2>
+      <h2 class="col-md-7 mb-4">{% t navigation.main.radiology.tailor_made_plans %}</h2>
     </div>
     <table class="table">
       <thead>
@@ -288,21 +293,16 @@ layout: default
   </div>
 </section>
 
-<!-- ======= LGPD ======= -->
-<section class="background py-5">
-  {% include lgpd.html %}
-</section>
-
 <!-- ======= Suporte Técnico Humanizado ======= -->
-<section class="py-5">
+<section class="py-5 background">
   <div class="container-xxl d-flex align-items-center justify-content-between" data-aos="fade-up">
     <div class="col-md-6">
       <h2 class="text-primary"><strong>{% t navigation.main.index.benefits.humanized_technical_support %}</strong></h2>
       <p>{% t navigation.main.hospitais.humanized_support.text %}</p>
       <p>{% t navigation.main.hospitais.humanized_support.text2 %}</p>
       <p>{% t navigation.main.hospitais.humanized_support.text3 %}</p>
-      <small><strong>{% t navigation.main.hospitais.humanized_support.real_time_service %}</strong></small><br><br>
-      <small class="text-secondary-light">{% t navigation.main.hospitais.humanized_support.days_week %}</small><br><br>
+      <small><strong>{% t navigation.main.hospitais.humanized_support.real_time_service %}</strong></small><br>
+      <small class="text-secondary-light">{% t navigation.main.hospitais.humanized_support.days_week %}</small><br>
       <small class="text-secondary-light mt-2">{% t navigation.main.hospitais.humanized_support.channels %}</small>
     </div>
     <div class="col-md-6 text-center">
@@ -325,17 +325,17 @@ layout: default
 </section>
 
 <!-- ======= Google Cloud Platform ======= -->
-<section id="google-cloud-platform" class="background py-5">
+<section id="google-cloud-platform" class="py-5">
   {% include google_cloud_platform.html %}
 </section>
 
 <!-- ======= Dicom ======= -->
-<section class="py-5">
+<section class="background py-5">
   {% include dicom.html %}
 </section>
 
 <!-- ======= I.A. ======= -->
-<section id="ia" class="background py-5">
+<section id="ia" class="pt-5">
   {% include ia.html %}
 </section>
 

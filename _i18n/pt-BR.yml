@@ -43,7 +43,7 @@ navigation:
         text: Software completo em Nuvem para realizar toda a experiência de atendimento ao paciente, além de controlar a gestão financeira e administrativa de <strong>Clínicas e Hospitais Veterinários, Centros de Diagnóstico por Imagem</strong> e <strong>Profissionais Volantes.</strong>
         text2: <strong>Distribuição Online</strong> de exames para Tutores e Médicos Veterinários solicitantes.
       countries:
-        title: Mais de 1000 Centros de Saúde em todo o Brasil e <br> em mais de 10 países na América Latina e Europa
+        title: Mais de 1000 Centros de Saúde em todo o Brasil e em mais de 10 países na América Latina e Europa
         hospital: Hospital
         dental_radiology: Radiologia odontológica
       customer_testimonial:
@@ -100,10 +100,10 @@ navigation:
         customizable_reports: Relatórios 100% Customizáveis
         online_calendar: Agenda Online + Comunicação Integrada com Whatsapp
         pep: PEP - Prontuário Eletrônico do Paciente
-        digital_signature: Assinatura Digital de <br> Documentos
+        digital_signature: Assinatura Digital de Documentos
         financial_strategic_management: Gestão Financeira e Estratégica
         voice_report: Laudo por voz + acesso via QR Code
-        customizable_reports: Relatórios 100% <br> Customizáveis
+        customizable_reports: Relatórios 100% Customizáveis
     hospitais:
       informations:
         text: Software em Nuvem para realizar a gestão de atendimentos em <strong>Hospitais</strong> e <strong>Centros de Diagnóstico por Imagem</strong>, incluindo API para Interoperabilidade com todos os sistemas do mercado.

@@ -49,10 +49,10 @@ navigation:
       customer_testimonial:
         title: The satisfaction of our customers proves our results
       security_credibility:
-        patients_served: More than 10 million patients served
+        patients_served: More than 10 million <br> patients served
         distributed_exams: More than 50 million <br> exams distributed
         stored_cloud: More than 130 Terabytes of <br> data and images <br> stored in the Cloud
-        years_history: More than 10 years of history
+        years_history: More than 10 years <br> of history
         years: years
         anvisa: ANVISA
         record: Record
@@ -61,9 +61,9 @@ navigation:
       plans_values:
         title: Tailor-made plans for the Management of Health Centers and Distribution of Exams
       environment:
-        paper_saved: More than 143 million sheets of paper saved
-        saved_radiographs: More than 48 million x-ray films saved
-        trees_spared: More than 19 thousand trees spared
+        paper_saved: More than 143 million sheets <br> of paper saved
+        saved_radiographs: More than 48 million <br> x-ray films saved
+        trees_spared: More than 19 thousand <br> trees spared
       social:
         title: Follow us on our channels and social media!
       contact:
@@ -100,10 +100,10 @@ navigation:
         customizable_reports: 100% Customizable Reports
         online_calendar: Online Calendar + Integrated Communication with Whatsapp
         pep: PEP - Electronic Patient Record
-        digital_signature: Digital Signature of <br> Documents
+        digital_signature: Digital Signature of Documents
         financial_strategic_management: Financial and Strategic Management
         voice_report: Voice report + access via QR Code
-        customizable_reports: 100% <br> Customizable Reports
+        customizable_reports: 100% Customizable Reports
     hospitais:
       informations:
         text: Cloud software to manage care in <strong>Hospitals</strong> and <strong>Diagnostic Imaging Centers</strong>, including API for interoperability with all systems on the market.
@@ -212,7 +212,7 @@ navigation:
           information: Dr. Guilherme Resende - Director of Digital Imaging and Dentistry Clinics - Cfaz client since 2014
     veterinary:
       informations: 
-        text1: Complete Cloud software to carry out the entire veterinary patient care experience, in addition to controlling the financial and administrative management of <strong>Veterinary Clinics, Veterinary Radiology Centers, Flying Reporting Radiologists</strong> and <strong>Veterinary Hospitals.< /strong>
+        text1: Complete Cloud software to carry out the entire veterinary patient care experience, in addition to controlling the financial and administrative management of <strong>Veterinary Clinics, Veterinary Radiology Centers, Flying Reporting Radiologists</strong> and <strong>Veterinary Hospitals.</strong>
         text2: <strong>Online Distribution</strong> of exams for Pet Owners and requesting Veterinarians.
       ris_pacs:
         text1: With <strong>RIS</strong> in the Cfaz.net Cloud you guarantee agility in all processes at your Radiology Center, including Scheduling, Patient Records, Financial Management and Control of Agreements and Partnerships.
