@@ -101,25 +101,6 @@
   }
 })()
 
-// Card de parceiros (quando passa o mouse, mostra o segmento)
-function showSegment(num) {
-  const imageSelector = `.segment-image-${num}`;
-  const textSelector = `.segment-text-${num}`;
-
-  const imageElement = document.querySelector(imageSelector);
-  const textElement = document.querySelector(textSelector);
-
-  const isImageHidden = imageElement.classList.contains('d-none');
-
-  if (!isImageHidden) {
-    imageElement.classList.add('d-none');
-    textElement.classList.remove('d-none');
-  } else {
-    imageElement.classList.remove('d-none');
-    textElement.classList.add('d-none');
-  }
-}
-
 // Botão de voltar ao topo do site
 function toggleBacktotop(){
   const toggleBacktotop = () => {

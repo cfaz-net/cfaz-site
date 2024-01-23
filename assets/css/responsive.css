@@ -1,0 +1,26 @@
+/* Monitor */
+@media screen and (min-width: 1600px) {
+    .services-monitor{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1.5rem;
+        align-content: stretch;
+    }
+
+    .services-monitor section{
+        margin-top: 0 !important;
+    }
+}
+
+
+
+/* Tablet */
+/* @media screen and (min-width: 1000px) {
+    .grid-template-columns-5{
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    .grid-template-columns-4{
+        grid-template-columns: repeat(4, 1fr);
+    }
+} */
