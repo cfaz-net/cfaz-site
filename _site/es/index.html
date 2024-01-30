@@ -61,52 +61,58 @@
     <!-- Google Tag Manager (noscript) -->
     <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5XT6T9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 
-    <header id="header" class="container-xxl fixed-top d-flex align-items-center justify-content-between bg-white">
-      <a class="navbar-brand" href="index.html"><img src="assets/img/Logo.png" alt="Logomarca cfaz" style="width: 60%"></a>
-      
+    <header id="header" class="fixed-top bg-white">
       <nav class="navbar navbar-expand-lg">
-        <div class="container-xxl">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container-xxl px-2">
+          <a class="navbar-brand" href="index.html"><img src="assets/img/Logo.png" alt="Logomarca cfaz" width="60"></a>
+          
+          <div class="offcanvas offcanvas-end" abindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header pb-0">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/img/Logo.png" alt="Logomarca cfaz" style="width: 60%"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body justify-content-end align-items-center">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="hospitais.html">Hospitales</a></li>
+                <li class="nav-item"><a class="nav-link" href="radiologia.html">Radiología</a></li>
+                <li class="nav-item"><a class="nav-link" href="odontologia_medicina.html">Odontología y Medicina</a></li>
+                <li class="nav-item"><a class="nav-link" href="veterinaria.html">Veterinaria</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#contato">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link" target="_blank" href="http://kb.cfaz.net/">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre nosotros</a></li>
+              </ul>
+              <div class="locale">
+                
+                
+                
+                <a href="/"><span class="position-absolute text-white" style="z-index:-1">pt</span><img width="25" src="assets/img/icons/bandeira_pt-BR.png" aria-label="" alt=""></a>
+                <a href="/es/"><span class="position-absolute text-white" style="z-index:-1">es</span><img width="25" src="assets/img/icons/bandeira_es.png" aria-label="" alt=""></a>
+                <a href="/en/"><span class="position-absolute text-white" style="z-index:-1">en</span><img width="25" src="assets/img/icons/bandeira_en.png" aria-label="" alt=""></a>
+                <input id="language" type="hidden" value="es">
+              </div>
+              <a class="btn btn-cta ms-2" target="_blank" href="https://max.cfaz.net/">Digitar</a>
+            </div>
+          </div>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="hospitais.html">Hospitales</a></li>
-              <li class="nav-item"><a class="nav-link" href="radiologia.html">Radiología</a></li>
-              <li class="nav-item"><a class="nav-link" href="odontologia_medicina.html">Odontología y Medicina</a></li>
-              <li class="nav-item"><a class="nav-link" href="veterinaria.html">Veterinaria</a></li>
-              <li class="nav-item"><a class="nav-link" href="index.html#contato">Contacto</a></li>
-              <li class="nav-item"><a class="nav-link" target="_blank" href="http://kb.cfaz.net/">Blog</a></li>
-              <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre nosotros</a></li>
-            </ul>
-          </div>
         </div>
       </nav>
-
-      <div class="locale">
-        
-        
-        
-        <a href="/"><span class="position-absolute" style="z-index:-1">pt</span><img src="assets/img/icons/bandeira_pt-BR.png" aria-label="" alt=""></a>
-        <a href="/es/"><span class="position-absolute" style="z-index:-1">es</span><img src="assets/img/icons/bandeira_es.png" aria-label="" alt=""></a>
-        <a href="/en/"><span class="position-absolute" style="z-index:-1">en</span><img src="assets/img/icons/bandeira_en.png" aria-label="" alt=""></a>
-        <input id="language" type="hidden" value="es">
-      </div>
-      <a class="btn btn-cta" target="_blank" href="https://max.cfaz.net/">Digitar</a>
     </header>
 
     <main>
       <!-- ======= Hero ======= -->
 <section id="hero" class="hero-initial">
   <div class="container-xxl">
-    <div class="d-flex align-items-center justify-content-around">
-      <div data-aos="zoom-in">
-        <h2>Soluciones en la nube para <br> <strong class="text-secondary">la gestión de centros de salud</strong> y <br><strong>distribución de exámenes</strong></h2>
+    <div class="row align-items-center justify-content-around">
+      <div class="col-lg-6 col-md-6" data-aos="zoom-in">
+        <h2>Soluciones en la nube para <br class="d-none d-lg-block"> <strong class="text-primary">la gestión de centros de salud</strong> y <br class="d-none d-lg-block"><strong class="text-primary">distribución de exámenes</strong></h2>
       </div>
-      <img src="./assets/img/header.webp" class="img-fluid" alt="Imagem tela inicial" data-aos="zoom-in">
+      <img class="col-lg-4 col-md-6 d-none d-md-block" src="./assets/img/header.webp" class="img-fluid" alt="Imagem tela inicial" data-aos="zoom-in">
     </div>
-    <div class="text-center mt-2 aos-init">
-      <img src="./assets/img/icons/header_button_down.webp" loading="lazy" alt="Botão indicando para baixo">
+    <div class="text-center mt-2 aos-init d-none d-md-block">
+      <img src="./assets/img/icons/header_button_down.webp" width="40" loading="lazy" alt="Botão indicando para baixo">
     </div>
   </div>
 </section>
@@ -114,78 +120,78 @@
 <!-- ======= Planos ======= -->
 <section id="plans" class="mb-5">
   <div class="container-fluid text-center">
-    <a class="btn btn-secondary d-inline-flex justify-content-between align-items-flex-start" target="_blank" href="https://max.cfaz.net/users/sign_in" data-aos="fade-up">
+    <a class="btn btn-secondary d-inline-flex justify-content-between align-items-center" target="_blank" href="https://max.cfaz.net/users/sign_in" data-aos="fade-up">
       <img class="me-3" src="./assets/img/icons/btn_cloud.png" loading="lazy" alt="Ícone de nuvem">
       <span>Plan Inicial Gratuito</span>
     </a>
 
     <div class="row gy-3 mt-3" data-aos="fade-up">
-      <div class="col-xl-4 col-xxl-2">
+      <div class="col-lg-4 col-xxl-2">
         <div class="card shadow py-2">
           <div class="card-body">
             <img src="./assets/img/icons/plan_telerradiologia.webp" loading="lazy" alt="Ícone de uma lupa sobre um raio-x em um computador">
             <h1 class="card-title mt-3 mb-0">Telerradiología</h1>
-            <button class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_telerradiologia">
+            <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-2" data-bs-toggle="modal" data-bs-target="#modal_telerradiologia">
               <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
               <span>Te llamamos</span>
             </button>
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-xxl-2">
+      <div class="col-lg-4 col-xxl-2">
         <div class="card shadow py-2">
           <div class="card-body">
             <img src="./assets/img/icons/plan_consultorio.webp" loading="lazy" alt="Ícone de uma fachada de um consultório">
             <h1 class="card-title mt-3 mb-0">Consultorios</h1>
-            <button class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_consultorios">
+            <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-2" data-bs-toggle="modal" data-bs-target="#modal_consultorios">
               <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
               <span>Te llamamos</span>
             </button>
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-xxl-2">
+      <div class="col-lg-4 col-xxl-2">
         <div class="card shadow py-2">
           <div class="card-body">
             <img src="./assets/img/icons/plan_clinicas.webp" loading="lazy" alt="Ícone de uma caderneta">
             <h1 class="card-title mt-3 mb-0">Clínicas</h1>
-            <button class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_clinicas">
+            <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-2" data-bs-toggle="modal" data-bs-target="#modal_clinicas">
               <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
               <span>Te llamamos</span>
             </button>
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-xxl-2">
+      <div class="col-lg-4 col-xxl-2">
         <div class="card shadow py-2">
           <div class="card-body">
             <img src="./assets/img/icons/plan_centro_radiologia.webp" loading="lazy" alt="Ícone de um aparelho de radiologia">
             <h1 class="card-title mt-3 mb-0">Centros de Radiología</h1>
-            <button class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_centros_radiologia">
+            <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-2" data-bs-toggle="modal" data-bs-target="#modal_centros_radiologia">
               <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
               <span>Te llamamos</span>
             </button>
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-xxl-2">
+      <div class="col-lg-4 col-xxl-2">
         <div class="card shadow py-2">
           <div class="card-body">
             <img src="./assets/img/icons/plan_centrais_laudo.webp" loading="lazy" alt="Ícone de uma folha com checklist">
             <h1 class="card-title mt-3 mb-0">Centros de Informes</h1>
-            <button class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_centrais_laudo">
+            <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-2" data-bs-toggle="modal" data-bs-target="#modal_centrais_laudo">
               <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
               <span>Te llamamos</span>
             </button>
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-xxl-2">
+      <div class="col-lg-4 col-xxl-2">
         <div class="card shadow py-2">
           <div class="card-body">
             <img src="./assets/img/icons/plan_hospitais.webp" loading="lazy" alt="Ícone de um hospital">
             <h1 class="card-title mt-3 mb-0">Hospitales</h1>
-            <button class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-2" data-bs-toggle="modal" data-bs-target="#modal_hospitais">
+            <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-2" data-bs-toggle="modal" data-bs-target="#modal_hospitais">
               <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
               <span>Te llamamos</span>
             </button>
@@ -205,8 +211,8 @@
         <p>Software en la Nube para la gestión de la atención en Hospitales y <strong>Centros de Diagnóstico por Imagen</strong>, incluyendo API para la Interoperabilidad con todos los sistemas del mercado.</p>
         <p><strong>Distribución online</strong> de exámenes a Odontólogos y Médicos solicitantes.</p>
       </div>
-      <div class="col-md-6 text-center d-none d-sm-block">
-        <img src="./assets/img/hospital.png" loading="lazy" alt="Profissional da saúde passando anotações de notebook para uma acaderneta">
+      <div class="col-md-6 text-center">
+        <img class="w-sm-100" src="./assets/img/hospital.png" loading="lazy" alt="Profissional da saúde passando anotações de notebook para uma acaderneta">
       </div>
     </section>
   </div>
@@ -276,7 +282,7 @@
     </section>
 
     <div class="text-center mt-4" data-aos="fade-up">
-      <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start" href="hospitais.html">
+      <a class="btn btn-cta d-inline-flex justify-content-between align-items-center" href="hospitais.html">
         <img class="me-3" src="./assets/img/icons/btn-link.png" loading="lazy" alt="Icone de link">
         <span>Conocer mejor</span>
       </a>
@@ -288,10 +294,10 @@
 <section id="radiology" class="pt-5 pb-4">
   <div class="container-xxl">
     <section class="row justify-content-between" data-aos="fade-up">
-      <div class="col-md-6 text-center d-none d-sm-block">
-        <img src="./assets/img/radiologia-index.webp" loading="lazy" alt="Pessoa vendo um exame de cranio em um monitor">
+      <div class="col-md-6 col-sm-12 order-2 order-md-1 text-center">
+        <img class="w-sm-100" src="./assets/img/radiologia-index.webp" loading="lazy" alt="Pessoa vendo um exame de cranio em um monitor">
       </div>
-      <div class="col-md-6 col-sm-12">
+      <div class="col-md-6 col-sm-12 order-1 order-md-2">
         <h1 class="text-primary"><strong>Radiología</strong></h1>
         <p>Soluciones Inteligentes en la Nube para llevar a cabo la gestión integral de <strong>Centros de Diagnóstico por Imágenes</strong>, incluyendo Radiología Dental, Radiología Médica, Mamografía, Ultrasonografía, Tomografía Computarizada, Densitometría Ósea, Resonancia Magnética y Angiografía.</p>
         <p>Herramientas de gestión completas también para <strong>Radiólogos Reportantes, Centros de Reportes y Hospitales</strong>.</p>
@@ -360,7 +366,7 @@
     </section>
 
     <div class="text-center mt-4">
-      <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start" href="radiologia.html">
+      <a class="btn btn-cta d-inline-flex justify-content-between align-items-center" href="radiologia.html">
         <img class="me-3" src="./assets/img/icons/btn-link.png" loading="lazy" alt="Icone de link">
         <span>Conocer mejor</span>
       </a>
@@ -376,8 +382,8 @@
         <h1 class="text-primary"><strong>Odontología y Medicina</strong></h1>
         <p>Tecnología de punta y Excelencia en el servicio para gestionar toda la experiencia de atención al paciente, además de permitir el control de la gestión administrativa y financiera de <strong>Consultorios, Clínicas y Franquicias Dentales y Médicas.</strong></p>
       </div>
-      <div class="col-md-6 text-center d-none d-sm-block">
-        <img src="./assets/img/odontologia-medicina-index.webp" loading="lazy" alt="Profissional da saúde fazendo anotações em seu computador e máquina de radiologia atras">
+      <div class="col-md-6 col-sm-12 text-center">
+        <img class="w-sm-100" src="./assets/img/odontologia-medicina-index.webp" loading="lazy" alt="Profissional da saúde fazendo anotações em seu computador e máquina de radiologia atras">
       </div>
     </section>
   </div>
@@ -441,7 +447,7 @@
     </section>
 
     <div class="text-center mt-4">
-      <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start" href="odontologia_medicina.html">
+      <a class="btn btn-cta d-inline-flex justify-content-between align-items-center" href="odontologia_medicina.html">
         <img class="me-3" src="./assets/img/icons/btn-link.png" loading="lazy" alt="Icone de link">
         <span>Conocer mejor</span>
       </a>
@@ -451,13 +457,13 @@
 
 <!-- ======= Veterinária ======= -->
 <section id="vet" class="pt-5 pb-4 position-relative">
-  <div class="vet-graphic-image"></div>
+  <div class="vet-graphic-image d-none d-md-block"></div>
   <div class="container-xxl">
     <section class="row justify-content-between" data-aos="fade-up">
-      <div class="col-md-6 text-center d-none d-sm-block">
-        <img src="./assets/img/veterinaria-index.png" loading="lazy" alt="Veterinária com um raio-x na mão, olhando para cima e a frente um cachorro feliz">
+      <div class="col-md-6 col-sm-12 text-center order-2 order-md-1">
+        <img class="w-sm-100" src="./assets/img/veterinaria-index.png" loading="lazy" alt="Veterinária com um raio-x na mão, olhando para cima e a frente um cachorro feliz">
       </div>
-      <div class="col-md-6 col-sm-12">
+      <div class="col-md-6 col-sm-12 order-1 order-md-2">
         <h1 class="text-primary"><strong>Medicina Veterinaria</strong></h1>
         <p>Completo software en la Nube para realizar toda la experiencia de atención al paciente, además de controlar la gestión financiera y administrativa de <strong>Clínicas y Hospitales Veterinarios, Centros de Diagnóstico por Imagen y Profesionales del Vuelo.</strong></p>
         <p><strong>Distribuição Online</strong> de exámenes para Dueños de Mascotas y Veterinarios solicitantes.</p>        
@@ -525,7 +531,7 @@
     </section>
 
     <div class="text-center mt-4" data-aos="fade-up">
-      <a class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start" href="veterinaria.html">
+      <a class="btn btn-cta d-inline-flex justify-content-between align-items-center" href="veterinaria.html">
         <img class="me-3" src="./assets/img/icons/btn-link.png" loading="lazy" alt="Icone de link">
         <span>Conocer mejor</span>
       </a>
@@ -536,9 +542,9 @@
 <!-- ======= Onde estamos ======= -->
 <section id="countries" class="position-relative py-5">
   <div class="container-fluid">
-    <section class="d-flex justify-content-between align-items-center mb-5" data-aos="fade-up">
-      <h2 class="col-md-7"><strong>Más de 1000 Centros de Salud en todo Brasil y en más de 10 países de América Latina y Europa</strong></h2>
-      <img src="./assets/img/bandeiras.png" loading="lazy" alt="Lista de 13 países onde a cfaz já está integrada">
+    <section class="row justify-content-between align-items-center mb-5" data-aos="fade-up">
+      <h2 class="col-md-7 col-sm-12"><strong>Más de 1000 Centros de Salud en todo Brasil y en más de 10 países de América Latina y Europa</strong></h2>
+      <img class="col-md-3 d-none d-md-block" src="./assets/img/bandeiras.png" loading="lazy" alt="Lista de 13 países onde a cfaz já está integrada">
     </section>
     
     <section class="swiper-container partners" data-aos="fade-up">
@@ -669,33 +675,41 @@
 <section id="security-credibility" class="mt-5 py-4 background">
   <div>
     <section class="container-xxl" data-aos="fade-up">
-      <div class="d-flex justify-content-around flex-wrap gy-3 mt-3">
-        <div class="card text-center shadow border-0 p-3">
-          <div class="card-body">
-            <img src="./assets/img/icons/pessoas.webp" loading="lazy" alt="Ícone de pessoas">
-            <p class="card-title mt-3 mb-0">10Mi</p>
-            <p class="text-secondary-light">Más de 10 millones de pacientes atendidos</p>
+      <div class="row justify-content-around gy-3 mt-3">
+        <div class="col-md-3">
+          <div class="card text-center shadow border-0 py-3">
+            <div class="card-body">
+              <img src="./assets/img/icons/pessoas.webp" loading="lazy" alt="Ícone de pessoas">
+              <p class="card-title mt-3 mb-0">10Mi</p>
+              <p class="text-secondary-light mb-0">Más de 10 millones de pacientes atendidos</p>
+            </div>
           </div>
         </div>
-        <div class="card text-center shadow border-0 p-3">
-          <div class="card-body">
-            <img src="./assets/img/icons/exames.webp" loading="lazy" alt="Ícone de folha com um verificado">
-            <p class="card-title mt-3 mb-0">50Mi</p>
-            <p class="text-secondary-light">Más de 50 millones de exámenes distribuidos</p>
+        <div class="col-md-3">
+          <div class="card text-center shadow border-0 py-3">
+            <div class="card-body">
+              <img src="./assets/img/icons/exames.webp" loading="lazy" alt="Ícone de folha com um verificado">
+              <p class="card-title mt-3 mb-0">50Mi</p>
+              <p class="text-secondary-light mb-0">Más de 50 millones de exámenes distribuidos</p>
+            </div>
           </div>
         </div>
-        <div class="card text-center shadow border-0 p-3">
-          <div class="card-body">
-            <img src="./assets/img/icons/nuvem.webp" loading="lazy" alt="Ícone de nuvem">
-            <p class="card-title mt-3 mb-0">130Tb</p>
-            <p class="text-secondary-light">Más de 130 Terabytes de datos e imágenes almacenados en la Nube</p>
+        <div class="col-md-3">
+          <div class="card text-center shadow border-0 py-3">
+            <div class="card-body">
+              <img src="./assets/img/icons/nuvem.webp" loading="lazy" alt="Ícone de nuvem">
+              <p class="card-title mt-3 mb-0">130Tb</p>
+              <p class="text-secondary-light mb-0">Más de 130 Terabytes de datos e imágenes almacenados en la Nube</p>
+            </div>
           </div>
         </div>
-        <div class="card text-center shadow border-0 p-3">
-          <div class="card-body">
-            <img src="./assets/img/icons/tempo_em_mercado.webp" loading="lazy" alt="Ícone de agenda com relógio">
-            <p class="card-title mt-3 mb-0">10 años</p>
-            <p class="text-secondary-light">Más de 10 años de historia</p>
+        <div class="col-md-3">
+          <div class="card text-center shadow border-0 py-3">
+            <div class="card-body">
+              <img src="./assets/img/icons/tempo_em_mercado.webp" loading="lazy" alt="Ícone de agenda com relógio">
+              <p class="card-title mt-3 mb-0">10 años</p>
+              <p class="text-secondary-light mb-0">Más de 10 años de historia</p>
+            </div>
           </div>
         </div>
       </div>
@@ -703,24 +717,24 @@
     <hr class="my-5 border-2 text-secondary-light">
     <section class="container-xxl d-flex justify-content-around flex-wrap" data-aos="fade-up">
       <div class="text-center">
-        <img class="mb-3" src="./assets/img/icons/certificado_anvisa.png" loading="lazy" alt="Logo da Anvisa">
+        <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_anvisa.png" loading="lazy" alt="Logo da Anvisa">
         <p class="mb-0">ANVISA</p>
-        <small><a class="text-secondary hover_underline" target="_blank" href="https://consultas.anvisa.gov.br/#/saude/25351182044202394/?nomeProduto=Cfaz.net" class="text-secondary-light">Registro: 82578410001</a></small>
+        <p><small><a class="text-secondary hover_underline" target="_blank" href="https://consultas.anvisa.gov.br/#/saude/25351182044202394/?nomeProduto=Cfaz.net" class="text-secondary-light">Registro: 82578410001</a></small></p>
       </div>
       <div class="text-center">
-        <img class="mb-3" src="./assets/img/icons/certificado_hippaa.png" loading="lazy" alt="Logo da HIPPA">
+        <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_hippaa.png" loading="lazy" alt="Logo da HIPPA">
         <p>HIPPA</p>
       </div>
       <div class="text-center">
-        <img class="mb-3" src="./assets/img/icons/certificado_lgpd.png" loading="lazy" alt="Logo da LGPD">
+        <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_lgpd.png" loading="lazy" alt="Logo da LGPD">
         <p>LGPD</p>
       </div>
       <div class="text-center">
-        <img class="mb-3" src="./assets/img/icons/certificado_gdpr.png" loading="lazy" alt="Logo da GDPR">
+        <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_gdpr.png" loading="lazy" alt="Logo da GDPR">
         <p>GDPR</p>
       </div>
       <div class="text-center">
-        <img class="mb-3" src="./assets/img/icons/certificado_google_cloud.png" loading="lazy" alt="Logo da Google Cloud Platform">
+        <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_google_cloud.png" loading="lazy" alt="Logo da Google Cloud Platform">
         <p>Google Cloud Platform</p>
       </div>
     </section>
@@ -731,13 +745,13 @@
 <section id="plans-values" class="py-5" data-aos="fade-up">
   <div class="container-fluid text-center">
     <h2 class="mb-4"><strong>Planes a medida para la Gestión de Centros de Salud y Distribución de Exámenes</strong></h2>
-    <a class="btn btn-secondary d-inline-flex justify-content-between align-items-flex-start" target="_blank" href="https://max.cfaz.net/users/sign_in">
+    <a class="btn btn-secondary d-inline-flex justify-content-between align-items-center" target="_blank" href="https://max.cfaz.net/users/sign_in">
       <img class="me-3" src="./assets/img/icons/btn_cloud.png" loading="lazy" alt="Ícone de nuvem">
       <span><span>Plan Inicial Gratuito</span></span>
     </a>
 
     <div class="row gy-3 mt-3">
-      <div class="col-xl-4 col-xxl-2">
+      <div class="col-lg-4 col-xxl-2">
         <div class="card text-start shadow py-2">
           <div class="card-body">
             <img src="./assets/img/icons/plan_telerradiologia_white.webp" loading="lazy" alt="Ícone de uma lupa sobre um raio-x em um computador">
@@ -748,7 +762,7 @@
                 <strong>R$ 99</strong> 
                 <small class="text-secondary-light mb-0">(50 exámenes)</small>
               </h1>
-              <button class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-4" data-bs-toggle="modal" data-bs-target="#modal_telerradiologia">
+              <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_telerradiologia">
                 <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
                 <span>Te llamamos</span>
               </button>
@@ -756,7 +770,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-xxl-2">
+      <div class="col-lg-4 col-xxl-2">
         <div class="card text-start shadow py-2">
           <div class="card-body">
             <img src="./assets/img/icons/plan_consultorios_white.webp" loading="lazy" alt="Ícone de uma fachada de um consultório">
@@ -764,7 +778,7 @@
               <h1 class="text-secondary-light my-3">Consultorios</h1>
               <small class="text-secondary-light">desde</small>
               <h1 style="line-height: 1"><strong>R$ 99/mes</strong></h1>
-              <button class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-4" data-bs-toggle="modal" data-bs-target="#modal_consultorios">
+              <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_consultorios">
                 <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
                 <span>Te llamamos</span>
               </button>
@@ -772,7 +786,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-xxl-2">
+      <div class="col-lg-4 col-xxl-2">
         <div class="card text-start shadow py-2">
           <div class="card-body">
             <img src="./assets/img/icons/plan_clinicas_white.webp" loading="lazy" alt="Ícone de uma caderneta">
@@ -780,7 +794,7 @@
               <h1 class="text-secondary-light my-3">Clínicas</h1>
               <small class="text-secondary-light">desde</small>
               <h1 style="line-height: 1"><strong>R$ 159/mes</strong></h1>
-              <button class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-4" data-bs-toggle="modal" data-bs-target="#modal_clinicas">
+              <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_clinicas">
                 <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
                 <span>Te llamamos</span>
               </button>
@@ -788,7 +802,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-xxl-2">
+      <div class="col-lg-4 col-xxl-2">
         <div class="card text-start shadow py-2">
           <div class="card-body">
             <img src="./assets/img/icons/plan_centro_radiologia_white.webp" loading="lazy" alt="Ícone de um aparelho de radiologia">
@@ -796,7 +810,7 @@
               <h1 class="text-secondary-light my-3">Centros de Radiología</h1>
               <small class="text-secondary-light">desde</small>
               <h1 style="line-height: 1"><strong>R$ 199/mes</strong></h1>
-              <button class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-4" data-bs-toggle="modal" data-bs-target="#modal_centros_radiologia">
+              <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_centros_radiologia">
                 <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
                 <span>Te llamamos</span>
               </button>
@@ -804,7 +818,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-xxl-2">
+      <div class="col-lg-4 col-xxl-2">
         <div class="card text-start shadow py-2">
           <div class="card-body">
             <img src="./assets/img/icons/plan_centrais_laudo_white.webp" loading="lazy" alt="Ícone de uma folha com checklist">
@@ -812,7 +826,7 @@
               <h1 class="text-secondary-light my-3">Centros de Informes</h1>
               <small class="text-secondary-light">desde</small>
               <h1 style="line-height: 1"><strong>R$ 249/mes</strong></h1>
-              <button class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-4" data-bs-toggle="modal" data-bs-target="#modal_centrais_laudo">
+              <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_centrais_laudo">
                 <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
                 <span>Te llamamos</span>
               </button>
@@ -820,7 +834,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-4 col-xxl-2">
+      <div class="col-lg-4 col-xxl-2">
         <div class="card text-start shadow py-2">
           <div class="card-body">
             <img src="./assets/img/icons/plan_hospitais_white.webp" loading="lazy" alt="Ícone de um hospital">
@@ -828,7 +842,7 @@
               <h1 class="text-secondary-light my-3">Hospitales</h1>
               <small class="text-secondary-light">desde</small>
               <h1 style="line-height: 1"><strong>R$ 399/mes</strong></h1>
-              <button class="btn btn-cta d-inline-flex justify-content-between align-items-flex-start mt-4" data-bs-toggle="modal" data-bs-target="#modal_hospitais">
+              <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_hospitais">
                 <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
                 <span>Te llamamos</span>
               </button>
@@ -842,32 +856,34 @@
 
 <!-- ======= Meio ambiente ======= -->
 <section id="environment" data-aos="fade-up">
-  <div class="container-xxl d-flex align-items-center justify-content-around py-5">
-    <div class="text-center">
-      <img src="./assets/img/icons/environment_papeis.webp" loading="lazy" alt="Ícone de pilha de papel">
-      <p class="text-environment mt-4 mb-3">143Mi</p>
-      <p class="text-secondary-light">Más de 143 millones de hojas <br> de papel ahorradas</p>
-    </div>
-    <div class="text-center my-3">
-      <img src="./assets/img/icons/environment_filme_radiografico.webp" loading="lazy" alt="Ícone raio-x">
-      <p class="text-environment mt-4 mb-3">48Mi</p>
-      <p class="text-secondary-light">Más de 48 millones de películas <br> radiográficas salvadas</p>
-    </div>
-    <div class="text-center">
-      <img src="./assets/img/icons/environment_arvore.webp" loading="lazy" alt="Ícone de árvore">
-      <p class="text-environment mt-4 mb-3">19mil</p>
-      <p class="text-secondary-light">Más de 19 mil árboles <br> salvados</p>
+  <div class="container-xxl">
+    <div class="row align-items-center justify-content-around py-5">
+      <div class="col-md-4 text-center">
+        <img src="./assets/img/icons/environment_papeis.webp" loading="lazy" alt="Ícone de pilha de papel">
+        <p class="text-environment mt-4 mb-3">143Mi</p>
+        <p class="text-secondary-light">Más de 143 millones de hojas <br> de papel ahorradas</p>
+      </div>
+      <div class="col-md-4 text-center my-3">
+        <img src="./assets/img/icons/environment_filme_radiografico.webp" loading="lazy" alt="Ícone raio-x">
+        <p class="text-environment mt-4 mb-3">48Mi</p>
+        <p class="text-secondary-light">Más de 48 millones de películas <br> radiográficas salvadas</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="./assets/img/icons/environment_arvore.webp" loading="lazy" alt="Ícone de árvore">
+        <p class="text-environment mt-4 mb-3">19mil</p>
+        <p class="text-secondary-light">Más de 19 mil árboles <br> salvados</p>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- ======= Contatos ======= -->
-<section id="contato" class="my-5" data-aos="fade-up">
+<section id="contato" class="my-5 my-sm-1" data-aos="fade-up">
   <div class="container-xxl">
     <h2 class="text-center"><strong>Contactos</strong></h2>
-    <div class="row mt-5">
-      <div class="col">
-        <div class="card shadow border-0 py-3 px-3" style="height: 264px;">
+    <div class="row my-2 my-lg-5">
+      <div class="col-lg-3 col-lg-12 mb-3 mb-xl-0">
+        <div class="card card-technical-support shadow border-0 py-3 px-3">
           <div class="card-body">
             <h2 class="mb-4"><strong>Soporte técnico</strong></h2>
             <div class="d-flex align-items-center mb-4">
@@ -888,8 +904,8 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6">
-        <div class="sales card shadow border-0 py-4 px-5" style="height: 328px; margin-top: -32px;">
+      <div class="col-lg-6 col-lg-12 mb-3 mb-xl-0">
+        <div class="card card-sales shadow border-0 py-4 px-3 px-xl-5">
           <div class="card-body">
             <h2 class="mb-4"><strong>Ventas</strong></h2>
             <div class="d-flex align-items-center mb-4">
@@ -906,8 +922,8 @@
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card shadow border-0 py-3 px-3" style="height: 264px;">
+      <div class="col-lg-3 col-lg-12 mb-3 mb-xl-0">
+        <div class="card card-financial shadow border-0 py-3 px-3">
           <div class="card-body">
             <h2 class="mb-4"><strong>Financiero</strong></h2>
             <div class="d-flex align-items-center mb-4">
@@ -927,21 +943,21 @@
 <section id="social" class="background py-5" data-aos="fade-up">
   <div class="container-xxl">
     <h2 class="text-center mb-4">¡Síguenos en nuestros canales y redes sociales!</h2>
-    <div class="d-flex align-items-center justify-content-around">
-      <div class="text-center">
-        <img src="./assets/img/icons/social_instagram.png" loading="lazy" alt="Logo do instagram">
+    <div class="d-flex align-items-center justify-content-around flex-wrap">
+      <div class="text-center p-2">
+        <img src="./assets/img/icons/social_instagram.png" width="100" height="100" loading="lazy" alt="Logo do instagram">
         <p class="text-secondary-light mt-2">@cfaznet</p>
       </div>
-      <div class="text-center">
-        <img src="./assets/img/icons/social_tiktok.png" loading="lazy" alt="Logo do tiktok">
+      <div class="text-center p-2">
+        <img src="./assets/img/icons/social_tiktok.png" width="100" height="100" loading="lazy" alt="Logo do tiktok">
         <p class="text-secondary-light mt-2">@cfaznet</p>
       </div>
-      <div class="text-center">
-        <img src="./assets/img/icons/social_linkedin.png" loading="lazy" alt="Icone do linkedin">
+      <div class="text-center p-2">
+        <img src="./assets/img/icons/social_linkedin.png" width="100" height="100" loading="lazy" alt="Icone do linkedin">
         <p class="text-secondary-light mt-2">@cfaznet</p>
       </div>
-      <div class="text-center">
-        <img src="./assets/img/icons/social_youtube.png" loading="lazy" alt="Icone do youtube">
+      <div class="text-center p-2">
+        <img src="./assets/img/icons/social_youtube.png" width="100" height="100" loading="lazy" alt="Icone do youtube">
         <p class="text-secondary-light mt-2">@cfaznet</p>
       </div>
     </div>
@@ -951,11 +967,11 @@
 <!-- ======= Programa de Benefícios ======= -->
 <section id="benefits-program" class="position-relative pt-5 pb-4 mb-4">
   <div class="container-xxl">
-    <section class="d-flex justify-content-between" data-aos="fade-up">
-      <div class="text-center">
-        <img src="./assets/img/benefits-program.png" loading="lazy" alt="Mulheres batendo as palmas das mãos">
+    <section class="row justify-content-between" data-aos="fade-up">
+      <div class="col-md-6 col-sm-12 text-center">
+        <img class="w-sm-100" src="./assets/img/benefits-program.png" loading="lazy" alt="Mulheres batendo as palmas das mãos">
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 col-sm-12">
         <h1 class="text-primary"><strong>Programa de Beneficios</strong></h1>
         <p>¡Se parte del Programa de Beneficios más completo del mercado!</p>
         <p>¡Recomienda Cfaz a compañeros y amigos, comparte nuestras ventajas en las redes sociales y disfruta de descuentos gratuitos, canje de regalos y premios exclusivos!</p>
@@ -1015,8 +1031,8 @@
 <!-- ======= Cfaz Ciência ======= -->
 <section id="cfaz-science" class="background py-5">
   <div class="container-xxl">
-    <section class="d-flex justify-content-between" data-aos="fade-up">
-      <div class="col-md-6">
+    <section class="row justify-content-between" data-aos="fade-up">
+      <div class="col-md-6 col-sm-12 ">
         <h1 class="text-secondary"><strong>Cfaz Ciência: Fomentando el desarrollo científico de la Radiología</strong></h1>
         <p>Exención de implementación y condiciones especiales para el uso de Cfaz.net por parte de Estudiantes e Instituciones Educativas en Odontología y Radiología.</p>
         <p>¡Ponte en contacto para comenzar a utilizar nuestro sistema como apoyo en el aula o clínicas escolares!</p>
@@ -1025,12 +1041,12 @@
           <span>Te llamamos</span>
         </button>
       </div>
-      <div class="text-center">
-        <img src="./assets/img/cfaz-ciencia.png" loading="lazy" alt="Bené explicando conteúdo da aula para aluno">
+      <div class="col-md-6 col-sm-12 text-center mt-3 mt-md-0">
+        <img class="w-sm-100" src="./assets/img/cfaz-ciencia.png" loading="lazy" alt="Bené explicando conteúdo da aula para aluno">
       </div>
     </section>
 
-    <section class="d-flex justify-content-center mt-5" data-aos="fade-up">
+    <section class="justify-content-center mt-5 d-none d-md-flex" data-aos="fade-up">
       <img src="./assets/img/clientes/cfaz_ciencia_1.webp" loading="lazy" alt="Fachada da Instituição">
       <img src="./assets/img/clientes/cfaz_ciencia_2.webp" loading="lazy" alt="Fachada da Instituição">
       <img src="./assets/img/clientes/cfaz_ciencia_3.webp" loading="lazy" alt="Fachada da Instituição">
@@ -1063,26 +1079,23 @@
   </div>
 </section>
 
-<section id="app" class="mt-5" data-aos="fade-up">
-  <div class="container-fluid">
-    <section class="app row py-5">
-      <div class="col-md-8 col-xxl-12 text-center">
-        <div class="container-xxl">
-          <h1>Aplicación móvil gratuita <br> Disponible en App Store <br> y Play Store</h1>
-          <a class="btn btn-primary d-inline-flex justify-content-between align-items-flex-start mt-2" target="_blank"
-            href="https://apps.apple.com/us/app/cfaz-net/id1609074748">
-            <img class="me-3" src="./assets/img/icons/app-apple.png" alt="Ícone da apple store">
-            <span class="text-secondary">App Store</span>
-          </a>
-          <a class="btn btn-primary d-inline-flex justify-content-between align-items-flex-start mt-2" target="_blank"
-            href="https://play.google.com/store/apps/details?id=max.cfaz.net&pli=1">
-            <img class="me-3" src="./assets/img/icons/app-google.png" alt="Ícone da google play console">
-            <span class="text-secondary">Play Store</span>
-          </a>
-        </div>
-      </div>
-    </section>
-  </div>
+<section id="app" class="mt-5 mb-5 mb-lg-0" data-aos="fade-up">
+  <section class="app d-block d-md-flex align-items-center">
+    <div class="col-lg-8 col-md-12 text-center">
+      <h1>Aplicación móvil gratuita <br> Disponible en App Store <br> y Play Store</h1>
+      <a class="btn btn-primary d-inline-flex justify-content-between align-items-flex-start mt-2" target="_blank" href="https://apps.apple.com/us/app/cfaz-net/id1609074748">
+        <img class="me-3" src="./assets/img/icons/app-apple.png" alt="Ícone da apple store">
+        <span class="text-secondary">App Store</span>
+      </a>
+      <a class="btn btn-primary d-inline-flex justify-content-between align-items-flex-start mt-2" target="_blank" href="https://play.google.com/store/apps/details?id=max.cfaz.net&pli=1">
+        <img class="me-3" src="./assets/img/icons/app-google.png" alt="Ícone da google play console">
+        <span class="text-secondary">Play Store</span>
+      </a>
+    </div>
+    <div class="col-lg-4 d-none d-lg-block text-end">
+      <img class="w-100" src="./assets/img/app.png" alt="Imagem do sistema em um aplicativo">
+    </div>
+  </section>
 </section>
 <section class="background position-relative py-5">
   <div class="container-xxl" data-aos="fade-up">
@@ -1095,18 +1108,18 @@
     </main>
 
     <footer id="footer" class="pt-4 pb-3">
-      <div class="container-xxl">
-        <section class="d-flex justify-content-between align-items-center">
-          <a href="index.html"><img src="../assets/img/footer_logo.png" alt="Logo da cfaz"></a>
+      <div class="container-fluid">
+        <section class="row justify-content-between align-items-center">
+          <a class="col-md-4 col-sm-12 d-none d-md-block" href="index.html"><img src="../assets/img/footer_logo.png" alt="Logo da cfaz"></a>
           
-          <div class="d-flex align-items-end justify-content-around">
-            <img class="me-4" src="../assets/img/icons/footer-hippaa.png" alt="Logo da HIPPA">
-            <img class="me-4" src="../assets/img/icons/footer-lgpd.png" alt="Logo da LGPD">
-            <img class="me-4" src="../assets/img/icons/footer-google.png" alt="Logo da Google Cloud Platform">
-            <img src="../assets/img/icons/footer-anvisa.png" alt="Logo da Anvisa">
+          <div class="col-md-4 col-sm-12 d-flex align-items-end justify-content-around flex-wrap mb-sm-3">
+            <img class="p-2" src="../assets/img/icons/footer-hippaa.png" alt="Logo da HIPPA">
+            <img class="p-2" src="../assets/img/icons/footer-lgpd.png" alt="Logo da LGPD">
+            <img class="p-2" src="../assets/img/icons/footer-google.png" alt="Logo da Google Cloud Platform">
+            <img class="p-2" src="../assets/img/icons/footer-anvisa.png" alt="Logo da Anvisa">
           </div>
 
-          <div class="locale">
+          <div class="locale col-md-4 d-none d-md-block text-end">
             
             
             
@@ -1120,13 +1133,13 @@
 
       <hr class="border border-1">
 
-      <div class="container-xxl">
-        <div class="d-flex justify-content-between align-items-center">
-          <div style="line-height: 100%;">
+      <div class="container-fluid">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-sm-6 text-center text-sm-start" style="line-height: 100%;">
             <small class="text-white-gray">Desarrollado por Cfaz.net</small><br>
             <small class="text-white-gray">2013 - <span id="current_year"></span></small>
           </div>
-          <div>
+          <div class="col-sm-6 text-center text-sm-end">
             <a class="text-white-gray hover_underline" href="politica_privacidade.html" target="_blank">
               <small class="text-white-gray">Política de privacidad</small>
             </a>
