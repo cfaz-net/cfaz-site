@@ -11,13 +11,17 @@
   background-size: cover;
 }
 
+header .offcanvas-body .nav-link{
+  font-size: 14px;
+}
+
 #hero{
   width: 100%;
   background: url("../img/headers/home.webp");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 110px 0 48px 0;
+  padding: 90px 0 48px 0;
   border-radius: 0 0 0 130px;
 }
 
@@ -154,8 +158,8 @@
 
 /* Informações */
 #security-credibility .card{
-  width: 300px;
   border-radius: 20px 60px 20px 60px;
+  height: 100%;
 }
 
 #security-credibility .card-title,
@@ -167,24 +171,23 @@
 /* Planos - Valores */
 #environment{
   background-image: url(../img/background/environment.png);
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 /* Contatos */
-#contact .sales{
+#contato .card-technical-support,
+#contato .card-financial{
+  height: 310px;
+}
+
+#contato .card-sales{
   background-image: url(../img/background/bg_contact_sales.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: bottom right;
-}
-
-/* App */
-.app{
-  background-image: url(../img/app.webp);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom right;
+  height: 374px; 
+  margin-top: -32px;
 }
 
 /* Programa de Benefícios */
@@ -327,10 +330,6 @@
 #team .card{
   border: none;
   height: 90%;
-}
-
-#team img{
-  width: 100%;
 }
 
 #team .informations{
