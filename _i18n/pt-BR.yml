@@ -332,8 +332,8 @@ alt:
       reporting_centers: Ícone de um laudo e um lápis em cima dele
       hospitals: Ícone de um hospital
     countries: 
-      flags: 
-      companies:
+      flags: Bandeiras de todos os mais de dez países em que a Cfaz atua
+      companies: Logomarcas dos clientes parceiros da Cfaz
     security_credibility: 
       patients_served: Ícone de duas pessoas
       distributed_exams: Ícone de exames com um  símbolo de verificado
@@ -359,7 +359,7 @@ alt:
       youtube: Logo do youtube
     benefits_program: Duas mulheres sorridentes sentadas em uma mesa comemoram batendo as mãos
     cfaz_science:
-      apresentation: 
+      apresentation: Sala de aula de radiologia com um professor e vários alunos sentados estudando
       institutions: Fachadas de empresas que fazem parte do projeto
       logo_lambo: Logo da LAMBO (UFMS)
       logo_lodi: Logo da Lodi UEPG
@@ -371,7 +371,7 @@ alt:
     benefits:
       ris_pacs_online: Ícone de uma engrenagem
       anvisa: Ícone de um selo verificado
-      lgpd: 
+      lgpd: Law icon
       teleradiology: Ícone de um computador
       dicom_integration: Ícone de um computador com sistemas integrados
       api_interoperability: Ícone de sistemas ligados a uma engrenagem

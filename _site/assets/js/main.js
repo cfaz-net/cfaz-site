@@ -99,6 +99,7 @@
   }else if(lang.indexOf('en') == 0 && landingPage){
     window.location = '/en/';
   }
+
 })()
 
 // Botão de voltar ao topo do site

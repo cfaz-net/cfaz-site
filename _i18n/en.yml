@@ -332,8 +332,8 @@ alt:
       reporting_centers: Icon of a report and a pencil on top of it
       hospitals: Hospital icon
     countries: 
-      flags: 
-      companies:
+      flags: Flags of all the more than ten countries in which Cfaz operates
+      companies: Logos of Cfaz partner clients
     security_credibility: 
       patients_served: Two people icon
       distributed_exams: Exams icon with a checked symbol
@@ -359,7 +359,7 @@ alt:
       youtube: Youtube logo
     benefits_program: Two smiling women sitting at a table celebrate by clapping hands
     cfaz_science:
-      apresentation: 
+      apresentation: Radiology classroom with a teacher and several students sitting studying
       institutions: Facades of companies that are part of the project
       logo_lambo: LAMBO (UFMS) logo
       logo_lodi: Lodi UEPG logo

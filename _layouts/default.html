@@ -66,7 +66,7 @@ permalink: /default/
     <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5XT6T9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 
     <header id="header" class="fixed-top bg-white">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg" role="navigation">
         <div class="container-xxl px-2">
           <a class="navbar-brand" href="index.html"><img src="assets/img/Logo.png" alt="{% t alt.cfaz_logo %}" width="60"></a>
           
@@ -76,14 +76,14 @@ permalink: /default/
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body justify-content-end align-items-center">
-              <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="hospitais.html">{% t navigation.header.hospitals %}</a></li>
-                <li class="nav-item"><a class="nav-link" href="radiologia.html">{% t navigation.header.radiology %}</a></li>
-                <li class="nav-item"><a class="nav-link" href="odontologia_medicina.html">{% t navigation.header.dentistry_medicine %}</a></li>
-                <li class="nav-item"><a class="nav-link" href="veterinaria.html">{% t navigation.header.veterinary %}</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contato">{% t navigation.header.contacts %}</a></li>
-                <li class="nav-item"><a class="nav-link" target="_blank" href="http://kb.cfaz.net/">{% t navigation.header.blog %}</a></li>
-                <li class="nav-item"><a class="nav-link" href="sobre.html">{% t navigation.header.about_us %}</a></li>
+              <ul class="nav navbar-nav">
+                <li class="nav-item"><a onclick="teste()" class="nav-link active" aria-current="page" href="/hospitais">{% t navigation.header.hospitals %}</a></li>
+                <li class="nav-item"><a id="radiologia" onclick="teste('radiologia')" class="nav-link" href="/radiologia">{% t navigation.header.radiology %}</a></li>
+                <li class="nav-item"><a onclick="teste()" class="nav-link" href="/odontologia_medicina">{% t navigation.header.dentistry_medicine %}</a></li>
+                <li class="nav-item"><a onclick="teste()" class="nav-link" href="/veterinaria">{% t navigation.header.veterinary %}</a></li>
+                <li class="nav-item"><a onclick="teste()" class="nav-link" href="#contato">{% t navigation.header.contacts %}</a></li>
+                <li class="nav-item"><a onclick="teste()" class="nav-link" href="http://kb.cfaz.net/" target="_blank">{% t navigation.header.blog %}</a></li>
+                <li class="nav-item"><a onclick="teste()" class="nav-link" href="/sobre">{% t navigation.header.about_us %}</a></li>
               </ul>
               <div class="locale">
                 {% capture pr-BR %}{{ page.url}}{% endcapture %}
@@ -150,7 +150,7 @@ permalink: /default/
       </div>
     </footer>
 
-    <div id="cookieNotice" class="position-fixed fixed-bottom bg-white p-4 m-3 rounded shadow">
+    <!-- <div id="cookieNotice" class="position-fixed fixed-bottom bg-white p-4 m-3 rounded shadow">
       <div class="d-flex align-items-center justify-content-center">
         <div>
           <span>{% t navigation.main.cookies_confirmation %}</span>
@@ -159,7 +159,7 @@ permalink: /default/
           <button class="btn btn-secondary btn-sm" onclick="acceptCookieConsent();">Aceitar</button>
         </div>
       </div>
-    </div>
+    </div> -->
 
     {% include modal.html %}
 
@@ -177,6 +177,6 @@ permalink: /default/
     <script charset="utf-8" type="text/javascript" src="assets/js/main.js"></script>
     <script charset="utf-8" type="text/javascript" src="assets/js/hubspot_form.min.js"></script>
     <script charset="utf-8" type="text/javascript" src="assets/js/filter_team.js"></script>
-    <script charset="utf-8" type="text/javascript" src="assets/js/cookie_consent.min.js"></script>
+    <!-- <script charset="utf-8" type="text/javascript" src="assets/js/cookie_consent.min.js"></script> -->
   </body>
   </html>

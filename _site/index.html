@@ -62,7 +62,7 @@
     <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5XT6T9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 
     <header id="header" class="fixed-top bg-white">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg" role="navigation">
         <div class="container-xxl px-2">
           <a class="navbar-brand" href="index.html"><img src="assets/img/Logo.png" alt="Logomarca cfaz" width="60"></a>
           
@@ -72,14 +72,14 @@
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body justify-content-end align-items-center">
-              <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="hospitais.html">Hospitais</a></li>
-                <li class="nav-item"><a class="nav-link" href="radiologia.html">Radiologia</a></li>
-                <li class="nav-item"><a class="nav-link" href="odontologia_medicina.html">Odontologia e Medicina</a></li>
-                <li class="nav-item"><a class="nav-link" href="veterinaria.html">Veterinária</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contato">Contatos</a></li>
-                <li class="nav-item"><a class="nav-link" target="_blank" href="http://kb.cfaz.net/">Blog</a></li>
-                <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nós</a></li>
+              <ul class="nav navbar-nav">
+                <li class="nav-item"><a onclick="teste()" class="nav-link active" aria-current="page" href="/hospitais">Hospitais</a></li>
+                <li class="nav-item"><a id="radiologia" onclick="teste('radiologia')" class="nav-link" href="/radiologia">Radiologia</a></li>
+                <li class="nav-item"><a onclick="teste()" class="nav-link" href="/odontologia_medicina">Odontologia e Medicina</a></li>
+                <li class="nav-item"><a onclick="teste()" class="nav-link" href="/veterinaria">Veterinária</a></li>
+                <li class="nav-item"><a onclick="teste()" class="nav-link" href="#contato">Contatos</a></li>
+                <li class="nav-item"><a onclick="teste()" class="nav-link" href="http://kb.cfaz.net/" target="_blank">Blog</a></li>
+                <li class="nav-item"><a onclick="teste()" class="nav-link" href="/sobre">Sobre Nós</a></li>
               </ul>
               <div class="locale">
                 
@@ -233,7 +233,7 @@
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/lgpd.webp" loading="lazy" alt="">
+          <img src="./assets/img/icons/lgpd.webp" loading="lazy" alt="Law icon">
           <p class="card-title mt-3 mb-0">LGPD</p>
         </div>
       </div>
@@ -316,7 +316,7 @@
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/lgpd.webp" loading="lazy" alt="">
+          <img src="./assets/img/icons/lgpd.webp" loading="lazy" alt="Law icon">
           <p class="card-title mt-3 mb-0">LGPD</p>
         </div>
       </div>
@@ -538,89 +538,89 @@
   <div class="container-fluid">
     <section class="row justify-content-between align-items-center mb-5" data-aos="fade-up">
       <h2 class="h4 col-md-7 col-sm-12"><strong>Mais de 1000 Centros de Saúde em todo o Brasil e em mais de 10 países na América Latina e Europa</strong></h2>
-      <img class="col-md-3 d-none d-md-block" src="./assets/img/bandeiras.png" loading="lazy" alt="">
+      <img class="col-md-3 d-none d-md-block" src="./assets/img/bandeiras.png" loading="lazy" alt="Bandeiras de todos os mais de dez países em que a Cfaz atua">
     </section>
     
     <section class="swiper-container partners" data-aos="fade-up">
       <div class="swiper-wrapper">
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/animagem.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/animagem.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Hospital</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/begmax.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/begmax.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Radiologia odontológica</p> 
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/cimo.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/cimo.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Radiologia odontológica</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/ciro.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/ciro.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Radiologia odontológica</p> 
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/drx.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/drx.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Radiologia odontológica</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/eco-x.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/eco-x.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Hospital</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/hs_vet.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/hs_vet.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Veterinária</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/imagem.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/imagem.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Radiologia odontológica</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/iorn.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/iorn.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Radiologia odontológica</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/maxilare.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/maxilare.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Radiologia odontológica</p> 
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/movax.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/movax.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Radiologia odontológica</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/nr.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/nr.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Radiologia odontológica</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/oi_digital.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/oi_digital.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Radiologia odontológica</p> 
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/perboyre.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/perboyre.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Radiologia odontológica</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/raio_max.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/raio_max.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Veterinária</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/roc.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/roc.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Radiologia odontológica</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/tradit3d.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/tradit3d.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Radiologia odontológica</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/uno_vet.webp" loading="lazy" alt="">
+          <img class="front" src="./assets/img/clientes/uno_vet.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Veterinária</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front"  src="assets/img/clientes/vamos_sorrir.webp" loading="lazy" alt="">
+          <img class="front"  src="assets/img/clientes/vamos_sorrir.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Radiologia odontológica</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="assets/img/clientes/xe_vet.webp" loading="lazy" alt="">
+          <img class="front" src="assets/img/clientes/xe_vet.webp" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
           <p class="back mb-0">Veterinária</p>
         </div>
       </div>
@@ -975,43 +975,43 @@
       <p>Parceiros</p>
       <div class="swiper-wrapper">
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira1.png" loading="lazy" alt="">
+          <img src="./assets/img/benefits_program/parceira1.png" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira2.png" loading="lazy" alt="">
+          <img src="./assets/img/benefits_program/parceira2.png" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira3.png" loading="lazy" alt="">
+          <img src="./assets/img/benefits_program/parceira3.png" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira3.png" loading="lazy" alt="">
+          <img src="./assets/img/benefits_program/parceira3.png" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira4.png" loading="lazy" alt="">
+          <img src="./assets/img/benefits_program/parceira4.png" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira5.png" loading="lazy" alt="">
+          <img src="./assets/img/benefits_program/parceira5.png" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira6.png" loading="lazy" alt="">
+          <img src="./assets/img/benefits_program/parceira6.png" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira7.png" loading="lazy" alt="">
+          <img src="./assets/img/benefits_program/parceira7.png" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira8.png" loading="lazy" alt="">
+          <img src="./assets/img/benefits_program/parceira8.png" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira9.png" loading="lazy" alt="">
+          <img src="./assets/img/benefits_program/parceira9.png" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira10.png" loading="lazy" alt="">
+          <img src="./assets/img/benefits_program/parceira10.png" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira11.png" loading="lazy" alt="">
+          <img src="./assets/img/benefits_program/parceira11.png" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira12.png" loading="lazy" alt="">
+          <img src="./assets/img/benefits_program/parceira12.png" loading="lazy" alt="Logomarcas dos clientes parceiros da Cfaz">
         </div>
       </div>
       <div class="swiper-pagination"></div>
@@ -1033,7 +1033,7 @@
         </button>
       </div>
       <div class="col-md-6 col-sm-12 text-center mt-3 mt-md-0">
-        <img class="w-sm-100" src="./assets/img/cfaz-ciencia.png" loading="lazy" alt="">
+        <img class="w-sm-100" src="./assets/img/cfaz-ciencia.png" loading="lazy" alt="Sala de aula de radiologia com um professor e vários alunos sentados estudando">
       </div>
     </section>
 
@@ -1139,7 +1139,7 @@
       </div>
     </footer>
 
-    <div id="cookieNotice" class="position-fixed fixed-bottom bg-white p-4 m-3 rounded shadow">
+    <!-- <div id="cookieNotice" class="position-fixed fixed-bottom bg-white p-4 m-3 rounded shadow">
       <div class="d-flex align-items-center justify-content-center">
         <div>
           <span>Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços, mas não utilizamos para fins de rastreamento. Ao utilizar nossos serviços, você concorda com tal monitoramento.</span>
@@ -1148,7 +1148,7 @@
           <button class="btn btn-secondary btn-sm" onclick="acceptCookieConsent();">Aceitar</button>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Modal Telerradiologia -->
 <div class="modal fade" id="modal_telerradiologia" tabindex="-1" aria-labelledby="modal_telerradiologia" aria-hidden="true">
@@ -1269,6 +1269,6 @@
     <script charset="utf-8" type="text/javascript" src="assets/js/main.js"></script>
     <script charset="utf-8" type="text/javascript" src="assets/js/hubspot_form.min.js"></script>
     <script charset="utf-8" type="text/javascript" src="assets/js/filter_team.js"></script>
-    <script charset="utf-8" type="text/javascript" src="assets/js/cookie_consent.min.js"></script>
+    <!-- <script charset="utf-8" type="text/javascript" src="assets/js/cookie_consent.min.js"></script> -->
   </body>
   </html>
