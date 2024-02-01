@@ -314,10 +314,10 @@ navigation:
       privacy_policy: Política de Privacidade
     cookies_confirmation: Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços, mas não utilizamos para fins de rastreamento. Ao utilizar nossos serviços, você concorda com tal monitoramento. 
 alt:
-  header:
-    flag_pt: Bandeira do Brasil
-    flag_es: Bandeira da Espanha
-    flag_en: Bandeira dos EUA
+  cfaz_logo: Logomarca cfaz
+  flag_pt: Bandeira do Brasil
+  flag_es: Bandeira da Espanha
+  flag_en: Bandeira dos EUA
   index:
     hero:
       header: Três profissionais da área da saúde, vestidos de branco, de braços cruzados e sorrindo
@@ -327,69 +327,69 @@ alt:
       btn_we_call_you: Ícone de um telefone
       teleradiology: Ícone de um monitor com uma radiologia e uma lupa nela
       consultancies: Ícone de um escritório
-      clinics: 
+      clinics: Ícone de um prontuário de clínica
       radiology_centers: Ícone de um aparelho de radiologia
-      reporting_centers:
-      hospitals:
+      reporting_centers: Ícone de um laudo e um lápis em cima dele
+      hospitals: Ícone de um hospital
     countries: 
-      flags:
+      flags: 
       companies:
     security_credibility: 
-      patients_served: 
-      distributed_exams: 
-      stored_cloud: 
-      years_history: 
+      patients_served: Ícone de duas pessoas
+      distributed_exams: Ícone de exames com um  símbolo de verificado
+      stored_cloud: Ícone de uma nuvem
+      years_history: Ícone de tempo
       anvisa: Logo Anvisa
       hippa: Logo Hippa
       lgpd: Logo LGPD
       gdpr: Logo GDPR
       google_cloud_platform: Logo Google Cloud Plataform
     environment:
-      paper_saved:
-      saved_radiographs:
-      trees_spared:
+      paper_saved: Ícone de uma folha de papel
+      saved_radiographs: Ícone de um filme radiográfic
+      trees_spared: Ícone de uma árvore
     contact:
-      whatsapp: 
-      email:
-      technical_support: 
+      whatsapp: Ícone do WhatsApp
+      email: Ícone de e-mail
+      technical_support: Ícone de atendente com fone de ouvido
     social:
       instagram: Logo do instagram
       tiktok: Logo do tiktok
-      linkedin: Icone do linkedin
-      youtube: Icone do youtube
+      linkedin: Logo do linkedin
+      youtube: Logo do youtube
     benefits_program: Duas mulheres sorridentes sentadas em uma mesa comemoram batendo as mãos
     cfaz_science:
       apresentation: 
-      institutions:
+      institutions: Fachadas de empresas que fazem parte do projeto
       logo_lambo: Logo da LAMBO (UFMS)
       logo_lodi: Logo da Lodi UEPG
     app:
       apresentation: Um celular mostrando a tela de cadastro de pacientes do sistema Cfaz.net
       apple: Logo da apple store
       google: Logo da google play console
-    btn_link: 
+    btn_link: Saiba mais
     benefits:
-      ris_pacs_online: 
-      anvisa: 
+      ris_pacs_online: Ícone de uma engrenagem
+      anvisa: Ícone de um selo verificado
       lgpd: 
-      teleradiology: 
-      dicom_integration: 
-      api_interoperability: 
-      humanized_technical_support: 
-      google_cloud_platform: 
-      storage: 
-      artificial_intelligence: 
-      financial_management: 
-      multiclinic_management: 
-      agreement_management: 
-      invoice_issuance: 
-      customizable_reports: 
-      pep: 
-      online_calendar: 
-      digital_signature: 
-      financial_strategic_management:
-      voice_report: 
-      customizable_reports: 
+      teleradiology: Ícone de um computador
+      dicom_integration: Ícone de um computador com sistemas integrados
+      api_interoperability: Ícone de sistemas ligados a uma engrenagem
+      humanized_technical_support: Ícone de um atendente com um fone de ouvido
+      google_cloud_platform: Ícone de um computador e um celular ligados na nuvem
+      storage: Ícone de um computador ligado à nuvem
+      artificial_intelligence: Ícone de inteligência artificial
+      financial_management: Ícone de um relatório
+      multiclinic_management: Ícone de um computador
+      agreement_management: Ícone de pessoas com as mãos dadas e uma engrenagem ao fundo
+      invoice_issuance: Ícone de uma nota fiscal com um símbolo de dinheiro
+      customizable_reports: Ícone de um relatório com um gráfico
+      pep: Ícone de uma pasta de arquivos
+      online_calendar: Ícone de dois balões de comentários
+      digital_signature: Ícone de uma tela com uma assinatura digital
+      financial_strategic_management: Gestão Financeira e Estratégica
+      voice_report: Ícone de um QR Code
+      customizable_reports: Ícone de um relatório com gráficos
   hospitals: Médico com estetoscópio escreve em um papel com uma caneta e está com a outra mão apoiada em um computador
   radiology: Mulher com máscara e luvas analisa uma radiografia odontológica no computador
   odontology_medicine: Visão lateral de um homem da área da saúde, com uniforme azul, digitando em um computador
@@ -419,4 +419,8 @@ alt:
       apresentation: Tela do sistema Cfaz.net com várias clínicas
       testimony: Foto do Guilherme
     customizable_reports: Tela de um relatório do Cfaz.net com exames realizados
+    financial_strategic_management: Ícone de um homem com uma lupa gigante nas mãos vendo um gráfico. Uma mulher observa
+    management_flow: Ícone do fluxo de gestão da Cfaz
+    voice_report: Tela de emissão de laudo do Cfaz.net
+  about_us: Foto da equipe Cfaz na confraternização
   team: Membro da equipe Cfaz.net

@@ -314,3 +314,113 @@ navigation:
       privacy_policy: Privacy Policy
     cookies_confirmation: We use cookies and other similar technologies to improve your experience on our services, but we don't use them for tracking purposes. By using our services, you agree to such monitoring.
 alt:
+  cfaz_logo: Cfaz logo
+  flag_pt: Brazil's flag
+  flag_es: Spanish flag
+  flag_en: USA flag
+  index:
+    hero:
+      header: Three healthcare professionals, dressed in white, with their arms crossed and smiling
+      button: Down arrow
+    plans:
+      btn_free_starter_plan: Free Start Plan Button
+      btn_we_call_you: Phone icon
+      teleradiology: Icon of a monitor with a radiology and a magnifying glass on it
+      consultancies: Office icon
+      clinics: Icon of a clinic record
+      radiology_centers: Icon of a radiology device
+      reporting_centers: Icon of a report and a pencil on top of it
+      hospitals: Hospital icon
+    countries: 
+      flags: 
+      companies:
+    security_credibility: 
+      patients_served: Two people icon
+      distributed_exams: Exams icon with a checked symbol
+      stored_cloud: Cloud icon
+      years_history: Time icon
+      anvisa: Anvisa logo
+      hippa: Hippa Logo
+      lgpd: LGPD Logo
+      gdpr: GDPR Logo
+      google_cloud_platform: Google Cloud Platform Logo
+    environment:
+      paper_saved: Icon of a sheet of paper
+      saved_radiographs: Radiographic film icon
+      trees_spared: Tree icon
+    contact:
+      whatsapp: WhatsApp icon
+      email: Email icon
+      technical_support: Attendant with headset icon
+    social:
+      instagram: Instagram logo
+      tiktok: Tiktok logo
+      linkedin: Linkedin logo
+      youtube: Youtube logo
+    benefits_program: Two smiling women sitting at a table celebrate by clapping hands
+    cfaz_science:
+      apresentation: 
+      institutions: Facades of companies that are part of the project
+      logo_lambo: LAMBO (UFMS) logo
+      logo_lodi: Lodi UEPG logo
+    app:
+      apresentation: A cell phone showing the patient registration screen of the Cfaz.net system
+      apple: Apple store logo
+      google: Google play console logo
+    btn_link: Know more
+    benefits:
+      ris_pacs_online: Gear icon
+      anvisa: Verified badge icon
+      lgpd: 
+      teleradiology: Computer icon
+      dicom_integration: Icon of a computer with integrated systems
+      api_interoperability: Systems icon linked to a gear
+      humanized_technical_support: Icon of an attendant with a headset
+      google_cloud_platform: Icon of a computer and cell phone connected in the cloud
+      storage: Cloud-connected computer icon
+      artificial_intelligence: Artificial intelligence icon
+      financial_management: Report icon
+      multiclinic_management: Computer icon
+      agreement_management: Icon of people holding hands and a gear in the background
+      invoice_issuance: Icon of an invoice with a money symbol
+      customizable_reports: Icon of a report with a graph
+      pep: File folder icon
+      online_calendar: Two comment bubbles icon
+      digital_signature: Icon of a screen with a digital signature
+      financial_strategic_management: Financial and Strategic Management
+      voice_report: QR Code icon
+      customizable_reports: Icon of a report with graphs
+  hospitals: Doctor with stethoscope writes on paper with a pen and has his other hand leaning on a computer
+  radiology: Woman with mask and gloves analyzes a dental x-ray on the computer
+  odontology_medicine: Side view of a healthcare man in blue scrubs typing on a computer
+  vet: Woman analyzes an x-ray that she holds in her hands and a dog is next to her
+  services_features:
+    ris_pacs: Icon of a cell phone and tablet connected by a server. Transmission of information on mobile devices
+    api_Interoperability: Icon of a computer connected by different systems symbolizing interoperability
+    storage: Icon of a cell phone and tablet connected by a server. Transmission of information on mobile devices
+    teleradiology:
+      apresentation: Cfaz.net software order screen with patient names
+      testimony: Photo by Dr. Monica
+    humanized_support:
+      apresentation: Icon of a Cfaz.net virtual attendant wearing a headset and looking at a computer
+      testimony: Photo by Cristiane
+    google_cloud_platform: Files icon with Google Cloud Platform logo with a padlock
+    dicom: Icon of a woman giving a man a radiology exam while another man types on the computer
+    ia: Cfaz.net system screen with a cephalometry exam
+    lgpd: Icon of a man entering information into a safe (data security)
+    views_3d_mpr: Cfaz.net software screen with editing of a dental exam
+    online_agenda: Cfaz.net booking screen
+    pep: Cfaz.net PEP screen
+    financial_management: Screenshot of a Cfaz.net financial report
+    management_agreements_glossaries: Cfaz.net agreements screen
+    digital_signature: Cfaz.net system screen with a digital signature
+    invoices: Cfaz.net screen for issuing invoices
+    multiclinic_management:
+      apresentation: Cfaz.net system screen with several clinics
+      testimony: Photo by Guilherme
+    customizable_reports: Screen of a Cfaz.net report with exams carried out
+    financial_strategic_management: Icon of a man with a giant magnifying glass in his hands looking at a graph. A woman watches
+    management_flow: Cfaz management flow icon
+    voice_report: Cfaz.net report issuance screen
+  about_us: Photo of the Cfaz team at the get-together
+  team: Cfaz.net team member
