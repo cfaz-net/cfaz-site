@@ -25,23 +25,6 @@
 }
 
 @media screen and (max-width: 1199px) {
-  /* lg do bootstrap */
-  #contato .card-technical-support,
-  #contato .card-financial {
-    height: auto;
-  }
-
-  #contato .card-sales {
-    height: auto;
-    margin-top: 0;
-  }
-
-  #countries .swiper-slide img {
-    max-width: 90%;
-    max-height: 90%;
-    width: auto;
-  }
-
   /* .navbar-expand-xl {
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
   }
@@ -62,6 +45,19 @@
 @media screen and (max-width: 1000px) {
   .w-sm-100 {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* lg do bootstrap */
+  #contato .card-technical-support,
+  #contato .card-financial {
+    height: auto;
+  }
+
+  #contato .card-sales {
+    height: auto;
+    margin-top: 0;
   }
 }
 

@@ -7,12 +7,12 @@ layout: default
   <div class="container-xxl">
     <div class="row align-items-center justify-content-around">
       <div class="col-lg-6 col-md-6" data-aos="zoom-in">
-        <h2>{% t navigation.main.index.hero %}</h2>
+        <h2 class="h4">{% t navigation.main.index.hero %}</h2>
       </div>
-      <img class="col-lg-4 col-md-6 d-none d-md-block" src="./assets/img/header.webp" class="img-fluid" alt="{% t alt.hero.header %}" data-aos="zoom-in">
+      <img class="col-lg-4 col-md-6 d-none d-md-block" src="./assets/img/header.webp" class="img-fluid" alt="{% t alt.index.hero.header %}" data-aos="zoom-in">
     </div>
     <div class="text-center mt-2 aos-init d-none d-md-block">
-      <img src="./assets/img/icons/header_button_down.webp" width="40" loading="lazy" alt="{% t alt.hero.button %}">
+      <img src="./assets/img/icons/header_button_down.webp" width="40" loading="lazy" alt="{% t alt.index.hero.button %}">
     </div>
   </div>
 </section>
@@ -21,7 +21,7 @@ layout: default
 <section id="plans" class="mb-5">
   <div class="container-fluid text-center">
     <a class="btn btn-secondary d-inline-flex justify-content-between align-items-center" target="_blank" href="https://max.cfaz.net/users/sign_in" data-aos="fade-up">
-      <img class="me-3" src="./assets/img/icons/btn_cloud.png" loading="lazy" alt="{% t alt.plans.free_starter_plan %}">
+      <img class="me-3" src="./assets/img/icons/btn_cloud.png" loading="lazy" alt="{% t alt.index.plans.btn_free_starter_plan %}">
       <span>{% t navigation.main.index.plans.free_starter_plan %}</span>
     </a>
 
@@ -29,10 +29,10 @@ layout: default
       <div class="col-lg-4 col-xxl-2">
         <div class="card shadow py-2">
           <div class="card-body">
-            <img src="./assets/img/icons/plan_telerradiologia.webp" loading="lazy" alt="Ícone de uma lupa sobre um raio-x em um computador">
+            <img src="./assets/img/icons/plan_telerradiologia.png" width="56px" loading="lazy" alt="{% t alt.index.plans.teleradiology %}">
             <h1 class="card-title mt-3 mb-0">{% t navigation.main.index.plans.teleradiology %}</h1>
             <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-2" data-bs-toggle="modal" data-bs-target="#modal_telerradiologia">
-              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
+              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
               <span>{% t navigation.main.index.button_contact %}</span>
             </button>
           </div>
@@ -41,10 +41,10 @@ layout: default
       <div class="col-lg-4 col-xxl-2">
         <div class="card shadow py-2">
           <div class="card-body">
-            <img src="./assets/img/icons/plan_consultorio.webp" loading="lazy" alt="Ícone de uma fachada de um consultório">
+            <img src="./assets/img/icons/plan_consultorio.webp" width="56px" loading="lazy" alt="{% t alt.index.plans.consultancies %}">
             <h1 class="card-title mt-3 mb-0">{% t navigation.main.index.plans.consultancies %}</h1>
             <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-2" data-bs-toggle="modal" data-bs-target="#modal_consultorios">
-              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
+              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
               <span>{% t navigation.main.index.button_contact %}</span>
             </button>
           </div>
@@ -53,10 +53,10 @@ layout: default
       <div class="col-lg-4 col-xxl-2">
         <div class="card shadow py-2">
           <div class="card-body">
-            <img src="./assets/img/icons/plan_clinicas.webp" loading="lazy" alt="Ícone de uma caderneta">
+            <img src="./assets/img/icons/plan_clinicas.webp" width="56px" loading="lazy" alt="{% t alt.index.plans.clinics %}">
             <h1 class="card-title mt-3 mb-0">{% t navigation.main.index.plans.clinics %}</h1>
             <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-2" data-bs-toggle="modal" data-bs-target="#modal_clinicas">
-              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
+              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
               <span>{% t navigation.main.index.button_contact %}</span>
             </button>
           </div>
@@ -65,10 +65,10 @@ layout: default
       <div class="col-lg-4 col-xxl-2">
         <div class="card shadow py-2">
           <div class="card-body">
-            <img src="./assets/img/icons/plan_centro_radiologia.webp" loading="lazy" alt="Ícone de um aparelho de radiologia">
+            <img src="./assets/img/icons/plan_centro_radiologia.webp" width="56px" loading="lazy" alt="{% t alt.index.plans.radiology_centers %}">
             <h1 class="card-title mt-3 mb-0">{% t navigation.main.index.plans.radiology_centers %}</h1>
             <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-2" data-bs-toggle="modal" data-bs-target="#modal_centros_radiologia">
-              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
+              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
               <span>{% t navigation.main.index.button_contact %}</span>
             </button>
           </div>
@@ -77,10 +77,10 @@ layout: default
       <div class="col-lg-4 col-xxl-2">
         <div class="card shadow py-2">
           <div class="card-body">
-            <img src="./assets/img/icons/plan_centrais_laudo.webp" loading="lazy" alt="Ícone de uma folha com checklist">
+            <img src="./assets/img/icons/plan_centrais_laudo.webp" width="56px" loading="lazy" alt="{% t alt.index.plans.reporting_centers %}">
             <h1 class="card-title mt-3 mb-0">{% t navigation.main.index.plans.reporting_centers %}</h1>
             <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-2" data-bs-toggle="modal" data-bs-target="#modal_centrais_laudo">
-              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
+              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
               <span>{% t navigation.main.index.button_contact %}</span>
             </button>
           </div>
@@ -89,10 +89,10 @@ layout: default
       <div class="col-lg-4 col-xxl-2">
         <div class="card shadow py-2">
           <div class="card-body">
-            <img src="./assets/img/icons/plan_hospitais.webp" loading="lazy" alt="Ícone de um hospital">
+            <img src="./assets/img/icons/plan_hospitais.webp" width="56px" loading="lazy" alt="{% t alt.index.plans.hospitals %}">
             <h1 class="card-title mt-3 mb-0">{% t navigation.main.index.plans.hospitals %}</h1>
             <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-2" data-bs-toggle="modal" data-bs-target="#modal_hospitais">
-              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
+              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
               <span>{% t navigation.main.index.button_contact %}</span>
             </button>
           </div>
@@ -107,12 +107,12 @@ layout: default
   <div class="container-xxl">
     <section class="row align-items-center justify-content-between" data-aos="fade-up">
       <div class="col-md-6 col-sm-12">
-        <h1 class="text-primary"><strong>{% t navigation.main.index.plans.hospitals %}</strong></h1>
+        <h1 class="h3 text-primary"><strong>{% t navigation.main.index.plans.hospitals %}</strong></h1>
         <p>{% t navigation.main.index.hospital.text %}</p>
         <p>{% t navigation.main.index.hospital.text2 %}</p>
       </div>
       <div class="col-md-6 text-center">
-        <img class="w-sm-100" src="./assets/img/hospital.png" loading="lazy" alt="Profissional da saúde passando anotações de notebook para uma acaderneta">
+        <img class="w-sm-100" src="./assets/img/hospital.png" loading="lazy" alt="{% t alt.hospitals %}">
       </div>
     </section>
   </div>
@@ -121,69 +121,63 @@ layout: default
     <section class="d-grid grid-template-columns" data-aos="fade-up">
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/ris_pacs_online.webp" loading="lazy" alt="Ícone de peças de quebra cabeça se conectando a uma ferramenta">
+          <img src="./assets/img/icons/ris_pacs_online.webp" loading="lazy" alt="{% t alt.index.benefits.ris_pacs_online %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.ris_pacs_online %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/certificacao_anvisa.webp" loading="lazy" alt="Ícone com certificado">
+          <img src="./assets/img/icons/certificacao_anvisa.webp" loading="lazy" alt="{% t alt.index.benefits.anvisa %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.anvisa %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/lgpd.webp" loading="lazy" alt="Ícone de segurança">
+          <img src="./assets/img/icons/lgpd.webp" loading="lazy" alt="{% t alt.index.benefits.lgpd %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.lgpd %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/telerradiologia.webp" loading="lazy" alt="Ícone de tela com um certificado">
+          <img src="./assets/img/icons/telerradiologia.webp" loading="lazy" alt="{% t alt.index.benefits.teleradiology %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.plans.teleradiology %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/integracao_dicom.webp" loading="lazy" alt="Ícone com uma tela e informações nela">
+          <img src="./assets/img/icons/integracao_dicom.webp" loading="lazy" alt="{% t alt.index.benefits.dicom_integration %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.dicom_integration %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/api_interoperabilidade.webp" loading="lazy" alt="Ícone com ferramenta">
+          <img src="./assets/img/icons/api_interoperabilidade.webp" loading="lazy" alt="{% t alt.index.benefits.api_interoperability %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.api_Interoperability %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/suporte_tecnico_humanizado.webp" loading="lazy" alt="Ícone de uma pessoa com headset">
+          <img src="./assets/img/icons/suporte_tecnico_humanizado.webp" loading="lazy" alt="{% t alt.index.benefits.humanized_technical_support %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.humanized_technical_support %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/google_cloud_platform.webp" loading="lazy" alt="Ícone de aparelhos eletronicos se conectando a nuvem">
+          <img src="./assets/img/icons/google_cloud_platform.webp" loading="lazy" alt="{% t alt.index.benefits.google_cloud_platform %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.google_cloud_platform %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/armazenamento_20anos.webp" loading="lazy" alt="Ícone de notebook armazenadando dados">
+          <img src="./assets/img/icons/armazenamento_20anos.webp" loading="lazy" alt="{% t alt.index.benefits.storage %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.storage %}</p>
-        </div>
-      </div>
-      <div class="card shadow py-2 border-0">
-        <div class="card-body text-center">
-          <img src="./assets/img/icons/inteligencia_artificial.webp" loading="lazy" alt="Ícone de inteligencia artificial">
-          <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.artificial_intelligence %}</p>
         </div>
       </div>
     </section>
 
     <div class="text-center mt-4" data-aos="fade-up">
       <a class="btn btn-cta d-inline-flex justify-content-between align-items-center" href="hospitais.html">
-        <img class="me-3" src="./assets/img/icons/btn-link.png" loading="lazy" alt="Icone de link">
+        <img class="me-3" src="./assets/img/icons/btn-link.png" loading="lazy" alt="{% t alt.index.btn_link %}">
         <span>{% t navigation.main.index.button_know_more %}</span>
       </a>
     </div>
@@ -195,10 +189,10 @@ layout: default
   <div class="container-xxl">
     <section class="row justify-content-between" data-aos="fade-up">
       <div class="col-md-6 col-sm-12 order-2 order-md-1 text-center">
-        <img class="w-sm-100" src="./assets/img/radiologia-index.webp" loading="lazy" alt="Pessoa vendo um exame de cranio em um monitor">
+        <img class="w-sm-100" src="./assets/img/radiologia-index.webp" loading="lazy" alt="{% t alt.radiology %}">
       </div>
       <div class="col-md-6 col-sm-12 order-1 order-md-2">
-        <h1 class="text-primary"><strong>{% t navigation.main.index.radiologia.title %}</strong></h1>
+        <h1 class="h3 text-primary"><strong>{% t navigation.main.index.radiologia.title %}</strong></h1>
         <p>{% t navigation.main.index.radiologia.text %}</p>
         <p>{% t navigation.main.index.radiologia.text2 %}</p>
         <p>{% t navigation.main.index.radiologia.text3 %}</p>
@@ -210,56 +204,56 @@ layout: default
     <section class="d-grid grid-template-columns" data-aos="fade-up">
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/ris_pacs_online.webp" loading="lazy" alt="Ícone de peças de quebra cabeça se conectando a uma ferramenta">
+          <img src="./assets/img/icons/ris_pacs_online.webp" loading="lazy" alt="{% t alt.index.benefits.ris_pacs_online %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.ris_pacs_online %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/certificacao_anvisa.webp" loading="lazy" alt="Ícone com certificado">
+          <img src="./assets/img/icons/certificacao_anvisa.webp" loading="lazy" alt="{% t alt.index.benefits.anvisa %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.anvisa %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/lgpd.webp" loading="lazy" alt="Ícone de segurança">
+          <img src="./assets/img/icons/lgpd.webp" loading="lazy" alt="{% t alt.index.benefits.lgpd %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.lgpd %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/telerradiologia.webp" loading="lazy" alt="Ícone de tela com um certificado">
+          <img src="./assets/img/icons/telerradiologia.webp" loading="lazy" alt="{% t alt.index.benefits.teleradiology %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.plans.teleradiology %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/integracao_dicom.webp" loading="lazy" alt="Ícone com uma tela e informações nela">
+          <img src="./assets/img/icons/integracao_dicom.webp" loading="lazy" alt="{% t alt.index.benefits.dicom_integration %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.dicom_integration %}</p>
         </div>
       </div>
     
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/inteligencia_artificial.webp" loading="lazy" alt="Ícone de inteligencia artificial">
+          <img src="./assets/img/icons/inteligencia_artificial.webp" loading="lazy" alt="{% t alt.index.benefits.artificial_intelligence %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.artificial_intelligence %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/suporte_tecnico_humanizado.webp" loading="lazy" alt="Ícone de uma pessoa com headset">
+          <img src="./assets/img/icons/suporte_tecnico_humanizado.webp" loading="lazy" alt="{% t alt.index.benefits.humanized_technical_support %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.humanized_technical_support %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/google_cloud_platform.webp" loading="lazy" alt="Ícone de aparelhos eletronicos se conectando a nuvem">
+          <img src="./assets/img/icons/google_cloud_platform.webp" loading="lazy" alt="{% t alt.index.benefits.google_cloud_platform %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.google_cloud_platform %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/armazenamento_20anos.webp" loading="lazy" alt="Ícone de notebook armazenadando dados">
+          <img src="./assets/img/icons/armazenamento_20anos.webp" loading="lazy" alt="{% t alt.index.benefits.storage %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.storage %}</p>
         </div>
       </div>
@@ -267,7 +261,7 @@ layout: default
 
     <div class="text-center mt-4">
       <a class="btn btn-cta d-inline-flex justify-content-between align-items-center" href="radiologia.html">
-        <img class="me-3" src="./assets/img/icons/btn-link.png" loading="lazy" alt="Icone de link">
+        <img class="me-3" src="./assets/img/icons/btn-link.png" loading="lazy" alt="{% t alt.index.btn_link %}">
         <span>{% t navigation.main.index.button_know_more %}</span>
       </a>
     </div>
@@ -279,11 +273,11 @@ layout: default
   <div class="container-xxl">
     <section class="row justify-content-between" data-aos="fade-up">
       <div class="col-md-6 com-sm-12">
-        <h1 class="text-primary"><strong>{% t navigation.header.dentistry_medicine %}</strong></h1>
+        <h1 class="h3 text-primary"><strong>{% t navigation.header.dentistry_medicine %}</strong></h1>
         <p>{% t navigation.main.index.odontology_medicine.text %}</p>
       </div>
       <div class="col-md-6 col-sm-12 text-center">
-        <img class="w-sm-100" src="./assets/img/odontologia-medicina-index.webp" loading="lazy" alt="Profissional da saúde fazendo anotações em seu computador e máquina de radiologia atras">
+        <img class="w-sm-100" src="./assets/img/odontologia-medicina-index.webp" loading="lazy" alt="{% t alt.odontology_medicine %}">
       </div>
     </section>
   </div>
@@ -292,55 +286,55 @@ layout: default
     <section class="d-grid grid-template-columns" data-aos="fade-up">
       <div class="card shadow py-2 border-0 card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/gestao_financeira.webp" loading="lazy" alt="Ícone de tela com grafico de pizza e uma engrenagem">
+          <img src="./assets/img/icons/gestao_financeira.webp" loading="lazy" alt="{% t alt.index.benefits.financial_management %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.financial_management %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/gestao_multiclinicas.webp" loading="lazy" alt="Ícone de tela com graficos e dados">
+          <img src="./assets/img/icons/gestao_multiclinicas.webp" loading="lazy" alt="{% t alt.index.benefits.multiclinic_management %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.multiclinic_management %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/gestao_ convenios.webp" loading="lazy" alt="Ícone de 3 pessoas de mãos dadas a frente de uma engrenagem">
+          <img src="./assets/img/icons/gestao_ convenios.webp" loading="lazy" alt="{% t alt.index.benefits.agreement_management %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.agreement_management %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/emissao_nota.webp" loading="lazy" alt="Ícone de folha com checklist e um simbolo de dinheiro no canto direito superior">
+          <img src="./assets/img/icons/emissao_nota.webp" loading="lazy" alt="{% t alt.index.benefits.invoice_issuance %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.invoice_issuance %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/relatorios_customizaveis.webp" loading="lazy" alt="Ícone de folha com gráfico de coluna">
+          <img src="./assets/img/icons/relatorios_customizaveis.webp" loading="lazy" alt="{% t alt.index.benefits.customizable_reports %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.customizable_reports %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/agenda_online.webp" loading="lazy" alt="Ícone de caixa de diálogo">
+          <img src="./assets/img/icons/agenda_online.webp" loading="lazy" alt="{% t alt.index.benefits.online_calendar%}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.online_calendar %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/pep.webp" loading="lazy" alt="Ícone de uma pessoa com headset">
+          <img src="./assets/img/icons/pep.webp" loading="lazy" alt="{% t alt.index.benefits.humanized_technical_support %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.pep %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/suporte_tecnico_humanizado.webp" loading="lazy" alt="Ícone de uma pessoa com headset">
+          <img src="./assets/img/icons/suporte_tecnico_humanizado.webp" loading="lazy" alt="{% t alt.index.benefits.humanized_technical_support %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.humanized_technical_support %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/assinatura_digital.webp" loading="lazy" alt="Ícone de lousa com uma assinatura sendo escrita por uma caneta">
+          <img src="./assets/img/icons/assinatura_digital.webp" loading="lazy" alt="{% t alt.index.benefits.digital_signature %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.digital_signature %}</p>
         </div>
       </div>
@@ -348,7 +342,7 @@ layout: default
 
     <div class="text-center mt-4">
       <a class="btn btn-cta d-inline-flex justify-content-between align-items-center" href="odontologia_medicina.html">
-        <img class="me-3" src="./assets/img/icons/btn-link.png" loading="lazy" alt="Icone de link">
+        <img class="me-3" src="./assets/img/icons/btn-link.png" loading="lazy" alt="{% t alt.index.btn_link %}">
         <span>{% t navigation.main.index.button_know_more %}</span>
       </a>
     </div>
@@ -361,10 +355,10 @@ layout: default
   <div class="container-xxl">
     <section class="row justify-content-between" data-aos="fade-up">
       <div class="col-md-6 col-sm-12 text-center order-2 order-md-1">
-        <img class="w-sm-100" src="./assets/img/veterinaria-index.png" loading="lazy" alt="Veterinária com um raio-x na mão, olhando para cima e a frente um cachorro feliz">
+        <img class="w-sm-100" src="./assets/img/veterinaria-index.png" loading="lazy" alt="{% t alt.vet %}">
       </div>
       <div class="col-md-6 col-sm-12 order-1 order-md-2">
-        <h1 class="text-primary"><strong>{% t navigation.main.index.veterinary.title %}</strong></h1>
+        <h1 class="h3 text-primary"><strong>{% t navigation.main.index.veterinary.title %}</strong></h1>
         <p>{% t navigation.main.index.veterinary.text %}</p>
         <p>{% t navigation.main.index.veterinary.text2 %}</p>        
       </div>
@@ -375,56 +369,56 @@ layout: default
     <section class="d-grid grid-template-columns" data-aos="fade-up">
       <div class="card shadow py-2 border-0 card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/ris_pacs_online.webp" loading="lazy" alt="Ícone de peças de quebra cabeça se conectando a uma ferramenta">
+          <img src="./assets/img/icons/ris_pacs_online.webp" loading="lazy" alt="{% t alt.index.benefits.ris_pacs_online %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.ris_pacs_online %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/gestao_financeira.webp" loading="lazy" alt="Ícone de tela com grafico de pizza e uma engrenagem">
+          <img src="./assets/img/icons/gestao_financeira.webp" loading="lazy" alt="{% t alt.index.benefits.financial_management %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.financial_strategic_management %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/emissao_nota.webp" loading="lazy" alt="Ícone de folha com checklist e um simbolo de dinheiro no canto direito superior">
+          <img src="./assets/img/icons/emissao_nota.webp" loading="lazy" alt="{% t alt.index.benefits.invoice_issuance %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.invoice_issuance %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/telerradiologia.webp" loading="lazy" alt="Ícone de tela com um certificado">
+          <img src="./assets/img/icons/telerradiologia.webp" loading="lazy" alt="{% t alt.index.benefits.teleradiology %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.plans.teleradiology %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/integracao_dicom.webp" loading="lazy" alt="Ícone com uma tela e informações nela">
+          <img src="./assets/img/icons/integracao_dicom.webp" loading="lazy" alt="{% t alt.index.benefits.dicom_integration %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.dicom_integration %}</p>
         </div>
       </div>
     
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/agenda_online.webp" loading="lazy" alt="Ícone de caixa de diálogo">
+          <img src="./assets/img/icons/agenda_online.webp" loading="lazy" alt="{% t alt.index.benefits.online_calendar%}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.online_calendar %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/suporte_tecnico_humanizado.webp" loading="lazy" alt="Ícone de uma pessoa com headset">
+          <img src="./assets/img/icons/suporte_tecnico_humanizado.webp" loading="lazy" alt="{% t alt.index.benefits.humanized_technical_support %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.humanized_technical_support %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/laudo_voz.webp" loading="lazy" alt="Ícone com um QR Code ao centro">
+          <img src="./assets/img/icons/laudo_voz.webp" loading="lazy" alt="{% t alt.index.benefits.voice_report %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.voice_report %}</p>
         </div>
       </div>
       <div class="card shadow py-2 border-0">
         <div class="card-body text-center">
-          <img src="./assets/img/icons/relatorios_customizaveis.webp" loading="lazy" alt="Ícone de folha com gráfico de coluna">
+          <img src="./assets/img/icons/relatorios_customizaveis.webp" loading="lazy" alt="{% t alt.index.benefits.customizable_reports %}">
           <p class="card-title mt-3 mb-0">{% t navigation.main.index.benefits.customizable_reports %}</p>
         </div>
       </div>
@@ -432,7 +426,7 @@ layout: default
 
     <div class="text-center mt-4" data-aos="fade-up">
       <a class="btn btn-cta d-inline-flex justify-content-between align-items-center" href="veterinaria.html">
-        <img class="me-3" src="./assets/img/icons/btn-link.png" loading="lazy" alt="Icone de link">
+        <img class="me-3" src="./assets/img/icons/btn-link.png" loading="lazy" alt="{% t alt.index.btn_link %}">
         <span>{% t navigation.main.index.button_know_more %}</span>
       </a>
     </div>
@@ -443,90 +437,90 @@ layout: default
 <section id="countries" class="position-relative py-5">
   <div class="container-fluid">
     <section class="row justify-content-between align-items-center mb-5" data-aos="fade-up">
-      <h2 class="col-md-7 col-sm-12"><strong>{% t navigation.main.index.countries.title %}</strong></h2>
-      <img class="col-md-3 d-none d-md-block" src="./assets/img/bandeiras.png" loading="lazy" alt="Lista de 13 países onde a cfaz já está integrada">
+      <h2 class="h4 col-md-7 col-sm-12"><strong>{% t navigation.main.index.countries.title %}</strong></h2>
+      <img class="col-md-3 d-none d-md-block" src="./assets/img/bandeiras.png" loading="lazy" alt="{% t alt.index.countries.flags %}">
     </section>
     
     <section class="swiper-container partners" data-aos="fade-up">
       <div class="swiper-wrapper">
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/animagem.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/animagem.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.main.index.countries.hospital %}</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/begmax.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/begmax.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p> 
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/cimo.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/cimo.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/ciro.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/ciro.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p> 
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/drx.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/drx.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/eco-x.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/eco-x.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.main.index.countries.hospital %}</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/hs_vet.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/hs_vet.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.header.veterinary %}</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/imagem.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/imagem.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/iorn.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/iorn.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/maxilare.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/maxilare.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p> 
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/movax.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/movax.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/nr.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/nr.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/oi_digital.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/oi_digital.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p> 
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/perboyre.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/perboyre.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/raio_max.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/raio_max.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.header.veterinary %}</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/roc.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/roc.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/tradit3d.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/tradit3d.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="./assets/img/clientes/uno_vet.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="./assets/img/clientes/uno_vet.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.header.veterinary %}</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front"  src="assets/img/clientes/vamos_sorrir.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front"  src="assets/img/clientes/vamos_sorrir.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
         </div>
         <div class="swiper-slide shadow segment">
-          <img class="front" src="assets/img/clientes/xe_vet.webp" loading="lazy" alt="Empresa parceira">
+          <img class="front" src="assets/img/clientes/xe_vet.webp" loading="lazy" alt="{% t alt.index.countries.companies %}">
           <p class="back mb-0">{% t navigation.header.veterinary %}</p>
         </div>
       </div>
@@ -538,7 +532,7 @@ layout: default
 <!-- ======= Depoimentos ======= -->
 <section id="customer-testimonial" class="my-4">
   <div class="container-xxl">
-    <h1 class="text-center text-secondary"><strong>{% t navigation.main.index.customer_testimonial.title %}</strong></h1>
+    <h1 class="h4 text-center text-secondary"><strong>{% t navigation.main.index.customer_testimonial.title %}</strong></h1>
     <div class="row" data-aos="fade-up">
       <div class="col-md-4">
         <div class="card background border-0 shadow mt-5 h-85">
@@ -573,78 +567,78 @@ layout: default
 
 <!-- ======= Segurança e Credibilidade ======= -->
 <section id="security-credibility" class="mt-5 py-4 background">
-  <div>
-    <section class="container-xxl" data-aos="fade-up">
-      <div class="row justify-content-around gy-3 mt-3">
-        <div class="col-md-3">
-          <div class="card text-center shadow border-0 py-3">
-            <div class="card-body">
-              <img src="./assets/img/icons/pessoas.webp" loading="lazy" alt="Ícone de pessoas">
-              <p class="card-title mt-3 mb-0">10Mi</p>
-              <p class="text-secondary-light mb-0">{% t navigation.main.index.security_credibility.patients_served %}</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card text-center shadow border-0 py-3">
-            <div class="card-body">
-              <img src="./assets/img/icons/exames.webp" loading="lazy" alt="Ícone de folha com um verificado">
-              <p class="card-title mt-3 mb-0">50Mi</p>
-              <p class="text-secondary-light mb-0">{% t navigation.main.index.security_credibility.distributed_exams %}</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card text-center shadow border-0 py-3">
-            <div class="card-body">
-              <img src="./assets/img/icons/nuvem.webp" loading="lazy" alt="{% t alt.plans.free_starter_plan %}">
-              <p class="card-title mt-3 mb-0">130Tb</p>
-              <p class="text-secondary-light mb-0">{% t navigation.main.index.security_credibility.stored_cloud %}</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card text-center shadow border-0 py-3">
-            <div class="card-body">
-              <img src="./assets/img/icons/tempo_em_mercado.webp" loading="lazy" alt="Ícone de agenda com relógio">
-              <p class="card-title mt-3 mb-0">10 {% t navigation.main.index.security_credibility.years %}</p>
-              <p class="text-secondary-light mb-0">{% t navigation.main.index.security_credibility.years_history %}</p>
-            </div>
+  <section class="container-xxl" data-aos="fade-up">
+    <div class="row justify-content-around gy-3 mt-3">
+      <div class="col-md-3">
+        <div class="card text-center shadow border-0 py-3">
+          <div class="card-body">
+            <img src="./assets/img/icons/pessoas.webp" height="32" loading="lazy" alt="{% t alt.index.security_credibility.patients_served %}">
+            <p class="card-title text-secondary mt-3 mb-0">10Mi</p>
+            <p class="text-secondary-light mb-0">{% t navigation.main.index.security_credibility.patients_served %}</p>
           </div>
         </div>
       </div>
-    </section>
-    <hr class="my-5 border-2 text-secondary-light">
-    <section class="container-xxl d-flex justify-content-around flex-wrap" data-aos="fade-up">
-      <div class="text-center">
-        <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_anvisa.png" loading="lazy" alt="Logo da Anvisa">
-        <p class="mb-0">{% t navigation.main.index.security_credibility.anvisa %}</p>
-        <p><small><a class="text-secondary hover_underline" target="_blank" href="https://consultas.anvisa.gov.br/#/saude/25351182044202394/?nomeProduto=Cfaz.net" class="text-secondary-light">{% t navigation.main.index.security_credibility.record %}: 82578410001</a></small></p>
+      <div class="col-md-3">
+        <div class="card text-center shadow border-0 py-3">
+          <div class="card-body">
+            <img src="./assets/img/icons/exames.webp" height="32" loading="lazy" alt="{% t alt.index.security_credibility.distributed_exams %}">
+            <p class="card-title text-secondary mt-3 mb-0">50Mi</p>
+            <p class="text-secondary-light mb-0">{% t navigation.main.index.security_credibility.distributed_exams %}</p>
+          </div>
+        </div>
       </div>
-      <div class="text-center">
-        <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_hippaa.png" loading="lazy" alt="Logo da HIPPA">
-        <p>{% t navigation.main.index.security_credibility.hippa %}</p>
+      <div class="col-md-3">
+        <div class="card text-center shadow border-0 py-3">
+          <div class="card-body">
+            <img src="./assets/img/icons/nuvem.webp" height="32" loading="lazy" alt="{% t alt.index.security_credibility.stored_cloud %}">
+            <p class="card-title text-secondary mt-3 mb-0">130Tb</p>
+            <p class="text-secondary-light mb-0">{% t navigation.main.index.security_credibility.stored_cloud %}</p>
+          </div>
+        </div>
       </div>
-      <div class="text-center">
-        <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_lgpd.png" loading="lazy" alt="Logo da LGPD">
-        <p>{% t navigation.main.index.benefits.lgpd %}</p>
+      <div class="col-md-3">
+        <div class="card text-center shadow border-0 py-3">
+          <div class="card-body">
+            <img src="./assets/img/icons/tempo_em_mercado.webp" height="32" loading="lazy" alt="{% t alt.index.security_credibility.years_history %}">
+            <p class="card-title text-secondary mt-3 mb-0">10 {% t navigation.main.index.security_credibility.years %}</p>
+            <p class="text-secondary-light mb-0">{% t navigation.main.index.security_credibility.years_history %}</p>
+          </div>
+        </div>
       </div>
-      <div class="text-center">
-        <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_gdpr.png" loading="lazy" alt="Logo da GDPR">
-        <p>{% t navigation.main.index.security_credibility.gdpr %}</p>
-      </div>
-      <div class="text-center">
-        <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_google_cloud.png" loading="lazy" alt="Logo da Google Cloud Platform">
-        <p>{% t navigation.main.index.benefits.google_cloud_platform %}</p>
-      </div>
-    </section>
-  </div>
+    </div>
+  </section>
+  <hr class="my-5 border-2 text-secondary-light">
+  <section class="container-xxl d-flex justify-content-around flex-wrap" data-aos="fade-up">
+    <div class="text-center">
+      <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_anvisa.png" loading="lazy" alt="{% t alt.index.security_credibility.anvisa %}">
+      <p class="mb-0">{% t navigation.main.index.security_credibility.anvisa %}</p>
+      <p><small><a class="text-secondary hover_underline" target="_blank" href="https://consultas.anvisa.gov.br/#/saude/25351182044202394/?nomeProduto=Cfaz.net" class="text-secondary-light">{% t navigation.main.index.security_credibility.record %}: 82578410001</a></small></p>
+    </div>
+    <div class="text-center">
+      <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_hippaa.png" loading="lazy" alt="{% t alt.index.security_credibility.hippa %}">
+      <p>{% t navigation.main.index.security_credibility.hippa %}</p>
+    </div>
+    <div class="text-center">
+      <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_lgpd.png" loading="lazy" alt="{% t alt.index.security_credibility.lgpd %}">
+      <p>{% t navigation.main.index.benefits.lgpd %}</p>
+    </div>
+    <div class="text-center">
+      <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_gdpr.png" loading="lazy" alt="{% t alt.index.security_credibility.gdpr %}">
+      <p>{% t navigation.main.index.security_credibility.gdpr %}</p>
+    </div>
+    <div class="text-center">
+      <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_google_cloud.png" loading="lazy" alt="{% t alt.index.security_credibility.google_cloud_platform %}">
+      <p>{% t navigation.main.index.benefits.google_cloud_platform %}</p>
+    </div>
+  </section>
 </section>
 
 <!-- ======= Planos - Valores ======= -->
 <section id="plans-values" class="py-5" data-aos="fade-up">
   <div class="container-fluid text-center">
-    <h2 class="mb-4"><strong>{% t navigation.main.index.plans_values.title %}</strong></h2>
+    <div class="row justify-content-center">
+      <h2 class="h4 col-md-7 col-sm-12 mb-4"><strong>{% t navigation.main.index.plans_values.title %}</strong></h2>
+    </div>
     <a class="btn btn-secondary d-inline-flex justify-content-between align-items-center" target="_blank" href="https://max.cfaz.net/users/sign_in">
       <img class="me-3" src="./assets/img/icons/btn_cloud.png" loading="lazy" alt="{% t alt.plans.free_starter_plan %}">
       <span><span>{% t navigation.main.index.plans.free_starter_plan %}</span></span>
@@ -654,7 +648,7 @@ layout: default
       <div class="col-lg-4 col-xxl-2">
         <div class="card text-start shadow py-2">
           <div class="card-body">
-            <img src="./assets/img/icons/plan_telerradiologia_white.webp" loading="lazy" alt="Ícone de uma lupa sobre um raio-x em um computador">
+            <img src="./assets/img/icons/plan_telerradiologia_white.webp" loading="lazy" alt="{% t alt.index.plans.teleradiology %}">
             <div class="text-center">
               <h1 class="text-secondary-light my-3">{% t navigation.main.index.plans.teleradiology %}</h1>
               <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
@@ -663,7 +657,7 @@ layout: default
                 <small class="text-secondary-light mb-0">(50 {% t navigation.main.index.exams%})</small>
               </h1>
               <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_telerradiologia">
-                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
+                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
                 <span>{% t navigation.main.index.button_contact %}</span>
               </button>
             </div>
@@ -673,13 +667,13 @@ layout: default
       <div class="col-lg-4 col-xxl-2">
         <div class="card text-start shadow py-2">
           <div class="card-body">
-            <img src="./assets/img/icons/plan_consultorios_white.webp" loading="lazy" alt="Ícone de uma fachada de um consultório">
+            <img src="./assets/img/icons/plan_consultorios_white.webp" loading="lazy" alt="{% t alt.index.plans.consultancies %}">
             <div class="text-center">
               <h1 class="text-secondary-light my-3">{% t navigation.main.index.plans.consultancies %}</h1>
               <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
               <h1 style="line-height: 1"><strong>R$ 99/{% t navigation.main.index.month %}</strong></h1>
               <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_consultorios">
-                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
+                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
                 <span>{% t navigation.main.index.button_contact %}</span>
               </button>
             </div>
@@ -689,13 +683,13 @@ layout: default
       <div class="col-lg-4 col-xxl-2">
         <div class="card text-start shadow py-2">
           <div class="card-body">
-            <img src="./assets/img/icons/plan_clinicas_white.webp" loading="lazy" alt="Ícone de uma caderneta">
+            <img src="./assets/img/icons/plan_clinicas_white.webp" loading="lazy" alt="{% t alt.index.plans.clinics %}">
             <div class="text-center">
               <h1 class="text-secondary-light my-3">{% t navigation.main.index.plans.clinics %}</h1>
               <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
               <h1 style="line-height: 1"><strong>R$ 159/{% t navigation.main.index.month %}</strong></h1>
               <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_clinicas">
-                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
+                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
                 <span>{% t navigation.main.index.button_contact %}</span>
               </button>
             </div>
@@ -705,13 +699,13 @@ layout: default
       <div class="col-lg-4 col-xxl-2">
         <div class="card text-start shadow py-2">
           <div class="card-body">
-            <img src="./assets/img/icons/plan_centro_radiologia_white.webp" loading="lazy" alt="Ícone de um aparelho de radiologia">
+            <img src="./assets/img/icons/plan_centro_radiologia_white.webp" loading="lazy" alt="{% t alt.index.plans.radiology_centers %}">
             <div class="text-center">
               <h1 class="text-secondary-light my-3">{% t navigation.main.index.plans.radiology_centers %}</h1>
               <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
               <h1 style="line-height: 1"><strong>R$ 199/{% t navigation.main.index.month %}</strong></h1>
               <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_centros_radiologia">
-                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
+                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
                 <span>{% t navigation.main.index.button_contact %}</span>
               </button>
             </div>
@@ -721,13 +715,13 @@ layout: default
       <div class="col-lg-4 col-xxl-2">
         <div class="card text-start shadow py-2">
           <div class="card-body">
-            <img src="./assets/img/icons/plan_centrais_laudo_white.webp" loading="lazy" alt="Ícone de uma folha com checklist">
+            <img src="./assets/img/icons/plan_centrais_laudo_white.webp" loading="lazy" alt="{% t alt.index.plans.reporting_centers %}">
             <div class="text-center">
               <h1 class="text-secondary-light my-3">{% t navigation.main.index.plans.reporting_centers %}</h1>
               <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
               <h1 style="line-height: 1"><strong>R$ 249/{% t navigation.main.index.month %}</strong></h1>
               <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_centrais_laudo">
-                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
+                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
                 <span>{% t navigation.main.index.button_contact %}</span>
               </button>
             </div>
@@ -737,13 +731,13 @@ layout: default
       <div class="col-lg-4 col-xxl-2">
         <div class="card text-start shadow py-2">
           <div class="card-body">
-            <img src="./assets/img/icons/plan_hospitais_white.webp" loading="lazy" alt="Ícone de um hospital">
+            <img src="./assets/img/icons/plan_hospitais_white.webp" loading="lazy" alt="{% t alt.index.plans.hospitals %}">
             <div class="text-center">
               <h1 class="text-secondary-light my-3">{% t navigation.main.index.plans.hospitals %}</h1>
               <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
               <h1 style="line-height: 1"><strong>R$ 399/{% t navigation.main.index.month %}</strong></h1>
               <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_hospitais">
-                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="Ícone de telefone">
+                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
                 <span>{% t navigation.main.index.button_contact %}</span>
               </button>
             </div>
@@ -759,17 +753,17 @@ layout: default
   <div class="container-xxl">
     <div class="row align-items-center justify-content-around py-5">
       <div class="col-md-4 text-center">
-        <img src="./assets/img/icons/environment_papeis.webp" loading="lazy" alt="Ícone de pilha de papel">
+        <img src="./assets/img/icons/environment_papeis.webp" height="32" loading="lazy" alt="{% t alt.index.environment.paper_saved %}">
         <p class="text-environment mt-4 mb-3">143Mi</p>
         <p class="text-secondary-light">{% t navigation.main.index.environment.paper_saved %}</p>
       </div>
       <div class="col-md-4 text-center my-3">
-        <img src="./assets/img/icons/environment_filme_radiografico.webp" loading="lazy" alt="Ícone raio-x">
+        <img src="./assets/img/icons/environment_filme_radiografico.webp" height="32" loading="lazy" alt="{% t alt.index.environment.saved_radiographs %}">
         <p class="text-environment mt-4 mb-3">48Mi</p>
         <p class="text-secondary-light">{% t navigation.main.index.environment.saved_radiographs %}</p>
       </div>
       <div class="col-md-4 text-center">
-        <img src="./assets/img/icons/environment_arvore.webp" loading="lazy" alt="Ícone de árvore">
+        <img src="./assets/img/icons/environment_arvore.webp" height="32" loading="lazy" alt="{% t alt.index.environment.trees_spared %}">
         <p class="text-environment mt-4 mb-3">19mil</p>
         <p class="text-secondary-light">{% t navigation.main.index.environment.trees_spared %}</p>
       </div>
@@ -782,22 +776,22 @@ layout: default
 <!-- ======= Redes sociais ======= -->
 <section id="social" class="background py-5" data-aos="fade-up">
   <div class="container-xxl">
-    <h2 class="text-center mb-4">{% t navigation.main.index.social.title %}</h2>
+    <h2 class="h4 text-center mb-4">{% t navigation.main.index.social.title %}</h2>
     <div class="d-flex align-items-center justify-content-around flex-wrap">
       <div class="text-center p-2">
-        <img src="./assets/img/icons/social_instagram.png" width="100" height="100" loading="lazy" alt="Logo do instagram">
+        <img src="./assets/img/icons/social_instagram.png" width="100" height="100" loading="lazy" alt="{% t alt.index.social.instagram %}">
         <p class="text-secondary-light mt-2">@cfaznet</p>
       </div>
       <div class="text-center p-2">
-        <img src="./assets/img/icons/social_tiktok.png" width="100" height="100" loading="lazy" alt="Logo do tiktok">
+        <img src="./assets/img/icons/social_tiktok.png" width="100" height="100" loading="lazy" alt="{% t alt.index.social.tiktok %}">
         <p class="text-secondary-light mt-2">@cfaznet</p>
       </div>
       <div class="text-center p-2">
-        <img src="./assets/img/icons/social_linkedin.png" width="100" height="100" loading="lazy" alt="Icone do linkedin">
+        <img src="./assets/img/icons/social_linkedin.png" width="100" height="100" loading="lazy" alt="{% t alt.index.social.linkedin %}">
         <p class="text-secondary-light mt-2">@cfaznet</p>
       </div>
       <div class="text-center p-2">
-        <img src="./assets/img/icons/social_youtube.png" width="100" height="100" loading="lazy" alt="Icone do youtube">
+        <img src="./assets/img/icons/social_youtube.png" width="100" height="100" loading="lazy" alt="{% t alt.index.social.youtube %}">
         <p class="text-secondary-light mt-2">@cfaznet</p>
       </div>
     </div>
@@ -809,10 +803,10 @@ layout: default
   <div class="container-xxl">
     <section class="row justify-content-between" data-aos="fade-up">
       <div class="col-md-6 col-sm-12 text-center">
-        <img class="w-sm-100" src="./assets/img/benefits-program.png" loading="lazy" alt="Mulheres batendo as palmas das mãos">
+        <img class="w-100" src="./assets/img/benefits-program.png" loading="lazy" alt="{% t alt.index.benefits_program %}">
       </div>
       <div class="col-md-6 col-sm-12">
-        <h1 class="text-primary"><strong>{% t navigation.main.index.benefits_program.benefits_program %}</strong></h1>
+        <h1 class="h3 text-primary"><strong>{% t navigation.main.index.benefits_program.benefits_program %}</strong></h1>
         <p>{% t navigation.main.index.benefits_program.text %}</p>
         <p>{% t navigation.main.index.benefits_program.text2 %}</p>
       </div>
@@ -824,43 +818,43 @@ layout: default
       <p>{% t navigation.main.index.benefits_program.partners %}</p>
       <div class="swiper-wrapper">
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira1.png" loading="lazy" alt="Empresa parceira">
+          <img src="./assets/img/benefits_program/parceira1.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira2.png" loading="lazy" alt="Empresa parceira">
+          <img src="./assets/img/benefits_program/parceira2.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira3.png" loading="lazy" alt="Empresa parceira">
+          <img src="./assets/img/benefits_program/parceira3.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira3.png" loading="lazy" alt="Empresa parceira">
+          <img src="./assets/img/benefits_program/parceira3.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira4.png" loading="lazy" alt="Empresa parceira">
+          <img src="./assets/img/benefits_program/parceira4.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira5.png" loading="lazy" alt="Empresa parceira">
+          <img src="./assets/img/benefits_program/parceira5.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira6.png" loading="lazy" alt="Empresa parceira">
+          <img src="./assets/img/benefits_program/parceira6.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira7.png" loading="lazy" alt="Empresa parceira">
+          <img src="./assets/img/benefits_program/parceira7.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira8.png" loading="lazy" alt="Empresa parceira">
+          <img src="./assets/img/benefits_program/parceira8.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira9.png" loading="lazy" alt="Empresa parceira">
+          <img src="./assets/img/benefits_program/parceira9.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira10.png" loading="lazy" alt="Empresa parceira">
+          <img src="./assets/img/benefits_program/parceira10.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira11.png" loading="lazy" alt="Empresa parceira">
+          <img src="./assets/img/benefits_program/parceira11.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
         </div>
         <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-          <img src="./assets/img/benefits_program/parceira12.png" loading="lazy" alt="Empresa parceira">
+          <img src="./assets/img/benefits_program/parceira12.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
         </div>
       </div>
       <div class="swiper-pagination"></div>
@@ -873,25 +867,25 @@ layout: default
   <div class="container-xxl">
     <section class="row justify-content-between" data-aos="fade-up">
       <div class="col-md-6 col-sm-12 ">
-        <h1 class="text-secondary"><strong>{% t navigation.main.index.cfaz_science.title %}</strong></h1>
+        <h1 class="h3 text-secondary"><strong>{% t navigation.main.index.cfaz_science.title %}</strong></h1>
         <p>{% t navigation.main.index.cfaz_science.text %}</p>
         <p>{% t navigation.main.index.cfaz_science.text2 %}</p>
         <button class="btn btn-primary d-inline-flex justify-content-between align-items-center mt-2" data-bs-toggle="modal" data-bs-target="#modal_cfaz_science">
-          <img class="me-3" src="./assets/img/icons/btn_phone.png" loading="lazy" alt="Ícone de telefone">
+          <img class="me-3" src="./assets/img/icons/btn_phone.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
           <span>{% t navigation.main.index.button_contact %}</span>
         </button>
       </div>
       <div class="col-md-6 col-sm-12 text-center mt-3 mt-md-0">
-        <img class="w-sm-100" src="./assets/img/cfaz-ciencia.png" loading="lazy" alt="Bené explicando conteúdo da aula para aluno">
+        <img class="w-sm-100" src="./assets/img/cfaz-ciencia.png" loading="lazy" alt="{% t alt.index.cfaz_science.apresentation %}">
       </div>
     </section>
 
     <section class="justify-content-center mt-5 d-none d-md-flex" data-aos="fade-up">
-      <img src="./assets/img/clientes/cfaz_ciencia_1.webp" loading="lazy" alt="Fachada da Instituição">
-      <img src="./assets/img/clientes/cfaz_ciencia_2.webp" loading="lazy" alt="Fachada da Instituição">
-      <img src="./assets/img/clientes/cfaz_ciencia_3.webp" loading="lazy" alt="Fachada da Instituição">
-      <img src="./assets/img/clientes/cfaz_ciencia_4.webp" loading="lazy" alt="Fachada da Instituição">
-      <img src="./assets/img/clientes/cfaz_ciencia_5.webp" loading="lazy" alt="Fachada da Instituição">
+      <img src="./assets/img/clientes/cfaz_ciencia_1.webp" loading="lazy" alt="{% t alt.index.cfaz_science.institutions %}">
+      <img src="./assets/img/clientes/cfaz_ciencia_2.webp" loading="lazy" alt="{% t alt.index.cfaz_science.institutions %}">
+      <img src="./assets/img/clientes/cfaz_ciencia_3.webp" loading="lazy" alt="{% t alt.index.cfaz_science.institutions %}">
+      <img src="./assets/img/clientes/cfaz_ciencia_4.webp" loading="lazy" alt="{% t alt.index.cfaz_science.institutions %}">
+      <img src="./assets/img/clientes/cfaz_ciencia_5.webp" loading="lazy" alt="{% t alt.index.cfaz_science.institutions %}">
     </section>
 
     <section class="mt-4" data-aos="fade-up">
@@ -900,7 +894,7 @@ layout: default
           <div class="card border-0 shadow mt-5">
             <iframe class="mx-3" src="https://www.youtube.com/embed/N3Q1F_ZW7yI?si=k4sGipadTJZveVWe" loading="lazy" title="YouTube video player" height="210" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <div class="card-body d-flex align-items-center">
-              <img src="./assets/img/icons/cfaz-ciencia-ufmg.png" loading="lazy" alt="Logo da LAMBO (UFMS)" width="40">
+              <img src="./assets/img/icons/cfaz-ciencia-ufmg.png" loading="lazy" alt="{% t alt.index.cfaz_science.logo_lambo %}" width="40">
               <p class="mb-0 ms-2"><b>Prof. Yuri Nejaim - LAMDO (UFMS)</b></p>
             </div>
           </div>
@@ -909,7 +903,7 @@ layout: default
           <div class="card border-0 shadow mt-5">
             <iframe class="mx-3" src="https://www.youtube.com/embed/npilAq8uCPU?si=s0MN5Z8TFtAErehr" loading="lazy" title="YouTube video player" height="210" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <div class="card-body d-flex align-items-center">
-              <img src="./assets/img/icons/cfaz-ciencia-lodi.png" loading="lazy" alt="Logo da Lodi UEPG" width="40">
+              <img src="./assets/img/icons/cfaz-ciencia-lodi.png" loading="lazy" alt="{% t alt.index.cfaz_science.logo_lodi %}" width="40">
               <p class="mb-0 ms-2"><b>Dr. Gilson Franco - Lodi UEPG </b></p>
             </div>
           </div>

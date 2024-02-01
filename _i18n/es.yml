@@ -314,3 +314,109 @@ navigation:
       privacy_policy: Política de privacidad
     cookies_confirmation: Usamos cookies y otras tecnologías similares para mejorar su experiencia en nuestros servicios, pero no las usamos con fines de seguimiento. Al utilizar nuestros servicios, usted acepta dicho seguimiento.
 alt:
+  header:
+    flag_pt: Bandera de Brasil
+    flag_es: Bandera español
+    flag_en: Bandera de los Estados Unidos
+  index:
+    hero:
+      header: Tres profesionales sanitarios, vestidos de blanco, con los brazos cruzados y sonriendo
+      button: Flecha hacia abajo
+    plans:
+      btn_free_starter_plan: Botón de inicio gratuito del plan
+      btn_we_call_you: Icono de teléfono
+      teleradiology: Ícono de un monitor con radiología y una lupa
+      consultancies: Icono de oficina
+      clinics: 
+      radiology_centers: Icono de un dispositivo de radiología
+      reporting_centers:
+      hospitals:
+    countries: 
+      flags:
+      companies:
+    security_credibility: 
+      patients_served: 
+      distributed_exams: 
+      stored_cloud: 
+      years_history: 
+      anvisa: Logotipo de Anvisa
+      hippa: Logotipo de Hippa
+      lgpd: Logotipo de LGPD
+      gdpr: Logotipo de GDPR
+      google_cloud_platform: Logotipo de Google Cloud Plataform
+    environment:
+      paper_saved:
+      saved_radiographs:
+      trees_spared:
+    contact:
+      whatsapp:
+      email:
+      technical_support: 
+    social:
+      instagram: Logotipo de do instagram
+      tiktok: Logotipo de do tiktok
+      linkedin: Icone do linkedin
+      youtube: Icone do youtube
+    benefits_program: Dos mujeres sonrientes sentadas en una mesa celebran aplaudiendo
+    cfaz_science:
+      apresentation: 
+      institutions:
+      logo_lambo: Logotipo de da LAMBO (UFMS)
+      logo_lodi: Logotipo de da Lodi UEPG
+    app:
+      apresentation: Un teléfono celular que muestra la pantalla de registro de pacientes del sistema Cfaz.net
+      apple: Logotipo de da apple store
+      google: Logotipo de da google play console
+    btn_link: 
+    benefits:
+      ris_pacs_online: 
+      anvisa: 
+      lgpd: 
+      teleradiology: 
+      dicom_integration: 
+      api_interoperability: 
+      humanized_technical_support: 
+      google_cloud_platform: 
+      storage: 
+      artificial_intelligence: 
+      financial_management: 
+      multiclinic_management: 
+      agreement_management: 
+      invoice_issuance: 
+      customizable_reports: 
+      pep: 
+      online_calendar: 
+      digital_signature: 
+      financial_strategic_management:
+      voice_report: 
+      customizable_reports: 
+  hospitals: El médico con estetoscopio escribe en papel con un bolígrafo y tiene la otra mano apoyada en una computadora
+  radiology: Una mujer con mascarilla y guantes analiza una radiografía dental en la computadora
+  odontology_medicine: Vista lateral de un hombre de atención médica con uniforme azul escribiendo en una computadora
+  vet: Una mujer analiza una radiografía que sostiene en sus manos y un perro está a su lado
+  services_features:
+    ris_pacs: Ícono de un celular y una tablet conectados por un servidor. Transmisión de información en dispositivos móviles
+    api_Interoperability: Ícono de una computadora conectada por diferentes sistemas que simboliza la interoperabilidad
+    storage: Ícono de un celular y una tablet conectados por un servidor. Transmisión de información en dispositivos móviles
+    teleradiology:
+      apresentation: Pantalla de pedido del software Cfaz.net con nombres de pacientes
+      testimony: Foto de la Dra. Mónica
+    humanized_support: 
+      apresentation: Ícono de un asistente virtual de Cfaz.net con auriculares y mirando una computadora
+      testimony: Foto de Cristiane
+    google_cloud_platform: Ícono de archivos con el logo de Google Cloud Platform con un candado
+    dicom: Ícono de una mujer haciendo un examen de radiología a un hombre mientras otro hombre escribe en la computadora
+    ia: Pantalla del sistema Cfaz.net con un examen de cefalometría
+    lgpd: Ícono de un hombre ingresando información en una caja fuerte (seguridad de datos)
+    views_3d_mpr: Pantalla del software Cfaz.net con edición de un examen dental
+    online_agenda: Pantalla de citas de Cfaz.net
+    pep: Pantalla PEP de Cfaz.net
+    financial_management: Pantalla de un informe financiero de Cfaz.net
+    management_agreements_glossaries: Pantalla de acuerdos de Cfaz.net
+    digital_signature: Pantalla del sistema Cfaz.net con firma digital
+    invoices: Pantalla de Cfaz.net para emisión de facturas
+    multiclinic_management:
+      apresentation: Pantalla del sistema Cfaz.net con varias clínicas
+      testimony: Foto de Guilherme
+    customizable_reports: Pantalla de un informe de Cfaz.net con los exámenes realizados
+  

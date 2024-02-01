@@ -114,7 +114,7 @@ navigation:
         text2: Além disso, nosso <strong>PACS</strong> em Nuvem é 100% integrado com o RIS, através do serviço de Worklist. Essa integração garante uma gestão eficiente e unificada de todos os processos do Centro de Saúde.
       api_Interoperability:
         subtitle: Integração com todos os sistemas do mercado
-        text: Integração de informações com todos os sistemas do mercado, <br> permitindo a digitalização de todos os processos do seu Centro <br> de Saúde.
+        text: Integração de informações com todos os sistemas do mercado, permitindo a digitalização de todos os processos do seu Centro de Saúde.
         text2: Mais eficiência no dia a dia da sua equipe e de seus pacientes!
       anvisa:
         text: A Cfaz é uma fabricante de produtos médicos (softwares) devidamente registrada e certificada pela ANVISA.
@@ -314,18 +314,109 @@ navigation:
       privacy_policy: Política de Privacidade
     cookies_confirmation: Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços, mas não utilizamos para fins de rastreamento. Ao utilizar nossos serviços, você concorda com tal monitoramento. 
 alt:
-  hero:
-    header: Imagem tela inicial
-    button: Botão indicando para baixo
-  plans:
-    free_starter_plan: Ícone de nuvem
-    teleradiology: 
-
-
-
-
-
-
-
-
+  header:
+    flag_pt: Bandeira do Brasil
+    flag_es: Bandeira da Espanha
+    flag_en: Bandeira dos EUA
+  index:
+    hero:
+      header: Três profissionais da área da saúde, vestidos de branco, de braços cruzados e sorrindo
+      button: Seta para baixo
+    plans:
+      btn_free_starter_plan: Botão Plano Inicial Gratuito
+      btn_we_call_you: Ícone de um telefone
+      teleradiology: Ícone de um monitor com uma radiologia e uma lupa nela
+      consultancies: Ícone de um escritório
+      clinics: 
+      radiology_centers: Ícone de um aparelho de radiologia
+      reporting_centers:
+      hospitals:
+    countries: 
+      flags:
+      companies:
+    security_credibility: 
+      patients_served: 
+      distributed_exams: 
+      stored_cloud: 
+      years_history: 
+      anvisa: Logo Anvisa
+      hippa: Logo Hippa
+      lgpd: Logo LGPD
+      gdpr: Logo GDPR
+      google_cloud_platform: Logo Google Cloud Plataform
+    environment:
+      paper_saved:
+      saved_radiographs:
+      trees_spared:
+    contact:
+      whatsapp: 
+      email:
+      technical_support: 
+    social:
+      instagram: Logo do instagram
+      tiktok: Logo do tiktok
+      linkedin: Icone do linkedin
+      youtube: Icone do youtube
+    benefits_program: Duas mulheres sorridentes sentadas em uma mesa comemoram batendo as mãos
+    cfaz_science:
+      apresentation: 
+      institutions:
+      logo_lambo: Logo da LAMBO (UFMS)
+      logo_lodi: Logo da Lodi UEPG
+    app:
+      apresentation: Um celular mostrando a tela de cadastro de pacientes do sistema Cfaz.net
+      apple: Logo da apple store
+      google: Logo da google play console
+    btn_link: 
+    benefits:
+      ris_pacs_online: 
+      anvisa: 
+      lgpd: 
+      teleradiology: 
+      dicom_integration: 
+      api_interoperability: 
+      humanized_technical_support: 
+      google_cloud_platform: 
+      storage: 
+      artificial_intelligence: 
+      financial_management: 
+      multiclinic_management: 
+      agreement_management: 
+      invoice_issuance: 
+      customizable_reports: 
+      pep: 
+      online_calendar: 
+      digital_signature: 
+      financial_strategic_management:
+      voice_report: 
+      customizable_reports: 
+  hospitals: Médico com estetoscópio escreve em um papel com uma caneta e está com a outra mão apoiada em um computador
+  radiology: Mulher com máscara e luvas analisa uma radiografia odontológica no computador
+  odontology_medicine: Visão lateral de um homem da área da saúde, com uniforme azul, digitando em um computador
+  vet: Mulher analisa uma radiografia que segura nas mãos e um cachorro está ao lado
+  services_features:
+    ris_pacs: Ícone de um celular e tablet ligados por um servidor. Transmissão de informações em dispósitivos móveis
+    api_Interoperability: Ícone de uma computador conectado por diversos sistemas simbolizando interoperabilidade
+    storage: Ícone de um celular e tablet ligados por um servidor. Transmissão de informações em dispósitivos móveis
+    teleradiology:
+      apresentation: Tela de pedidos do software Cfaz.net com nomes de pacientes
+      testimony: Foto da Dra. Monica
+    humanized_support:
+      apresentation: Ícone de uma atendente virtual do Cfaz.net com fone de ouvido e olhando para um computador
+      testimony: Foto de Cristiane
+    google_cloud_platform: Ícone de arquivos com logo Google Cloud Platform com um cadeado
+    dicom: Ícone de uma mulher fazendo um exame de radiologia de um homem, enquanto outro homem digita no computador
+    ia: Tela do sistema Cfaz.net com um exame de cefalometria
+    lgpd: Ícone de um homem inserindo informações em um cofre (segurança de dados)
+    views_3d_mpr: Tela do software Cfaz.net com a edição de um exame odontológico
+    online_agenda: Tela de agendamentos do Cfaz.net
+    pep: Tela do PEP do Cfaz.net
+    financial_management: Tela de um relatório financeiro do Cfaz.net
+    management_agreements_glossaries: Tela de convênios do Cfaz.net
+    digital_signature: Tela do sistema Cfaz.net com uma assinatura digital
+    invoices: Tela do Cfaz.net da emissão de nota fiscal
+    multiclinic_management:
+      apresentation: Tela do sistema Cfaz.net com várias clínicas
+      testimony: Foto do Guilherme
+    customizable_reports: Tela de um relatório do Cfaz.net com exames realizados
   team: Membro da equipe Cfaz.net

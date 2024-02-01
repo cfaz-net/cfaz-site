@@ -81,7 +81,7 @@ permalink: /default/
                 <li class="nav-item"><a class="nav-link" href="radiologia.html">{% t navigation.header.radiology %}</a></li>
                 <li class="nav-item"><a class="nav-link" href="odontologia_medicina.html">{% t navigation.header.dentistry_medicine %}</a></li>
                 <li class="nav-item"><a class="nav-link" href="veterinaria.html">{% t navigation.header.veterinary %}</a></li>
-                <li class="nav-item"><a class="nav-link" href="index.html#contato">{% t navigation.header.contacts %}</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">{% t navigation.header.contacts %}</a></li>
                 <li class="nav-item"><a class="nav-link" target="_blank" href="http://kb.cfaz.net/">{% t navigation.header.blog %}</a></li>
                 <li class="nav-item"><a class="nav-link" href="sobre.html">{% t navigation.header.about_us %}</a></li>
               </ul>
@@ -89,9 +89,9 @@ permalink: /default/
                 {% capture pr-BR %}{{ page.url}}{% endcapture %}
                 {% capture es %}/es{{ page.url}}{% endcapture %}
                 {% capture en %}/en{{ page.url}}{% endcapture %}
-                <a href="{{ pr-BR }}"><span class="position-absolute text-white" style="z-index:-1">pt</span><img width="25" src="assets/img/icons/bandeira_pt-BR.png" aria-label="{% t alt.flag_pt-BR %}" alt="{% t alt.flag_pt-BR %}"></a>
-                <a href="{{ es }}"><span class="position-absolute text-white" style="z-index:-1">es</span><img width="25" src="assets/img/icons/bandeira_es.png" aria-label="{% t alt.flag_pt-BR %}" alt="{% t alt.flag_es %}"></a>
-                <a href="{{ en }}"><span class="position-absolute text-white" style="z-index:-1">en</span><img width="25" src="assets/img/icons/bandeira_en.png" aria-label="{% t alt.flag_pt-BR %}" alt="{% t alt.flag_en %}"></a>
+                <a href="{{ pr-BR }}"><span class="position-absolute text-white" style="z-index:-1">pt</span><img width="25" src="assets/img/icons/bandeira_pt-BR.png" alt="{% t alt.header.flag_pt %}"></a>
+                <a href="{{ es }}"><span class="position-absolute text-white" style="z-index:-1">es</span><img width="25" src="assets/img/icons/bandeira_es.png" alt="{% t alt.header.flag_es %}"></a>
+                <a href="{{ en }}"><span class="position-absolute text-white" style="z-index:-1">en</span><img width="25" src="assets/img/icons/bandeira_en.png" alt="{% t alt.header.flag_en %}"></a>
                 <input id="language" type="hidden" value="{{ site.lang }}">
               </div>
               <a class="btn btn-cta ms-2" target="_blank" href="https://max.cfaz.net/">{% t navigation.header.enter %}</a>
@@ -112,16 +112,16 @@ permalink: /default/
     <footer id="footer" class="pt-4 pb-3">
       <div class="container-fluid">
         <section class="row justify-content-between align-items-center">
-          <a class="col-md-4 col-sm-12 d-none d-md-block" href="index.html"><img src="../assets/img/footer_logo.png" alt="Logo da cfaz"></a>
+          <a class="col-md-3 col-sm-12 d-none d-md-block" href="index.html"><img src="../assets/img/footer_logo.png" alt="Logo da cfaz"></a>
           
-          <div class="col-md-4 col-sm-12 d-flex align-items-end justify-content-around flex-wrap mb-sm-3">
-            <img class="p-2" src="../assets/img/icons/footer-hippaa.png" alt="Logo da HIPPA">
-            <img class="p-2" src="../assets/img/icons/footer-lgpd.png" alt="Logo da LGPD">
-            <img class="p-2" src="../assets/img/icons/footer-google.png" alt="Logo da Google Cloud Platform">
-            <img class="p-2" src="../assets/img/icons/footer-anvisa.png" alt="Logo da Anvisa">
+          <div class="col-md-6 col-sm-12 d-flex align-items-end justify-content-around flex-wrap mb-sm-3">
+            <img class="p-2" src="../assets/img/icons/footer-hippaa.png" height="72" alt="Logo da HIPPA">
+            <img class="p-2" src="../assets/img/icons/footer-lgpd.png" height="72" alt="Logo da LGPD">
+            <img class="p-2" src="../assets/img/icons/footer-google.png" height="72" alt="Logo da Google Cloud Platform">
+            <img class="p-2" src="../assets/img/icons/footer-anvisa.png" height="72" alt="Logo da Anvisa">
           </div>
 
-          <div class="locale col-md-4 d-none d-md-block text-end">
+          <div class="locale col-md-3 d-none d-md-block text-end">
             {% capture pr-BR %}{{ page.url}}{% endcapture %}
             {% capture es %}/es{{ page.url}}{% endcapture %}
             {% capture en %}/en{{ page.url}}{% endcapture %}
