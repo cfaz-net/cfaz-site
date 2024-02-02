@@ -117,7 +117,7 @@ a{
 
     box-shadow: var(--bs-btn-box-shadow);
 
-    --bs-btn-font-size: 1rem;
+    --bs-btn-font-size: 0.75rem;
     --bs-btn-line-height: 1.5;
     --bs-btn-color: var(--bs-body-color);
     --bs-btn-bg: transparent;
@@ -165,7 +165,8 @@ a{
 }
 
 .btn-primary {
-    --bs-btn-color: var(--bs-cta);
+    /* --bs-btn-color: var(--bs-cta); */
+    --bs-btn-color: var(--bs-primary);
     --bs-btn-bg: var(--bs-white);
     --bs-btn-border-color: var(--bs-white);
     --bs-btn-hover-color: var(--bs-cta-dark);
@@ -242,4 +243,8 @@ body::-webkit-scrollbar-thumb {
     grid-column-gap: 0.5rem;
     grid-row-gap: 1rem;
     justify-items: stretch
+}
+
+p{
+    font-size: 14px;
 }

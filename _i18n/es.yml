@@ -23,7 +23,7 @@ navigation:
       plans: 
         free_starter_plan: Plan Inicial Gratuito
         teleradiology: Telerradiología
-        consultancies: Consultorios
+        consulting_room: Consultorios
         clinics: Clínicas
         radiology_centers: Centros de Radiología
         reporting_centers: Centros de Informes
@@ -326,7 +326,7 @@ alt:
       btn_free_starter_plan: Botón de inicio gratuito del plan
       btn_we_call_you: Icono de teléfono
       teleradiology: Icono de un monitor con radiología y una lupa
-      consultancies: Icono de oficina
+      consulting_room: Icono de oficina
       clinics: Icono de una historia clínica
       radiology_centers: Icono de un dispositivo de radiología
       reporting_centers: Icono de un informe y un lápiz encima
