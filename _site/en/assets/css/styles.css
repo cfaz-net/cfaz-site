@@ -497,3 +497,7 @@ select.hs-input{
   visibility: visible;
   opacity: 1;
 }
+
+#hospital .card{
+  width: 100%;
+}
