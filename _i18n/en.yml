@@ -19,7 +19,7 @@ navigation:
       from: from
       month: month
       exams: exams
-      hero: Cloud Solutions for <br class="d-none d-lg-block"> <strong class="text-primary">Health Center Management</strong> and <br class="d-none d-lg-block"> <strong class="text-primary">Exam Distribution</strong>
+      hero: Cloud Solutions for <br class="d-none d-lg-block"> <h1 class="d-inline"><strong class="text-primary">Health Center Management</strong></h1> and <br class="d-none d-lg-block"> <h1 class="d-inline"><strong class="text-primary">Exam Distribution</strong></h1>
       plans: 
         free_starter_plan: Free Starter Plan
         teleradiology: Teleradiology
