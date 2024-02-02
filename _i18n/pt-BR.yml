@@ -19,7 +19,7 @@ navigation:
       from: a partir de
       month: mês
       exams: exames
-      hero: Soluções em Nuvem para <br class="d-none d-lg-block"> <h1 class="d-inline"><strong class="text-primary">Gestão de Centros de Saúde</strong></h1> e <br class="d-none d-lg-block"> <h1 class="d-inline"><strong class="text-primary">Distribuição de Exames</strong></h1>
+      hero: Soluções em Nuvem para <br class="d-none d-lg-block"> <h1 class="h2 d-inline"><strong class="text-primary">Gestão de Centros de Saúde</strong></h1> e <br class="d-none d-lg-block"> <h1 class="h2 d-inline"><strong class="text-primary">Distribuição de Exames</strong></h1>
       plans: 
         free_starter_plan: Plano Inicial Gratuito
         teleradiology: Telerradiologia
@@ -371,7 +371,7 @@ alt:
     benefits:
       ris_pacs_online: Ícone de uma engrenagem
       anvisa: Ícone de um selo verificado
-      lgpd: Law icon
+      lgpd: Ícone de um monitor com dados protegidos
       teleradiology: Ícone de um computador
       dicom_integration: Ícone de um computador com sistemas integrados
       api_interoperability: Ícone de sistemas ligados a uma engrenagem
@@ -390,6 +390,7 @@ alt:
       financial_strategic_management: Gestão Financeira e Estratégica
       voice_report: Ícone de um QR Code
       customizable_reports: Ícone de um relatório com gráficos
+      3d_views: Ícone de uma pessoa em um aparelho de tomografia
   hospitals: Médico com estetoscópio escreve em um papel com uma caneta e está com a outra mão apoiada em um computador
   radiology: Mulher com máscara e luvas analisa uma radiografia odontológica no computador
   odontology_medicine: Visão lateral de um homem da área da saúde, com uniforme azul, digitando em um computador

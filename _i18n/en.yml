@@ -19,7 +19,7 @@ navigation:
       from: from
       month: month
       exams: exams
-      hero: Cloud Solutions for <br class="d-none d-lg-block"> <h1 class="d-inline"><strong class="text-primary">Health Center Management</strong></h1> and <br class="d-none d-lg-block"> <h1 class="d-inline"><strong class="text-primary">Exam Distribution</strong></h1>
+      hero: Cloud Solutions for <br class="d-none d-lg-block"> <h1 class="h2 d-inline"><strong class="text-primary">Health Center Management</strong></h1> and <br class="d-none d-lg-block"> <h1 class="h2 d-inline"><strong class="text-primary">Exam Distribution</strong></h1>
       plans: 
         free_starter_plan: Free Starter Plan
         teleradiology: Teleradiology
@@ -371,7 +371,7 @@ alt:
     benefits:
       ris_pacs_online: Gear icon
       anvisa: Verified badge icon
-      lgpd: 
+      lgpd: Icon of a monitor with protected data
       teleradiology: Computer icon
       dicom_integration: Icon of a computer with integrated systems
       api_interoperability: Systems icon linked to a gear
@@ -390,6 +390,7 @@ alt:
       financial_strategic_management: Financial and Strategic Management
       voice_report: QR Code icon
       customizable_reports: Icon of a report with graphs
+      3d_views: Icon of a person in a CT scanner
   hospitals: Doctor with stethoscope writes on paper with a pen and has his other hand leaning on a computer
   radiology: Woman with mask and gloves analyzes a dental x-ray on the computer
   odontology_medicine: Side view of a healthcare man in blue scrubs typing on a computer

@@ -19,7 +19,7 @@ navigation:
       from: desde
       month: mes
       exams: exámenes
-      hero: Soluciones en la nube para <br class="d-none d-lg-block"> <h1 class="d-inline"><strong class="text-primary">La gestión de centros de salud</strong></h1> y <br class="d-none d-lg-block"> <h1 class="d-inline"><strong class="text-primary">Distribución de exámenes</strong></h1>
+      hero: Soluciones en la nube para <br class="d-none d-lg-block"> <h1 class="h2 d-inline"><strong class="text-primary">La gestión de centros de salud</strong></h1> y <br class="d-none d-lg-block"> <h1 class="h2 d-inline"><strong class="text-primary">Distribución de exámenes</strong></h1>
       plans: 
         free_starter_plan: Plan Inicial Gratuito
         teleradiology: Telerradiología
@@ -371,7 +371,7 @@ alt:
     benefits:
       ris_pacs_online: Icono de engranaje
       anvisa: Icono de insignia verificada
-      lgpd: Icono referente a la ley
+      lgpd: Icono de un monitor con datos protegidos
       teleradiology: Icono de computadora
       dicom_integration: Icono de una computadora con sistemas integrados
       api_interoperability: Icono de sistemas vinculados a un engranaje
@@ -390,6 +390,7 @@ alt:
       financial_strategic_management: Gestión Financiera y Estratégica
       voice_report: Icono de código QR
       customizable_reports: Icono de un informe con gráficos
+      3d_views: Icono de una persona en un escáner CT
   hospitals: El médico con estetoscopio escribe en papel con un bolígrafo y tiene la otra mano apoyada en una computadora
   radiology: Una mujer con mascarilla y guantes analiza una radiografía dental en la computadora
   odontology_medicine: Vista lateral de un hombre de atención médica con uniforme azul escribiendo en una computadora
