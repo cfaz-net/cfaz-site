@@ -253,6 +253,7 @@ header .offcanvas-body .nav-link{
   background-image: url(../img/icons/plano-v.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 24px;
   width: 16px;
   height: 16px;
 }
@@ -500,4 +501,8 @@ select.hs-input{
 
 #hospital .card{
   width: 100%;
+}
+
+#management-flow .disappear{
+  display: none;
 }
