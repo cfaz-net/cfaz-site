@@ -15,34 +15,17 @@
   .w-lg-auto {
     width: initial !important;
   }
-
-  /* .offcanvas-body{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-  } */
-}
-
-@media screen and (max-width: 1199px) {
-  /* .navbar-expand-xl {
-    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
-  }
-
-  .btn-cta{
-    width: 100% !important;
-    border-radius: 4px !important;
-    margin: 16px 0 !important;
-  }
-
-  .offcanvas-body{
-    width: 100%;
-    display: block;
-  } */
 }
 
 @media screen and (max-width: 1060px) {
   .grid-template-columns{
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  header .btn-cta{
+    width: 100% !important;
+    border-radius: 4px !important;
+    margin: 16px 0 !important;
   }
 }
 

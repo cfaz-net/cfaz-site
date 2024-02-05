@@ -100,6 +100,23 @@
     window.location = '/en/';
   }
 
+  // Tradução imagem Fluxo de Getsão Cfaz (vet)
+  window.addEventListener('load', () => {
+    let language = document.getElementById('language');
+    
+    if (language.value == 'es'){
+      let image_es = document.getElementById("image-es");
+      image_es.classList.remove("disappear");
+    } else if (language.value == 'en'){
+      let image_en = document.getElementById("image-en");
+      console.log("entrou en")
+      image_en.classList.remove("disappear");
+    } else {
+      let image = document.getElementById("image-pt");
+      image.classList.remove("disappear");
+    }
+  });
+
   // Analytics
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
