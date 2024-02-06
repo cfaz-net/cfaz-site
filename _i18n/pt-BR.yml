@@ -37,7 +37,7 @@ navigation:
         text2: Ferramentas completas de gestão também para <strong>Radiologistas Laudadores, Centros de Laudo e Hospitais.</strong>
         text3: <strong>Distribuição Online</strong> de exames para Dentistas e Médicos solicitantes.
       odontology_medicine:
-        text: Tecnologia de ponta e Excelência em atendimento para gerenciar countriestoda a experiência de atendimento ao paciente, além permitir countries controlar a gestão administrativa e financeira de <strong>Consultórios, countriesClínicas</strong> e <strong>Franquias Odontológicas e Médicas.</strong>
+        text: Tecnologia de ponta e Excelência em atendimento para gerenciar countriestoda a experiência de atendimento ao paciente, além permitir countries controlar a gestão administrativa e financeira de <strong>Consultórios, Clínicas</strong> e <strong>Franquias Odontológicas e Médicas.</strong>
       veterinary:
         title: Veterinária
         text: Software completo em Nuvem para realizar toda a experiência de atendimento ao paciente, além de controlar a gestão financeira e administrativa de <strong>Clínicas e Hospitais Veterinários, Centros de Diagnóstico por Imagem</strong> e <strong>Profissionais Volantes.</strong>
@@ -47,7 +47,7 @@ navigation:
         hospital: Hospital
         dental_radiology: Radiologia odontológica
       customer_testimonial:
-        title: A satisfação dos nossos clientes comprova nossos resultado
+        title: A satisfação dos nossos clientes comprova nossos resultados
       security_credibility:
         patients_served: Mais de 10 milhões de <br> pacientes atendidos
         distributed_exams: Mais de 50 milhões de <br> exames distribuídos
