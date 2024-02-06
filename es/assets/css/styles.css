@@ -182,6 +182,11 @@
   background-repeat: no-repeat;
 }
 
+/* redes sociais */
+#social a:hover > p{
+  color: var(--bs-cta) !important;
+}
+
 /* Contatos */
 #contato .card-technical-support,
 #contato .card-financial{

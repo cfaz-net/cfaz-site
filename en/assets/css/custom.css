@@ -207,3 +207,7 @@ body::-webkit-scrollbar-thumb {
     grid-row-gap: 1rem;
     justify-items: stretch
 }
+
+.hover_underline:hover{
+    text-decoration: underline !important;
+}
