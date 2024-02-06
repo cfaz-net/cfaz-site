@@ -63,7 +63,7 @@ header .offcanvas-body .nav-link{
 
 /* Veterinaria */
 #vet .vet-graphic-image{
-  background-image: url(../img/background/bg_vet.png);
+  background-image: url(../img/background/bg-vet.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 170px;
@@ -75,7 +75,7 @@ header .offcanvas-body .nav-link{
 
 /* Onde estamos */
 #countries{
-  background-image: url(../img/background/bg_onde_estamos.png);
+  background-image: url(../img/background/bg-onde-estamos.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -300,7 +300,7 @@ header .offcanvas-body .nav-link{
 
 /* Sobre */
 #title-about{
-  background-image: url(../img/background/bg-sobre.png);
+  background-image: url(../img/background/bg-about.png);
 }
 
 #mission.card{

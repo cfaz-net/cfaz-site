@@ -66,21 +66,6 @@ body, p, b, small, table{
     color: var(--bs-primary);  
 }
 
-/* h1{
-    font-size: 35px;
-    line-height: 140%;
-}
-
-h2{
-    font-size: 26px;
-    line-height: 120%;
-}
-
-h3{
-    font-size: 47px;
-    line-height: 120%;
-} */
-
 p{
     font-size: 16px;
     line-height: 150%;
@@ -99,13 +84,7 @@ a{
     text-decoration: none !important;
 }
 
-.hover_underline:hover{
-    text-decoration: underline !important;
-}
-
-/*--------------------------------------------------------------
-# Buttons
---------------------------------------------------------------*/
+/* Buttons */
 .btn,
 .hs-button {
     --bs-border-radius: 40px;
@@ -197,16 +176,12 @@ a{
     --bs-btn-disabled-color: var(--bs-white);
 }
 
-/*--------------------------------------------------------------
-# Navbar
---------------------------------------------------------------*/
+/* Navbar */
 .navbar-expand-lg .navbar-nav .nav-link {
     --bs-navbar-nav-link-padding-x: 0.75rem;
 }
 
-/*--------------------------------------------------------------
-# Scroll
---------------------------------------------------------------*/
+/* Scroll */
 body::-webkit-scrollbar {
     width: 6px;
     background: var(--bs-cta);
@@ -218,9 +193,7 @@ body::-webkit-scrollbar-thumb {
     background: var(--bs-primary-light);
 }
 
-/*--------------------------------------------------------------
-# Align
---------------------------------------------------------------*/
+/* Align */
 .align-items-flex-start{
     align-items: flex-start !important;
 }
