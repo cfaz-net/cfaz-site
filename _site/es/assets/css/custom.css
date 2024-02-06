@@ -66,16 +66,6 @@ body, p, b, small, table{
     color: var(--bs-primary);  
 }
 
-p{
-    font-size: 16px;
-    line-height: 150%;
-}
-
-small{
-    font-size: 12px;
-    line-height: 120%;
-}
-
 b{
     font-weight: bold;
 }
@@ -96,7 +86,7 @@ a{
 
     box-shadow: var(--bs-btn-box-shadow);
 
-    --bs-btn-font-size: 0.75rem;
+    --bs-btn-font-size: 1rem;
     --bs-btn-line-height: 1.5;
     --bs-btn-color: var(--bs-body-color);
     --bs-btn-bg: transparent;
@@ -216,8 +206,4 @@ body::-webkit-scrollbar-thumb {
     grid-column-gap: 0.5rem;
     grid-row-gap: 1rem;
     justify-items: stretch
-}
-
-p{
-    font-size: 14px;
 }
