@@ -4,254 +4,424 @@ locales:
   es-419: Español (América Latina)
 navigation:
   header:
-    menu: 
-      home: "Comienzo"
-      solutions:
-        title: "Soluciones"
-        dental_radiology: "Radiología Dental"
-        medical_centers: "Centros medicos"
-        teleradiology: "Telerradiología"
-        odontology: "Odontología"
-        students_institutions: "Institución educativa y estudiantil"
-      testimony: "Deposiciones"
-      about: "Sobre la Cfaz"
-      blog: "Blog" 
-      contact_us: 
-        title: "Hable con nosotros"
-        commercial: "Comercial"
-        support: "Necesito ayuda"
-    btn_enter: "ENTRAR"
+    hospitals: Hospitales
+    radiology: Radiología
+    dentistry_medicine: Odontología y Medicina
+    veterinary: Veterinaria
+    contacts: Contacto
+    blog: Blog
+    about_us: Sobre nosotros
+    enter: Digitar
   main:
-    btn: "QUIERO HABLAR CON UN CONSULTOR"
-    cfaz:
-      plus: "<strong class='text-primary'>Cfaz</strong><strong class='text-secondary'>Plus</strong>"
-      plus_text: "Gestión integral, desde la programación hasta la entrega de exámenes para dentistas y pacientes."
-      max: "<strong class='text-primary'>Cfaz</strong><strong class='text-secondary'>Max</strong>"
-      max_text: "Gestión, almacenamiento, realización y entrega de informes y exámenes de Radiología Dental."
-      manager: "<strong class='text-primary'>Cfaz</strong><strong class='text-secondary'>Manager</strong>"
-      manager_text: "Gestión financiera y estratégica para franquicias, redes y clínicas de Radiología Dental."
-      business: "<strong class='text-primary'>Cfaz</strong><strong class='text-secondary'>Business</strong>"
-      business_text: "Mercado exclusivo para la subcontratación de informes, que conecta a los radiólogos con las clínicas de radiología dental."
-      ciencia: "<strong class='text-primary'>Cfaz</strong><strong class='text-secondary'>Ciência</strong>"
-      ciencia_text: "Reciba a uno de nuestros representantes en su institución educativa."
-    slider:
-      index_title: "Soluciones inteligentes en la nube para <br/> una gestión eficaz y humanizada de los <br/> centros médicos y dentales."
-      index_subtitle: "Cfaz.net es el primer sistema 100% online para profesionales y centros <br/> de diagnóstico por imagen."
-      medical_centers_title: "Centros medicos"
-      medical_centers_subtitle: "Gestión eficiente de punta a punta para Centros Médicos, con soluciones 100% Cloud para realizar todas las etapas de Diagnóstico por Imagen, desde la programación de pacientes, pasando por la gestión financiera y estratégica del centro, almacenamiento automático de imágenes, además de la creación y distribución de informes y exámenes."
-      students_institutions_title: "Institución educativa <br/> y estudiantil"
-      students_institutions_subtitle: "Lleva Cfaz.net a tu universidad, pregrado, posgrado o curso de especialización."
-      odontology_title: "Odontología"
-      odontology_subtitle: "Gestión eficiente de punta a punta para Consultorios y Redes Dentales, con soluciones 100% Cloud para realizar desde la programación de pacientes, pasando por la gestión financiera y estratégica del consultorio, almacenamiento automático de imágenes, además de la creación y distribución de informes y exámenes."
-      dental_radiology_title: "Radiología <br/> Dental"
-      dental_radiology_subtitle: "Gestión eficiente de punta a punta para clínicas y redes de radiología dental, con soluciones 100% Cloud para realizar desde la programación de pacientes, pasando por la gestión financiera y estratégica de la clínica, almacenamiento automático de imágenes, además de la creación y distribución de informes y exámenes."
-      teleradiology_title: "Telerradiología"
-      teleradiology_subtitle: "Plataforma unificada con soluciones para la elaboración de informes radiológicos y un marketplace integrado gratuito, que conecta a los radiólogos con clínicas y centros radiológicos en todo Brasil y Latinoamérica."
-    about:
-      title: "Sobre <strong>nosotros</strong>"
-      subtitle: "Cfaz nació hace <span id='cfaz-age'></span> años en Belo Horizonte, Minas Gerais. Desarrollamos Cfaz.net, primer sistema de nube nativo y 100% en línea para centros de diagnóstico por imagen. Tras el reconocimiento de SEED MG y FIEMG Lab como una de las empresas más innovadoras del mercado. Hoy atendemos a profesionales y centros radiológicos en todo Brasil y Latinoamérica."
-      read_more: "Leer más y conocer a nuestro equipo ..."
-      video: "Video sobre cfaz.net"
-    solutions:
-      health: "Descubra nuestras <br/> <strong> soluciones para la salud </strong>"
-      health_text: "Gestión eficiente de principio a fin para facilitar, automatizar y optimizar la entrega de resultados."
-      dental_radiology: "Radiología dental"
-      dental_radiology_text: "Soluciones para la gestión de franquicias, redes y clínicas de Radiología Dental."
-      medical_centers: "Centros medicos"
-      medical_center_text: "Gestión integral para redes y centros de diagnóstico por imágenes."
-      teleradiology: "Telerradiología"
-      teleradiology_text: "Descubra cómo conectamos a los radiólogos con los centros de salud a través de una plataforma en la nube."
-      odontology: "Odontología"
-      odontology_text: "Descubra nuestras soluciones para la gestión de oficinas y redes de oficinas."
-      students_institutions: "Estudiantes e instituciones educativas"
-      students_institutions_text: "Lleve Cfaz.net a su salón de clases y aplique sus conocimientos en la práctica."
-    testimony:
-      title: "Lo que nuestros clientes estan diciendo"
-      testimony1: "<strong>Dr. Guilherme A. R. Resende</strong><br/><small class='text-white'>Director de Clínicas Imagem e Odontologia Digital</small>"
-      testimony_text1: "Elegí Cfaz.net porque en ese momento ya tenían una propuesta futurista, ofreciendo un sistema 100% online y la posibilidad de integrar todas las unidades. Con la implementación, me animé a abrir nuevas unidades, ya que todo estaría bajo mi control, e incluso en la palma de mi mano, a través del celular."
-      testimony2: "<strong>Dra. Maria Betânia da Silveira e Souza</strong><br/><small class='text-white'>Directora de Clínicas ROC</small>"
-      testimony_text2: "Cfaz.net es un software que tiene corazón. Además de la profesionalidad ofrecida, este fue el diferencial que nos hizo fieles al sistema. La asociación eliminó la burocracia y, por lo tanto, trabajamos con más libertad. Esto hace que la relación Radiólogo + Dentista + Paciente sea mucho más eficiente y humana. Los resultados cuantitativos son consecuencia de la armonía y el placer del trabajo en equipo."
-      testimony3: "<strong>Dr. Pedro Lima Emmerich Oliveira</strong><br/><small class='text-white'>Director de Clínicas Craniofacial</small>"
-      testimony_text3: "Craniofacial y Cfaz han construido una relación de trabajo respaldada por la confianza y la amistad. La funcionalidad del software a menudo se ha actualizado de acuerdo con las necesidades de Craniofacial. Cfaz.net ha simplificado los procesos de la empresa, las entregas de exámenes son más rápidas y el control de calidad es más activo."
-      testimony4: "<strong>Dra. Larissa Veloso</strong><br/><small class='text-white'>Directora de el Clínicas Axial</small>"
-      testimony_text4: "A diferencia del antiguo programa que usábamos, que era lento, con un diseño desactualizado y el más absurdo para hoy: necesitaba ser instalado en la computadora, Cfaz.net es súper rápido, práctico e intuitivo. No necesita instalar nada, solo ingrese su correo electrónico y contraseña y ¡listo! ¡Es súper moderno y cuenta con una gran asistencia técnica! En mi opinión, son los que presentan la mejor forma de trabajar en Radiología Dental. El equipo es muy agradable, lleno de novedades espectaculares."
-      testimony5: "<strong>Dra. Ângela Maragno</strong><br/><small class='text-white'>Directora de Clínica Santa Rita</small>"
-      testimony_text5: "Antes de conocer Cfaz.net, tenía problemas con la asistencia técnica y el cobro por cada nueva actualización. El servicio de Cfaz es rápido y eficiente y las actualizaciones del sistema son constantes y gratuitas. Recomiendo la solución a varios compañeros y amigos, ya que creo que Cfaz.net es una excelente alternativa para gestionar el flujo de atención y administración en la clínica, además de estar completamente online, sin necesidad de descargar programas pesados, fácil de usar e intuitivo, con almacenamiento en la nube y espacio para almacenar archivos DICOM. ¡Felicitaciones por tu trabajo y dedicación!"
-      testimony6: "<strong>Dra. Patrícia Fernandes Avila</strong><br/><small class='text-white'>Directora de Clínica Precisão</small>"
-      testimony_text6: "Elegí Cfaz.net como software de gestión de mi clínica por su practicidad, claridad y buen servicio, siempre impecable. Como resultado de esta asociación, obtuve procesos más rápidos y lo que más me gusta del sistema es su facilidad de manejo y agilidad, la posibilidad de integración con el equipo y envío automático al odontólogo."
-      testimony7: "<strong>Dra. Weslaine</strong><br/><small class='text-white'>Ecard Uniradiographic - Unidade Moema - São Paulo</small>"
-      testimony_text7: "La odontología se ha transformado a través de la era digital, siguiendo una tendencia global e irreversible. <br/>Puedo decir que Cfaz.net es una empresa que colabora para que la radiología dental siga este flujo de forma continua y segura.<br/>Su sistema 100% online posibilita la integración entre equipos y ordenadores, permitiendo que la las imágenes adquiridas para la empresa se ejecutan en un servidor en la nube, con seguridad y respeto a la LGPD. Los radiólogos pueden informar de forma remota con una variedad de herramientas; Los aspirantes profesionales reciben los exámenes de sus pacientes en línea, con acceso 24/7 en cualquier parte del mundo. Además, el equipo siempre está enfocado en las actualizaciones (sin costo adicional por eso), y el soporte está disponible para contactar (horario comercial) para lo que sea necesario. ¡Estoy satisfecho y no recomiendo su uso!"
-      testimony8: "<strong>Dra Flávia Manfrin</strong><br/><small class='text-white'>Radiologia Odontológica - Catanduva- sp</small>"
-      testimony_text8: "¿Por qué Cfaz.net? <br/> Para mí es el mejor programa ya que a través de él puedo realizar los informes de exámenes además de controlar todos los aspectos administrativos de mi clínica, incluso a distancia. Es un programa intuitivo, donde puedo llevar informes de exámenes, indicadores, etc. El servicio es impecable, siempre nos atienden rápido, y lo mejor: solucionan nuestros problemas. Cada vez que necesité apoyo me atendieron bien y aclararon mis dudas. Además, el sistema permite al administrador, en mi caso, configurar el software de la forma que mejor se adapte a mi clínica, es decir, es un programa personalizado para cada tipo de necesidad. Estoy muy satisfecho."
-      testimony9: "<strong>Dra. Marileide Inácio</strong><br/><small class='text-white'>DocSul Serviços Odontológicos</small>"
-      testimony_text9: "En DocSul Radiologia estamos muy satisfechos con el servicio brindado por Cfaz.net. Este sistema de gestión de radiología es muy eficaz e innovador y el personal es muy atento y responde con prontitud. Recomendamos el servicio Cfaz.net."
-      testimony10: "<strong>Cristiane Vaccarezza</strong><br/><small class='text-white'>C.V. Radiologia Odontológica</small>"
-      testimony_text10: "Nuestra relación con Cfaznet comenzó en 2017. Y digo relación, porque para nosotros es realmente una asociación. Usar Cfaz nos mantiene en línea con todo lo más moderno: Integración con equipos de la clínica, almacenamiento en la nube, posibilidad de trabajar en cualquier lugar con conexión a internet, actualizaciones frecuentes de la plataforma, novedades añadidas sin costo y lo mejor, una sensacional red de soporte, que es no contento con corregir posibles errores, está interesado en ayudar con todas las necesidades del cliente (socio). Todo esto es Cfaz. Estamos muy contentos con la decisión de migrar a Cfaz. Se lo recomiendo a todo el mundo, sin miedo a equivocarme."
-    contact_us:
-      title: "Habla con uno de nuestros consultores"
-      subtitle: "Descubra qué ventajas ofrece Cfaz.net sobre otros sistemas en términos de ahorro de tiempo, reducción de costos y aumento de la productividad y facturación."
-      subtitle2: "Descubra las múltiples ventajas que ofrece el sistema Cfaz.net sobre otros sistemas en términos de ahorro de tiempo, reducción de costos y aumento de la productividad y los ingresos."
-      data_security: "SEGURIDAD DE DATOS"
-      data_security_text: "Nuestros clientes se benefician de la seguridad y solidez de la misma infraestructura en la nube que utiliza Google en servicios como su motor de búsqueda, Gmail y Youtube."
-      storage: "ALMACENAMIENTO DURANTE 20 AÑOS"
-      storage_text: "Cumpliendo con los estándares de todos los consejos de salud: CFO, CFM y ANVISA."
-      LGPD: "APTITUD PARA LGPD"
-      LGPD_text: "Adoptamos los protocolos de seguridad más avanzados para garantizar la integridad e inviolabilidad de los datos del paciente, además de comprometernos a no utilizar ni compartir datos sin su consentimiento."
-    benefit:
-      title: "Lleve la <strong> transformación digital </strong> a su negocio"
-      item1: "CFAZ.NET NACE COMO EL 1er SISTEMA 100% ONLINE DE RADIOLOGÍA"
-      item1_text: "La experiencia se simplifica desde el principio, asegurando mayor agilidad y eficiencia para la realización de exámenes y para la gestión de la clínica o centro médico."
-      item2: "PACS EN LÍNEA"
-      item2_text: "Integración DICOM con todos los dispositivos del mercado y almacenamiento 100% seguro en la Nube, gracias a la infraestructura proporcionada por Google Cloud Platform."
-      item3: "RIS EN LÍNEA"
-      item3_text: "Horarios, PEP (Historial Electrónico del Paciente), Integración con cualquier equipo que utilice el protocolo DICOM (PACS / Worklist), Gestión Financiera, Control de Contratos y Desautorizaciones, todo puede ser accedido desde cualquier lugar por los administradores de la clínica."
-      item4: "CALIDAD DE IMAGEN MÁXIMA"
-      item4_text: "Somos el único sistema de gestión de Radiología que ofrece almacenamiento de imágenes y exámenes con calidad 100% original."
-      item5: "DICOM"
-      item5_text: "Native support for Worklist and PACS, allowing integration with any device. In addition, the free DICOM Printer allows integration with all types of DRY printers."
-      item6: "STL"
-      item6_text: "Soporte completo para modelos digitales: almacenamiento, visualización y distribución."
-      item7: "GESTIÓN UNIFICADA DE RED CLÍNICA"
-      item7_text: "Gestione toda la red de clínicas o centros médicos en un solo sistema, visualizando indicadores para toda la red o para cada centro por separado."
-      item8: "TOMOGRAFÍA"
-      item8_text: "Almacenamiento y distribución de tomografías computarizadas 100% en línea. Con Cfaz.net, el solicitante puede visualizar las tomografías directamente en la plataforma online, sin necesidad de instalar ningún software o descargar el archivo en la propia máquina."
-      item8_text2: "El DicomViewer desarrollado por nuestro equipo de ingeniería permite visualizar la reconstrucción volumétrica MPR (Reconstrucción Multiplanar) de la tomografía. También ofrece herramientas para manipulación de volumen, lo que le permite cambiar los ejes de visualización de los cortes, además de aplicar filtros y realizar mediciones."
-      benefit_productivity:
-        title: "Te ayudamos a aumentar tu <strong> productividad </strong>, reducir costes y mejorar tus resultados"
-        item1: "GESTIÓN UNIFICADA DE REDES DENTALES O MÉDICAS"
-        item1_text: "Gestione toda la red de clínicas o centros médicos en un solo sistema, visualizando indicadores para toda la red o para cada centro por separado."
-        item2: "ACTUALIZACIONES GRATUITAS Y AUTOMÁTICAS"
-        item2_text: "Esté siempre por delante de sus competidores con un sistema actualizado a su medida. Todas las actualizaciones son automáticas para todos los clientes, es decir, no es necesario instalarlas ni comprarlas por separado."
-        item3: "ENTREGA EN TIEMPO REAL"
-        item3_text: "Almacene automáticamente las imágenes y entréguelas a los solicitantes en tiempo real, justo después de que se adquiere la imagen, con solo un clic."
-        item4: "EXCELENCIA EN SERVICIO"
-        item4_text: "Un equipo calificado y multidisciplinario realiza nuestro servicio de manera humanizada, en tiempo real, vía Whatsapp, teléfono, correo electrónico o incluso Direct Chat en el sistema."
-    register:
-      title: "Únase a Cfazjob y <strong> ane 10 créditos</strong>"
-      button: "REGISTRAR"
-    artificial_intelligence:
-      title: "Inteligencia artificial y tecnologías desarrolladas por nuestros ingenieros"
-      subtitle: "La Inteligencia Artificial de Cfaz está presente en nuestra herramienta de Trazado Cefalométrico - para Radiología Dental - y en Identificación Automática de Imágenes para ensamblar plantillas. El radiólogo reduce el tiempo que lleva realizar un rastreo, ahorra recursos y puede concentrarse en lo que realmente importa: la salud del paciente y el desarrollo de su negocio."
-    tomography: 
-      title: "Tomografía"
-      subtitle: "Almacenamiento y distribución de tomografías computarizadas 100% en línea. Con Cfaz.net, el solicitante puede visualizar las tomografías directamente en la plataforma online, sin necesidad de instalar ningún software o descargar el archivo en la propia máquina."
-      subtitle2: "El DicomViewer desarrollado por nuestro equipo de ingeniería permite visualizar la reconstrucción volumétrica MPR (Reconstrucción Multiplanar) de la tomografía. También ofrece herramientas para manipulación de volumen, lo que le permite cambiar los ejes de visualización de los cortes, además de aplicar filtros y realizar mediciones."
-    teleradiology: 
-      title: "<strong>Conectamos su clínica con profesionales</strong> de todo Brasil y del exterior que participan de forma gratuita en nuestro <strong>marketplace</strong>"
-      cfaz_business: "<strong>Cfaz</strong><strong class='text-primary'>Business</strong>"
-      cfaz_business_text: "Mercado exclusivo para <strong class='text-secondary'>subcontratación de informes</strong>, que conecta a los radiólogos con los centros médicos de Brasil y América Latina."
-      cfaz_job: "<strong>Cfaz</strong><strong class='text-primary'>Job</strong>"
-      cfaz_job_text: "Solución específica para <strong class='text-secondary'>creación de informes</strong> y subcontratación, a través del marketplace CfazBusiness."
-      cfaz_job1: "<strong class='text-primary'>Cfaz</strong><strong class='text-secondary'>Job</strong>"
-      cfaz_job1_text: "Solución específica para la creación de informes y outsourcing, a través del marketplace CfazBusiness."
-      know_more: "Conozca más sobre nuestras soluciones para teleradiología"
-    appCfaz: 
-      title: "<strong class='text-primary'>App</strong><strong>Cfaz</strong>"
-      title1: "<strong class='text-white'>App</strong><strong>Cfaz</strong>"
-      subtitle: "Portal de imágenes y exámenes gratuitos para sus solicitantes y pacientes, disponible en una aplicación móvil, con historial completo del paciente y acceso en línea a través de teléfonos inteligentes, tabletas, además de la computadora."
-    benefits_program: 
-      text: "Descubra cómo participar en el único Programa <br/> de Beneficios que ofrece <strong>descuentos en cursos, <br/> libros, protección radiológica, seguros y <br/> equipos de salud.</strong>"
-    environment: 
-      paper_number: "Mi"
-      paper_text: "de papeles guardados."
-      tree_number: "K"
-      tree_text: "árboles preservados."
-    system_Cfaz: 
-      text: "<strong>El futuro es digital y lo es ahora.</strong> Llevamos los avances de la tecnología en la nube <br/> a su vida diaria con un sistema amigable, intuitivo y actualizado."
-    cfazCiencia:
-      title: "<strong class='text-primary'>Cfaz</strong><strong>Ciência</strong>"
-      about: "CfazCiência nace con el objetivo de ayudar a estudiantes y docentes a aplicar en la práctica los conocimientos aprendidos en el aula, además de facilitar y optimizar el aprendizaje sobre Radiología con los beneficios de la tecnología en la nube de Cfaz.net."
-      information: "Reciba a uno de nuestros representantes científicos para presentar y asesorar sobre la herramienta. El Docente y cada alumno tendrán su registro individual en la plataforma, a la que se puede acceder desde casa, la institución y desde cualquier lugar."
-      institutions: "Instituciones que utilizan Cfaz.net"
-    phrase: 
-      text: "Lleve la <strong> transformación digital </strong> a su salón de clases y descubra los beneficios de la tecnología Cfaz.net, utilizada por más de 1,150 médicos y radiólogos en Brasil y América Latina."
+    index:
+      button_contact: Te llamamos
+      button_know_more : Conocer mejor
+      from: desde
+      month: mes
+      exams: exámenes
+      hero: Soluciones en la nube para <br class="d-none d-lg-block"> <h1 class="h2 d-inline"><strong class="text-primary">La gestión de centros de salud</strong></h1> y <br class="d-none d-lg-block"> <h1 class="h2 d-inline"><strong class="text-primary">Distribución de exámenes</strong></h1>
+      plans: 
+        free_starter_plan: Plan Inicial Gratuito
+        teleradiology: Telerradiología
+        consulting_room: Consultorios
+        clinics: Clínicas
+        radiology_centers: Centros de Radiología
+        reporting_centers: Centros de Informes
+        hospitals: Hospitales
+      hospital:
+        text: Software en la Nube para la gestión de la atención en Hospitales y <strong>Centros de Diagnóstico por Imagen</strong>, incluyendo API para la Interoperabilidad con todos los sistemas del mercado.
+        text2: <strong>Distribución online</strong> de exámenes a Odontólogos y Médicos solicitantes.
+      radiologia:
+        title: Radiología
+        text: Soluciones Inteligentes en la Nube para llevar a cabo la gestión integral de <strong>Centros de Diagnóstico por Imágenes</strong>, incluyendo Radiología Dental, Radiología Médica, Mamografía, Ultrasonografía, Tomografía Computarizada, Densitometría Ósea, Resonancia Magnética y Angiografía.
+        text2: Herramientas de gestión completas también para <strong>Radiólogos Reportantes, Centros de Reportes y Hospitales</strong>.
+        text3: <strong>Distribución online</strong> de exámenes a Odontólogos y Médicos solicitantes.
+      odontology_medicine:
+        text: Tecnología de punta y Excelencia en el servicio para gestionar toda la experiencia de atención al paciente, además de permitir el control de la gestión administrativa y financiera de <strong>Consultorios, Clínicas y Franquicias Dentales y Médicas.</strong>
+      veterinary:
+        title: Medicina Veterinaria
+        text: Completo software en la Nube para realizar toda la experiencia de atención al paciente, además de controlar la gestión financiera y administrativa de <strong>Clínicas y Hospitales Veterinarios, Centros de Diagnóstico por Imagen y Profesionales del Vuelo.</strong>
+        text2: <strong>Distribuição Online</strong> de exámenes para Dueños de Mascotas y Veterinarios solicitantes.
+      countries:
+        title: Más de 1000 Centros de Salud en todo Brasil y en más de 10 países de América Latina y Europa
+        hospital: Hospital
+        dental_radiology: Radiólogos Reportantes
+      customer_testimonial:
+        title: La satisfacción de nuestros clientes avala nuestros resultados.
+      security_credibility:
+        patients_served: Más de 10 millones de pacientes atendidos
+        distributed_exams: Más de 50 millones de exámenes distribuidos
+        stored_cloud: Más de 130 Terabytes de datos e imágenes almacenados en la Nube
+        years_history: Más de 10 años de historia
+        years: años
+        anvisa: ANVISA
+        record: Registro
+        hippa: HIPPA
+        gdpr: GDPR
+      plans_values:
+        title: Planes a medida para la Gestión de Centros de Salud y Distribución de Exámenes
+      environment:
+        paper_saved: Más de 143 millones de hojas <br> de papel ahorradas
+        saved_radiographs: Más de 48 millones de películas <br> radiográficas salvadas
+        trees_spared: Más de 19 mil árboles <br> salvados
+      social:
+        title: ¡Síguenos en nuestros canales y redes sociales!
+      contact:
+        title: Contactos
+        technical_support: Soporte técnico
+        call_center: Ir al centro de atención
+        sales: Ventas
+        financial: Financiero
+      benefits_program:
+        benefits_program: Programa de Beneficios
+        text: ¡Se parte del Programa de Beneficios más completo del mercado!
+        text2: ¡Recomienda Cfaz a compañeros y amigos, comparte nuestras ventajas en las redes sociales y disfruta de descuentos gratuitos, canje de regalos y premios exclusivos!
+        partners: Socios
+      cfaz_science:
+        title: "Cfaz Ciência: Fomentando el desarrollo científico de la Radiología"
+        text: Condiciones especiales para el uso de Cfaz.net por estudiantes e instituciones educativas en Odontología y Radiología.
+        text2: ¡Ponte en contacto para comenzar a utilizar nuestro sistema como apoyo en el aula o clínicas escolares!
+      app: Aplicación móvil gratuita <br> Disponible en App Store <br> y Play Store
+      newsletter: ¿Quieres enterarte de novedades sobre Cfaz y noticias sobre Radiología, Odontología, Medicina y Veterinaria?
+      benefits:
+        ris_pacs_online: RIS y PACS Online
+        anvisa: Certificación ANVISA
+        lgpd: LGPD
+        dicom_integration: Integración DICOM
+        api_Interoperability: API para Interoperabilidad
+        humanized_technical_support: Soporte Técnico Humanizado
+        google_cloud_platform: Google Cloud Platform 
+        storage: Almacenamiento durante 20 años
+        artificial_intelligence: Inteligencia artificial
+        financial_management: Gestión financiera
+        multiclinic_management: Gestión multiclínica
+        agreement_management: Gestión de Seguros de Salud
+        invoice_issuance: Emisión de Faccturas Fiscales
+        customizable_reports: Informes 100% personalizables
+        online_calendar: Calendario Online + Comunicación Integrada con Whatsapp
+        pep: PEP - Historia Médica Electrónica del paciente
+        digital_signature: Firma de documentos digitales
+        financial_strategic_management: Gestión Financiera y Estratégica
+        voice_report: Informe de voz + acceso mediante Código QR
+        customizable_reports: Informes 100% personalizables
+    hospitais:
+      informations:
+        text: Software en la Nube para la gestión de la atención en Hospitales y <strong>Centros de Diagnóstico por Imagen</strong>, incluyendo API para la Interoperabilidad con todos los sistemas del mercado.
+        text2: <strong>Distribución online</strong> de exámenes a Odontólogos y Médicos solicitantes.
+      ris_pacs:
+        title: RIS y PACS 100% Online
+        text: Con el <strong>RIS</strong> en Nube de Cfaz.net, podrá garantizar agilidad en todos los procesos de su Centro de Radiología, incluyendo Programación, Registros Electrónicos de Pacientes (PEP), Gestión Financiera y Control de Planes de Salud.
+        text2: Además, nuestro <strong>PACS</strong> en Nube está 100% integrado con el <strong>RIS</strong>, a través del servicio Worklist. Esta integración asegura una gestión eficiente y unificada de todos los procesos del Centro de Salud.
+      api_Interoperability:
+        subtitle: Integración con todos los sistemas del mercado.
+        text: Integración de la información con todos los sistemas del mercado, permitiendo la digitalización de todos los procesos en su Centro de Salud.
+        text2: Más eficiencia en el día a día de tu equipo y de tus pacientes!
+      anvisa:
+        text: Cfaz es un fabricante de productos médicos (software) debidamente registrado y certificado por ANVISA (Brasil).
+        text2: Al utilizar software certificado como Cfaz.net, los profesionales y especialmente los pacientes atendidos pueden contar con la seguridad y confiabilidad de un producto evaluado y aprobado por la máxima autoridad en regulación sanitaria de Brasil.
+      storage:
+        text: "Cumpliendo con las normas de todos los consejos de salud en Brasil: CFO, CFM y ANVISA."
+        text2: Almacenamiento ilimitado y 100% seguro en la Nube, con la máxima calidad de imágenes y exámenes. Gracias a la infraestructura proporcionada por Google Cloud Platform, empresa de referencia mundial en seguridad de datos y estabilidad de conexiones.
+        note: "*Válido durante la vigencia del contrato"
+      teleradiology:
+        text: Conectamos su Centro de Radiología con profesionales de todo el mundo a través de una plataforma unificada con soluciones diseñadas para facilitar la subcontratación de informes y exámenes. Usted envía las imágenes a sus revisores y recibe los informes completos, todo a través de Cfaz.net.
+        testimony:
+          text: “Cfaz.net conecta Tradit3D con radiólogos y centros de imágenes, lo que lo hace ideal para Telerradiología. Su plataforma en la nube en línea optimiza el trabajo, creando un flujo digital eficiente para que nuestro Centro de Informes pueda atender a más de 30 Centros de Radiología en América Latina y Europa.”
+          information: Dra. Monica Pinã - Propietaria de TRADIT 3D - Cliente de Cfaz hace 2 años
+      tailor_made_plans: Planes a medida para la Gestión de Hospitales, Centros de Informes y Centros de Radiología
+      humanized_support:
+        text: <strong>¡La mejor experiencia de cliente del mercado!</strong>
+        text2: No haga cola ni sea atendido por robots. Con Cfaz, te atenderán, de media, en 2 minutos.
+        text3: ¡Nuestro equipo multidisciplinario recibe capacitación intensiva para que tengas rápidamente la solución que necesitas!
+        real_time_service: Servicio en tiempo real
+        days_week: "Lunes a Viernes: 8am a 6pm <br> Sábado: 8 am a 12 pm"
+        channels: "Canales: Chat directo en el sistema, WhatsApp, teléfono o correo electrónico."
+      google_cloud_platform:
+        text: Nuestros clientes se benefician de la seguridad y robustez de la misma infraestructura Cloud utilizada por Google en servicios como su Buscador, Gmail y Youtube.
+        text2: Sus datos permanecen a salvo de pérdidas o daños. No se preocupe por los servidores, los discos duros de respaldo, la reinstalación del sistema, etc.
+        text3: ¡Además, migramos datos de su antiguo sistema a Cfaz.net!
+      dicom:
+        title: Integración DICOM con todos los dispositivos del mercado
+        subtitle: Acceso rápido a resultados e información centralizada con nuestro PACS Online
+        text: Soporte nativo para Worklist y PACS, permitiendo la integración con cualquier dispositivo e impresoras DRY, para una impresión inteligente, cuando sea necesario, ahorrando tiempo y recursos.
+      ia:
+        title: I.A.
+        subtitle: La Inteligencia Artificial ya está en nuestro presente y potencia la Radiología.
+        text: Cfaz ya utiliza A.I. en la herramienta de Trazado Cefalométrico, que puede alcanzar el 99% de precisión, y en la Identificación Automática de Imágenes, reduciendo al máximo el tiempo empleado por el Radiólogo y ahorrando recursos.
+        text2: ¡Optimiza y moderniza tu negocio!
+      lgpd:
+        subtitle: Seguridad y confiabilidad en el procesamiento de datos
+        text: Todos los datos recopilados a través de Cfaz.net se almacenan de forma segura, siguiendo las estrictas normas y estándares establecidos por la norma ISO 27001.
+        text2: Ofrecemos herramientas para la gestión eficiente de los consentimientos firmados por los pacientes en la recogida de datos, para que los Centros de Salud también cumplan con la normativa.
+    radiology:
+      informations:
+        text: Soluciones Inteligentes en la Nube para llevar a cabo la gestión integral de <strong>Centros de Diagnóstico por Imágenes</strong>, incluyendo Radiología Dental, Radiología Médica, Mamografía, Ultrasonografía, Tomografía Computarizada, Densitometría Ósea, Resonancia Magnética y Angiografía.
+        text1: Herramientas de gestión completas también para <strong>Radiólogos Reportantes, Centros de Reportes y Hospitales</strong>.
+        text2: Distribución online de exámenes a Odontólogos y Médicos solicitantes.
+      views_3d_mpr:
+        title: Visualizaciones 3D y MPR para Tomografía
+        subtitle: Almacenamiento, visualización y distribución de tomografías computarizadas y soporte completo para modelos digitales (STL), 100% online.
+        text: Vea las tomografías computarizadas sin necesidad de instalar ningún software ni descargar el archivo en la propia máquina.
+        text2: Nuestro DicomViewer le permite visualizar la reconstrucción volumétrica MPR (Multiplanar Reconstruction) de la tomografía.
+        text3: Cuente con herramientas para manipular volumen y cambiar los ejes de visualización de cortes, aplicar filtros y tomar medidas.
+      teleradiology_radiology:
+        subtitle: Acceso rápido desde cualquier lugar, proporcionando ahorro de costos, flexibilidad y escalabilidad.
+        text: Conectamos su Centro de Radiología con profesionales de todo el mundo a través de una plataforma unificada con soluciones diseñadas para facilitar la subcontratación de informes y exámenes. Usted envía las imágenes a sus revisores y recibe los informes completos, todo a través de Cfaz.net.
+      tailor_made_plans: Planes a medida para la Gestión de Centros Hospitalarios, Centros de Radiología y Distribución de Pruebas
+      humanized_support:
+        testimony:
+          text: “La red de soporte es sensacional y satisface todas nuestras necesidades. Estamos muy contentos con la decisión de migrar a Cfaz”
+          information: Cristiane Vaccarezza - CV Radiología Dental - Cliente de Cfaz desde 2017
+    odontologia_medicina:
+      informations: Tecnología de punta y Excelencia en el servicio para gestionar toda la experiencia de atención al paciente, además de permitir el control de la gestión administrativa y financiera de <strong>Consultorios, Clínicas y Franquicias Dentales y Médicas.</strong>
+      online_agenda:
+        text: ¡Organiza citas y envía órdenes automáticamente vía WhatsApp!
+        text1: "Horarios ilimitados, separados por profesional, por sala, por tipo de examen, por unidad: libertad para que organices los horarios de la clínica según tus necesidades."
+        text2: Gestiona el control de devoluciones, pacientes en espera y ausentes, a través de informes además 100% personalizables.
+        text3: Realizar envío automático de exámenes vía WhatsApp, con costo a partir de R$ 0,35 por mensaje.
+      pep:
+        text: Con el PEP de Cfaz.net dispones de una herramienta online que agiliza el acceso a la información clínica a través del historial de datos y exámenes del paciente, además de reducir los errores de documentación y permitir un análisis de datos más eficiente.
+      financial_management:
+        text: Falta de transparencia financiera, dificultades para prever el flujo de caja, falta de planificación estratégica, acumulación de deuda...
+        text2: Son innumerables los problemas que puede provocar la falta de una buena gestión financiera.
+        text3: "Centraliza toda la Gestión Financiera en Cfaz.net: herramientas completas e informes 100% personalizables, para que puedas visualizar los resultados de tu Clínica u Consultorio según tus necesidades."
+      management_agreements_glossaries:
+        title: Gestión de Planes de Salud
+        text: ¡Cfaz.net tiene varias funciones para hacerle la vida y la gestión de su negocio más fácil!
+        text2: ¡Con nuestra herramienta por lotes podrás realizar el control financiero de tus planes de salud! Es posible crear lotes de órdenes filtrando por acuerdo y período, incluso eliminando glosas para futuras revisiones.
+      tailor_made_plans:
+        title: Planes a medida para la Gestión de Consultorios y Clínicas
+      invoices:
+        title: Simplifique la Emisión de Facturas Fiscales con Cfaz
+        text1: ¡Emite tu Factura en Cfaz.net con sólo dos clics!
+        text2: Emitir la factura fiscal es importante para cumplir con las obligaciones tributarias y garantizar la transparencia en los procesos.
+        text3: Con un costo a partir de R$ 0,35 por nota, su cliente recibe la nota directamente por correo electrónico y usted puede centralizar aún más este servicio en Cfaz.net.
+      digital_signature:
+        text1: Practicidad y agilidad en la firma y diligenciamiento de documentos digitales, como informes, Formularios de Consentimiento del Paciente, hojas de anamnesis y formularios de exámenes.
+        text2: Además de facilitar el cumplimiento de la LGPD, esta característica reduce los costes de impresión, digitalizando todo el proceso para nuestros clientes, ¡con la seguridad del almacenamiento en la Nube!
+      customizable_reports:
+        text1: Controla el desempeño de tu negocio, teniendo una visión amplia de los procesos y crea cualquier tipo de informe necesario con nuestra herramienta de agrupación.
+        text2: <strong>Cree informes financieros</strong>, como cálculo de comisiones, contabilización de gastos e ingresos.
+        text3: <strong>Gestionar la productividad y gestión estratégica</strong> de programación, ticket promedio, horas punta, mapa de socios, control de trámites y entrega de exámenes.
+      multiclinic_management:
+        subtitle: ¡Aumente su productividad, reduzca costos y mejore sus resultados!
+        text1: Gestiona toda tu Red de Centros de Salud en un solo sistema, visualizando indicadores de toda la red o de cada centro por separado.
+        text2: Se pueden elaborar informes financieros y estratégicos en tiempo real, considerando un solo centro, una parte o todas las unidades.
+        testimony:
+          text: “Elegí Cfaz.net por su propuesta futurista, un sistema 100% online que integra todas las unidades. Esto me animó a abrir nuevas unidades, ya que todo estaría bajo mi control.”
+          information: Dr. Guilherme Resende - Director de Clínicas de Imagen Digital y Odontología - Cliente de Cfaz desde 2014
+    veterinary:
+      informations: 
+        text1: Completo software en la Nube para realizar toda la experiencia de atención al paciente veterinario, además de controlar la gestión financiera y administrativa de <strong>Clínicas Veterinarias, Centros de Radiología Veterinaria, Radiólogos Voladores y Hospitales Veterinarios.</strong>
+        text2: <strong>Distribución online</strong> de exámenes para Dueños de Mascotas y Veterinarios solicitantes.
+      ris_pacs:
+        text1: Con Cloud <strong>RIS</strong> de Cfaz.net usted garantiza agilidad en todos los procesos de su Centro de Radiología, incluyendo Programación, Historial de Pacientes, Gestión Financiera y Control de Convenios y Alianzas.
+        text2: Además, nuestro Cloud <strong>PACS</strong> está 100% integrado con RIS, a través del servicio Worklist. Esta integración garantiza una gestión eficiente y unificada de todos los procesos del Centro de Salud.
+      online_agenda:
+        subtitle: ¡Organiza citas y envía órdenes automáticamente vía WhatsApp!
+        text1: "Horarios ilimitados, separados por profesional, por sala, por tipo de examen, por unidad: libertad para que organices los horarios de la clínica según tus necesidades."
+        text2: Gestiona el control de devoluciones, pacientes en espera y ausentes, a través de informes además 100% personalizables.
+        text3: Realizar envío automático de exámenes vía WhatsApp, con costo a partir de R$ 0,35 por mensaje.
+      financial_management_strategic:
+        text1: Eficiencia operativa, organización, optimización de recursos, agilidad en la toma de decisiones, mejora del rendimiento, cumplimiento y gobernanza…
+        text2: ¡Centraliza tus procesos de gestión con Cfaz!
+      management_flow:
+        title: Flujo de gestión de Cfaz
+        text1: ¡Centraliza la realización y distribución de exámenes, además de toda la gestión financiera y estratégica de tu Centro Veterinario, en una misma plataforma!
+        text2: "Gana agilidad y eficiencia, ahorra recursos y céntrate en lo que realmente importa: la salud del paciente y el desarrollo de tu negocio."
+      teleradiology:
+        subtitle: Acceso rápido desde cualquier lugar, proporcionando ahorro de costos, flexibilidad y escalabilidad.
+        text: Conectamos su Centro de Imagenología con profesionales de todo el mundo a través de una plataforma unificada con soluciones diseñadas para facilitar la subcontratación de informes y exámenes. Usted envía las imágenes a sus revisores y recibe los informes completos, todo a través de Cfaz.net.
+      tailor_made_plans: Planes a medida para la Gestión de Clínicas y Hospitales Veterinarios, Centros de Imagenología, Profesionales Móviles y para la Distribución de Exámenes
+      voice_report:
+        text: En Cfaz dispones de varias facilidades para emitir informes de forma práctica y eficaz.
+        item1: Código QR en el informe para acceder rápidamente al resultado, sin necesidad de iniciar sesión;
+        item2: Informes en voz y con máscaras personalizadas y automáticas;
+        item3: Herramientas de medición y marcado de imágenes;
+        item4: Reconocimiento de voz para reportajes narrados;
+        item5: Comparte y entérate cuando se ve el informe.
+      dicom:
+        title: Integración DICOM con todos los dispositivos del mercado
+        subtitle: Acceso rápido a resultados e información centralizada con nuestro PACS Online
+        text: Soporte nativo para Worklist y PACS, permitiendo la integración con cualquier dispositivo e impresoras DRY, para una impresión inteligente, cuando sea necesario, ahorrando tiempo y recursos.
+      customizable_reports:
+        text1: Controla el desempeño de tu negocio, teniendo una visión amplia de los procesos y crea cualquier tipo de informe necesario con nuestra herramienta de agrupación.
+        text2: <strong>Cree informes financieros</strong>, como cálculo de comisiones, contabilización de gastos e ingresos.
+        text3: <strong>Gestionar la productividad y gestión estratégica</strong> de programación, ticket promedio, horas punta, mapa de socios, control de trámites y entrega de exámenes.
     about_us:
-      title: "Sobre nosotros"
-      subtitle: "Conozca a nuestro equipo"
-      purpose: "Misión"
-      purpose_text: "Tenemos la misión de ofrecer a nuestros clientes las soluciones y ventajas competitivas necesarias para que puedan dedicar sus esfuerzos a lo que realmente importa: la salud del paciente y el crecimiento de su negocio. Buscamos que la experiencia de todas las personas involucradas desde la programación, la gestión hasta la entrega del examen sea más humana, además de hacer más eficientes estos procesos con los beneficios de la tecnología en la nube, como la seguridad, la alta calidad y la velocidad."
-      view: "Vista"
-      view_text: "Como pioneros en brindar soluciones 100% online para Radiología Dental y con casi 10 años de experiencia, queremos consolidarnos como un referente en Latinoamérica en soluciones en la nube para la gestión end-to-end de centros médicos y dentales."
-      values: 
-        title: "Valores"
-        item1: "Excelencia con las personas"
-        item1_text: "Tener un compromiso con la excelencia para superar las expectativas y deleitar a nuestros clientes está en nuestro ADN. Buscamos este compromiso a diario, a través de un ambiente de trabajo relajado y agradable basado en la cooperación y el desarrollo mutuo del equipo. Con un equipo multidisciplinar y un servicio en tiempo real, garantizamos la excelencia a nuestros clientes en todo momento durante su experiencia con nosotros."
-        item2: "Seguridad de datos"
-        item2_text: "Garantizar la seguridad de los datos de nuestros clientes es nuestra responsabilidad. Para ello, invertimos constantemente en tecnologías de vanguardia. Contamos con uno de los mejores proveedores de computación en la nube del mundo: Google Cloud Platform."
-        item3_text: "Los clientes de Cfaz.net se benefician de la seguridad y solidez de la misma infraestructura en la nube utilizada por Google en servicios como su motor de búsqueda, Gmail, Youtube, etc."
-        item4: "Respeto y Transparencia"
-        item4_text: "El respeto y la transparencia son la base de nuestra comunicación, tanto entre los miembros del equipo como en la relación con nuestros clientes. Respetamos las diferencias y la libertad de expresión. Celebramos nuestros éxitos y logros, aceptando y reflexionando sobre nuestros errores, siempre en busca de una evolución constante."
-        item5: "Sostenibilidad del medio ambiente"
-        item5_text: "Los consumidores son cada vez más conscientes del impacto que sus hábitos pueden tener en el medio ambiente. Con almacenamiento y distribución de exámenes a través de la nube, además de iniciativas para apoyar la preservación de la naturaleza, Cfaz es una empresa comprometida con su responsabilidad ambiental."
-        item6: "Innovación y tecnología"
-        item6_text: "Contribuir a la evolución continua de todo el ecosistema de diagnóstico por imagen, llevando innovación y tecnología de punta a clínicas, consultorios, centros médicos y, especialmente, a los pacientes."
-    team:
-      title: "Equipo"
-      all: "Todas"
-      scientific: "Radiólogo"
-      marketing_sales: "Marketing y ventas"
-      engineering: "Ingenieria"
-      customer_experience: "Experiencia del cliente"
-    cookies_confirmation: Usamos cookies y otras tecnologías similares para mejorar su experiencia en nuestros servicios, pero no las usamos con fines de seguimiento. <br/>Al utilizar nuestros servicios, usted acepta dicho seguimiento. También le informamos que hemos actualizado nuestra <a target="_blank" href="https://cfaz.net/privacy_policy.html">Política de Privacidad</a>
-  footer:
-    contact_us: "Hable con nosotros"
-    commercial: "Comercial"
-    support: "Soporte"
-    call_center: "Ir al centro de llamadas"
-    benefits_program: "Programa de beneficios"
-    blog_posts: "Publicaciones de BLOG"
-    register: "Registrarse"
-    follow_on_social_media: "Siga a Cfaz en redes sociales"
-    download_app: "Descarga nuestra aplicación"
-    newsletter: "¿Quiere estar al tanto de las noticias de <br/> su área? Complete su correo electrónico y <br/> suscríbase a nuestro Newsletter."
+      title: Sobre nosotros
+      informations:
+        text1: El Dr. José Benedito Limongi ya contaba con más de 30 años de experiencia en el campo de la odontología cuando compartió con su hijo, Francisco Limongi, las deficiencias que vio en el área del diagnóstico por imágenes.
+        text2: "Francisco se asoció con sus amigos Germano Teixeira y Gustavo Costa, para crear un producto único, que revolucionó todo el mercado en su momento: Cfaz.net, el primer sistema nativo en la Nube y 100% online para Radiología."
+        text3: Cfaz, fruto de este sueño, nació en Belo Horizonte (MG), reconocida como una de las empresas más innovadoras del mercado por SEED MG (2016) y FIEMG Lab (2017).
+        text4: Hoy somos referente en soluciones Cloud para la gestión y distribución extremo a extremo de exámenes en centros médicos, odontológicos y veterinarios, ayudándoles a conseguir grandes resultados.
+        text5: Estamos en constante evolución para entregar tecnología de punta y excelencia en el servicio a los Centros de Salud de Brasil, América Latina y Europa.
+      mission:
+        title: Misión
+        text1: "Ofreciendo a nuestros clientes las soluciones y diferenciadores competitivos que necesitan para que puedan dedicar sus esfuerzos a lo que realmente importa: la salud del paciente y el crecimiento de su negocio."
+        text2: Buscamos hacer más humana la experiencia de todos los involucrados, desde la programación hasta la entrega de los exámenes, además de hacer más eficientes estos procesos con los beneficios de la tecnología Cloud, como seguridad, alta calidad y velocidad.
+      view:
+        title: Visión
+        text: Como empresa pionera en brindar soluciones 100% online para Radiología Dental y con más de 10 años de experiencia, queremos consolidarnos como un referente en Latinoamérica en soluciones en la Nube para la gestión integral de servicios médicos, odontológicos y veterinarios. centros.
+      values:
+        excellence_people: 
+          title: Excelencia con las personas
+          text1: Tener un compromiso con la excelencia para superar las expectativas y deleitar a nuestros clientes está en nuestro ADN. Buscamos este compromiso diariamente, a través de un ambiente de trabajo distendido, agradable y basado en la cooperación y el desarrollo mutuo del equipo.
+          text2: Con un equipo multidisciplinar y un servicio en tiempo real, garantizamos la excelencia a nuestros clientes en todo momento durante su experiencia con nosotros.
+        data_security:
+          title: Seguridad de datos
+          text: "Garantizar la seguridad de los datos de nuestros clientes es nuestra responsabilidad. Para lograrlo, invertimos constantemente en tecnologías de vanguardia. Contamos con uno de los mejores proveedores de computación en la Nube del mundo: Google Cloud Platform."
+        respect_transparency:
+          title: Respeto y Transparencia
+          text1: El respeto y la transparencia son la base de nuestra comunicación, tanto entre los miembros del equipo como en nuestras relaciones con nuestros clientes. Respetamos las diferencias y la libertad de expresión.
+          text2: Celebramos nuestros éxitos y nuestros logros, al mismo tiempo que aceptamos y reflexionamos sobre nuestros errores, buscando siempre la evolución constante.
+        environmental_sustainability:
+          title: Conservación del medio ambiente
+          text1: Los consumidores son cada día más conscientes del impacto que sus hábitos pueden tener en el medio ambiente.
+          text2: Con almacenamiento y distribución de exámenes a través de la Nube, además de iniciativas de apoyo a la preservación de la naturaleza, Cfaz es una empresa comprometida con su responsabilidad ambiental.
+        innovation_technology:
+          title: Innovación y tecnología
+          text1: Contribuir a la evolución continua de todo el ecosistema de diagnóstico por imagen, acercando la innovación y la tecnología más puntera a los centros médicos, veterinarios y odontológicos y, especialmente, a los pacientes.
+          text2: El proyecto Cfaz Ciência es un ejemplo de nuestro apoyo al desarrollo científico y tecnológico del área de Radiología en Brasil.
+      team:
+        title: Equipo
+        all: Todo
+        scientific: Científico
+        marketing_sales: Marketing y Ventas
+        engineering: Ingeniería
+        customer_experience: Experiencia del cliente
+    plans_services_features:
+      cfaz_app: Aplicación Cfaz
+      agendas: Agendas
+      patient_management: El manejo del paciente
+      service_management: Gestión De Servicios
+      requestor_management: Gestión de solicitantes
+      exams_conducting_outsourcing: "Exámenes: realización y subcontratación"
+      online_request: Órdenes Online
+      queries: Consultas
+      management_agreements_procedures: Gestión de Planes de Salud 
+      employee_permission_management: Gestión de empleados y permisos
+      online_recipe: Receta Online
+      document_management: Gestión de documentos
+      digital_signature: Firma digital
+      print: Imprimir
+      exams: "Exámenes: IA, gestión de exámenes, gestión de análisis cefalométricos, HD, MPR y visores 3D, STL, distribución"
+      integration_devices_printers: Integración con dispositivos e impresoras
+      report_center_customer_management: Centro de informes Gestión de clientes
+      dropbox: "Almacenamiento externo: Dropbox"
+    footer:
+      developed: Desarrollado por Cfaz.net
+      privacy_policy: Política de privacidad
+    cookies_confirmation: Usamos cookies y otras tecnologías similares para mejorar su experiencia en nuestros servicios, pero no las usamos con fines de seguimiento. Al utilizar nuestros servicios, usted acepta dicho seguimiento.
 alt:
-  cloud: "Una nube"
-  laptop: "Portátil con imagen del sistema CfazMax"
-  testimony: "Foto del creador del testimonio."
-  icons:
-    online: "Icono 100% online"
-    PAC: "Icono de PAC en línea"
-    RIS: "Icono de RIS en línea"
-    image_quality: "Icono con imagen de diente"
-    DICOM: "Icono DICOM"
-    STl: "Icono de STL"
-    connected_networks: "Icono de mapa con marcas"
-    gift: "Icono con embalaje de regalo"
-    tomography: "Icono con dispositivo de tomografía"
-    attendance: "Icono de 3 personas"
-    real_time: "Icono de reloj"
-    update: "Icono de actualización"
-    whatsapp: "Icono de whatsapp"
-    email: "Icono de correo electrónico"
-    call_center: "Icono de centro de llamadas"
-  app: "Imágenes de CfazMax en la aplicación"
-  partner_company: "Empresa participante del programa de beneficios"
-  cfaz_plus: "Icono de un monitor con un dibujo de un gráfico circular y un diente"
-  cfaz_max: "Icono de un monitor con un dibujo de un diente"
-  cfaz_manager: "Icono de la pestaña del navegador con un gráfico circular"
-  cfaz_business: "Icono con imágenes de usuarios conectados"
-  cfaz_ciencia: "Icono de radiación"
-  about:
-    purpose: "Icono de cohete"
-    view: "Icono de montañas"
-    values: "Icono de corazon"
-  team: "Miembro del equipo de Cfaz.net"
-  companies: "Logotipo de la empresa / institución que utiliza Cfaz.net"
-  students: "Estudiantes que utilizan el sistema Cfaz.net"
-  students_artificial_intelligence: "Persona y Robot encajando dos piezas de un rompecabezas"
-  artificial_intelligence: "Logotipo de Cfaz.net en el centro que se vincula con el escudo de seguridad, servidores, computadora y teléfono celular."
-  checklist: "Icono de lista de verificación"
-  system: "Imagen del sistema CfazMax"
-  tomography: "Tomografía de imagen en el sistema Cfaz.net"
-  logo: "Logotipo de Cfaz"
-  flag_es: "Bandera de España"
-  flag_en: "Bandera de Estados Unidos"
-  flag_pr-BR: "Bandera de Brasil"
-  GCP: "Certificado GCP"
-  HIPPA: "Certificado HIPPA"
-  LGPD: "Certificado LGPD"
-  ANVISA: "Certificado ANVISA"
-  instagram: "Icono Instagram"
-  facebook: "Icono Facebook"
-  youtube: "Icono Youtube"
-  linkedin: "Icono Linkedin"
+  cfaz_logo: Logotipo de cfaz
+  flag_pt: Bandera de Brasil
+  flag_es: Bandera español
+  flag_en: Bandera de los Estados Unidos
+  index:
+    hero:
+      header: Tres profesionales sanitarios, vestidos de blanco, con los brazos cruzados y sonriendo
+      button: Flecha hacia abajo
+    plans:
+      btn_free_starter_plan: Botón de inicio gratuito del plan
+      btn_we_call_you: Icono de teléfono
+      teleradiology: Icono de un monitor con radiología y una lupa
+      consulting_room: Icono de oficina
+      clinics: Icono de una historia clínica
+      radiology_centers: Icono de un dispositivo de radiología
+      reporting_centers: Icono de un informe y un lápiz encima
+      hospitals: Icono de hospital
+    countries: 
+      flags: Banderas de los más de diez países en los que opera Cfaz
+      companies: Logotipos de los clientes socios de Cfaz
+    security_credibility: 
+      patients_served: Icono de dos personas
+      distributed_exams: Icono de exámenes con un símbolo marcado
+      stored_cloud: Icono de nube
+      years_history:  Icono del tiempo
+      anvisa: Logotipo de Anvisa
+      hippa: Logotipo de Hippa
+      lgpd: Logotipo de LGPD
+      gdpr: Logotipo de GDPR
+      google_cloud_platform: Logotipo de Google Cloud Plataform
+    environment:
+      paper_saved: Icono de una hoja de papel
+      saved_radiographs: Icono de película radiográfica
+      trees_spared: Icono de árbol
+    contact:
+      whatsapp: Icono de whatsapp
+      email: Icono de correo electrónico
+      technical_support: Icono de asistente con auriculares
+    social:
+      instagram: Logotipo de do instagram
+      tiktok: Logotipo de do tiktok
+      linkedin: Icone do linkedin
+      youtube: Icone do youtube
+    benefits_program: Dos mujeres sonrientes sentadas en una mesa celebran aplaudiendo
+    cfaz_science:
+      apresentation: Aula de radiología con un profesor y varios alumnos sentados estudiando
+      institutions: Fachadas de empresas que forman parte del proyecto
+      logo_lambo: Logotipo de da LAMBO (UFMS)
+      logo_lodi: Logotipo de da Lodi UEPG
+    app:
+      apresentation: Un teléfono celular que muestra la pantalla de registro de pacientes del sistema Cfaz.net
+      apple: Logotipo de da apple store
+      google: Logotipo de da google play console
+    btn_link: Icono que simboliza ir a otra pantalla
+    benefits:
+      ris_pacs_online: Icono de engranaje
+      anvisa: Icono de insignia verificada
+      lgpd: Icono de un monitor con datos protegidos
+      teleradiology: Icono de computadora
+      dicom_integration: Icono de una computadora con sistemas integrados
+      api_interoperability: Icono de sistemas vinculados a un engranaje
+      humanized_technical_support: Icono de un asistente con auriculares
+      google_cloud_platform: Icono de una computadora y un celular conectados en la nube
+      storage: Icono de una computadora conectada a la nube
+      artificial_intelligence: Icono de inteligencia artificial
+      financial_management: Un icono de informe
+      multiclinic_management: Icono de computadora
+      agreement_management: Icono de personas tomadas de la mano y un engranaje al fondo
+      invoice_issuance: Icono de una factura con un símbolo de dinero
+      customizable_reports: Icono de un informe con un gráfico
+      pep: Icono de carpeta de archivos
+      online_calendar: Icono de dos burbujas de comentarios
+      digital_signature: Icono de una pantalla con firma digital
+      financial_strategic_management: Gestión Financiera y Estratégica
+      voice_report: Icono de código QR
+      customizable_reports: Icono de un informe con gráficos
+      3d_views: Icono de una persona en un escáner CT
+  hospitals: El médico con estetoscopio escribe en papel con un bolígrafo y tiene la otra mano apoyada en una computadora
+  radiology: Una mujer con mascarilla y guantes analiza una radiografía dental en la computadora
+  odontology_medicine: Vista lateral de un hombre de atención médica con uniforme azul escribiendo en una computadora
+  vet: Una mujer analiza una radiografía que sostiene en sus manos y un perro está a su lado
+  services_features:
+    ris_pacs: Ícono de un celular y una tablet conectados por un servidor. Transmisión de información en dispositivos móviles
+    api_Interoperability: Ícono de una computadora conectada por diferentes sistemas que simboliza la interoperabilidad
+    storage: Ícono de un celular y una tablet conectados por un servidor. Transmisión de información en dispositivos móviles
+    teleradiology:
+      apresentation: Pantalla de pedido del software Cfaz.net con nombres de pacientes
+      testimony: Foto de la Dra. Mónica
+    humanized_support: 
+      apresentation: Ícono de un asistente virtual de Cfaz.net con auriculares y mirando una computadora
+      testimony: Foto de Cristiane
+    google_cloud_platform: Ícono de archivos con el logo de Google Cloud Platform con un candado
+    dicom: Ícono de una mujer haciendo un examen de radiología a un hombre mientras otro hombre escribe en la computadora
+    ia: Pantalla del sistema Cfaz.net con un examen de cefalometría
+    lgpd: Ícono de un hombre ingresando información en una caja fuerte (seguridad de datos)
+    views_3d_mpr: Pantalla del software Cfaz.net con edición de un examen dental
+    online_agenda: Pantalla de citas de Cfaz.net
+    pep: Pantalla PEP de Cfaz.net
+    financial_management: Pantalla de un informe financiero de Cfaz.net
+    management_agreements_glossaries: Pantalla de acuerdos de Cfaz.net
+    digital_signature: Pantalla del sistema Cfaz.net con firma digital
+    invoices: Pantalla de Cfaz.net para emisión de facturas
+    multiclinic_management:
+      apresentation: Pantalla del sistema Cfaz.net con varias clínicas
+      testimony: Foto de Guilherme
+    customizable_reports: Pantalla de un informe de Cfaz.net con los exámenes realizados
+    financial_strategic_management: Ícono de un hombre con una lupa gigante en sus manos mirando un gráfico. Una mujer observa
+    management_flow: Icono de flujo de gestión de Cfaz
+    voice_report: Pantalla de emisión de informes de Cfaz.net
+  about_us: Foto del equipo de Cfaz en el encuentro
+  team: Miembro del equipo Cfaz.net

@@ -1,895 +1,338 @@
-/**
-* Template Name: Bootslander - v4.1.0
-* Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Fonts
---------------------------------------------------------------*/
-body{
-  position: relative;
+.btn-icon{
+  width: 22px;
+  height: 22px;
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-body, h1, h2, h3, h4, h5, h6, a, p, span, button, small{
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  color: #444444;
+.background{
+  background-image: url(../img/background/background.png);
+  background-size: cover;
 }
 
-p, a, small{
-  color: #9D9D9D;
-  margin: 0;
-}
-
-a{
-  text-decoration: none;
-}
-
-.hover_underline:hover{
-  text-decoration: underline;
-}
-
-h1{
-  font-size: 112px;
-  line-height: 120%;
-}
-h2{
-  font-size: 31px;
-  line-height: 120%;
-}
-h3{
-  font-size: 21px;
-  line-height: 120%;
-}
-p{
-  font-size: 16px;
-  line-height: 150%;
-}
-small{
-  font-size: 12px;
-  line-height: 120%;
-}
-b{
-  font-weight: bold;
-}
-
-/*--------------------------------------------------------------
-# Spacing
---------------------------------------------------------------*/
-/*Margin-top*/
-.mt-80{margin-top: 80px}
-.mt-64{margin-top: 64px}
-.mt-48{margin-top: 48px}
-.mt-40{margin-top: 40px}
-.mt-32{margin-top: 32px}
-.mt-24{margin-top: 24px}
-.mt-16{margin-top: 16px}
-.mt-8{margin-top: 8px}
-
-/*Margin-bottom*/
-.mb-80{margin-bottom: 80px}
-.mb-64{margin-bottom: 64px}
-.mb-54{margin-bottom: 54px}
-.mb-40{margin-bottom: 40px}
-.mb-32{margin-bottom: 32px}
-.mb-24{margin-bottom: 24px}
-.mb-16{margin-bottom: 16px}
-.mb-8{margin-bottom: 8px}
-
-/*Margin-right*/
-.mr-16{margin-right: 16px}
-
-/*Margin-left*/
-.ml-16{margin-left: 16px}
-
-/*Padding*/
-.p-48{padding: 48px}
-.p-32{padding: 32px}
-.p-24{padding: 24px}
-.p-16{padding: 16px}
-
-/*Padding-top*/
-.pt-80{padding-top: 80px}
-.pt-64{padding-top: 64px}
-.pt-40{padding-top: 40px}
-
-/*Padding-bottom*/
-.pb-80{padding-bottom: 80px}
-.pb-64{padding-bottom: 40px}
-.pb-40{padding-bottom: 40px}
-
-/*--------------------------------------------------------------
-# Disable AOS delay on mobile
---------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
-
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-#header {
-  width: 100%;
-  height: 80px;
-  transition: all 0.5s;
-  z-index: 997;
-  transition: all 0.5s;
-  background-color: rgba(231, 152, 36, 0.9);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-#header.header-transparent {
-  background-color: transparent;
-}
-
-#header.header-scrolled {
-  background-color: #E79824;
-  height: 60px;
-}
-
-#header.header-scrolled .btn-tertiary{
-  background-color: #EBA947;
-}
-
-#header.header-scrolled .btn-tertiary:hover{
-  background-color: #AF6625;
-}
-
-.logo{
-  width: 150px;
-}
-
-.locale img{
-  filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
-}
-
-.locale img:hover{
-  filter: none; /* IE6-9 */
-  -webkit-filter: grayscale(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
-}
-
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-.navbar {
-  padding: 0;
-}
-
-.navbar ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
-
-.navbar li {
-  position: relative;
-}
-
-.navbar a {
-  font-family: 'Open Sans', sans-serif;
+header .offcanvas-body .nav-link{
   font-size: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 8px 16px;
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.7);
-  white-space: nowrap;
-  transition: 0.3s;
 }
 
-.navbar .btn-tertiary{
-  margin-left: 16px;
-  margin-right: 16px;
-  border-radius: 4px;
-  background-color: #E79824;
-  color: #FFFFFF;
-}
-
-.navbar .btn-tertiary:hover{
-  background-color: #AF6625;
-  color: #FFFFFF;
-}
-
-.navbar .btn-tertiary a{
-  padding: 10px;
-}
-
-
-.navbar a i {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: 5px;
-}
-
-.navbar > ul > li > .nav-link:before {
-  content: "";
-  position: absolute;
-  height: 2px;
-  bottom: 3px;
-  left: 16px;
-  background-color: #AF6625;
-  visibility: hidden;
-  width: 0px;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
-  visibility: visible;
-  width: 25px;
-}
-
-.navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #fff;
-}
-
-.navbar .dropdown ul {
-  display: block;
-  position: absolute;
-  left: 0px;
-  top: calc(100% + 30px);
-  margin: 0;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 0;
-  visibility: hidden;
-  background-color: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.navbar .dropdown a{
-  cursor: pointer;
-}
-
-.navbar .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar .dropdown ul a {
-  padding: 10px 20px;
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: none;
-  color: #E79824;
-}
-
-.navbar .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar .nav-divider {
-  width: 1px;
-  height: 21px;
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #AF6625;
-}
-
-.navbar .dropdown:hover > ul {
-  opacity: 1;
-  top: 100%;
-  visibility: visible;
-}
-
-.navbar .dropdown .dropdown ul {
-  top: 0;
-  left: calc(100% - 30px);
-  visibility: hidden;
-}
-
-.navbar .dropdown .dropdown:hover > ul {
-  opacity: 1;
-  top: 0;
-  left: 100%;
-  visibility: visible;
-}
-
-@media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
-  .navbar .dropdown .dropdown:hover > ul {
-    left: -100%;
-  }
-}
-
-/* Mobile Navigation */
-.mobile-nav-toggle {
-  color: #fff;
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  line-height: 0;
-  transition: 0.5s;
-}
-
-@media (max-width: 991px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
-  .navbar ul {
-    display: none;
-  }
-}
-
-.navbar-mobile {
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  transition: 0.3s;
-  z-index: 999;
-}
-
-.navbar-mobile .mobile-nav-toggle {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-
-.navbar-mobile ul {
-  display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
-  border-radius: 8px;
-  background-color: #fff;
-  overflow-y: auto;
-  transition: 0.3s;
-}
-
-.navbar-mobile > ul > li > a:before {
-  left: 20px;
-}
-
-.navbar-mobile a {
-  padding: 10px 20px;
-  font-size: 15px;
-  color: #E79824;
-}
-
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #E79824;
-}
-
-.navbar-mobile .getstarted {
-  margin: 15px;
-}
-
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 0 20px 10px 20px;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background-color: transparent;
-  box-shadow: none;
-}
-
-.navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #AF6625;
-}
-
-.navbar-mobile .dropdown > .dropdown-active {
-  display: block;
-}
-
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background-color: #fff;
-}
-
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #AF6625;
-  border-top-color: #EBA947;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
-}
-
-@-webkit-keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/*--------------------------------------------------------------
-# Buttons
---------------------------------------------------------------*/
-/* btn-primary */
-.btn-primary {
-  font-weight: 500;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 16px;
-  border-radius: 15px;
-  transition: 0.5s;
-  color: #E79824;
-  background-color: #FFFFFF;
-  border: 1px solid #E79824;
-}
-  
-.btn-primary:hover {
-  color: #AF6625;
-  background-color: #FFFFFF;
-  border: 1px solid #AF6625;
-}
-
-.btn-primary:active, 
-.btn-primary:focus,
-.btn-primary:active:focus {
-  color: #EBA947;
-  background-color: #FFFFFF;
-  border: 1px solid #EBA947;
-  box-shadow: 0 0 0 0.25rem rgb(235 169 71 / 50%);
-}
-
-/* btn-secondary */
-.btn-secondary {
-  font-weight: 500;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 16px;
-  border-radius: 15px;
-  transition: 0.5s;
-  color: #FFFFFF;
-  background-color: #4E4D4D;
-  border: 1px solid #4E4D4D;
-}
-  
-.btn-secondary:hover {
-  color: #FFFFFF;
-  background-color: #292929;
-  border: 1px solid #4E4D4D;
-}
-
-.btn-secondary:active, 
-.btn-secondary:focus,
-.btn-secondary:active:focus {
-  color: #FFFFFF;
-  border: 1px solid #8F8F8F;
-  box-shadow: 0 0 0 0.25rem rgb(143 143 143 / 50%);
-}
-
-/* btn-back-to-top */
-.back-to-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background-color: #E79824;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  transition: all 0.4s;
-}
-
-.back-to-top i {
-  font-size: 28px;
-  color: #FFFFFF;
-  line-height: 0;
-}
-
-.back-to-top:hover {
-  background-color: #AF6625;
-  color: #FFFFFF;
-}
-
-.back-to-top.active {
-  visibility: visible;
-  opacity: 1;
-}
-
-/*--------------------------------------------------------------
-# Colors
---------------------------------------------------------------*/
-.text-primary{
-  color: #E79824 !important;
-}
-
-.text-secondary{
-  color: #4E4D4D !important;
-}
-
-.bg-primary{
-  background-color: #E79824 !important;
-}
-
-/*--------------------------------------------------------------
-# Config
---------------------------------------------------------------*/
-img{
-  max-width: 100%;
-}
-
-.divider{
-  width: 100%;
-  height: 1px;
-  background-color: #D4D4D4;
-}
-
-.card_header{
-  width: 100%;
-  border: none;
-  border-radius: 15px;
-}
-
-/*--------------------------------------------------------------
-# Index / Inicial
---------------------------------------------------------------*/
-#hero {
+#hero{
   width: 100%;
   background: url("../img/headers/home.webp");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 190px 0 72px 0;
+  margin: 90px 0 48px 0;
   border-radius: 0 0 0 130px;
 }
 
-#hero .animated {
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+#hero.hero-initial{
+  background-image: url(../img/background/header_graphic.png);
+  background-size: 200px;
+  background-position-y: bottom;
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 991px) {
-  #hero {
-    padding-top: 80px;
-  }
-  #hero .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-  #hero .hero-img {
-    text-align: center;
-  }
-  #hero .hero-img img {
-    max-width: 50%;
-  }
-}
-
-@media (max-width: 575px) {
-  #hero .hero-img img {
-    width: 80%;
-  }
-}
-
-@-webkit-keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
-
-@keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
-
-/*--------------------------------------------------------------
-# Soluções
---------------------------------------------------------------*/
-#solutions .card{
-  border-radius: 15px;
-  border-color: #E79824 !important;
-  min-height: 180px;
-  height: 100%;
-}
-
-#solutions .card-body{
-  padding: 30px;
-}
-
-#solutions .card-footer{
-  background-color: transparent;
-  border: none;
-}
-
-#solutions .card:hover{
-  transition: all ease-in-out 0.4s;
-  border-color: #AF6625 !important;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
-}
-
-#solutions .card:hover h6 b{
-  transition: all ease-in-out 0.4s;
-  color: #AF6625;
-}
-
-#solutions .card:hover .card-footer p b{
-  transition: all ease-in-out 0.4s;
-  color: #AF6625;
-}
-
-/*--------------------------------------------------------------
-# Inteligência artificial
---------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------
-# Depoimentos
---------------------------------------------------------------*/
-#testimony img{
-  width: 60px;
-  height: 60px;
-  margin-right: 8px;
-  border: 2px solid #FFFFFF;
-  border-radius: 100%;
-}
-
-#testimony .swiper-pagination{
-  position: relative;
-}
-
-#testimony .swiper-pagination .swiper-pagination-bullet{
-  width: 8px;
-  height: 8px;
-  background-color: #FFFFFF;
-  margin: 0 4px;
-}
-
-#testimony .swiper-container-horizontal>.swiper-pagination-bullets{
-  bottom: 0;
-}
-
-/*--------------------------------------------------------------
-# Fale Conosco
---------------------------------------------------------------*/
-#contact_us img{
-  margin-right: 8px;
-}
-
-#contact_us .card{
-  border-radius: 30px;
-  padding: 48px;
-}
-
-#contact_us small{
-  color: #9D9D9D;
-}
-
-/*--------------------------------------------------------------
-# Benefícios
---------------------------------------------------------------*/
-#benefit_home{
-  background-image: url("../img/benefícios.webp");
+#title-hospitais,
+#title-radiology,
+#title-odontologia-medicina,
+#title-vet,
+#title-about,
+#title-privacy-policy{
   background-size: cover;
-  background-attachment: fixed;
-  padding: 54px;
-}
-
-#benefit_home img{
-  width: 65px;
-  margin-right: 32px;
-}
-
-/*--------------------------------------------------------------
-# Tomografia
---------------------------------------------------------------*/
-#tomography img{
-  width: 50%;
-  margin-left: 8px;
-  margin-right: 8px;
-}
-
-#tomography .tomography-images{
-  display: flex;
-  justify-content: center;
-}
-
-/*--------------------------------------------------------------
-# Telerradiologia
---------------------------------------------------------------*/
-#teleradiology{
-  background-image: url("../img/telerradiologia.webp");
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 54px;
-}
-
-#teleradiology .card{
-  padding: 48px 56px;
-  margin-left: 16px;
-  margin-right: 16px;
-  max-height: 315px;
-  border-radius: 15px;
-  border: none;
-}
-
-/*--------------------------------------------------------------
-# Programa de benefícios
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-# Programa de benefícios
---------------------------------------------------------------*/
-#benefits_program .partners-container{
-  background-color: #EDE9F0;
+  margin-top: 64px;
   padding: 24px 0;
 }
 
-#benefits_program .swiper-slide{
-  background-color: #FFFFFF;
-  height: 96px;
-  border-radius: 5px;
-  margin-bottom: 30px;
+/* Planos / plans */
+#plans{
+  background-image: url(../img/background/plans.png);
+  background-size: contain;
+  background-position-y: 170px;
+  background-repeat: no-repeat;
 }
 
-#benefits_program .swiper-container-horizontal>.swiper-pagination-bullets{
+#plans .card,
+#plans-values .card{
+  border-radius: 20px 60px 20px 60px;
+  border: none;
+}
+
+#plans h1,
+#plans-values h1{
+  font-size: 20px;
+}
+
+/* Veterinaria */
+#vet .vet-graphic-image{
+  background-image: url(../img/background/bg-vet.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Onde estamos */
+#countries{
+  background-image: url(../img/background/bg-onde-estamos.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#countries .swiper-slide{
+  position: relative;
+  background-color: var(--bs-white-light);
+  height: 130px;
+  border-radius: 10px 40px 10px 40px;
+  margin-bottom: 30px;
+  border: 1px solid var(--bs-gray-light);
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+
+#countries .swiper-container-horizontal>.swiper-pagination-bullets,
+#benefits-program .swiper-container-horizontal>.swiper-pagination-bullets,
+#values .swiper-container-horizontal>.swiper-pagination-bullets{
   bottom: 0;
 }
 
-#benefits_program .swiper-slide img{
-  width: 90%;
-  height: auto;
-  padding: 28px;
-}
-
-#benefits_program .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
-  background-color: #E79824;
-}
-
-/*--------------------------------------------------------------
-# Meio ambiente
---------------------------------------------------------------*/
-#environment{
-  padding: 64px 0;
-}
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer{
-  background-color: #4E4D4D;
-  padding-top: 64px;
-}
-
-#footer .footer-item{
-  display: flex;
-  align-items: center;
-  justify-content: start;
-}
-
-#footer p, #footer a{
-  color: #9D9D9D;
-}
-
-#footer .footer-item img{
-  width: 24px;
-  margin-right: 8px;
-}
-
-#footer .footer-container{
-  display: flex; 
-  justify-content: space-between;
-}
-
-footer .blazon img{
-  max-width: 100px;
-  max-height: 60px;
-}
-
-footer .app-mobile{
-  display: inline-grid;
-}
-
-footer .app-mobile img{
-  margin-bottom: 10px;
-}
-
-#footer .footer-item small{
-  margin: 0 5px;
-}
-
-/*-------------------------------------------------------------------------------------------------
-# SOBRE A CFAZ
--------------------------------------------------------------------------------------------------*/
-#about_hero{
-  width: 100%;
-  background: url("../img/headers/sobre.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 110px 0 32px 0;
-}
-
-#about span{
-  color: #9D9D9D;
-}
-
-#about #image{
-  width: 100%;
-  height: 250px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #E79824;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  border-radius: 15px;
-}
-
-#about .disappear{
-  display: none !important;
-}
-
-#purpose_view .item img{
-  width: 32px;
-}
-
-#purpose_view .item{
+#countries .swiper-slide img{
+  width: auto;
   height: 100%;
-  border-radius: 15px;
+  padding: 0px;
+  border-radius: 10px 40px 10px 40px;
+}
+
+#benefits-program .swiper-slide img{
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  border-radius: 10px 40px 10px 40px;
+}
+
+#countries .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+#benefits-program .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+#values .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+  background-color: var(--bs-white-light);
+  border: 1px solid var(--bs-primary);
+}
+
+#countries .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active,
+#benefits-program .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active,
+#values .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active{
+  background-color: var(--bs-primary);
+}
+
+#countries .segment .front,
+#countries .segment .back{
+  position: absolute;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+}
+
+#countries .segment .front{
+  transform: rotateY(0deg);
+}
+
+#countries .segment .back{
+  transform: rotateY(180deg);
+}
+
+#countries .segment:hover .front{
+  transform: rotateY(-180deg);
+}
+
+#countries .segment:hover .back{
+  transform: rotateY(0deg);
+}
+
+/* Depoimentos */
+#customer-testimonial .card{
+  background-size: auto;
+}
+
+#customer-testimonial iframe,
+#cfaz-science iframe{
+  margin-top: -32px;
+  border-radius: 10px;
+}
+
+/* Informações */
+#security-credibility .card{
+  border-radius: 20px 60px 20px 60px;
+  height: 100%;
+}
+
+#security-credibility .card-title,
+#environment .text-environment{
+  font-size: 2.25rem;
+  line-height: 120%;
+}
+
+/* Planos - Valores */
+#environment{
+  background-image: url(../img/background/environment.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Contatos */
+#contato .card-technical-support,
+#contato .card-financial{
+  height: 290px;
+}
+
+#contato .card-sales{
+  background-image: url(../img/background/bg_contact_sales.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 374px; 
+  margin-top: -32px;
+}
+
+/* Programa de Benefícios */
+#benefits-program .swiper-slide{
+  background-color: var(--bs-white-light);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/* Rodapé */
+#footer{
+  background-image: url(../img/background/bg-footer.png);
+  background-size: auto;
+}
+
+#footer .locale img{
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+}
+
+#footer .locale img:hover{
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+/* Hospitais */
+#title-hospitais{
+  background-image: url(../img/background/bg-hospitais.png);
+}
+
+/* Anvisa */
+#anvisa .anvisa-graphic-image{
+  background-image: url(../img/background/bg-anvisa.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#anvisa .anvisa-image{
+  background-image: url(../img/servicos-funcionalidades/certificacao-anvisa.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Planos sob medida (hospitais, centrais de laudo e centros de radiologia) */
+#tailor-made-plans .plan-v{
+  background-image: url(../img/icons/plano-v.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+  width: 16px;
+  height: 16px;
+}
+
+#tailor-made-plans .plan-x{
+  background-image: url(../img/icons/plano-x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+#tailor-made-plans tr th{
+  width: 200px;
+  max-width: 200px !important;
+  font-weight: normal !important;
+}
+
+/* Radiologia */
+#title-radiology{
+  background-image: url(../img/background/bg-radiologia.png);
+}
+
+/* Odontologia e Medicina */
+#title-odontologia-medicina{
+  background-image: url(../img/background/bg-odontologia-medicina.png);
+}
+
+/* Veterinaria */
+#title-vet{
+  background-image: url(../img/background/bg-vet.png);
+}
+
+#informations .vet-graphic-image{
+  background-image: url(../img/background/bg-vet-right.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Sobre */
+#title-about{
+  background-image: url(../img/background/bg-about.png);
+}
+
+#mission.card{
+  background-image: url(../img/icons/icone-missao.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+#view.card{
+  background-image: url(../img/icons/icone-visao.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+#values .values-container{
+  background-image: url(../img/icons/icone-valores.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+#team .nav .nav-link{
+  cursor: pointer;
+  border-left: 4px solid transparent;
+}
+
+#team .nav-link:hover,
+#team .nav-link.active{
+  border-left: 4px solid var(--bs-cta);
+  color: var(--bs-cta);
 }
 
 #team .card{
@@ -899,15 +342,6 @@ footer .app-mobile img{
 
 #team .informations{
   padding: 8px 16px;
-}
-
-#team .btn{
-  border: 2px solid transparent;
-}
-
-#team .btn:hover,
-#team .btn.active{
-  border: 2px solid #E79824;
 }
 
 #team .team{
@@ -927,7 +361,7 @@ footer .app-mobile img{
   z-index: 1;
 }
 
-.team .wave {
+.team .wave{
   position: absolute;
   right: -100%;
   top: 30px;
@@ -938,273 +372,137 @@ footer .app-mobile img{
   z-index: 2;
 }
 
-.filter {
+.filter{
   display: none;
 }
 
-.show {
+.show{
   display: block;
 }
 
-/*-------------------------------------------------------------------------------------------------
-# RADIOLOGIA ODONTOLOGICA
--------------------------------------------------------------------------------------------------*/
-#dental_radiology_hero{
+/* Formulários hubspot */
+#newsletter form{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.hs-button{
+  font-size: 12px;
+  margin-top: 16px;
+  float: inline-end;
+}
+
+#newsletter .hs-button{
+  font-size: 16px;
+  margin-left: 1rem;
+  margin-top: 0;
+}
+
+#newsletter .hs_email{
+  min-width: 400px;
+}
+
+#newsletter .hs-error-msgs{
+  position: absolute;
+}
+
+.hs-input[type=text],
+.hs-input[type=email],
+.hs-input[type=tel],
+select.hs-input{
+  --bs-btn-padding-x: 1.5rem;
+  --bs-btn-padding-y: 0.5rem;
+  display: block;
   width: 100%;
-  background: url("../img/headers/radiologia_odontologica.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding: 160px 0 72px 0;
-  border-radius: 0 0 0 130px;
-}
-
-/*--------------------------------------------------------------
-# Benefícios
---------------------------------------------------------------*/
-#benefit_transformation img,
-#benefit_productivity img{
-  width: 65px;
-  margin-right: 32px;
-}
-
-/*-------------------------------------------------------------------------------------------------
-# CENTROS MÉDICOS
--------------------------------------------------------------------------------------------------*/
-#medical_centers_hero{
-  width: 100%;
-  background: url("../img/headers/centros_medicos.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding: 160px 0 72px 0;
-  border-radius: 0 0 0 130px;
-}
-
-/*-------------------------------------------------------------------------------------------------
-# TELERRADIOLOGIA
--------------------------------------------------------------------------------------------------*/
-#teleradiology_hero{
-  width: 100%;
-  background: url("../img/headers/teleradiologia.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding: 160px 0 72px 0;
-  border-radius: 0 0 0 130px;
-}
-
-/*-------------------------------------------------------------------------------------------------
-# ODONTOLOGIA
--------------------------------------------------------------------------------------------------*/
-#odontology_hero{
-  width: 100%;
-  background: url("../img/headers/odontologia.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding: 160px 0 72px 0;
-  border-radius: 0 0 0 130px;
-}
-
-/*-------------------------------------------------------------------------------------------------
-# ESTUDANTES E INSTITUIÇÕES DE ENSINO
--------------------------------------------------------------------------------------------------*/
-#students_institutions_hero{
-  width: 100%;
-  background: url("../img/headers/home.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding: 160px 0 72px 0;
-  border-radius: 0 0 0 130px;
-}
-
-#cfazCiencia .enterprise img{
-  width: 70px;
-  margin: 16px 8px;
-}
-
-#phrase{
-  width: 100%;
-  background: url("../img/estudantes_instituicoes_fundo_frase.jpg");
-  background-attachment: fixed;
-  padding: 160px 0;
-}
-
-/*--------------------------------------------------------------
-# Message Cookies
---------------------------------------------------------------*/
-#cookieNotice{
-  position: fixed; 
-  z-index: 1;
-  left: 15px;
-  right: 1rem;
-  bottom: 2rem;
-  background-color: #ffffff;
+  padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   border-radius: 10px;
-  box-shadow: 0px 0px 1em;
-}
-.cookiesModal{
-  display: grid;
-  grid-template-columns: auto auto;
-  align-items: center;
-  padding: 15px;
 }
 
-/*-------------------------------------------------------------------------------------------------
-# RESPONSIVO
--------------------------------------------------------------------------------------------------*/
-@media screen and (max-width: 720px){
-  #testimony{
-    width: 100%;
-    border-radius: 0;
-  }
-
-  [data-aos] {
-    transform: initial;
-    transition-duration: 0s;
-  }
-
-  #benefit_home, #teleradiology{
-    padding: 54px 0;
-  }
+#newsletter .hs-input[type=email]{
+  border-radius: 40px;
 }
 
-@media screen and (max-width: 992px){
-  #header .navbar{
-    order: 3;
-  }
-
-  #header .locale{
-    order: 2;
-  }
-
-  #contact_us .card{
-    border: none;
-    margin-top: 32px;
-    padding: 24px;
-  }
-
-  #benefit_home img {
-    margin-right: 16px;
-  }
-
-  #tomography img{
-    width: 90%;
-  }
-
-  #tomography .tomography-images{
-    display: contents;
-    text-align: center;
-  }
-
-  #teleradiology .card {
-    padding: 24px 32px;
-  }
-
-  #footer{
-    text-align: center;
-  }
-
-  #footer .footer-container{
-    display: inline;
-  }
-
-  #footer .footer-mobile{
-    margin-top: 40px;
-  }
-
-  #footer .footer-item{
-    display: flex;
-    justify-content: center;
-  }
-
-  #newsletter{
-    text-align: center;
-  }
-
-  .navbar .btn-tertiary{
-    margin-top: 20px;
-  }
-
-  .navbar .btn-tertiary a,
-  .navbar .btn-tertiary a:checked{
-    color: #FFFFFF;
-  }
-
-  .mobile-none{
-    display: none;
-  }
+.hs-input[type=checkbox]{
+  margin-right: 8px;
 }
 
-@media screen and (max-width: 768px){
-  h5{
-    font-size: 21px;
-    line-height: 120%;
-  }
-  h6{
-    font-size: 18px;
-    line-height: 120%;
-  }
-  p{
-    font-size: 16px;
-    line-height: 150%;
-  }
-  small{
-    font-size: 12px;
-    line-height: 120%;
-  }
-  
-  .mobile-reverse{
-    flex-direction: column-reverse;
-  }
-
-  #hero,
-  #students_institutions_hero,
-  #dental_radiology_hero,
-  #medical_centers_hero,
-  #teleradiology_hero,
-  #odontology_hero{
-    padding: 48px 0 20px 0;
-    border-radius: 0;
-    background-repeat: no-repeat;
-  }
-
-  #solutions .card {
-    min-height: 120px;
-  }
+.hs-form-field label{
+  font-size: 12px;
+  margin-top: 16px;
+  color: var(--bs-cta);
 }
 
-@media screen and (max-width: 500px){
-  .mt-64{
-    margin-top: 32px;
-  }
+.inputs-list{
+  padding: 0;
+}
 
-  .mt-32, .mt-40{
-    margin-top: 16px;
-  }
+.inputs-list li{
+  list-style-type: none;
+}
 
-  #environment h1{
-    font-size: 50px;
-  }
+.inputs-list li label{
+  margin: 0;
+  color: var(--bs-primary);
+}
 
-  .navbar .nav-divider{
-    display: none;
-  }
+/* Politica de Privacidade */
+#privacy-policy p,
+#privacy-policy b{
+  color: var(--bs-primary-light);
+}
 
-  .navbar > ul > li > .nav-link:before{
-    height: 0;
-  }
+#privacy-policy h2{
+  color: var(--bs-primary);
+  font-weight: bold;
+}
 
-  .btn-tertiary{
-    background-color: #FFFFFF;
-    border-radius: 0;
-    color: #E79824;
-  }
+/* btn-back-to-top */
+.back-to-top{
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background-color: #E79824;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
 
-  .btn-tertiary:hover {
-    background-color: #FFFFFF;
-    color: #AF6625;
-  }
+.back-to-top i{
+  font-size: 28px;
+  color: #FFFFFF;
+  line-height: 0;
+}
+
+.back-to-top:hover{
+  background-color: #AF6625;
+  color: #FFFFFF;
+}
+
+.back-to-top.active{
+  visibility: visible;
+  opacity: 1;
+}
+
+#hospital .card{
+  width: 100%;
+}
+
+#management-flow .disappear{
+  display: none;
 }

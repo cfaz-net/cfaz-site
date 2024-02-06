@@ -3,413 +3,938 @@ layout: default
 ---
 
 <!-- ======= Hero ======= -->
-<section id="hero">
-  <div class="container">
-    <div class="row justify-content-between">
-      <div class="col-lg-8 pt-5 order-2 order-lg-1 d-flex align-items-center">
-        <div data-aos="zoom-out">
-          <h2 class="text-white"><strong>{% t navigation.main.slider.index_title %}</strong></h2>
-          <p class="text-white mt-8">{% t navigation.main.slider.index_subtitle %}</p>
-          <div class="text-lg-start">
-            <a class="btn btn-primary mb-8 mt-16" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
+<section id="hero" class="hero-initial">
+  <div class="container-xxl">
+    <div class="row align-items-center justify-content-around">
+      <div class="col-lg-8 col-md-7 text-center text-md-start" data-aos="zoom-in">
+        <h2 class="h4 d-inline">{% t navigation.main.index.hero %}</h2>
+      </div>
+      <img class="col-3 col-md-5 col-lg-4" src="./assets/img/header.png" class="img-fluid" alt="{% t alt.index.hero.header %}" data-aos="zoom-in">
+    </div>
+    <div class="text-center mt-2 aos-init d-none d-md-block">
+      <img src="./assets/img/icons/header_button_down.png" width="40" loading="lazy" alt="{% t alt.index.hero.button %}">
+    </div>
+  </div>
+</section>
+
+<!-- ======= Planos ======= -->
+<section id="plans" class="mb-5">
+  <div class="container-fluid text-center">
+    <a class="btn btn-secondary d-inline-flex justify-content-between align-items-center d-none" target="_blank" href="https://max.cfaz.net/users/sign_in" data-aos="fade-up">
+      <img class="me-3" src="./assets/img/icons/btn_cloud.png" loading="lazy" alt="{% t alt.index.plans.btn_free_starter_plan %}">
+      <span>{% t navigation.main.index.plans.free_starter_plan %}</span>
+    </a>
+
+    <div class="row gy-3" data-aos="fade-up">
+      <div class="col-lg-4">
+        <div class="card shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plan_telerradiologia.png" width="40" loading="lazy" alt="{% t alt.index.plans.teleradiology %}">
+            <h1 class="card-title mt-3 mb-0">{% t navigation.main.index.plans.teleradiology %}</h1>
+            <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-3" data-bs-toggle="modal" data-bs-target="#modal_telerradiologia">
+              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
+              <span>{% t navigation.main.index.button_contact %}</span>
+            </button>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 order-1 position-relative mobile-none" data-aos="zoom-out">
-        <img class="col-lg-12 position-absolute" src="assets/img/headers/home_nuvem.png" class="img-fluid" alt="{% t alt.cloud %}">
-        <img class="col-lg-12 position-absolute mt-48 animated" src="assets/img/headers/home_notebook.webp" class="img-fluid" alt="{% t alt.laptop %}">
+      <div class="col-lg-4">
+        <div class="card shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plan_consultorio.png" width="40" loading="lazy" alt="{% t alt.index.plans.consulting_room %}">
+            <h1 class="card-title mt-3 mb-0">{% t navigation.main.index.plans.consulting_room %}</h1>
+            <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-3" data-bs-toggle="modal" data-bs-target="#modal_consultorios">
+              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
+              <span>{% t navigation.main.index.button_contact %}</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plan_clinicas.png" width="40" loading="lazy" alt="{% t alt.index.plans.clinics %}">
+            <h1 class="card-title mt-3 mb-0">{% t navigation.main.index.plans.clinics %}</h1>
+            <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-3" data-bs-toggle="modal" data-bs-target="#modal_clinicas">
+              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
+              <span>{% t navigation.main.index.button_contact %}</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plan_centro_radiologia.png" width="40" loading="lazy" alt="{% t alt.index.plans.radiology_centers %}">
+            <h1 class="card-title mt-3 mb-0">{% t navigation.main.index.plans.radiology_centers %}</h1>
+            <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-3" data-bs-toggle="modal" data-bs-target="#modal_centros_radiologia">
+              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
+              <span>{% t navigation.main.index.button_contact %}</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plan_centrais_laudo.png" width="40" loading="lazy" alt="{% t alt.index.plans.reporting_centers %}">
+            <h1 class="card-title mt-3 mb-0">{% t navigation.main.index.plans.reporting_centers %}</h1>
+            <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-3" data-bs-toggle="modal" data-bs-target="#modal_centrais_laudo">
+              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
+              <span>{% t navigation.main.index.button_contact %}</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plan_hospitais.png" width="40" loading="lazy" alt="{% t alt.index.plans.hospitals %}">
+            <h1 class="card-title mt-3 mb-0">{% t navigation.main.index.plans.hospitals %}</h1>
+            <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-3" data-bs-toggle="modal" data-bs-target="#modal_hospitais">
+              <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
+              <span>{% t navigation.main.index.button_contact %}</span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ======= Sobre a Cfaz ======= -->
-<section id="about" class="mt-64">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-sm-12 aos-init" data-aos="fade-right">
-        <h2>{% t navigation.main.about.title %}</h2>
-        <p class="mt-32">{%t navigation.main.about.subtitle %}</p>
-        <p class="mt-40 mb-16"><a href="about.html" class="text-primary hover_underline"><strong>{% t navigation.main.about.read_more %}</strong></a></p>
+<!-- ======= Hospitais ======= -->
+<section id="hospital" class="background pt-5 pb-4">
+  <div class="container-xxl">
+    <section class="row align-items-center justify-content-between" data-aos="fade-up">
+      <div class="col-md-6 col-sm-12">
+        <h1 class="h3 text-primary"><strong>{% t navigation.main.index.plans.hospitals %}</strong></h1>
+        <p>{% t navigation.main.index.hospital.text %}</p>
+        <p>{% t navigation.main.index.hospital.text2 %}</p>
       </div>
-      <div class="col-md-6 col-sm-12" data-aos="fade-left">
-        <div id="video">
-          <iframe title="{% t alt.about.video %}" width="100%" height="315" src="https://www.youtube.com/embed/rU-TzkDtKBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div id="image" class="disappear">
-          <img alt="{% t alt.about.video %}" src="assets/img/Logo_Cfaz.net_nuvem.png" style="width:200px;">
+      <div class="col-md-6 text-center">
+        <img class="w-sm-100" src="./assets/img/hospital.png" loading="lazy" alt="{% t alt.hospitals %}">
+      </div>
+    </section>
+  </div>
+
+  <div class="container-fluid mt-5">
+    <section class="d-grid grid-template-columns" data-aos="fade-up">
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/ris_pacs_online.png" width="40" loading="lazy" alt="{% t alt.index.benefits.ris_pacs_online %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.ris_pacs_online %}</p>
         </div>
       </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/certificacao_anvisa.png" width="40" loading="lazy" alt="{% t alt.index.benefits.anvisa %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.anvisa %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/lgpd.png" width="40" loading="lazy" alt="{% t alt.index.benefits.lgpd %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.lgpd %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/telerradiologia.png" width="40" loading="lazy" alt="{% t alt.index.benefits.teleradiology %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.plans.teleradiology %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/integracao_dicom.png" width="40" loading="lazy" alt="{% t alt.index.benefits.dicom_integration %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.dicom_integration %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/api_interoperabilidade.png" width="40" loading="lazy" alt="{% t alt.index.benefits.api_interoperability %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.api_Interoperability %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/suporte_tecnico_humanizado.png" width="40" loading="lazy" alt="{% t alt.index.benefits.humanized_technical_support %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.humanized_technical_support %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/google_cloud_platform.png" width="40" loading="lazy" alt="{% t alt.index.benefits.google_cloud_platform %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.google_cloud_platform %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/armazenamento_20anos.png" width="40" loading="lazy" alt="{% t alt.index.benefits.storage %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.storage %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/inteligencia_artificial.png" width="40" loading="lazy" alt="{% t alt.index.benefits.artificial_intelligence %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.artificial_intelligence %}</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center mt-4" data-aos="fade-up">
+      <a class="btn btn-cta d-inline-flex justify-content-between align-items-center" href="hospitais.html">
+        <img class="me-3" src="./assets/img/icons/btn-link.png" width="16" loading="lazy" alt="{% t alt.index.btn_link %}">
+        <span>{% t navigation.main.index.button_know_more %}</span>
+      </a>
     </div>
   </div>
 </section>
 
-<!-- ======= Soluções ======= -->
-<section id="solutions" class="mt-64">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 mt-32" data-aos="fade-up">
-        <h2>{% t navigation.main.solutions.health %}</h2>
-        <p class="mt-16">{% t navigation.main.solutions.health_text %}</p>
+<!-- ======= Radiologia ======= -->
+<section id="radiology" class="pt-5 pb-4">
+  <div class="container-xxl">
+    <section class="row justify-content-between" data-aos="fade-up">
+      <div class="col-md-6 col-sm-12 order-2 order-md-1 text-center">
+        <img class="w-sm-100" src="./assets/img/radiologia-index.png" loading="lazy" alt="{% t alt.radiology %}">
       </div>
-      <div class="col-md-4 mt-32" data-aos="zoom-in-up" data-aos-delay="300">
-        <a href="dental_radiology.html" class="card border-3">
-          <div class="card-body text-center">
-            <h3 class="text-primary mb-16"><strong>{% t navigation.main.solutions.dental_radiology %}</strong></h3>
-            <p class="mb-8">{% t navigation.main.solutions.dental_radiology_text %}</p>
-          </div>
-        </a>
+      <div class="col-md-6 col-sm-12 order-1 order-md-2">
+        <h1 class="h3 text-primary"><strong>{% t navigation.main.index.radiologia.title %}</strong></h1>
+        <p>{% t navigation.main.index.radiologia.text %}</p>
+        <p>{% t navigation.main.index.radiologia.text2 %}</p>
+        <p>{% t navigation.main.index.radiologia.text3 %}</p>
       </div>
-      <div class="col-md-4 mt-32" data-aos="zoom-in-up" data-aos-delay="300">
-        <a href="medical_centers.html" class="card border-3">
-          <div class="card-body text-center">
-            <h3 class="text-primary mb-16"><strong>{% t navigation.main.solutions.medical_centers %}</strong></h3>
-            <p class="mb-8">{% t navigation.main.solutions.medical_center_text %}</p>
-          </div>
-        </a>
+    </section>
+  </div>
+  
+  <div class="container-fluid mt-5">
+    <section class="d-grid grid-template-columns" data-aos="fade-up">
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/ris_pacs_online.png" width="40" loading="lazy" alt="{% t alt.index.benefits.ris_pacs_online %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.ris_pacs_online %}</p>
+        </div>
       </div>
-      <div class="col-md-4 mt-32" data-aos="zoom-in-up" data-aos-delay="300">
-        <a href="teleradiology.html" class="card border-3">
-          <div class="card-body text-center">
-            <h3 class="text-primary mb-16"><strong>{% t navigation.main.solutions.teleradiology %}</strong></h3>
-            <p class="mb-8">{% t navigation.main.solutions.teleradiology_text %}</p>
-          </div>
-        </a>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/certificacao_anvisa.png" width="40" loading="lazy" alt="{% t alt.index.benefits.anvisa %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.anvisa %}</p>
+        </div>
       </div>
-      <div class="col-md-4 mt-32" data-aos="zoom-in-up" data-aos-delay="300">
-        <a href="odontology.html" class="card border-3">
-          <div class="card-body text-center">
-            <h3 class="text-primary mb-16"><strong>{% t navigation.main.solutions.odontology %}</strong></h3>
-            <p class="mb-8">{% t navigation.main.solutions.odontology_text %}</p>
-          </div>
-        </a>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/lgpd.png" width="40" loading="lazy" alt="{% t alt.index.benefits.lgpd %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.lgpd %}</p>
+        </div>
       </div>
-      <div class="col-md-4 mt-32" data-aos="zoom-in-up" data-aos-delay="300">
-        <a href="students_institutions.html" class="card border-3">
-          <div class="card-body text-center">
-            <h3 class="text-primary mb-16"><strong>{% t navigation.main.solutions.students_institutions %}</strong></h3>
-            <p class="mb-8">{% t navigation.main.solutions.students_institutions_text %}</p>
-          </div>
-        </a>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/telerradiologia.png" width="40" loading="lazy" alt="{% t alt.index.benefits.teleradiology %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.plans.teleradiology %}</p>
+        </div>
       </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/integracao_dicom.png" width="40" loading="lazy" alt="{% t alt.index.benefits.dicom_integration %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.dicom_integration %}</p>
+        </div>
+      </div>
+    
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/inteligencia_artificial.png" width="40" loading="lazy" alt="{% t alt.index.benefits.artificial_intelligence %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.artificial_intelligence %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/suporte_tecnico_humanizado.png" width="40" loading="lazy" alt="{% t alt.index.benefits.humanized_technical_support %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.humanized_technical_support %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/google_cloud_platform.png" width="40" loading="lazy" alt="{% t alt.index.benefits.google_cloud_platform %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.google_cloud_platform %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/armazenamento_20anos.png" width="40" loading="lazy" alt="{% t alt.index.benefits.storage %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.storage %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/visualizacoes3d.png" width="40" loading="lazy" alt="-">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">Visualização 3D</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center mt-4">
+      <a class="btn btn-cta d-inline-flex justify-content-between align-items-center" href="radiologia.html">
+        <img class="me-3" src="./assets/img/icons/btn-link.png" width="16" loading="lazy" alt="{% t alt.index.btn_link %}">
+        <span>{% t navigation.main.index.button_know_more %}</span>
+      </a>
     </div>
+  </div>
+</section>
+
+<!-- ======= Odontologia e Medicina ======= -->
+<section id="odontology-medicine" class="background pt-5 pb-4">
+  <div class="container-xxl">
+    <section class="row justify-content-between" data-aos="fade-up">
+      <div class="col-md-6 com-sm-12">
+        <h1 class="h3 text-primary"><strong>{% t navigation.header.dentistry_medicine %}</strong></h1>
+        <p>{% t navigation.main.index.odontology_medicine.text %}</p>
+      </div>
+      <div class="col-md-6 col-sm-12 text-center">
+        <img class="w-sm-100" src="./assets/img/odontologia-medicina-index.png" loading="lazy" alt="{% t alt.odontology_medicine %}">
+      </div>
+    </section>
+  </div>
+
+  <div class="container-fluid mt-5">
+    <section class="d-grid grid-template-columns" data-aos="fade-up">
+      <div class="card shadow py-2 border-0 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/gestao_financeira.png" width="40" loading="lazy" alt="{% t alt.index.benefits.financial_management %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.financial_management %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/gestao_multiclinicas.png" width="40" loading="lazy" alt="{% t alt.index.benefits.multiclinic_management %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.multiclinic_management %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/gestao_ convenios.png" width="40" loading="lazy" alt="{% t alt.index.benefits.agreement_management %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.agreement_management %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/emissao_nota.png" width="40" loading="lazy" alt="{% t alt.index.benefits.invoice_issuance %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.invoice_issuance %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/relatorios_customizaveis.png" width="40" loading="lazy" alt="{% t alt.index.benefits.customizable_reports %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.customizable_reports %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/agenda_online.png" width="40" loading="lazy" alt="{% t alt.index.benefits.online_calendar %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.online_calendar %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/pep.png" width="40" loading="lazy" alt="{% t alt.index.benefits.humanized_technical_support %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.pep %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/suporte_tecnico_humanizado.png" width="40" loading="lazy" alt="{% t alt.index.benefits.humanized_technical_support %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.humanized_technical_support %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/assinatura_digital.png" width="40" loading="lazy" alt="{% t alt.index.benefits.digital_signature %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.digital_signature %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/certificacao_anvisa.png" width="40" loading="lazy" alt="{% t alt.index.benefits.anvisa %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.anvisa %}</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center mt-4">
+      <a class="btn btn-cta d-inline-flex justify-content-between align-items-center" href="odontologia_medicina.html">
+        <img class="me-3" src="./assets/img/icons/btn-link.png" width="16" loading="lazy" alt="{% t alt.index.btn_link %}">
+        <span>{% t navigation.main.index.button_know_more %}</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Veterinária ======= -->
+<section id="vet" class="pt-5 pb-4 position-relative">
+  <div class="vet-graphic-image d-none d-md-block"></div>
+  <div class="container-xxl">
+    <section class="row justify-content-between" data-aos="fade-up">
+      <div class="col-md-6 col-sm-12 text-center order-2 order-md-1">
+        <img class="w-sm-100" src="./assets/img/veterinaria-index.png" loading="lazy" alt="{% t alt.vet %}">
+      </div>
+      <div class="col-md-6 col-sm-12 order-1 order-md-2">
+        <h1 class="h3 text-primary"><strong>{% t navigation.main.index.veterinary.title %}</strong></h1>
+        <p>{% t navigation.main.index.veterinary.text %}</p>
+        <p>{% t navigation.main.index.veterinary.text2 %}</p>        
+      </div>
+    </section>
+  </div>
+
+  <div class="container-fluid mt-5">
+    <section class="d-grid grid-template-columns" data-aos="fade-up">
+      <div class="card shadow py-2 border-0 card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/ris_pacs_online.png" width="40" loading="lazy" alt="{% t alt.index.benefits.ris_pacs_online %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.ris_pacs_online %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/gestao_financeira.png" width="40" loading="lazy" alt="{% t alt.index.benefits.financial_management %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.financial_strategic_management %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/emissao_nota.png" width="40" loading="lazy" alt="{% t alt.index.benefits.invoice_issuance %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.invoice_issuance %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/telerradiologia.png" width="40" loading="lazy" alt="{% t alt.index.benefits.teleradiology %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.plans.teleradiology %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/integracao_dicom.png" width="40" loading="lazy" alt="{% t alt.index.benefits.dicom_integration %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.dicom_integration %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/agenda_online.png" width="40" loading="lazy" alt="{% t alt.index.benefits.online_calendar%}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.online_calendar %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/suporte_tecnico_humanizado.png" width="40" loading="lazy" alt="{% t alt.index.benefits.humanized_technical_support %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.humanized_technical_support %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/laudo_voz.png" width="40" loading="lazy" alt="{% t alt.index.benefits.voice_report %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.voice_report %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/relatorios_customizaveis.png" width="40" loading="lazy" alt="{% t alt.index.benefits.customizable_reports %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.customizable_reports %}</p>
+        </div>
+      </div>
+      <div class="card shadow py-2 border-0">
+        <div class="card-body text-center">
+          <img src="./assets/img/icons/gestao_ convenios.png" width="40" loading="lazy" alt="{% t alt.index.benefits.agreement_management %}">
+          <p class="card-title mt-3 mb-0" style="font-size: 13px;">{% t navigation.main.index.benefits.agreement_management %}</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center mt-4" data-aos="fade-up">
+      <a class="btn btn-cta d-inline-flex justify-content-between align-items-center" href="veterinaria.html">
+        <img class="me-3" src="./assets/img/icons/btn-link.png" width="16" loading="lazy" alt="{% t alt.index.btn_link %}">
+        <span>{% t navigation.main.index.button_know_more %}</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Onde estamos ======= -->
+<section id="countries" class="position-relative py-5">
+  <div class="container-fluid">
+    <section class="row justify-content-between align-items-center mb-5" data-aos="fade-up">
+      <h2 class="h4 col-md-7 col-sm-12"><strong>{% t navigation.main.index.countries.title %}</strong></h2>
+      <img class="col-md-3 d-none d-md-block" src="./assets/img/bandeiras.png" loading="lazy" alt="{% t alt.index.countries.flags %}">
+    </section>
+    
+    <section class="swiper-container partners" data-aos="fade-up">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/animagem.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.main.index.countries.hospital %}</p>
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/begmax.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p> 
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/cimo.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/ciro.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p> 
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/drx.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/eco-x.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.main.index.countries.hospital %}</p>
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/hs_vet.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.header.veterinary %}</p>
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/imagem.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/iorn.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/maxilare.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p> 
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/movax.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/nr.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/oi_digital.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p> 
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/perboyre.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/raio_max.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.header.veterinary %}</p>
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/roc.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/tradit3d.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="./assets/img/clientes/uno_vet.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.header.veterinary %}</p>
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front"  src="assets/img/clientes/vamos_sorrir.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.main.index.countries.dental_radiology %}</p>
+        </div>
+        <div class="swiper-slide shadow segment">
+          <img class="front" src="assets/img/clientes/xe_vet.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+          <p class="back mb-0">{% t navigation.header.veterinary %}</p>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
   </div>
 </section>
 
 <!-- ======= Depoimentos ======= -->
-<section id="testimony" class="mt-64 pt-40 pb-40 bg-primary">
-  <div class="container">
-    <h2 class="text-white text-center" data-aos="zoom-out"><strong>{% t navigation.main.testimony.title %}</strong></h2>
-    <div class="testimonials-slider swiper-container text-center" data-aos="zoom-out">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimento_Nani.webp" width="60" height="60" class="testimonial-img" alt="{% t alt.testimony %}">
-              <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony7 %}</p>
+<section id="customer-testimonial" class="my-4">
+  <div class="container-xxl">
+    <h1 class="h4 text-center text-secondary"><strong>{% t navigation.main.index.customer_testimonial.title %}</strong></h1>
+    <div class="row" data-aos="fade-up">
+      <div class="col-md-4">
+        <div class="card background border-0 shadow mt-5 h-85">
+          <iframe class="mx-3" src="https://www.youtube.com/embed/0zTsBuB6pso?si=RhBrORfW8d-H1uax" loading="lazy" title="YouTube video player" height="210" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="card-body">
+            <p class="mb-0"><b>Felipe Costa</b></p>
+            <small class="text-secondary-light">ODT Digital Radiologia, DRX Radiologia Odontológica e Rede X Radiologia e Tomografia Odontológica - Rio de janeiro/RJ</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card background border-0 shadow mt-5 h-85">
+          <iframe class="mx-3" src="https://www.youtube.com/embed/qBMqtl-nkIs?si=ymHh6OCu8vLkPpyc" loading="lazy" title="YouTube video player" height="210" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="card-body">
+            <p class="mb-0"><b>Ana Tokus</b></p>
+            <small class="text-secondary-light">UNIX Radiologia Odontológica - Curitiba/PR</small><br>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card background border-0 shadow mt-5 h-85">
+          <iframe class="mx-3" src="https://www.youtube.com/embed/BKo3c94clKo?si=OJb_bpQrXuyhUoAa" loading="lazy" title="YouTube video player" height="210" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="card-body">
+            <p class="mb-0"><b>Vinícius Gripp</b></p>
+            <small class="text-secondary-light">Radiologic 3D  e Instituto Gripp de Odontologia - Bom Jesus da Lapa/BA</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Segurança e Credibilidade ======= -->
+<section id="security-credibility" class="mt-5 py-4 background">
+  <section class="container-xxl" data-aos="fade-up">
+    <div class="row justify-content-around gy-3 mt-3">
+      <div class="col-md-3">
+        <div class="card text-center shadow border-0 py-3">
+          <div class="card-body">
+            <img src="./assets/img/icons/pessoas.png" height="32" loading="lazy" alt="{% t alt.index.security_credibility.patients_served %}">
+            <p class="card-title text-secondary mt-3 mb-0">10Mi</p>
+            <p class="text-secondary-light mb-0">{% t navigation.main.index.security_credibility.patients_served %}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center shadow border-0 py-3">
+          <div class="card-body">
+            <img src="./assets/img/icons/exames.png" height="32" loading="lazy" alt="{% t alt.index.security_credibility.distributed_exams %}">
+            <p class="card-title text-secondary mt-3 mb-0">50Mi</p>
+            <p class="text-secondary-light mb-0">{% t navigation.main.index.security_credibility.distributed_exams %}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center shadow border-0 py-3">
+          <div class="card-body">
+            <img src="./assets/img/icons/nuvem.png" height="32" loading="lazy" alt="{% t alt.index.security_credibility.stored_cloud %}">
+            <p class="card-title text-secondary mt-3 mb-0">130Tb</p>
+            <p class="text-secondary-light mb-0">{% t navigation.main.index.security_credibility.stored_cloud %}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center shadow border-0 py-3">
+          <div class="card-body">
+            <img src="./assets/img/icons/tempo_em_mercado.png" height="32" loading="lazy" alt="{% t alt.index.security_credibility.years_history %}">
+            <p class="card-title text-secondary mt-3 mb-0">10 {% t navigation.main.index.security_credibility.years %}</p>
+            <p class="text-secondary-light mb-0">{% t navigation.main.index.security_credibility.years_history %}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="my-5 border-2 text-secondary-light">
+  <section class="container-xxl d-flex justify-content-around flex-wrap" data-aos="fade-up">
+    <div class="text-center">
+      <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_anvisa.png" loading="lazy" alt="{% t alt.index.security_credibility.anvisa %}">
+      <p class="mb-0">{% t navigation.main.index.security_credibility.anvisa %}</p>
+      <p><small><a class="text-secondary hover_underline" target="_blank" href="https://consultas.anvisa.gov.br/#/saude/25351182044202394/?nomeProduto=Cfaz.net" class="text-secondary-light">{% t navigation.main.index.security_credibility.record %}: 82578410001</a></small></p>
+    </div>
+    <div class="text-center">
+      <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_hippaa.png" loading="lazy" alt="{% t alt.index.security_credibility.hippa %}">
+      <p>{% t navigation.main.index.security_credibility.hippa %}</p>
+    </div>
+    <div class="text-center">
+      <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_lgpd.png" loading="lazy" alt="{% t alt.index.security_credibility.lgpd %}">
+      <p>{% t navigation.main.index.benefits.lgpd %}</p>
+    </div>
+    <div class="text-center">
+      <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_gdpr.png" loading="lazy" alt="{% t alt.index.security_credibility.gdpr %}">
+      <p>{% t navigation.main.index.security_credibility.gdpr %}</p>
+    </div>
+    <div class="text-center">
+      <img class="mb-3 mb-sm-0" width="100" height="100" src="./assets/img/icons/certificado_google_cloud.png" loading="lazy" alt="{% t alt.index.security_credibility.google_cloud_platform %}">
+      <p>{% t navigation.main.index.benefits.google_cloud_platform %}</p>
+    </div>
+  </section>
+</section>
+
+<!-- ======= Planos - Valores ======= -->
+<section id="plans-values" class="py-5" data-aos="fade-up">
+  <div class="container-fluid text-center">
+    <div class="row justify-content-center">
+      <h2 class="h4 col-md-7 col-sm-12 mb-4"><strong>{% t navigation.main.index.plans_values.title %}</strong></h2>
+    </div>
+    <a class="btn btn-secondary d-inline-flex justify-content-between align-items-center d-none" target="_blank" href="https://max.cfaz.net/users/sign_in">
+      <img class="me-3" src="./assets/img/icons/btn_cloud.png" loading="lazy" alt="{% t alt.plans.free_starter_plan %}">
+      <span><span>{% t navigation.main.index.plans.free_starter_plan %}</span></span>
+    </a>
+
+    <div class="row gy-3">
+      <div class="col-lg-4">
+        <div class="card text-start shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plan_telerradiologia_white.png" loading="lazy" alt="{% t alt.index.plans.teleradiology %}">
+            <div class="text-center">
+              <h1 class="text-secondary-light my-3">{% t navigation.main.index.plans.teleradiology %}</h1>
+              <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
+              <h1>
+                <strong>R$ 99</strong> 
+                <p class="d-inline text-secondary-light mb-0">(50 {% t navigation.main.index.exams%})</p>
+              </h1>
+              <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_telerradiologia">
+                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
+                <span>{% t navigation.main.index.button_contact %}</span>
+              </button>
             </div>
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>{% t navigation.main.testimony.testimony_text7 %}<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimento_Flavia.webp" width="60" height="60" class="testimonial-img" alt="{% t alt.testimony %}">
-              <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony8 %}</p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>{% t navigation.main.testimony.testimony_text8 %}<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimento_Marileide.webp" width="60" height="60" class="testimonial-img" alt="{% t alt.testimony %}">
-              <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony9 %}</p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>{% t navigation.main.testimony.testimony_text9 %}<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimento_Cristiane.webp" width="60" height="60" class="testimonial-img" alt="{% t alt.testimony %}">
-              <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony10 %}</p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>{% t navigation.main.testimony.testimony_text10 %}<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Guilherme.webp" width="60" height="60" class="testimonial-img" alt="{% t alt.testimony %}">
-              <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony1 %}</p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>{% t navigation.main.testimony.testimony_text1 %}<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Maria-Betania.webp" class="testimonial-img" alt="{% t alt.testimony %}">
-              <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony2 %}</p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>{% t navigation.main.testimony.testimony_text2 %}<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Pedro.webp" class="testimonial-img" alt="{% t alt.testimony %}">
-              <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony3 %}</p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>{% t navigation.main.testimony.testimony_text3 %}<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Larissa.webp" class="testimonial-img" alt="{% t alt.testimony %}">
-              <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony4 %}</p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>{% t navigation.main.testimony.testimony_text4 %}<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Angela.webp" class="testimonial-img" alt="{% t alt.testimony %}">
-              <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony5 %}</p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>{% t navigation.main.testimony.testimony_text5 %}<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item">
-            <div class="d-flex align-items-center justify-content-center text-white mt-40 mb-40">
-              <img src="assets/img/depoimentos/Depoimentos_Patrícia.webp" class="testimonial-img" alt="{% t alt.testimony %}">
-              <p class="text-white m-0 text-start">{% t navigation.main.testimony.testimony6 %}</p>
-            </div>  
-            <p class="text-white">
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>{% t navigation.main.testimony.testimony_text6 %}<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
           </div>
         </div>
       </div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </div>  
-</section>
-
-<!-- ======= Fale com um de nossos consultores ======= -->
-{% include contact_us.html %}
-
-<!-- ======= Benefícios ======= -->
-<section id="benefit_home" class="mt-64">
-  <div class="container">
-    <h2 class="text-white text-center mb-54" data-aos="zoom-out">{% t navigation.main.benefit.title %}</h2>
-    <div class="row">
-      <div class="col-md-6 col-sm-12">
-        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_online.png" alt="{% t alt.icon_online %}">
-          <div>
-            <p class="text-white mb-8"><strong>{% t navigation.main.benefit.item1 %}</strong></p>
-            <p class="text-white mb-0">{% t navigation.main.benefit.item1_text %}</p>
-          </div>
-        </div>
-
-        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_pac.png" alt="{% t alt.icon_PAC %}">
-          <div>
-            <p class="text-white"><strong>{% t navigation.main.benefit.item2 %}</strong></p>
-            <p class="text-white mb-0">{% t navigation.main.benefit.item2_text %}</p>
-          </div>
-        </div>
-
-        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_CfazManager.png" alt="{% t alt.icon_RIS %}">
-          <div>
-            <p class="text-white"><strong>{% t navigation.main.benefit.item3 %}</strong></p>
-            <p class="text-white mb-0">{% t navigation.main.benefit.item3_text %}</p>
+      <div class="col-lg-4">
+        <div class="card text-start shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plan_consultorios_white.png" loading="lazy" alt="{% t alt.index.plans.consulting_room %}">
+            <div class="text-center">
+              <h1 class="text-secondary-light my-3">{% t navigation.main.index.plans.consulting_room %}</h1>
+              <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
+              <h1><strong>R$ 99/{% t navigation.main.index.month %}</strong></h1>
+              <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_consultorios">
+                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
+                <span>{% t navigation.main.index.button_contact %}</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_imagem.png" alt="{% t alt.icons.image_quality %}">
-          <div>
-            <p class="text-white"><strong>{% t navigation.main.benefit.item4 %}</strong></p>
-            <p class="text-white mb-0">{% t navigation.main.benefit.item4_text %}</p>
-          </div>
-        </div>
-        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_dicon.png" alt="{% t alt.icons.DICOM %}">
-          <div>
-            <p class="text-white"><strong>{% t navigation.main.benefit.item5 %}</strong></p>
-            <p class="text-white mb-0">{% t navigation.main.benefit.item5_text %}</p>
-          </div>
-        </div>
-        <div class="d-flex align-items-start mb-32" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_STL.png" alt="{% t alt.icons.STL %}">
-          <div>
-            <p class="text-white"><strong>{% t navigation.main.benefit.item6 %}</strong></p>
-            <p class="text-white mb-0">{% t navigation.main.benefit.item6_text %}</p>
-          </div>
-        </div>
-        <div class="d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/icones/icone_redes.png" alt="{% t alt.icons.connected_networks %}">
-          <div>
-            <p class="text-white"><strong>{% t navigation.main.benefit.item7 %}</strong></p>
-            <p class="text-white mb-0">{% t navigation.main.benefit.item7_text %}</p>
+      <div class="col-lg-4">
+        <div class="card text-start shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plan_clinicas_white.png" loading="lazy" alt="{% t alt.index.plans.clinics %}">
+            <div class="text-center">
+              <h1 class="text-secondary-light my-3">{% t navigation.main.index.plans.clinics %}</h1>
+              <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
+              <h1><strong>R$ 159/{% t navigation.main.index.month %}</strong></h1>
+              <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_clinicas">
+                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
+                <span>{% t navigation.main.index.button_contact %}</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="text-center mt-40" data-aos="zoom-out">
-      <a class="btn btn-primary mb-8 mt-16" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
-    </div>
-  </div>
-</section>
-
-<!-- ======= Inteligência Artificial ======= -->
-{% include artificial_intelligence.html %}
-
-<!-- ======= Tomografia ======= -->
-{% include tomography.html %}
-
-<!-- ======= Telerradiologia ======= -->
-<section id="teleradiology" class="mt-64">
-  <div class="container">
-      <h2 class="text-white text-center mb-32" data-aos="zoom-in">{% t navigation.main.teleradiology.title %}</h2>
-      <div class="row d-flex justify-content-center" data-aos="zoom-in">
-        <div class="col-md-5 col-sm-12 card mt-8">
-          <h2 class="mb-0">{% t navigation.main.teleradiology.cfaz_business %}</h2>
-          <span></span>
-          <p>{% t navigation.main.teleradiology.cfaz_business_text %}</p>
-        </div>
-        <div class="col-md-5 col-sm-12 card mt-8">
-          <h2 class="mb-0">{% t navigation.main.teleradiology.cfaz_job %}</h2>
-          <span></span>
-          <p>{% t navigation.main.teleradiology.cfaz_job_text %}</p>
-          <a class="text-primary mt-24 hover_underline" href="teleradiology.html">{% t navigation.main.teleradiology.know_more %}</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ======= CfazApp ======= -->
-<section id="appCfaz" class="mt-64">
-  <div class="container">
-    <div class="row mobile-reverse">
-      <div class="col-md-6 col-12" data-aos="fade-right">
-        <img src="assets/img/cfazApp.webp" alt="{% t alt.app %}">
-      </div>
-      <div class="col-md-6 col-12 text-end" data-aos="fade-up">
-        <h2 class="mb-32">{% t navigation.main.appCfaz.title %}</h2>
-        <p>{% t navigation.main.appCfaz.subtitle %}</p>
-        <div class="text-end mobile-none">
-          <a class="btn btn-secondary mb-8 mt-16" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ======= Programa de benefícios ======= -->
-<section id="benefits_program" class="mt-64">
-  <div class="container">
-    <div class="row align-items-center mb-24">
-      <div class="col-md-8">
-        <h2 class="text-primary mb-32" data-aos="zoom-out">{% t navigation.main.benefits_program.text %}</h2>
-        <div class="text-start" data-aos="fade-right">
-          <a class="btn btn-secondary mb-8 mt-16" data-bs-toggle="modal" data-bs-target="#contact_modal">{% t navigation.main.btn %}</a>
-        </div>
-      </div>
-      <div class="col-md-4 text-center mobile-none" data-aos="fade-left">
-        <img src="assets/img/icones/icone_beneficios.png" alt="{% t alt.icons.gift %}">
-      </div>
-    </div>
-  </div>
-
-  <!-- Parceiros -->
-  <div class="partners-container">
-    <div class="container">
-      <small><strong>PARCEIROS</strong></small>
-      <div class="swiper-container partners mt-8">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/CI Vatech.png" alt="{% t alt.partner_company %}"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/carestream-dental-logo.png" alt="{% t alt.partner_company %}"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/3dmdigital_azul.png" alt="{% t alt.partner_company %}"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/Lodi_Logo.png" alt="{% t alt.partner_company %}"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/logo tota.png" alt="{% t alt.partner_company %}"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/dentalfactory.hor.png" alt="{% t alt.partner_company %}"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/ff_seguros.png" alt="{% t alt.partner_company %}"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/atelier_uniao.webp" alt="{% t alt.partner_company %}"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/ambienttal.webp" alt="{% t alt.partner_company %}"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/systhex_logo.png" alt="{% t alt.partner_company %}"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/durr_dental.png" alt="{% t alt.partner_company %}"> 
-          </div>
-          <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
-            <img src="assets/img/empresas_programa_beneficios/logo_prexion.webp" alt="{% t alt.partner_company %}"> 
+      <div class="col-lg-4">
+        <div class="card text-start shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plan_centro_radiologia_white.png" loading="lazy" alt="{% t alt.index.plans.radiology_centers %}">
+            <div class="text-center">
+              <h1 class="text-secondary-light my-3">{% t navigation.main.index.plans.radiology_centers %}</h1>
+              <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
+              <h1><strong>R$ 199/{% t navigation.main.index.month %}</strong></h1>
+              <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_centros_radiologia">
+                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
+                <span>{% t navigation.main.index.button_contact %}</span>
+              </button>
+            </div>
           </div>
         </div>
-        <div class="swiper-pagination"></div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card text-start shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plan_centrais_laudo_white.png" loading="lazy" alt="{% t alt.index.plans.reporting_centers %}">
+            <div class="text-center">
+              <h1 class="text-secondary-light my-3">{% t navigation.main.index.plans.reporting_centers %}</h1>
+              <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
+              <h1><strong>R$ 249/{% t navigation.main.index.month %}</strong></h1>
+              <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_centrais_laudo">
+                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
+                <span>{% t navigation.main.index.button_contact %}</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card text-start shadow py-2">
+          <div class="card-body">
+            <img src="./assets/img/icons/plan_hospitais_white.png" loading="lazy" alt="{% t alt.index.plans.hospitals %}">
+            <div class="text-center">
+              <h1 class="text-secondary-light my-3">{% t navigation.main.index.plans.hospitals %}</h1>
+              <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
+              <h1><strong>R$ 399/{% t navigation.main.index.month %}</strong></h1>
+              <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_hospitais">
+                <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
+                <span>{% t navigation.main.index.button_contact %}</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ======= Meio ambiente ======= -->
-<section id="environment" class=" bg-primary">
-  <div class="container">
-    <div class="row text-center">
-      <div class="col col-md-6">
-        <h1 class="text-white"><strong><span data-purecounter-start="0" data-purecounter-end="46" data-purecounter-delay="2" data-purecounter-duration="2" class="purecounter text-white"></span>{% t navigation.main.environment.paper_number %}</strong></h1>
-        <p class="text-white"><strong>{% t navigation.main.environment.paper_text %}</strong></p>
+<section id="environment" data-aos="fade-up">
+  <div class="container-xxl">
+    <div class="row align-items-center justify-content-around py-5">
+      <div class="col-md-4 text-center">
+        <img src="./assets/img/icons/environment_papeis.png" height="32" loading="lazy" alt="{% t alt.index.environment.paper_saved %}">
+        <p class="text-environment mt-4 mb-3">143Mi</p>
+        <p class="text-secondary-light">{% t navigation.main.index.environment.paper_saved %}</p>
       </div>
-      <div class="col col-md-6">
-        <h1 class="text-white"><strong><span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="3" class="purecounter text-white"></span>{% t navigation.main.environment.tree_number %}</strong></h1>
-        <p class="text-white"><strong>{% t navigation.main.environment.tree_text %}</strong></p>
+      <div class="col-md-4 text-center my-3">
+        <img src="./assets/img/icons/environment_filme_radiografico.png" height="32" loading="lazy" alt="{% t alt.index.environment.saved_radiographs %}">
+        <p class="text-environment mt-4 mb-3">48Mi</p>
+        <p class="text-secondary-light">{% t navigation.main.index.environment.saved_radiographs %}</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="./assets/img/icons/environment_arvore.png" height="32" loading="lazy" alt="{% t alt.index.environment.trees_spared %}">
+        <p class="text-environment mt-4 mb-3">19mil</p>
+        <p class="text-secondary-light">{% t navigation.main.index.environment.trees_spared %}</p>
       </div>
     </div>
   </div>
 </section>
+
+{% include contact.html %}
+
+<!-- ======= Redes sociais ======= -->
+<section id="social" class="background py-5" data-aos="fade-up">
+  <div class="container-xxl">
+    <h2 class="h4 text-center mb-4">{% t navigation.main.index.social.title %}</h2>
+    <div class="d-flex align-items-center justify-content-around flex-wrap">
+      <div class="text-center p-2">
+        <img src="./assets/img/icons/social_instagram.png" width="100" height="100" loading="lazy" alt="{% t alt.index.social.instagram %}">
+        <p class="text-secondary-light mt-2">@cfaznet</p>
+      </div>
+      <div class="text-center p-2">
+        <img src="./assets/img/icons/social_tiktok.png" width="100" height="100" loading="lazy" alt="{% t alt.index.social.tiktok %}">
+        <p class="text-secondary-light mt-2">@cfaznet</p>
+      </div>
+      <div class="text-center p-2">
+        <img src="./assets/img/icons/social_linkedin.png" width="100" height="100" loading="lazy" alt="{% t alt.index.social.linkedin %}">
+        <p class="text-secondary-light mt-2">@cfaznet</p>
+      </div>
+      <div class="text-center p-2">
+        <img src="./assets/img/icons/social_youtube.png" width="100" height="100" loading="lazy" alt="{% t alt.index.social.youtube %}">
+        <p class="text-secondary-light mt-2">@cfaznet</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= Programa de Benefícios ======= -->
+<section id="benefits-program" class="position-relative pt-5 pb-4 mb-4">
+  <div class="container-xxl">
+    <section class="row justify-content-between" data-aos="fade-up">
+      <div class="col-md-6 col-sm-12 text-center order-2 order-md-1">
+        <img class="w-100" src="./assets/img/benefits-program.png" loading="lazy" alt="{% t alt.index.benefits_program %}">
+      </div>
+      <div class="col-md-6 col-sm-12 order-1 order-md-2">
+        <h1 class="h3 text-primary"><strong>{% t navigation.main.index.benefits_program.benefits_program %}</strong></h1>
+        <p>{% t navigation.main.index.benefits_program.text %}</p>
+        <p>{% t navigation.main.index.benefits_program.text2 %}</p>
+      </div>
+    </section>
+  </div>
+
+  <div class="container-fluid">
+    <section class="swiper-container partners mt-5" data-aos="fade-up">
+      <p>{% t navigation.main.index.benefits_program.partners %}</p>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira1.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira2.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira3.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira3.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira4.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira5.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira6.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira7.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira8.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira9.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira10.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira11.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+        </div>
+        <div class="swiper-slide text-center shadow d-flex justify-content-center align-items-center">
+          <img src="./assets/img/benefits_program/parceira12.png" loading="lazy" alt="{% t alt.index.countries.companies %}">
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+  </div>
+</section>
+
+<!-- ======= Cfaz Ciência ======= -->
+<section id="cfaz-science" class="background py-5">
+  <div class="container-xxl">
+    <section class="row justify-content-between" data-aos="fade-up">
+      <div class="col-md-6 col-sm-12 ">
+        <h1 class="h3 text-secondary"><strong>{% t navigation.main.index.cfaz_science.title %}</strong></h1>
+        <p>{% t navigation.main.index.cfaz_science.text %}</p>
+        <p>{% t navigation.main.index.cfaz_science.text2 %}</p>
+        <button class="btn btn-primary d-inline-flex justify-content-between align-items-center mt-2" data-bs-toggle="modal" data-bs-target="#modal_cfaz_science">
+          <img class="me-3" src="./assets/img/icons/btn_phone.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
+          <span>{% t navigation.main.index.button_contact %}</span>
+        </button>
+      </div>
+      <div class="col-md-6 col-sm-12 text-center mt-3 mt-md-0">
+        <img class="w-sm-100" src="./assets/img/cfaz-ciencia.png" loading="lazy" alt="{% t alt.index.cfaz_science.apresentation %}">
+      </div>
+    </section>
+
+    <section class="justify-content-center mt-5 d-none d-md-flex" data-aos="fade-up">
+      <img src="./assets/img/clientes/cfaz_ciencia_1.webp" loading="lazy" alt="{% t alt.index.cfaz_science.institutions %}">
+      <img src="./assets/img/clientes/cfaz_ciencia_2.webp" loading="lazy" alt="{% t alt.index.cfaz_science.institutions %}">
+      <img src="./assets/img/clientes/cfaz_ciencia_3.webp" loading="lazy" alt="{% t alt.index.cfaz_science.institutions %}">
+      <img src="./assets/img/clientes/cfaz_ciencia_4.webp" loading="lazy" alt="{% t alt.index.cfaz_science.institutions %}">
+      <img src="./assets/img/clientes/cfaz_ciencia_5.webp" loading="lazy" alt="{% t alt.index.cfaz_science.institutions %}">
+    </section>
+
+    <section class="mt-4" data-aos="fade-up">
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="card border-0 shadow mt-5">
+            <iframe class="mx-3" src="https://www.youtube.com/embed/N3Q1F_ZW7yI?si=k4sGipadTJZveVWe" loading="lazy" title="YouTube video player" height="210" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="card-body d-flex align-items-center">
+              <img src="./assets/img/icons/cfaz-ciencia-ufmg.png" loading="lazy" alt="{% t alt.index.cfaz_science.logo_lambo %}" width="40">
+              <p class="mb-0 ms-2"><b>Prof. Yuri Nejaim - LAMDO (UFMS)</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow mt-5">
+            <iframe class="mx-3" src="https://www.youtube.com/embed/npilAq8uCPU?si=s0MN5Z8TFtAErehr" loading="lazy" title="YouTube video player" height="210" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="card-body d-flex align-items-center">
+              <img src="./assets/img/icons/cfaz-ciencia-lodi.png" loading="lazy" alt="{% t alt.index.cfaz_science.logo_lodi %}" width="40">
+              <p class="mb-0 ms-2"><b>Dr. Gilson Franco - Lodi UEPG </b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+{% include app.html %}
+{% include newsletter.html %}
