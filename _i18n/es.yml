@@ -19,7 +19,7 @@ navigation:
       from: desde
       month: mes
       exams: exámenes
-      hero: Soluciones en la nube para <br class="d-none d-lg-block"> <h1 class="h2 d-inline"><strong class="text-primary">La gestión de centros de salud</strong></h1> y <br class="d-none d-lg-block"> <h1 class="h2 d-inline"><strong class="text-primary">Distribución de exámenes</strong></h1>
+      hero: Soluciones en la nube para <br class="d-none d-lg-block"> <h2 class="d-inline"><strong class="text-primary">La gestión de centros de salud</strong></h2> y <br class="d-none d-lg-block"> <h2 class="h2 d-inline"><strong class="text-primary">Distribución de exámenes</strong></h2>
       plans: 
         free_starter_plan: Plan Inicial Gratuito
         teleradiology: Telerradiología
