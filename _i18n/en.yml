@@ -315,7 +315,7 @@ navigation:
     cookies_confirmation: We use cookies and other similar technologies to improve your experience on our services, but we don't use them for tracking purposes. By using our services, you agree to such monitoring.
 alt:
   cfaz_logo: Cfaz logo
-  flag_pt: Brazil's flag
+  flag_pt: Brazilian flag
   flag_es: Spanish flag
   flag_en: USA flag
   index:
@@ -425,3 +425,8 @@ alt:
     voice_report: Cfaz.net report issuance screen
   about_us: Photo of the Cfaz team at the get-together
   team: Cfaz.net team member
+  footer:
+    anvisa: Anvisa logo
+    hippa: Hippa Logo
+    lgpd: LGPD Logo
+    gdpr: GDPR Logo
