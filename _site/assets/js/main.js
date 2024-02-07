@@ -101,11 +101,10 @@
   }
 
   // Tradução imagem Fluxo de Getsão Cfaz (vet)
-  let management_flow = select('.management-flow');
-  if (management_flow){
-    window.addEventListener('load', () => {
-      let language = document.getElementById('language');
-      
+  window.addEventListener('load', () => {
+    let language = document.getElementById('language');
+    if (document.getElementById('language')){
+      console.log("entrou aqui")
       if (language.value == 'es'){
         let image_es = document.getElementById("image-es");
         image_es.classList.remove("disappear");
@@ -117,8 +116,8 @@
         let image = document.getElementById("image-pt");
         image.classList.remove("disappear");
       }
-    });
-  }
+    }
+  });
 
   // Analytics
   window.dataLayer = window.dataLayer || [];
