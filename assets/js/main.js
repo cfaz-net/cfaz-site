@@ -104,13 +104,11 @@
   window.addEventListener('load', () => {
     let language = document.getElementById('language');
     if (document.getElementById('language')){
-      console.log("entrou aqui")
       if (language.value == 'es'){
         let image_es = document.getElementById("image-es");
         image_es.classList.remove("disappear");
       } else if (language.value == 'en'){
         let image_en = document.getElementById("image-en");
-        console.log("entrou en")
         image_en.classList.remove("disappear");
       } else {
         let image = document.getElementById("image-pt");
@@ -130,7 +128,7 @@
     w['MauticTrackingObject']=n;
     w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t),
     m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','http://mautic4.cfaz.net/mtc.js','mt');
+  })(window,document,'script','https://mautic4.cfaz.net/mtc.js','mt');
   mt('send', 'pageview');
 
   // Pixel Facebook
