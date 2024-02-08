@@ -1,0 +1,100 @@
+/* Monitor */
+@media screen and (min-width: 1669px) {
+  .grid-template-columns{
+    grid-template-columns: repeat(10, 1fr);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .services-monitor section {
+    margin-top: 0 !important;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .w-lg-auto {
+    width: initial !important;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .grid-template-columns{
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  header .btn-cta{
+    width: 100% !important;
+    border-radius: 4px !important;
+    margin: 16px 0 !important;
+  }
+}
+
+/**/
+@media screen and (max-width: 1000px) {
+  .w-sm-100 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* lg do bootstrap */
+  #contato .card-technical-support,
+  #contato .card-financial {
+    height: auto;
+  }
+
+  #contato .card-sales {
+    height: auto;
+    margin-top: 0;
+  }
+
+  #hero h1{
+    font-size: calc(1.275rem + .3vw);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #newsletter form {
+    display: block;
+  }
+
+  .hs-input[type=text],
+  .hs-input[type=email],
+  .hs-input[type=tel],
+  select.hs-input,
+  #newsletter .hs_email {
+    min-width: 100% !important;
+    width: 100%;
+  }
+
+  #newsletter .hs-button {
+    margin-top: 8px;
+    width: 100%;
+  }
+
+  #hero.hero-initial {
+    background-image: none;
+  }
+
+  .grid-template-columns{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #hero.hero-initial h2 br {
+    display: none;
+  }
+
+  .mb-sm-0 {
+    margin-bottom: 0 !important;
+  }
+
+  .w-sm-75 {
+    width: 75%;
+  }
+
+  .grid-template-columns{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
