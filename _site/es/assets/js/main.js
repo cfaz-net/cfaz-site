@@ -103,7 +103,7 @@
   // Tradução imagem Fluxo de Getsão Cfaz (vet)
   window.addEventListener('load', () => {
     let language = document.getElementById('language');
-    if (document.getElementById('language')){
+    if (document.getElementById('management-flow')){
       if (language.value == 'es'){
         let image_es = document.getElementById("image-es");
         image_es.classList.remove("disappear");
