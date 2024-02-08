@@ -29,8 +29,8 @@ layout: default
       <div class="col-lg-4">
         <div class="card shadow py-2">
           <div class="card-body">
-            <img src="./assets/img/icons/plan_telerradiologia.png" width="40" loading="lazy" alt="{% t alt.index.plans.teleradiology %}">
-            <h2 class="card-title mt-3 mb-0">{% t navigation.main.index.plans.teleradiology %}</h2>
+            <img src="./assets/img/icons/plan_telerradiologia.png" width="40" loading="lazy" alt="{% t alt.index.plans.radiologists %}">
+            <h2 class="card-title mt-3 mb-0">{% t navigation.main.index.plans.radiologists %}</h2>
             <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-3" data-bs-toggle="modal" data-bs-target="#modal_telerradiologia">
               <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
               <span>{% t navigation.main.index.button_contact %}</span>
@@ -671,14 +671,16 @@ layout: default
       <div class="col-lg-4">
         <div class="card text-start shadow py-2">
           <div class="card-body">
-            <img src="./assets/img/icons/plan_telerradiologia_white.png" loading="lazy" alt="{% t alt.index.plans.teleradiology %}">
+            <img src="./assets/img/icons/plan_telerradiologia_white.png" loading="lazy" alt="{% t alt.index.plans.radiologists %}">
             <div class="text-center">
-              <h2 class="h1 text-secondary-light my-3">{% t navigation.main.index.plans.teleradiology %}</h2>
+              <h2 class="h1 text-secondary-light my-3">{% t navigation.main.index.plans.radiologists %}</h2>
               <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
-              <p class="h1">
-                <strong>R$ 99</strong> 
-                <p class="d-inline text-secondary-light mb-0">(50 {% t navigation.main.index.exams%})</p>
-              </p>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="h4 text-secondary">
+                  <strong>R$ 99</strong> 
+                </p>
+                <small class="d-inline text-secondary-light mb-0">(50 {% t navigation.main.index.exams%})</small>
+              </div>
               <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_telerradiologia">
                 <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
                 <span>{% t navigation.main.index.button_contact %}</span>
@@ -694,7 +696,7 @@ layout: default
             <div class="text-center">
               <h2 class="h1 text-secondary-light my-3">{% t navigation.main.index.plans.consulting_room %}</h2>
               <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
-              <p class="h1"><strong>R$ 99/{% t navigation.main.index.month %}</strong></p>
+              <p class="h4 text-secondary"><strong>R$ 99/{% t navigation.main.index.month %}</strong></p>
               <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_consultorios">
                 <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
                 <span>{% t navigation.main.index.button_contact %}</span>
@@ -710,7 +712,7 @@ layout: default
             <div class="text-center">
               <h2 class="h1 text-secondary-light my-3">{% t navigation.main.index.plans.clinics %}</h2>
               <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
-              <p class="h1"><strong>R$ 159/{% t navigation.main.index.month %}</strong></p>
+              <p class="h4 text-secondary"><strong>R$ 159/{% t navigation.main.index.month %}</strong></p>
               <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_clinicas">
                 <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
                 <span>{% t navigation.main.index.button_contact %}</span>
@@ -726,7 +728,7 @@ layout: default
             <div class="text-center">
               <h2 class="h1 text-secondary-light my-3">{% t navigation.main.index.plans.radiology_centers %}</h2>
               <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
-              <p class="h1"><strong>R$ 199/{% t navigation.main.index.month %}</strong></p>
+              <p class="h4 text-secondary"><strong>R$ 199/{% t navigation.main.index.month %}</strong></p>
               <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_centros_radiologia">
                 <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
                 <span>{% t navigation.main.index.button_contact %}</span>
@@ -742,7 +744,7 @@ layout: default
             <div class="text-center">
               <h2 class="h1 text-secondary-light my-3">{% t navigation.main.index.plans.reporting_centers %}</h2>
               <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
-              <p class="h1"><strong>R$ 249/{% t navigation.main.index.month %}</strong></p>
+              <p class="h4 text-secondary"><strong>R$ 249/{% t navigation.main.index.month %}</strong></p>
               <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_centrais_laudo">
                 <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
                 <span>{% t navigation.main.index.button_contact %}</span>
@@ -758,7 +760,7 @@ layout: default
             <div class="text-center">
               <h2 class="h1 text-secondary-light my-3">{% t navigation.main.index.plans.hospitals %}</h2>
               <small class="text-secondary-light">{% t navigation.main.index.from %}</small>
-              <p class="h1"><strong>R$ 399/{% t navigation.main.index.month %}</strong></p>
+              <p class="h4 text-secondary"><strong>R$ 399/{% t navigation.main.index.month %}</strong></p>
               <button class="btn btn-cta d-inline-flex justify-content-between align-items-center mt-4" data-bs-toggle="modal" data-bs-target="#modal_hospitais">
                 <img class="me-3" src="./assets/img/icons/btn_phone_white.png" loading="lazy" alt="{% t alt.index.plans.btn_we_call_you %}">
                 <span>{% t navigation.main.index.button_contact %}</span>

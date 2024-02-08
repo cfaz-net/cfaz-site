@@ -22,7 +22,7 @@ navigation:
       hero: Soluciones en la nube para <br class="d-none d-lg-block"> <h2 class="d-inline"><strong class="text-primary">La gestión de centros de salud</strong></h2> y <br class="d-none d-lg-block"> <h2 class="h2 d-inline"><strong class="text-primary">Distribución de exámenes</strong></h2>
       plans: 
         free_starter_plan: Plan Inicial Gratuito
-        teleradiology: Telerradiología
+        radiologists: Radiólogos
         consulting_room: Consultorios
         clinics: Clínicas
         radiology_centers: Centros de Radiología
@@ -124,6 +124,7 @@ navigation:
         text2: Almacenamiento ilimitado y 100% seguro en la Nube, con la máxima calidad de imágenes y exámenes. Gracias a la infraestructura proporcionada por Google Cloud Platform, empresa de referencia mundial en seguridad de datos y estabilidad de conexiones.
         note: "*Válido durante la vigencia del contrato"
       teleradiology:
+        title: Telerradiología
         text: Conectamos su Centro de Radiología con profesionales de todo el mundo a través de una plataforma unificada con soluciones diseñadas para facilitar la subcontratación de informes y exámenes. Usted envía las imágenes a sus revisores y recibe los informes completos, todo a través de Cfaz.net.
         testimony:
           text: “Cfaz.net conecta Tradit3D con radiólogos y centros de imágenes, lo que lo hace ideal para Telerradiología. Su plataforma en la nube en línea optimiza el trabajo, creando un flujo digital eficiente para que nuestro Centro de Informes pueda atender a más de 30 Centros de Radiología en América Latina y Europa.”
@@ -325,7 +326,7 @@ alt:
     plans:
       starter_plan: Icono de nube blanca
       btn_we_call_you: Icono de teléfono
-      teleradiology: Icono de un monitor con radiología y una lupa
+      radiologists: Icono de un monitor con radiología y una lupa
       consulting_room: Icono de oficina
       clinics: Icono de una historia clínica
       radiology_centers: Icono de un dispositivo de radiología
