@@ -7,7 +7,7 @@
 }
 
 .background{
-  background-image: url(../img/background/background.png);
+  background-image: url(../img/background/background.webp);
   background-size: cover;
 }
 
@@ -44,7 +44,7 @@
 
 /* Planos / plans */
 #plans{
-  background-image: url(../img/background/plans.png);
+  background-image: url(../img/background/plans.webp);
   background-size: contain;
   background-position-y: 170px;
   background-repeat: no-repeat;
@@ -177,7 +177,7 @@
 
 /* Planos - Valores */
 #environment{
-  background-image: url(../img/background/environment.png);
+  background-image: url(../img/background/environment.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
