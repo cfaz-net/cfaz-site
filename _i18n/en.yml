@@ -19,7 +19,7 @@ navigation:
       from: from
       month: month
       exams: exams
-      hero: Cloud Solutions for <br class="d-none d-lg-block"> <h2 class="d-inline"><strong class="text-primary">Health Center Management</strong></h2> and <br class="d-none d-lg-block"> <h2 class="h2 d-inline"><strong class="text-primary">Exam Distribution</strong></h2>
+      hero: Cloud Solutions for <br class="d-none d-lg-block"> <strong class="text-primary">Health Center Management</strong> and <br class="d-none d-lg-block"> <strong class="text-primary">Exam Distribution</strong>
       plans: 
         free_starter_plan: Free Starter Plan
         radiologists: Radiologists
@@ -78,12 +78,14 @@ navigation:
         text2: Recommend Cfaz to colleagues and friends, share our advantages on social media and enjoy free discounts, redemption of exclusive gifts and prizes!
         partners: Partners
       cfaz_science:
-        title: "Cfaz Ciência: Encouraging the scientific development of Radiology"
+        title: Cfaz Ciência
+        title: Encouraging the scientific development of Radiology
         text: Special conditions for using Cfaz.net by Students and Educational Institutions in Dentistry and Radiology.
         text2: Get in touch to start using our system as support in the classroom or school clinics
       app: Free mobile app <br> Available on the App Store <br> and Play Store
       newsletter: Do you want to stay up to date with news about Cfaz and news about Radiology, Dentistry, Medicine and Veterinary Medicine?
       benefits:
+        teleradiology: Teleradiology
         ris_pacs_online: RIS and PACS Online
         anvisa: Certification ANVISA
         lgpd: LGPD

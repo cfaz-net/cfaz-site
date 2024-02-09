@@ -11,6 +11,14 @@
   }
 }
 
+@media screen and (max-width: 1199px){
+  header .btn-cta{
+    width: 100% !important;
+    border-radius: 4px !important;
+    margin: 16px 0 !important;
+  }
+}
+
 @media screen and (min-width: 1140px) {
   .w-lg-auto {
     width: initial !important;
@@ -20,12 +28,6 @@
 @media screen and (max-width: 1060px) {
   .grid-template-columns{
     grid-template-columns: repeat(4, 1fr);
-  }
-
-  header .btn-cta{
-    width: 100% !important;
-    border-radius: 4px !important;
-    margin: 16px 0 !important;
   }
 }
 
