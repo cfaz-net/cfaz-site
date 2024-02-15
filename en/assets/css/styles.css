@@ -56,8 +56,8 @@
   border: none;
 }
 
-#plans h2,
-#plans-values h2{
+#plans p,
+#plans-values p{
   font-size: 1.25rem;
 }
 
