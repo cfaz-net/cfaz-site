@@ -1,25 +1,4 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
 User-agent: *
-Allow: https://cfaz.net/
-
-User-agent: *
-Allow: https://cfaz.net/hospitais
-
-User-agent: *
-Allow: https://cfaz.net/radiologia
-
-User-agent: *
-Allow: https://cfaz.net/odontologia_medicina
-
-User-agent: *
-Allow: https://cfaz.net/veterinaria
-
-User-agent: *
-Allow: https://cfaz.net/veterinaria#contato
-
-User-agent: *
-Disallow: https://cfaz.net/sobre
+Disallow: /sobre/
 
 Sitemap: https://cfaz.net/sitemap.xml
