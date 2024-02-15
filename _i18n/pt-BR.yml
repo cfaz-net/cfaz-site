@@ -3,6 +3,8 @@ locales:
   pt-BR: Português
   es-419: Español (América Latina)
 navigation:
+  head:
+    description: Soluções em Nuvem para Gestão de Centros de Saúde e Distribuição de Exames
   header:
     hospitals: Hospitais
     radiology: Radiologia
@@ -315,6 +317,7 @@ navigation:
     footer:
       developed: Desenvolvido por Cfaz.net
       privacy_policy: Política de Privacidade
+    speak_consultants: Fale com um de nossos consultores
     cookies_confirmation: Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços, mas não utilizamos para fins de rastreamento. Ao utilizar nossos serviços, você concorda com tal monitoramento. 
 alt:
   cfaz_logo: Logomarca cfaz
