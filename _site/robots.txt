@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /sobre/
+Disallow: /politica_privacidade/
 
 Sitemap: https://cfaz.net/sitemap.xml
