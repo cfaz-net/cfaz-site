@@ -159,3 +159,9 @@ function toggleBacktotop(){
   onscroll(document, toggleBacktotop)
 }
 
+function video(link, id_video, id_imagem){
+  var ifrm = "<iframe class='mx-3' src='https://www.youtube.com/embed/" + link + "' title='YouTube video player' height='210' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>";
+  document.getElementById(id_video).innerHTML = ifrm;
+  
+  document.querySelector('#' + id_imagem).classList.add('d-none');
+}
