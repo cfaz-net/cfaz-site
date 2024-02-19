@@ -157,10 +157,13 @@
   background-size: auto;
 }
 
+#customer-testimonial .image-frame,
+#cfaz-science .image-frame,
 #customer-testimonial iframe,
 #cfaz-science iframe{
   margin-top: -32px;
   border-radius: 10px;
+  height: 165px;
 }
 
 /* Informações */
@@ -306,6 +309,15 @@
 /* Sobre */
 #title-about{
   background-image: url(../img/background/bg-about.png);
+}
+
+#informations #imagem-sobre,
+#informations iframe{
+  width: 80% !important;
+}
+
+#informations iframe{
+  min-height: 340px !important;
 }
 
 #mission.card{

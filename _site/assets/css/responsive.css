@@ -81,6 +81,12 @@
   .grid-template-columns{
     grid-template-columns: repeat(2, 1fr);
   }
+
+  #informations #imagem-sobre,
+  #informations iframe{
+    width: 100% !important;
+    margin: 0 !important;
+  }
 }
 
 @media screen and (max-width: 540px) {
