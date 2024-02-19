@@ -160,7 +160,7 @@ function toggleBacktotop(){
 }
 
 function video(link, id_video, id_imagem){
-  var ifrm = "<iframe class='mx-3' src='https://www.youtube.com/embed/" + link + "?autoplay=1&mute=0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>";
+  var ifrm = "<iframe src='https://www.youtube.com/embed/" + link + "?autoplay=1&mute=0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>";
   document.getElementById(id_video).innerHTML = ifrm;
   
   document.querySelector('#' + id_imagem).classList.add('d-none');

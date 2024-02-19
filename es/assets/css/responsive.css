@@ -87,6 +87,13 @@
     width: 100% !important;
     margin: 0 !important;
   }
+
+  #customer-testimonial .image-frame,
+  #cfaz-science .image-frame,
+  #customer-testimonial iframe,
+  #cfaz-science iframe{
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -104,5 +111,12 @@
 
   .grid-template-columns{
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  #customer-testimonial .image-frame,
+  #cfaz-science .image-frame,
+  #customer-testimonial iframe,
+  #cfaz-science iframe{
+    height: 300px;
   }
 }
