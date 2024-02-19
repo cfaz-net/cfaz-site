@@ -328,6 +328,7 @@ alt:
   flag_es: Bandera español
   flag_en: Bandera de los Estados Unidos
   index:
+    client: Evaluación de usuarios mediante el sistema Cfaz.net
     hero:
       header: Tres profesionales sanitarios, vestidos de blanco, con los brazos cruzados y sonriendo
       button: Flecha hacia abajo
@@ -433,6 +434,7 @@ alt:
     management_flow: Icono de flujo de gestión de Cfaz
     voice_report: Pantalla de emisión de informes de Cfaz.net
   about_us: Foto del equipo de Cfaz en el encuentro
+  about_video: Video institucional
   team: Miembro del equipo Cfaz.net
   footer:
     anvisa: Logotipo de Anvisa

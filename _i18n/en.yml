@@ -328,6 +328,7 @@ alt:
   flag_es: Spanish flag
   flag_en: USA flag
   index:
+    client: User evaluation using the Cfaz.net system
     hero:
       header: Three healthcare professionals, dressed in white, with their arms crossed and smiling
       button: Down arrow
@@ -433,6 +434,7 @@ alt:
     management_flow: Cfaz management flow icon
     voice_report: Cfaz.net report issuance screen
   about_us: Photo of the Cfaz team at the get-together
+  about_video: Institutional video
   team: Cfaz.net team member
   footer:
     anvisa: Anvisa logo

@@ -161,9 +161,31 @@
 #cfaz-science .image-frame,
 #customer-testimonial iframe,
 #cfaz-science iframe{
+  width: 94% !important;
   margin-top: -32px;
-  border-radius: 10px;
-  height: 165px;
+  border-radius: 10px !important;
+  height: 200px;
+}
+
+#imagem-felipe{
+  background-image: url(../img/capas_videos/felipe.png);
+  background-size: cover;
+}
+#imagem-ana{
+  background-image: url(../img/capas_videos/ana.png);
+  background-size: cover;
+}
+#imagem-vinicius{
+  background-image: url(../img/capas_videos/vinicius.png);
+  background-size: cover;
+}
+#imagem-yuri{
+  background-image: url(../img/capas_videos/yuri.png);
+  background-size: cover;
+}
+#imagem-gilson{
+  background-image: url(../img/capas_videos/gilson.png);
+  background-size: cover;
 }
 
 /* Informações */
