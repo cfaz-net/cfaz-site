@@ -12,6 +12,12 @@ plugins:
   - jekyll-multiple-languages-plugin
 
 languages: ["pt-br", "en", "es"]
+exclude_from_localizations: ["assets", "CNAME"]
+defaultLang: pt-br
+languageNames:
+  pt-br: Portugues
+  en: Inglês
+  es: Espanhol
 
 markdown: CommonMarkGhPages
 

@@ -1,13 +1,13 @@
+site:
+  locale: pt-br
+  title: Cfaz | Softwares e Sistemas de Gestão para Centros de Saúde
+  description: Soluções em Nuvem para Gestão de Centros de Saúde e Distribuição de Exames
+  keywords: radiologia, sistema pacs, dicom, software pacs, pacs, sistema radiologia, radiologia dentaria, pacs ris, clinica radiologia odontologica, laudos, software radiologia, clinica nas nuvens, radiologia digital odontologica
 locales:
   en: English
   pt-br: Português
   es-419: Español (América Latina)
 navigation:
-  head:
-    locale: pt-br
-    title: Cfaz | Softwares e Sistemas de Gestão para Centros de Saúde
-    description: Soluções em Nuvem para Gestão de Centros de Saúde e Distribuição de Exames
-    keywords: radiologia, sistema pacs, dicom, software pacs, pacs, sistema radiologia, radiologia dentaria, pacs ris, clinica radiologia odontologica, laudos, software radiologia, clinica nas nuvens, radiologia digital odontologica
   header:
     hospitals: Hospitais
     radiology: Radiologia

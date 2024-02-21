@@ -1,13 +1,13 @@
+site:
+  locale: en
+  title: Cfaz | Software and Management Systems for Health Centers
+  description: Cloud Solutions for Health Center Management and Exam Distribution
+  keywords: radiology, pacs system, dicom, pacs software, pacs, radiology system, dental radiology, pacs ris, dental radiology clinic, reports, radiology software, clinic in the clouds, digital dental radiology
 locales:
   en: English
   pt-br: Português
   es-419: Español (América Latina)
 navigation:
-  head:
-    locale: en
-    title: Cfaz | Software and Management Systems for Health Centers
-    description: Cloud Solutions for Health Center Management and Exam Distribution
-    keywords: radiology, pacs system, dicom, pacs software, pacs, radiology system, dental radiology, pacs ris, dental radiology clinic, reports, radiology software, clinic in the clouds, digital dental radiology
   header:
     hospitals: Hospitals
     radiology: Radiology
