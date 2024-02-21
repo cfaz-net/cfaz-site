@@ -46,15 +46,19 @@
     <link href="assets/css/styles.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
 
-    <script>// Tradução pelo browser
+    <script>
+      var hostname = window.location.hostname;
+      var referrer = document.referrer;
+      var landingPage = !referrer || referrer.indexOf(hostname) == -1;
+
       var lang = navigator.language || navigator.userLanguage;
         
-      if (lang.indexOf('es') == 0){
+      if (lang.indexOf('es') == 0 && landingPage){
         window.location = '/es/';
-      }else if(lang.indexOf('en') == 0){
+      }else if(lang.indexOf('en') == 0 && landingPage){
         window.location = '/en/';
       }
-      </script>
+    </script>
   </head>
   
   <body>
