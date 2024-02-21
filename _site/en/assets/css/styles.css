@@ -1,0 +1,547 @@
+.btn-icon{
+  width: 22px;
+  height: 22px;
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background{
+  background-image: url(../img/background/background.webp);
+  background-size: cover;
+}
+
+/* header .offcanvas-body .nav-link{
+  font-size: 14px;
+} */
+
+#hero{
+  width: 100%;
+  background: url("../img/headers/home.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 90px 0 48px 0;
+  border-radius: 0 0 0 130px;
+}
+
+#hero.hero-initial{
+  background-image: url(../img/background/header_graphic.png);
+  background-size: 200px;
+  background-position-y: bottom;
+}
+
+#title-hospitais,
+#title-radiology,
+#title-odontologia-medicina,
+#title-vet,
+#title-about,
+#title-privacy-policy{
+  background-size: cover;
+  margin-top: 64px;
+  padding: 24px 0;
+}
+
+/* Planos / plans */
+#plans{
+  background-image: url(../img/background/plans.webp);
+  background-size: contain;
+  background-position-y: 170px;
+  background-repeat: no-repeat;
+}
+
+#plans .card,
+#plans-values .card{
+  border-radius: 20px 60px 20px 60px;
+  border: none;
+}
+
+#plans p,
+#plans-values p{
+  font-size: 1.25rem;
+}
+
+/* Veterinaria */
+#vet .vet-graphic-image{
+  background-image: url(../img/background/bg-vet.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Onde estamos */
+#countries{
+  background-image: url(../img/background/bg-onde-estamos.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#countries .swiper-slide{
+  position: relative;
+  background-color: var(--bs-white-light);
+  height: 130px;
+  border-radius: 10px 40px 10px 40px;
+  margin-bottom: 30px;
+  border: 1px solid var(--bs-gray-light);
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+
+#countries .swiper-container-horizontal>.swiper-pagination-bullets,
+#benefits-program .swiper-container-horizontal>.swiper-pagination-bullets,
+#values .swiper-container-horizontal>.swiper-pagination-bullets{
+  bottom: 0;
+}
+
+#countries .swiper-slide img{
+  width: auto;
+  height: 100%;
+  padding: 0px;
+  border-radius: 10px 40px 10px 40px;
+}
+
+#benefits-program .swiper-slide img{
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  border-radius: 10px 40px 10px 40px;
+}
+
+#countries .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+#benefits-program .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+#values .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+  background-color: var(--bs-white-light);
+  border: 1px solid var(--bs-primary);
+}
+
+#countries .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active,
+#benefits-program .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active,
+#values .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active{
+  background-color: var(--bs-primary);
+}
+
+#countries .segment .front,
+#countries .segment .back{
+  position: absolute;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+}
+
+#countries .segment .front{
+  transform: rotateY(0deg);
+}
+
+#countries .segment .back{
+  transform: rotateY(180deg);
+}
+
+#countries .segment:hover .front{
+  transform: rotateY(-180deg);
+}
+
+#countries .segment:hover .back{
+  transform: rotateY(0deg);
+}
+
+/* Depoimentos */
+#customer-testimonial .card{
+  background-size: auto;
+}
+
+#customer-testimonial .image-frame,
+#cfaz-science .image-frame,
+#customer-testimonial iframe,
+#cfaz-science iframe{
+  width: 94% !important;
+  margin-top: -32px;
+  border-radius: 10px !important;
+  height: 200px;
+}
+
+#imagem-felipe{
+  background-image: url(../img/capas_videos/felipe.png);
+  background-size: cover;
+}
+#imagem-ana{
+  background-image: url(../img/capas_videos/ana.png);
+  background-size: cover;
+}
+#imagem-vinicius{
+  background-image: url(../img/capas_videos/vinicius.png);
+  background-size: cover;
+}
+#imagem-yuri{
+  background-image: url(../img/capas_videos/yuri.png);
+  background-size: cover;
+}
+#imagem-gilson{
+  background-image: url(../img/capas_videos/gilson.png);
+  background-size: cover;
+}
+
+/* Informações */
+#security-credibility .card{
+  border-radius: 20px 60px 20px 60px;
+  height: 100%;
+}
+
+#security-credibility .card-title,
+#environment .text-environment{
+  font-size: 2.25rem;
+  line-height: 120%;
+}
+
+/* Planos - Valores */
+#environment{
+  background-image: url(../img/background/environment.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* redes sociais */
+#social a:hover > p{
+  color: var(--bs-cta) !important;
+}
+
+/* Contatos */
+#contato .card-technical-support,
+#contato .card-financial{
+  height: 290px;
+}
+
+#contato .card-sales{
+  background-image: url(../img/background/bg_contact_sales.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 374px; 
+  margin-top: -32px;
+}
+
+/* Programa de Benefícios */
+#benefits-program .swiper-slide{
+  background-color: var(--bs-white-light);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/* Rodapé */
+#footer{
+  background-image: url(../img/background/bg-footer.png);
+  background-size: auto;
+}
+
+#footer .locale img{
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+}
+
+#footer .locale img:hover{
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+/* Hospitais */
+#title-hospitais{
+  background-image: url(../img/background/bg-hospitais.png);
+}
+
+/* Anvisa */
+#anvisa .anvisa-graphic-image{
+  background-image: url(../img/background/bg-anvisa.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#anvisa .anvisa-image{
+  background-image: url(../img/servicos-funcionalidades/certificacao-anvisa.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Planos sob medida (hospitais, centrais de laudo e centros de radiologia) */
+#tailor-made-plans .plan-v{
+  background-image: url(../img/icons/plano-v.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+  width: 16px;
+  height: 16px;
+}
+
+#tailor-made-plans .plan-x{
+  background-image: url(../img/icons/plano-x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+#tailor-made-plans tr th{
+  width: 200px;
+  max-width: 200px !important;
+  font-weight: normal !important;
+}
+
+/* Radiologia */
+#title-radiology{
+  background-image: url(../img/background/bg-radiologia.png);
+}
+
+/* Odontologia e Medicina */
+#title-odontologia-medicina{
+  background-image: url(../img/background/bg-odontologia-medicina.png);
+}
+
+/* Veterinaria */
+#title-vet{
+  background-image: url(../img/background/bg-vet.png);
+}
+
+#informations .vet-graphic-image{
+  background-image: url(../img/background/bg-vet-right.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Sobre */
+#title-about{
+  background-image: url(../img/background/bg-about.png);
+}
+
+#informations #imagem-sobre,
+#informations iframe{
+  width: 80% !important;
+}
+
+#informations iframe{
+  min-height: 340px !important;
+}
+
+#mission.card{
+  background-image: url(../img/icons/icone-missao.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+#view.card{
+  background-image: url(../img/icons/icone-visao.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+#values .values-container{
+  background-image: url(../img/icons/icone-valores.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+#team .nav .nav-link{
+  cursor: pointer;
+  border-left: 4px solid transparent;
+}
+
+#team .nav-link:hover,
+#team .nav-link.active{
+  border-left: 4px solid var(--bs-cta);
+  color: var(--bs-cta);
+}
+
+#team .card{
+  border: none;
+  height: 90%;
+}
+
+#team .informations{
+  padding: 8px 16px;
+}
+
+#team .team{
+  position: relative;
+  overflow: hidden;
+}
+
+#team .team::after{
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: url(../img/equipe/wave.png) no-repeat center bottom;
+  background-size: contain;
+  z-index: 1;
+}
+
+.team .wave{
+  position: absolute;
+  right: -100%;
+  top: 30px;
+  opacity: 0;
+  border-radius: 4px;
+  transition: 0.5s;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: 2;
+}
+
+.filter{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+/* Formulários hubspot */
+#newsletter form{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.hs-button{
+  font-size: 12px;
+  margin-top: 16px;
+  float: inline-end;
+}
+
+#newsletter .hs-button{
+  font-size: 16px;
+  margin-left: 1rem;
+  margin-top: 0;
+}
+
+#newsletter .hs_email{
+  min-width: 400px;
+}
+
+#newsletter .hs-error-msgs{
+  position: absolute;
+}
+
+.hs-input[type=text],
+.hs-input[type=email],
+.hs-input[type=tel],
+select.hs-input{
+  --bs-btn-padding-x: 1.5rem;
+  --bs-btn-padding-y: 0.5rem;
+  display: block;
+  width: 100%;
+  padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  border-radius: 10px;
+}
+
+#newsletter .hs-input[type=email]{
+  border-radius: 40px;
+}
+
+.hs-input[type=checkbox]{
+  margin-right: 8px;
+}
+
+.hs-form-field label{
+  font-size: 12px;
+  margin-top: 16px;
+  color: var(--bs-cta);
+}
+
+.inputs-list{
+  padding: 0;
+}
+
+.inputs-list li{
+  list-style-type: none;
+}
+
+.inputs-list li label{
+  margin: 0;
+  color: var(--bs-primary);
+}
+
+/* Politica de Privacidade */
+#privacy-policy p,
+#privacy-policy b{
+  color: var(--bs-primary-light);
+}
+
+#privacy-policy h2{
+  color: var(--bs-primary);
+  font-weight: bold;
+}
+
+/* btn-back-to-top */
+.back-to-top{
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background-color: #E79824;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i{
+  font-size: 28px;
+  color: #FFFFFF;
+  line-height: 0;
+}
+
+.back-to-top:hover{
+  background-color: #AF6625;
+  color: #FFFFFF;
+}
+
+.back-to-top.active{
+  visibility: visible;
+  opacity: 1;
+}
+
+#hospital .card{
+  width: 100%;
+}
+
+#management-flow .disappear{
+  display: none;
+}

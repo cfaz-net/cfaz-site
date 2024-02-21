@@ -47,17 +47,14 @@
     <link href="assets/css/responsive.css" rel="stylesheet">
 
     <script>// Tradução pelo browser
-      var hostname = window.location.hostname;
-      var referrer = document.referrer;
-      var landingPage = !referrer || referrer.indexOf(hostname) == -1;
-    
       var lang = navigator.language || navigator.userLanguage;
         
-      if (lang.indexOf('es') == 0 && landingPage){
+      if (lang.indexOf('es') == 0){
         window.location = '/es/';
-      }else if(lang.indexOf('en') == 0 && landingPage){
+      }else if(lang.indexOf('en') == 0){
         window.location = '/en/';
-      }</script>
+      }
+      </script>
   </head>
   
   <body>
