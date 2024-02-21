@@ -87,6 +87,19 @@
     current_year.innerHTML = date.getFullYear();
   });
 
+  // Tradução pelo browser
+  var hostname = window.location.hostname;
+  var referrer = document.referrer;
+  var landingPage = !referrer || referrer.indexOf(hostname) == -1;
+
+  var lang = navigator.language || navigator.userLanguage;
+    
+  if (lang.indexOf('es') == 0 && landingPage){
+    window.location = '/es/';
+  }else if(lang.indexOf('en') == 0 && landingPage){
+    window.location = '/en/';
+  }
+
   // Tradução imagem Fluxo de Getsão Cfaz (vet)
   window.addEventListener('load', () => {
     let language = document.getElementById('language');
