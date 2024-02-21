@@ -11,7 +11,7 @@ include:
 plugins:
   - jekyll-multiple-languages-plugin
 
-languages: ["pt-BR", "en", "es"]
+languages: ["pt-br", "en", "es"]
 
 markdown: CommonMarkGhPages
 
