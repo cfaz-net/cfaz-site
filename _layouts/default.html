@@ -38,14 +38,13 @@ title: Cfaz | Softwares e Sistemas de Gestão para Centros de Saúde
     <link rel="alternate" hreflang="x-default" href="https://cfaz.net/">
     
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.webp">
     <link rel="icon" href="assets/img/favicon.ico">
     
     <link rel="canonical" href="https://cfaz.net/">.
     <link rel="stylesheet" href="assets/vendor/fonts.css">
     <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
     
     <!-- Template Main CSS File -->
     <link href="assets/css/custom.css" rel="stylesheet">
@@ -71,19 +70,19 @@ title: Cfaz | Softwares e Sistemas de Gestão para Centros de Saúde
                 <li class="nav-item"><a class="nav-link" href="/odontologia_medicina">{% t navigation.header.dentistry_medicine %}</a></li>
                 <li class="nav-item"><a class="nav-link" href="/veterinaria">{% t navigation.header.veterinary %}</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contato">{% t navigation.header.contacts %}</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://blog.cfaz.net/" target="_blank">{% t navigation.header.blog %}</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://blog.cfaz.net/" target="_blank" rel="noreferrer">{% t navigation.header.blog %}</a></li>
                 <li class="nav-item"><a class="nav-link" href="/sobre">{% t navigation.header.about_us %}</a></li>
               </ul>
               <div class="locale">
                 {% capture pr-BR %}{{ page.url}}{% endcapture %}
                 {% capture es %}/es{{ page.url}}{% endcapture %}
                 {% capture en %}/en{{ page.url}}{% endcapture %}
-                <a href="{{ pr-BR }}"><span class="position-absolute text-white" style="z-index:-1">pt</span><img width="25" src="assets/img/icons/bandeira_pt-br.png" alt="{% t alt.flag_pt %}"></a>
-                <a href="{{ es }}"><span class="position-absolute text-white" style="z-index:-1">es</span><img width="25" src="assets/img/icons/bandeira_es.png" alt="{% t alt.flag_es %}"></a>
-                <a href="{{ en }}"><span class="position-absolute text-white" style="z-index:-1">en</span><img width="25" src="assets/img/icons/bandeira_en.png" alt="{% t alt.flag_en %}"></a>
+                <a href="{{ pr-BR }}"><span class="position-absolute text-white" style="z-index:-1">pt</span><img width="25" src="assets/img/icons/bandeira_pt-br.webp" alt="{% t alt.flag_pt %}"></a>
+                <a href="{{ es }}"><span class="position-absolute text-white" style="z-index:-1">es</span><img width="25" src="assets/img/icons/bandeira_es.webp" alt="{% t alt.flag_es %}"></a>
+                <a href="{{ en }}"><span class="position-absolute text-white" style="z-index:-1">en</span><img width="25" src="assets/img/icons/bandeira_en.webp" alt="{% t alt.flag_en %}"></a>
                 <input id="language" type="hidden" value="{{ site.lang }}">
               </div>
-              <a class="btn btn-cta ms-2" target="_blank" href="https://max.cfaz.net/">{% t navigation.header.enter %}</a>
+              <a class="btn btn-cta ms-2" target="_blank" rel="noreferrer" href="https://max.cfaz.net/">{% t navigation.header.enter %}</a>
             </div>
           </div>
 
@@ -104,19 +103,19 @@ title: Cfaz | Softwares e Sistemas de Gestão para Centros de Saúde
           <a class="col-md-3 col-sm-12 d-none d-md-block" href="/"><img src="../assets/img/footer_logo.webp" alt="{% t alt.cfaz_logo %}"></a>
           
           <div class="col-md-6 col-sm-12 d-flex align-items-end justify-content-around flex-wrap mb-sm-3">
-            <img class="p-2" src="../assets/img/icons/footer-hippaa.png" height="72" alt="{% t alt.footer.hippa %}">
-            <img class="p-2" src="../assets/img/icons/footer-lgpd.png" height="72" alt="{% t alt.footer.lgpd %}">
-            <img class="p-2" src="../assets/img/icons/footer-google.png" height="72" alt="{% t alt.footer.google_cloud_platform %}">
-            <img class="p-2" src="../assets/img/icons/footer-anvisa.png" height="72" alt="{% t alt.footer.anvisa %}">
+            <img class="p-2" src="../assets/img/icons/footer-hippaa.webp" height="72" alt="{% t alt.footer.hippa %}">
+            <img class="p-2" src="../assets/img/icons/footer-lgpd.webp" height="72" alt="{% t alt.footer.lgpd %}">
+            <img class="p-2" src="../assets/img/icons/footer-google.webp" height="72" alt="{% t alt.footer.google_cloud_platform %}">
+            <img class="p-2" src="../assets/img/icons/footer-anvisa.webp" height="72" alt="{% t alt.footer.anvisa %}">
           </div>
 
           <div class="locale col-md-3 d-none d-md-block text-end">
             {% capture pr-BR %}{{ page.url}}{% endcapture %}
             {% capture es %}/es{{ page.url}}{% endcapture %}
             {% capture en %}/en{{ page.url}}{% endcapture %}
-            <a href="{{ pr-BR }}"><span class="position-absolute" style="z-index:-1">pt</span><img src="assets/img/icons/bandeira_pt-br.png" alt="{% t alt.flag_pt %}"></a>
-            <a href="{{ es }}"><span class="position-absolute" style="z-index:-1">es</span><img src="assets/img/icons/bandeira_es.png" alt="{% t alt.flag_es %}"></a>
-            <a href="{{ en }}"><span class="position-absolute" style="z-index:-1">en</span><img src="assets/img/icons/bandeira_en.png" alt="{% t alt.flag_en %}"></a>
+            <a href="{{ pr-BR }}"><span class="position-absolute" style="z-index:-1">pt</span><img src="assets/img/icons/bandeira_pt-br.webp" alt="{% t alt.flag_pt %}"></a>
+            <a href="{{ es }}"><span class="position-absolute" style="z-index:-1">es</span><img src="assets/img/icons/bandeira_es.webp" alt="{% t alt.flag_es %}"></a>
+            <a href="{{ en }}"><span class="position-absolute" style="z-index:-1">en</span><img src="assets/img/icons/bandeira_en.webp" alt="{% t alt.flag_en %}"></a>
             <input id="language" type="hidden" value="{{ site.lang }}">
           </div>
         </section>
@@ -131,7 +130,7 @@ title: Cfaz | Softwares e Sistemas de Gestão para Centros de Saúde
             <small class="text-white-gray">2013 - <span id="current_year"></span></small>
           </div>
           <div class="col-sm-6 text-center text-sm-end">
-            <a class="text-white-gray hover_underline" href="politica_privacidade" target="_blank">
+            <a class="text-white-gray hover_underline" href="politica_privacidade" target="_blank" rel="noreferrer">
               <small class="text-white-gray">{% t navigation.main.footer.privacy_policy %}</small>
             </a>
           </div>
@@ -141,7 +140,7 @@ title: Cfaz | Softwares e Sistemas de Gestão para Centros de Saúde
 
     {% include modal.html %}
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><img src="assets/img/icons/seta_cima.png" alt="Ícone de seta para cima"></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><img src="assets/img/icons/seta_cima.webp" alt="Ícone de seta para cima"></a>
     <div id="preloader"></div>
     
     <script type="text/javascript" async src="assets/vendor/bootstrap/bootstrap.bundle.min.js.map"></script>
@@ -150,6 +149,6 @@ title: Cfaz | Softwares e Sistemas de Gestão para Centros de Saúde
     <script type="text/javascript" id="hs-script-loader" async defer src="assets/vendor/hubspot/hubspot.min.js"></script>
     <script type="text/javascript" async src="assets/vendor/google/google_tag_manager.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
-    <script type="application/ld+json">{"@context": "https://schema.org","@graph":[{"@type": "WebPage","name":"Cfaz | Softwares e Sistemas de Gestão para Centros de Saúde","alternateName": "Cfaz","legalName": "Cfaz.net","description": "Soluções em Nuvem para Gestão de Centros de Saúde e Distribuição de Exames","logo": "https://cfaz.net/assets/img/Logo.png","url":"https://cfaz.net/","sameAs": ["https://www.instagram.com/cfaznet/", "https://www.youtube.com/@CfazNet", "https://www.linkedin.com/company/cfaz-net/", "https://www.tiktok.com/@cfaznet"],"image": "https://cfaz.net/assets/img/Logo.png","datePublished":"2024-02-06","dateModified":"2024-02-16","inLanguage":"pt-br","prepTime": "PT20M","potentialAction":[{"@type": "BreadcrumbList","itemListElement": [{"@type": "ListItem","position": 1,"name": "Início","item": "https://cfaz.net/"},{"@type": "ListItem","position": 2,"name": "Hospitais","item": "https://cfaz.net/hospitais"},{"@type": "ListItem","position": 2,"name": "Radiologia","item": "https://cfaz.net/radiologia"},{"@type": "ListItem","position": 2,"name": "Odontologia e Medicina","item": "https://cfaz.net/odontologia_medicina"},{"@type": "ListItem","position": 2,"name": "Veterinária","item": "https://cfaz.net/veterinaria"}]}]}]}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org","@graph":[{"@type": "WebPage","name":"Cfaz | Softwares e Sistemas de Gestão para Centros de Saúde","alternateName": "Cfaz","legalName": "Cfaz.net","description": "Soluções em Nuvem para Gestão de Centros de Saúde e Distribuição de Exames","logo": "https://cfaz.net/assets/img/Logo.webp","url":"https://cfaz.net/","sameAs": ["https://www.instagram.com/cfaznet/", "https://www.youtube.com/@CfazNet", "https://www.linkedin.com/company/cfaz-net/", "https://www.tiktok.com/@cfaznet"],"image": "https://cfaz.net/assets/img/Logo.webp","datePublished":"2024-02-06","dateModified":"2024-02-16","inLanguage":"pt-br","prepTime": "PT20M","potentialAction":[{"@type": "BreadcrumbList","itemListElement": [{"@type": "ListItem","position": 1,"name": "Início","item": "https://cfaz.net/"},{"@type": "ListItem","position": 2,"name": "Hospitais","item": "https://cfaz.net/hospitais"},{"@type": "ListItem","position": 2,"name": "Radiologia","item": "https://cfaz.net/radiologia"},{"@type": "ListItem","position": 2,"name": "Odontologia e Medicina","item": "https://cfaz.net/odontologia_medicina"},{"@type": "ListItem","position": 2,"name": "Veterinária","item": "https://cfaz.net/veterinaria"}]}]}]}</script>
   </body>
 </html>

@@ -26,7 +26,7 @@
 }
 
 #hero.hero-initial{
-  background-image: url(../img/background/header_graphic.png);
+  background-image: url(../img/background/header_graphic.webp);
   background-size: 200px;
   background-position-y: bottom;
 }
@@ -63,7 +63,7 @@
 
 /* Veterinaria */
 #vet .vet-graphic-image{
-  background-image: url(../img/background/bg-vet.png);
+  background-image: url(../img/background/bg-vet.webp);
   background-size: contain;
   background-repeat: no-repeat;
   width: 170px;
@@ -75,7 +75,7 @@
 
 /* Onde estamos */
 #countries{
-  background-image: url(../img/background/bg-onde-estamos.png);
+  background-image: url(../img/background/bg-onde-estamos.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -168,23 +168,23 @@
 }
 
 #imagem-felipe{
-  background-image: url(../img/capas_videos/felipe.png);
+  background-image: url(../img/capas_videos/felipe.webp);
   background-size: cover;
 }
 #imagem-ana{
-  background-image: url(../img/capas_videos/ana.png);
+  background-image: url(../img/capas_videos/ana.webp);
   background-size: cover;
 }
 #imagem-vinicius{
-  background-image: url(../img/capas_videos/vinicius.png);
+  background-image: url(../img/capas_videos/vinicius.webp);
   background-size: cover;
 }
 #imagem-yuri{
-  background-image: url(../img/capas_videos/yuri.png);
+  background-image: url(../img/capas_videos/yuri.webp);
   background-size: cover;
 }
 #imagem-gilson{
-  background-image: url(../img/capas_videos/gilson.png);
+  background-image: url(../img/capas_videos/gilson.webp);
   background-size: cover;
 }
 
@@ -219,7 +219,7 @@
 }
 
 #contato .card-sales{
-  background-image: url(../img/background/bg_contact_sales.png);
+  background-image: url(../img/background/bg_contact_sales.webp);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -236,7 +236,7 @@
 
 /* Rodapé */
 #footer{
-  background-image: url(../img/background/bg-footer.png);
+  background-image: url(../img/background/bg-footer.webp);
   background-size: auto;
 }
 
@@ -252,12 +252,12 @@
 
 /* Hospitais */
 #title-hospitais{
-  background-image: url(../img/background/bg-hospitais.png);
+  background-image: url(../img/background/bg-hospitais.webp);
 }
 
 /* Anvisa */
 #anvisa .anvisa-graphic-image{
-  background-image: url(../img/background/bg-anvisa.png);
+  background-image: url(../img/background/bg-anvisa.webp);
   background-size: contain;
   background-repeat: no-repeat;
   width: 170px;
@@ -280,7 +280,7 @@
 
 /* Planos sob medida (hospitais, centrais de laudo e centros de radiologia) */
 #tailor-made-plans .plan-v{
-  background-image: url(../img/icons/plano-v.png);
+  background-image: url(../img/icons/plano-v.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 24px;
@@ -289,7 +289,7 @@
 }
 
 #tailor-made-plans .plan-x{
-  background-image: url(../img/icons/plano-x.png);
+  background-image: url(../img/icons/plano-x.webp);
   background-repeat: no-repeat;
   background-position: center;
   width: 16px;
@@ -304,21 +304,21 @@
 
 /* Radiologia */
 #title-radiology{
-  background-image: url(../img/background/bg-radiologia.png);
+  background-image: url(../img/background/bg-radiologia.webp);
 }
 
 /* Odontologia e Medicina */
 #title-odontologia-medicina{
-  background-image: url(../img/background/bg-odontologia-medicina.png);
+  background-image: url(../img/background/bg-odontologia-medicina.webp);
 }
 
 /* Veterinaria */
 #title-vet{
-  background-image: url(../img/background/bg-vet.png);
+  background-image: url(../img/background/bg-vet.webp);
 }
 
 #informations .vet-graphic-image{
-  background-image: url(../img/background/bg-vet-right.png);
+  background-image: url(../img/background/bg-vet-right.webp);
   background-size: auto;
   background-repeat: no-repeat;
   width: 130px;
@@ -330,7 +330,7 @@
 
 /* Sobre */
 #title-about{
-  background-image: url(../img/background/bg-about.png);
+  background-image: url(../img/background/bg-about.webp);
 }
 
 #informations #imagem-sobre,
@@ -343,21 +343,21 @@
 }
 
 #mission.card{
-  background-image: url(../img/icons/icone-missao.png);
+  background-image: url(../img/icons/icone-missao.webp);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
 
 #view.card{
-  background-image: url(../img/icons/icone-visao.png);
+  background-image: url(../img/icons/icone-visao.webp);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
 
 #values .values-container{
-  background-image: url(../img/icons/icone-valores.png);
+  background-image: url(../img/icons/icone-valores.webp);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: 100% 100%;
@@ -395,7 +395,7 @@
   bottom: 0;
   height: 100%;
   width: 100%;
-  background: url(../img/equipe/wave.png) no-repeat center bottom;
+  background: url(../img/equipe/wave.webp) no-repeat center bottom;
   background-size: contain;
   z-index: 1;
 }
