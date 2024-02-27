@@ -81,9 +81,9 @@ title: Cfaz | Softwares e Sistemas de Gestão para Centros de Saúde
                 {% capture pr-BR %}{{ page.url}}{% endcapture %}
                 {% capture es %}/es{{ page.url}}{% endcapture %}
                 {% capture en %}/en{{ page.url}}{% endcapture %}
-                <a href="{{ pr-BR }}"><span class="position-absolute text-white" style="z-index:-1">pt</span><img width="25" src="assets/img/icons/bandeira_pt-br.webp" alt="{% t alt.flag_pt %}"></a>
-                <a href="{{ es }}"><span class="position-absolute text-white" style="z-index:-1">es</span><img width="25" src="assets/img/icons/bandeira_es.webp" alt="{% t alt.flag_es %}"></a>
-                <a href="{{ en }}"><span class="position-absolute text-white" style="z-index:-1">en</span><img width="25" src="assets/img/icons/bandeira_en.webp" alt="{% t alt.flag_en %}"></a>
+                <a href="{{ pr-BR }}"><span class="position-absolute text-white" style="z-index:-1">pt</span><img width="25" height="25" src="assets/img/icons/bandeira_pt-br.webp" alt="{% t alt.flag_pt %}"></a>
+                <a href="{{ es }}"><span class="position-absolute text-white" style="z-index:-1">es</span><img width="25" height="25" src="assets/img/icons/bandeira_es.webp" alt="{% t alt.flag_es %}"></a>
+                <a href="{{ en }}"><span class="position-absolute text-white" style="z-index:-1">en</span><img width="25" height="25" src="assets/img/icons/bandeira_en.webp" alt="{% t alt.flag_en %}"></a>
                 <input id="language" type="hidden" value="{{ site.lang }}">
               </div>
               <a class="btn btn-cta ms-2" target="_blank" rel="noreferrer" href="https://max.cfaz.net/">{% t navigation.header.enter %}</a>
@@ -97,7 +97,7 @@ title: Cfaz | Softwares e Sistemas de Gestão para Centros de Saúde
       </nav>
     </header>
 
-    <main>
+    <main style="margin-top: 90px">
       {{content}}
     </main>
 
@@ -117,9 +117,9 @@ title: Cfaz | Softwares e Sistemas de Gestão para Centros de Saúde
             {% capture pr-BR %}{{ page.url}}{% endcapture %}
             {% capture es %}/es{{ page.url}}{% endcapture %}
             {% capture en %}/en{{ page.url}}{% endcapture %}
-            <a href="{{ pr-BR }}"><span class="position-absolute" style="z-index:-1">pt</span><img src="assets/img/icons/bandeira_pt-br.webp" alt="{% t alt.flag_pt %}"></a>
-            <a href="{{ es }}"><span class="position-absolute" style="z-index:-1">es</span><img src="assets/img/icons/bandeira_es.webp" alt="{% t alt.flag_es %}"></a>
-            <a href="{{ en }}"><span class="position-absolute" style="z-index:-1">en</span><img src="assets/img/icons/bandeira_en.webp" alt="{% t alt.flag_en %}"></a>
+            <a href="{{ pr-BR }}"><span class="position-absolute" style="z-index:-1">pt</span><img src="assets/img/icons/bandeira_pt-br.webp" width="25" height="25" alt="{% t alt.flag_pt %}"></a>
+            <a href="{{ es }}"><span class="position-absolute" style="z-index:-1">es</span><img src="assets/img/icons/bandeira_es.webp" width="25" height="25" alt="{% t alt.flag_es %}"></a>
+            <a href="{{ en }}"><span class="position-absolute" style="z-index:-1">en</span><img src="assets/img/icons/bandeira_en.webp" width="25" height="25" alt="{% t alt.flag_en %}"></a>
             <input id="language" type="hidden" value="{{ site.lang }}">
           </div>
         </section>
@@ -142,15 +142,9 @@ title: Cfaz | Softwares e Sistemas de Gestão para Centros de Saúde
       </div>
     </footer>
 
-    <div id="cookieNotice" class="light display-right">
-      <div class="cookiesModal">
-        <div>
-          <span>{% t navigation.main.cookies_confirmation %}</span>
-        </div>
-        <div>
-          <button class="btn btn-secondary btn-sm" onclick="acceptCookieConsent();">Aceitar</button>
-        </div>
-      </div>
+    <div id="cookieNotice" class="position-fixed rounded bg-white shadow mx-4 mb-4 fixed-bottom p-3 align-items-center" style="display: flex">
+      <small>{% t navigation.main.cookies_confirmation %}</small>
+      <button class="btn btn-secondary btn-sm" onclick="acceptCookieConsent();">Aceitar</button>
     </div>
 
     {% include modal.html %}

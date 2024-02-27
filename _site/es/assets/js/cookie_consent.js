@@ -75,5 +75,5 @@ let cookie_consent = getCookie("user_cookie_consent");
 if(cookie_consent != ""){
     document.getElementById("cookieNotice").style.display = "none";
 }else{
-    document.getElementById("cookieNotice").style.display = "block";
+    document.getElementById("cookieNotice").style.display = "flex";
 }
