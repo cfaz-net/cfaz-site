@@ -1,13 +1,13 @@
 site:
   locale: es
   title: Cfaz | Software y Sistemas de Gestión para Centros de Salud
-  description: Sistema PACS/RIS para Gestión de Centros de Radiología y Salud, control de atención, entrega de exámenes, seguridad en la nube, soporte humanizado en 1 minuto
   keywords: radiología, sistema pacs, dicom, software pacs, pacs, sistema de radiología, radiología dental, pacs ris, clínica de radiología dental, informes, software de radiología, clínica en las nubes, radiología dental digital
 locales:
   en: English
   pt-br: Português
   es-419: Español (América Latina)
 navigation:
+  description: Sistema PACS/RIS para Gestión de Centros de Radiología y Salud, control de atención, entrega de exámenes, seguridad en la nube, soporte humanizado en 1 minuto
   header:
     hospitals: Hospitales
     radiology: Radiología
