@@ -364,6 +364,8 @@
 
 #team .nav .nav-link{
   cursor: pointer;
+  border: none;
+  background-color: transparent;
   border-left: 4px solid transparent;
 }
 
