@@ -484,6 +484,10 @@ select.hs-input{
   color: var(--bs-cta);
 }
 
+.hs_recaptcha.hs-recaptcha.field.hs-form-field{
+  display: none;
+}
+
 .inputs-list{
   padding: 0;
 }
