@@ -4,35 +4,35 @@
     <loc>https://cfaz.net/</loc>
     <lastmod>2024-02-15</lastmod>
     <priority>1.00</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://cfaz.net/es/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cfaz.net/en/"/>
+    <!-- <xhtml:link rel="alternate" hreflang="es" href="https://cfaz.net/es/"/> -->
+    <!-- <xhtml:link rel="alternate" hreflang="en" href="https://cfaz.net/en/"/> -->
   </url>
   <url>
     <loc>https://cfaz.net/hospitais</loc>
     <lastmod>2024-02-15</lastmod>
     <priority>0.80</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://cfaz.net/es/hospitais.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cfaz.net/en/hospitais.html"/>
+    <!-- <xhtml:link rel="alternate" hreflang="es" href="https://cfaz.net/es/hospitais.html"/> -->
+    <!-- <xhtml:link rel="alternate" hreflang="en" href="https://cfaz.net/en/hospitais.html"/> -->
   </url>
   <url>
     <loc>https://cfaz.net/radiologia</loc>
     <lastmod>2024-02-15</lastmod>
     <priority>0.80</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://cfaz.net/es/radiologia.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cfaz.net/en/radiologia.html"/>
+    <!-- <xhtml:link rel="alternate" hreflang="es" href="https://cfaz.net/es/radiologia.html"/> -->
+    <!-- <xhtml:link rel="alternate" hreflang="en" href="https://cfaz.net/en/radiologia.html"/> -->
   </url>
   <url>
     <loc>https://cfaz.net/odontologia_medicina</loc>
     <lastmod>2024-02-15</lastmod>
     <priority>0.80</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://cfaz.net/es/odontologia_medicina.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cfaz.net/en/odontologia_medicina.html"/>
+    <!-- <xhtml:link rel="alternate" hreflang="es" href="https://cfaz.net/es/odontologia_medicina.html"/> -->
+    <!-- <xhtml:link rel="alternate" hreflang="en" href="https://cfaz.net/en/odontologia_medicina.html"/> -->
   </url>
   <url>
     <loc>https://cfaz.net/veterinaria</loc>
     <lastmod>2024-02-15</lastmod>
     <priority>0.80</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://cfaz.net/es/veterinaria.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cfaz.net/en/veterinaria.html"/>
+    <!-- <xhtml:link rel="alternate" hreflang="es" href="https://cfaz.net/es/veterinaria.html"/> -->
+    <!-- <xhtml:link rel="alternate" hreflang="en" href="https://cfaz.net/en/veterinaria.html"/> -->
   </url>
 </urlset>
