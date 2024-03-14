@@ -20,7 +20,6 @@ navigation:
   main:
     index:
       button_contact: We call you
-      button_know_more : Know more
       from: from
       month: month
       exams: exams
@@ -36,17 +35,21 @@ navigation:
       hospital:
         text: Cloud software to manage care in <strong>Hospitals</strong> and <strong>Diagnostic Imaging Centers</strong>, including API for interoperability with all systems on the market.
         text2: <strong>Online Distribution</strong> of exams for requesting Dentists and Doctors.
+        button: Learn more about hospitals
       radiologia:
         title: Radiology
         text: Intelligent Cloud Solutions to carry out end-to-end management of <strong>Diagnostic Imaging Centers</strong>, including Dental Radiology, Medical Radiology, Mammography, Ultrasonography, Computed Tomography, Bone Densitometry, Magnetic Resonance Imaging and Angiography.
         text2: Complete management tools also for <strong>Reporting Radiologists, Reporting Centers and Hospitals.</strong>
         text3: <strong>Online Distribution</strong> of exams for requesting Dentists and Doctors.
+        button: Learn more about radiology
       odontology_medicine:
         text: Cutting-edge technology and Excellence in service to manage the entire patient care experience, in addition to allowing control of the administrative and financial management of <strong>Office Offices, Clinics</strong> and <strong>Dental and Medical Franchises.</strong>
+        button: Learn more about dentistry and medicine
       veterinary:
         title: Veterinary
         text: Complete Cloud software to carry out the entire patient care experience, in addition to controlling the financial and administrative management of <strong>Veterinary Clinics and Hospitals, Diagnostic Imaging Centers</strong> and <strong>Flying Professionals.</strong >
         text2: <strong>Online Distribution</strong> of exams for Pet Owners and requesting Veterinarians.
+        button: Learn more about veterinary
       countries:
         title: More than 1000 Health Centers throughout Brazil and in more than 10 countries in Latin America and Europe
         hospital: Hospital
@@ -139,7 +142,7 @@ navigation:
       tailor_made_plans: Tailor-made plans for the Management of Hospitals, Reporting Centers and Radiology Centers
       humanized_support:
         text: The <strong>Best Customer Experience</strong> on the Market!
-        text2: Don't wait in line or be served by robots. With Cfaz, you will be served, on average, in 2 minutes.
+        text2: Don't wait in line or be served by robots. With Cfaz, you will be assisted by a person from our team, on average, in just <strong>1 minute</strong>!
         text3: Our multidisciplinary team receives intensive training so that you quickly have the solution you need!
         real_time_service: Real-time service
         days_week: "Monday to Friday: 8am to 6pm <br> Saturday: 8am to 12pm"
@@ -376,7 +379,6 @@ alt:
       apresentation: A cell phone showing the patient registration screen of the Cfaz.net system
       apple: Apple store logo
       google: Google play console logo
-    btn_link: Icon symbolizing going to another screen
     benefits:
       ris_pacs_online: Gear icon
       anvisa: Verified badge icon

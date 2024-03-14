@@ -20,7 +20,6 @@ navigation:
   main:
     index:
       button_contact: Ligamos para você
-      button_know_more : Saiba mais
       from: a partir de
       month: mês
       exams: exames
@@ -36,17 +35,21 @@ navigation:
       hospital:
         text: Software em Nuvem para realizar a gestão de atendimentos em <strong>Hospitais</strong> e <strong>Centros de Diagnóstico por Imagem</strong>, incluindo API para Interoperabilidade com todos os sistemas do mercado.
         text2: <strong>Distribuição Online</strong> de exames para Dentistas e Médicos solicitantes.
+        button: Saiba mais sobre hospitais
       radiologia:
         title: Radiologia
         text: Soluções Inteligentes em Nuvem para realizar a gestão de ponta a ponta de <strong>Centros de Diagnóstico por Imagem</strong>, incluindo Radiologia Odontológica, Radiologia Médica, Mamografia, Ultrassonografia, Tomografia Computadorizada, Densitometria Óssea, Ressonância Magnética e Angiografia.
         text2: Ferramentas completas de gestão também para <strong>Radiologistas Laudadores, Centros de Laudo e Hospitais.</strong>
         text3: <strong>Distribuição Online</strong> de exames para Dentistas e Médicos solicitantes.
+        button: Saiba mais sobre radiologia
       odontology_medicine:
         text: Tecnologia de ponta e Excelência em atendimento para gerenciar toda a experiência de atendimento ao paciente, além permitir controlar a gestão administrativa e financeira de <strong>Consultórios, Clínicas</strong> e <strong>Franquias Odontológicas e Médicas.</strong>
+        button: Saiba mais sobre odontologia e medicina
       veterinary:
         title: Veterinária
         text: Software completo em Nuvem para realizar toda a experiência de atendimento ao paciente, além de controlar a gestão financeira e administrativa de <strong>Clínicas e Hospitais Veterinários, Centros de Diagnóstico por Imagem</strong> e <strong>Profissionais Volantes.</strong>
         text2: <strong>Distribuição Online</strong> de exames para Tutores e Médicos Veterinários solicitantes.
+        button: Saiba mais sobre veterinária
       countries:
         title: Mais de 1000 Centros de Saúde em todo o Brasil e em mais de 10 países na América Latina e Europa
         hospital: Hospital
@@ -139,7 +142,7 @@ navigation:
       tailor_made_plans: Planos sob medida para a Gestão de Hospitais, Centrais de Laudo e Centros de Radiologia
       humanized_support:
         text: A <strong>Melhor Experiência do Cliente</strong> do Mercado!
-        text2: Não fique na fila de espera e nem seja atendido por robôs. Com a Cfaz, você será atendido, em média, em 2 minutos.
+        text2: Não fique na fila de espera e nem seja atendido por robôs. Com a Cfaz, você será atendido por uma pessoa da nossa equipe, em média, em apenas <strong>1 minuto</strong>!
         text3: Nossa equipe multidisciplinar recebe um treinamento intensivo para que você tenha rapidamente a solução que precisa!
         real_time_service: Atendimento em Tempo Real
         days_week: "Segunda a sexta-feira: de 8h às 18h <br> Sábado: de 8h às 12h"
@@ -376,7 +379,6 @@ alt:
       apresentation: Um celular mostrando a tela de cadastro de pacientes do sistema Cfaz.net
       apple: Logo da apple store
       google: Logo da google play console
-    btn_link: Ícone simbolizando que vai para outra tela
     benefits:
       ris_pacs_online: Ícone de uma engrenagem
       anvisa: Ícone de um selo verificado
