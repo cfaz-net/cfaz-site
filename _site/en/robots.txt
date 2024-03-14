@@ -1,7 +1,6 @@
 User-agent: *
 Disallow: /sobre/
 Disallow: /politica_privacidade/
-Disallow: https://max.cfaz.net/
 
 User-agent: Googlebot-Image
 Disallow: /
