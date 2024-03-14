@@ -1,8 +1,8 @@
 window.addEventListener('load', () => {
-  createHubspotForm('newsletter', '8e7177fa-cb2f-4a31-934b-81e3a4c91ef8', 'b5f6f6fe-dfe8-442c-ac00-82619ceff512', '424ea7dc-406f-4818-a201-239b235335a8');
+  formHubspot('newsletter', '8e7177fa-cb2f-4a31-934b-81e3a4c91ef8', 'b5f6f6fe-dfe8-442c-ac00-82619ceff512', '424ea7dc-406f-4818-a201-239b235335a8');
 });
 
-const createHubspotForm = (targetId, ptFormId, esFormId, enFormId) => {
+function formHubspot(targetId, ptFormId, esFormId, enFormId){
   const formOptions = {
     region: 'na1',
     portalId: '6654092',
@@ -14,8 +14,4 @@ const createHubspotForm = (targetId, ptFormId, esFormId, enFormId) => {
     formOptions.target = `#${targetId}`;
     hbspt.forms.create({ ...formOptions });
   }
-};
-
-function formHubspot(targetId, ptFormId, esFormId, enFormId){
-  createHubspotForm(targetId, ptFormId, esFormId, enFormId);
 }
