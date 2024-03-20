@@ -115,9 +115,16 @@
     w['MauticTrackingObject']=n;
     w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t),
     m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','./assets/vendor/mautic/mautic.min.js','mt');
+  })(window,document,'script','https://mautic4.cfaz.net/mtc.js','mt');
   mt('send', 'pageview');
 
+  // Google Tag Manager
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-M9VNXK3N');
+  
   // Pixel Facebook
   !function(f,b,e,v,n,t,s){
     if(f.fbq)return;n=f.fbq=function(){
