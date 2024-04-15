@@ -35,21 +35,21 @@ navigation:
       hospital:
         text: Software em Nuvem para realizar a gestão de atendimentos em <strong>Hospitais</strong> e <strong>Centros de Diagnóstico por Imagem</strong>, incluindo API para Interoperabilidade com todos os sistemas do mercado.
         text2: <strong>Distribuição Online</strong> de exames para Dentistas e Médicos solicitantes.
-        button: Saiba mais sobre hospitais
+        button: Saiba mais sobre Hospitais
       radiologia:
         title: Radiologia
         text: Soluções Inteligentes em Nuvem para realizar a gestão de ponta a ponta de <strong>Centros de Diagnóstico por Imagem</strong>, incluindo Radiologia Odontológica, Radiologia Médica, Mamografia, Ultrassonografia, Tomografia Computadorizada, Densitometria Óssea, Ressonância Magnética e Angiografia.
         text2: Ferramentas completas de gestão também para <strong>Radiologistas Laudadores, Centros de Laudo e Hospitais.</strong>
         text3: <strong>Distribuição Online</strong> de exames para Dentistas e Médicos solicitantes.
-        button: Saiba mais sobre radiologia
+        button: Saiba mais sobre Radiologia
       odontology_medicine:
         text: Tecnologia de ponta e Excelência em atendimento para gerenciar toda a experiência de atendimento ao paciente, além permitir controlar a gestão administrativa e financeira de <strong>Consultórios, Clínicas</strong> e <strong>Franquias Odontológicas e Médicas.</strong>
-        button: Saiba mais sobre odontologia e medicina
+        button: Saiba mais sobre Odontologia e Medicina
       veterinary:
         title: Veterinária
         text: Software completo em Nuvem para realizar toda a experiência de atendimento ao paciente, além de controlar a gestão financeira e administrativa de <strong>Clínicas e Hospitais Veterinários, Centros de Diagnóstico por Imagem</strong> e <strong>Profissionais Volantes.</strong>
         text2: <strong>Distribuição Online</strong> de exames para Tutores e Médicos Veterinários solicitantes.
-        button: Saiba mais sobre veterinária
+        button: Saiba mais sobre Veterinária
       countries:
         title: Mais de 1000 Centros de Saúde em todo o Brasil e em mais de 10 países na América Latina e Europa
         hospital: Hospital

@@ -35,21 +35,21 @@ navigation:
       hospital:
         text: Cloud software to manage care in <strong>Hospitals</strong> and <strong>Diagnostic Imaging Centers</strong>, including API for interoperability with all systems on the market.
         text2: <strong>Online Distribution</strong> of exams for requesting Dentists and Doctors.
-        button: Learn more about hospitals
+        button: Learn more about Hospitals
       radiologia:
         title: Radiology
         text: Intelligent Cloud Solutions to carry out end-to-end management of <strong>Diagnostic Imaging Centers</strong>, including Dental Radiology, Medical Radiology, Mammography, Ultrasonography, Computed Tomography, Bone Densitometry, Magnetic Resonance Imaging and Angiography.
         text2: Complete management tools also for <strong>Reporting Radiologists, Reporting Centers and Hospitals.</strong>
         text3: <strong>Online Distribution</strong> of exams for requesting Dentists and Doctors.
-        button: Learn more about radiology
+        button: Learn more about Radiology
       odontology_medicine:
         text: Cutting-edge technology and Excellence in service to manage the entire patient care experience, in addition to allowing control of the administrative and financial management of <strong>Office Offices, Clinics</strong> and <strong>Dental and Medical Franchises.</strong>
-        button: Learn more about dentistry and medicine
+        button: Learn more about Dentistry and Medicine
       veterinary:
         title: Veterinary
         text: Complete Cloud software to carry out the entire patient care experience, in addition to controlling the financial and administrative management of <strong>Veterinary Clinics and Hospitals, Diagnostic Imaging Centers</strong> and <strong>Flying Professionals.</strong >
         text2: <strong>Online Distribution</strong> of exams for Pet Owners and requesting Veterinarians.
-        button: Learn more about veterinary
+        button: Learn more about Veterinary
       countries:
         title: More than 1000 Health Centers throughout Brazil and in more than 10 countries in Latin America and Europe
         hospital: Hospital
