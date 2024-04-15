@@ -124,8 +124,8 @@ a{
     --bs-btn-hover-bg: var(--bs-cta-dark);
     --bs-btn-hover-border-color: var(--bs-cta-dark);
     --bs-btn-focus-shadow-rgb: var(--bs-cta-rgb);
-    --bs-btn-active-color: var(--bs-cta-light);
-    --bs-btn-active-bg: var(--bs-white);
+    --bs-btn-active-color: var(--bs-white);
+    --bs-btn-active-bg: var(--bs-cta-light);
     --bs-btn-active-border-color: var(--bs-cta-light);
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: var(--bs-white);
