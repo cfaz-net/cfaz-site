@@ -45,6 +45,12 @@ Antes de mandar as alterações para o github Pages, você deve sempre buildar o
 ```
 jekyll build
 ```
+Caso o comando acima não funcione utilize:
+
+```
+bundle exec jekyll build
+```
+
 
 Se mais de uma pessoa estiver fazendo modificações no site, não deve se esquecer de fazer um git pull para baixar as informações que estão na Web para sua máquina local.
 
