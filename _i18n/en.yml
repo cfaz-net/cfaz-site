@@ -87,7 +87,7 @@ navigation:
         partners: Partners
       cfaz_science:
         title: Cfaz Ciência
-        title: Encouraging the scientific development of Radiology
+        subtitle: Encouraging the scientific development of Radiology
         text: Special conditions for using Cfaz.net by Students and Educational Institutions in Dentistry and Radiology.
         text2: Get in touch to start using our system as support in the classroom or school clinics
       app: Free mobile app <br> Available on the App Store <br> and Play Store
@@ -442,3 +442,4 @@ alt:
     hippa: Hippa Logo
     lgpd: LGPD Logo
     gdpr: GDPR Logo
+    google_cloud_platform: Google Cloud Platform
