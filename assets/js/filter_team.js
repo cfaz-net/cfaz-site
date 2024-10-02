@@ -43,3 +43,8 @@ if(document.getElementById('team')){
     });
   }
 }
+
+// Carrega idade da empresa 06/05/2013
+window.addEventListener('load', ()=> {
+  companyAge('age_about_view');
+});

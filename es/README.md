@@ -43,11 +43,6 @@ http://localhost:4000
 Antes de mandar as alterações para o github Pages, você deve sempre buildar o código localmente.
 
 ```
-jekyll build
-```
-Caso o comando acima não funcione utilize:
-
-```
 bundle exec jekyll build
 ```
 
@@ -64,6 +59,10 @@ Quando você vai subir as alterações, deve seguir os seguintes passos.
 git add .
 git commit -m "Adicione aqui um comentário das alterações que você fez"
 git push
+```
+
+Comando que sobe os códigos para produção
+```
 git subtree push --prefix _site origin gh-pages
 ```
 
