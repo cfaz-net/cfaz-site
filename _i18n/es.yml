@@ -60,7 +60,7 @@ navigation:
         patients_served: Más de 10 millones de pacientes atendidos
         distributed_exams: Más de 50 millones de exámenes distribuidos
         stored_cloud: Más de 130 Terabytes de datos e imágenes almacenados en la Nube
-        years_history: Más de 10 años de historia
+        years_history: Más de <span id="age_text"></span> años de historia
         years: años
         anvisa: ANVISA
         record: Registro
@@ -273,7 +273,8 @@ navigation:
         text2: Buscamos hacer más humana la experiencia de todos los involucrados, desde la programación hasta la entrega de los exámenes, además de hacer más eficientes estos procesos con los beneficios de la tecnología Cloud, como seguridad, alta calidad y velocidad.
       view:
         title: Visión
-        text: Como empresa pionera en brindar soluciones 100% online para Radiología Dental y con más de 10 años de experiencia, queremos consolidarnos como un referente en Latinoamérica en soluciones en la Nube para la gestión integral de servicios médicos, odontológicos y veterinarios. centros.
+        text: Como empresa pionera en brindar soluciones 100% online para Radiología Dental y con más de 
+        text1: años de experiencia, queremos consolidarnos como un referente en Latinoamérica en soluciones en la Nube para la gestión integral de servicios médicos, odontológicos y veterinarios. centros.
       values:
         excellence_people: 
           title: Excelencia con las personas

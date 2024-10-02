@@ -51,7 +51,7 @@ navigation:
         text2: <strong>Distribuição Online</strong> de exames para Tutores e Médicos Veterinários solicitantes.
         button: Saiba mais sobre Veterinária
       countries:
-        title: Mais de 1000 Centros de Saúde em todo o Brasil e em mais de 10 países na América Latina e Europa
+        title: Mais de 1.000 Centros de Saúde em todos os estados do Brasil e em mais de 10 países na América Latina e Europa
         hospital: Hospital
         dental_radiology: Radiologia odontológica
       customer_testimonial:
@@ -60,7 +60,7 @@ navigation:
         patients_served: Mais de 10 milhões de <br> pacientes atendidos
         distributed_exams: Mais de 50 milhões de <br> exames distribuídos
         stored_cloud: Mais de 130 Terabytes de <br> dados e imagens <br> armazenados na Nuvem
-        years_history: Mais de 10 anos <br> de história
+        years_history: Mais de <span id="age_text"></span> anos <br/> de história
         years: anos
         anvisa: ANVISA
         record: Registro
@@ -273,7 +273,8 @@ navigation:
         text2: Buscamos tornar a experiência mais humana para todas as pessoas envolvidas desde o agendamento até a entrega do exame, além de tornar esses processos mais eficientes com os benefícios da tecnologia em Nuvem, como segurança, alta qualidade e rapidez.
       view:
         title: Visão
-        text: Como empresa pioneira no fornecimento de soluções 100% online para a Radiologia Odontológica e com mais de 10 anos de atuação, queremos nos consolidar como uma referência na América Latina em soluções em Nuvem para a gestão de ponta a ponta de centros médicos, odontológicos e veterinários.
+        text: Como empresa pioneira no fornecimento de soluções 100% online para a Radiologia Odontológica e com mais de
+        text1: anos de atuação, queremos nos consolidar como uma referência na América Latina em soluções em Nuvem para a gestão de ponta a ponta de centros médicos, odontológicos e veterinários.
       values:
         excellence_people: 
           title: Excelência com Pessoas

@@ -87,6 +87,12 @@
     current_year.innerHTML = date.getFullYear();
   });
 
+  // Carrega idade da empresa 06/05/2013
+  window.addEventListener('load', ()=> {
+    companyAge('age_title');
+    companyAge('age_text');
+  });
+
   // Tradução imagem Fluxo de Getsão Cfaz (vet)
   window.addEventListener('load', () => {
     let language = document.getElementById('language');
@@ -158,4 +164,25 @@ function video(link, id_video, id_imagem){
   document.getElementById(id_video).innerHTML = ifrm;
   
   document.querySelector('#' + id_imagem).classList.add('d-none');
+}
+
+function companyAge(age_id){
+  let age = document.getElementById(age_id);
+
+  var date = new Date,
+      ano_atual = date.getFullYear(),
+      mes_atual = date.getMonth() + 1,
+      dia_atual = date.getDate(),
+
+      ano_aniversario = 2013,
+      mes_aniversario = 5,
+      dia_aniversario = 6,
+
+      quantos_anos = ano_atual - ano_aniversario;
+
+  if (mes_atual < mes_aniversario || mes_atual == mes_aniversario && dia_atual < dia_aniversario) {
+    quantos_anos--;
+  }
+
+  age.innerHTML = quantos_anos < 0 ? 0 : quantos_anos;
 }

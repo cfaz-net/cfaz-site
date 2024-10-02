@@ -60,7 +60,7 @@ navigation:
         patients_served: More than 10 million <br> patients served
         distributed_exams: More than 50 million <br> exams distributed
         stored_cloud: More than 130 Terabytes of <br> data and images <br> stored in the Cloud
-        years_history: More than 10 years <br> of history
+        years_history: More than <span id="age_text"></span> years <br> of history
         years: years
         anvisa: ANVISA
         record: Record
@@ -273,7 +273,8 @@ navigation:
         text2: We seek to make the experience more human for everyone involved, from scheduling to exam delivery, in addition to making these processes more efficient with the benefits of Cloud technology, such as security, high quality and speed.
       view:
         title: Vision
-        text: As a pioneering company in providing 100% online solutions for Dental Radiology and with more than 10 years of experience, we want to consolidate ourselves as a reference in Latin America in Cloud solutions for the end-to-end management of medical, dental and veterinary centers.
+        text: As a pioneering company in providing 100% online solutions for Dental Radiology and with more than
+        text1: years of experience, we want to consolidate ourselves as a reference in Latin America in Cloud solutions for the end-to-end management of medical, dental and veterinary centers.
       values:
         excellence_people: 
           title: Excellence with People
