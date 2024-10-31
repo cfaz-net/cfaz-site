@@ -5,7 +5,6 @@ Site estático criado no [GitHub Pages](https://pages.github.com).
 ## O que devo instalar para funcionar o site localmente?
 
 * Instalar o [Jekyll](https://jekyllrb.com/docs/installation/)
-* Instalar o ruby versao 3.2.3
 
 ## Como baixar o site e fazer rodar em minha máquina?
 
