@@ -12,5 +12,6 @@ function formHubspot(targetId, ptFormId, esFormId, enFormId){
     let language = document.getElementById('language');
     formOptions.formId = language.value === 'es' ? esFormId : (language.value === 'en' ? enFormId : ptFormId);
     formOptions.target = `#${targetId}`;
+    hbspt.forms.create({ ...formOptions });
   }
 }
