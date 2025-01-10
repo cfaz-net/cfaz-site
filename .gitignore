@@ -1,7 +1,4 @@
-# Ignore bundler config
-/.bundle
-vendor/bundle
-
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
+# Ignore everything
+*
+# Allow build folder
+!/_site
