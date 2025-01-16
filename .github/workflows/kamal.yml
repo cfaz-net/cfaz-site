@@ -34,7 +34,7 @@ jobs:
           bundler-cache: true
 
       - name: Install dependencies kamal
-        run: gem install kamal -v 1.8.0
+        run: gem install kamal -v 2.4.0
 
       - name: Set up Docker Buildx for cache
         id: buildx

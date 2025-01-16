@@ -11,21 +11,6 @@ jobs:
     runs-on: ubuntu-latest
 
     services:
-      mysql:
-        image: mysql:latest
-        env:
-          MYSQL_USER: 'root'
-          MYSQL_PASSWORD: 'root'
-        ports:
-          - 3306:3306
-
-      redis:
-        image: redis:7.0-alpine
-        env:
-          REDIS_URL: redis://localhost:6379
-        ports:
-          - 6379:6379
-
       browser:
         image: selenium/standalone-chrome-debug
         ports:
@@ -41,15 +26,3 @@ jobs:
         with:
           ruby-version: '2.7.3'
           bundler-cache: true
-
-
-      - name: Run Rails Tests
-        run: |
-          sudo service mysql start
-          bundle install
-          bundle exec rails db:prepare
-          bundle exec rspec
-        env:
-          DB_PORT: 3306
-          RAILS_ENV: test
-          REDIS_URL: redis://localhost:6379

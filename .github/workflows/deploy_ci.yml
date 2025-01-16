@@ -31,7 +31,7 @@ jobs:
           bundler-cache: true
 
       - name: Install dependencies kamal
-        run: gem install kamal -v 1.8.0
+        run: gem install kamal -v 2.4.0
 
       - name: Set up Docker Buildx for cache
         id: buildx
@@ -39,6 +39,9 @@ jobs:
 
       - name: Expose GitHub Runtime for cache
         uses: crazy-max/ghaction-github-runtime@v3
+
+      - name: Build project to create translations
+        run: bundle exec jekyll build
 
       - name: Run Deploy
         run: kamal deploy
