@@ -1,8 +1,8 @@
 name: Deploy CI
 on:
-  push:
-    branches:
-      - main
+  #push:
+  #  branches:
+  #    - main
   pull_request:
     branches: [main]
     types:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   Deploy:
-    #if: github.event.pull_request.merged == true
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     name: Setup, Build, Publish, and Deploy
     permissions:
@@ -61,7 +61,7 @@ jobs:
           { "name": "Funcionalidade", "value": "[`${{ github.event.pull_request.title }}`](${{ github.event.pull_request.html_url }})" },
           { "name": "Revisor", "value": "${{github.actor}}", "inline": true }
           ],
-          "color":65280,
+          "color":FF39BD,
           "timestamp": "${{github.event.head_commit.timestamp}}",
           "footer":{"text": "${{github.event.head_commit.timestamp}}"}
           }    ]'
