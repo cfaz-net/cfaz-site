@@ -1,11 +1,12 @@
 name: Deploy CI
 on:
-  # Comentar essas linhas depois
   push:
     branches:
       - main
-  #
-
+  pull_request:
+    branches: [main]
+    types:
+      - closed
 
 jobs:
   Deploy:
