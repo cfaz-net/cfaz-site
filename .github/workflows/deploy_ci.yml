@@ -1,8 +1,5 @@
 name: Deploy CI
 on:
-  #push:
-  #  branches:
-  #    - main
   pull_request:
     branches: [main]
     types:
@@ -61,7 +58,7 @@ jobs:
           { "name": "Funcionalidade", "value": "[`${{ github.event.pull_request.title }}`](${{ github.event.pull_request.html_url }})" },
           { "name": "Revisor", "value": "${{github.actor}}", "inline": true }
           ],
-          "color":FF39BD,
+          "color":65280,
           "timestamp": "${{github.event.head_commit.timestamp}}",
           "footer":{"text": "${{github.event.head_commit.timestamp}}"}
           }    ]'
