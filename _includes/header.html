@@ -1,0 +1,39 @@
+<header id="header" class="fixed-top bg-white">
+    <nav class="navbar navbar-expand-xl" role="navigation">
+      <div class="container-xxl px-2">
+        <a class="navbar-brand" href="/"><img src="assets/img/Logo.webp" width="60" height="40" loading="lazy" alt="{% t alt.cfaz_logo %}"></a>
+        
+        <div class="offcanvas offcanvas-end" abindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header pb-0">
+            <span class="h5 offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/img/Logo.webp" loading="lazy" alt="{% t alt.cfaz_logo %}" style="width: 60%"></span>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body justify-content-evenly align-items-center">
+            <ul class="nav navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="/hospitais.html">{% t navigation.header.hospitals %}</a></li>
+              <li class="nav-item"><a class="nav-link" href="/radiologia.html">{% t navigation.header.radiology %}</a></li>
+              <li class="nav-item"><a class="nav-link" href="/odontologia_medicina.html">{% t navigation.header.dentistry_medicine %}</a></li>
+              <li class="nav-item"><a class="nav-link" href="/veterinaria.html">{% t navigation.header.veterinary %}</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contato">{% t navigation.header.contacts %}</a></li>
+              <li class="nav-item"><a class="nav-link" href="https://blog.cfaz.net/" target="_blank" rel="noreferrer">{% t navigation.header.blog %}</a></li>
+              <li class="nav-item"><a class="nav-link" href="/sobre.html">{% t navigation.header.about_us %}</a></li>
+            </ul>
+            <div class="locale">
+              {% capture pr-BR %}{{ page.url }}{% endcapture %}
+              {% capture es %}/es{{ page.url }}{% endcapture %}
+              {% capture en %}/en{{ page.url }}{% endcapture %}
+              <a rel="alternate" href="{{ pr-BR }}"><span class="position-absolute text-white" style="z-index:-1">pt</span><img src="assets/img/icons/bandeira_pt-br.webp" width="25" height="25" loading="lazy" alt="{% t alt.flag_pt %}"></a>
+              <a rel="alternate" href="{{ es }}"><span class="position-absolute text-white" style="z-index:-1">es</span><img src="assets/img/icons/bandeira_es.webp" width="25" height="25" loading="lazy" alt="{% t alt.flag_es %}"></a>
+              <a rel="alternate" href="{{ en }}"><span class="position-absolute text-white" style="z-index:-1">en</span><img src="assets/img/icons/bandeira_en.webp" width="25" height="25" loading="lazy" alt="{% t alt.flag_en %}"></a>
+              <input id="language" type="hidden" value="{{ site.lang }}">
+            </div>
+            <a class="btn btn-cta ms-2" target="_blank" rel="noreferrer" href="https://max.cfaz.net/">{% t navigation.header.enter %}</a>
+          </div>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon text-color"><small class="d-none">menu</small></span>
+        </button>
+      </div>
+    </nav>
+</header>

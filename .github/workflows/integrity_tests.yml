@@ -1,0 +1,55 @@
+name: Integrity Tests
+on:
+  pull_request:
+    branches: [master]
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  Tests:
+    runs-on: ubuntu-latest
+
+    services:
+      mysql:
+        image: mysql:latest
+        env:
+          MYSQL_USER: 'root'
+          MYSQL_PASSWORD: 'root'
+        ports:
+          - 3306:3306
+
+      redis:
+        image: redis:7.0-alpine
+        env:
+          REDIS_URL: redis://localhost:6379
+        ports:
+          - 6379:6379
+
+      browser:
+        image: selenium/standalone-chrome-debug
+        ports:
+          - "5900:5900" #for VNC access
+          - "4444:4444" #for webdriver access
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '2.7.3'
+          bundler-cache: true
+
+
+      - name: Run Rails Tests
+        run: |
+          sudo service mysql start
+          bundle install
+          bundle exec rails db:prepare
+          bundle exec rspec
+        env:
+          DB_PORT: 3306
+          RAILS_ENV: test
+          REDIS_URL: redis://localhost:6379
