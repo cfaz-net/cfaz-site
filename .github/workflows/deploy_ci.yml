@@ -18,7 +18,7 @@ jobs:
       id-token: 'write'
 
     env:
-      KAMAL_REGISTRY_PASSWORD: ${{ secrets.GH_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.KAMAL_REGISTRY_PASSWORD }}
 
     steps:
       - uses: actions/checkout@v3
