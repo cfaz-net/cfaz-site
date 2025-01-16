@@ -1,5 +1,10 @@
 name: Deploy CI
 on:
+  # Comentar essas linhas depois
+  push:
+     branches:
+        - main
+  ####
   pull_request:
     branches: [main]
     types:
@@ -15,7 +20,7 @@ jobs:
       id-token: 'write'
 
     env:
-      KAMAL_REGISTRY_PASSWORD: ${{ secrets.KAMAL_REGISTRY_PASSWORD }}
+      KAMAL_REGISTRY_PASSWORD: ${{ secrets.GH_TOKEN }}
 
     steps:
       - uses: actions/checkout@v3
