@@ -63,5 +63,6 @@ jobs:
           ],
           "color":65280,
           "timestamp": "${{github.event.head_commit.timestamp}}",
-          "footer":{"text": "${{github.event.head_commit.timestamp}}"}
+          "footer":{"text": "${{github.event.head_commit.timestamp}}"},
+          "status":{}
           }    ]'
