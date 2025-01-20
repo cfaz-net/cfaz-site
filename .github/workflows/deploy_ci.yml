@@ -33,7 +33,7 @@ jobs:
           bundler-cache: true
 
       - name: Install dependencies kamal
-        run: gem install kamal -v 2.4.0
+        run: gem install kamal -v 1.8.0
 
       - name: Set up Docker Buildx for cache
         id: buildx
@@ -54,4 +54,14 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           DISCORD_USERNAME: Deploy Cfaz Site
           DISCORD_AVATAR: https://yt3.googleusercontent.com/9TfKXVz92_hZby_4kscMRl7oGpem8j7DlvQXd0nZ251mddVy1yHcMBfiej2Lk4M9rpTJOAxrxeE=s176-c-k-c0x00ffffff-no-rj
-          DISCORD_EMBEDS: ''
+          DISCORD_EMBEDS: '[    {
+          "author": {  "icon_url": "https://avatars.githubusercontent.com/${{ github.event.pull_request.user.login }}", "name": "${{ github.event.pull_request.user.login }}", "url": "https://github.com/${{github.event.pull_request.user.login}}" },
+          "url": "https://github.com/${{github.repository}}/commit/${{github.sha}}",
+          "fields": [
+          { "name": "Funcionalidade", "value": "[`${{ github.event.pull_request.title }}`](${{ github.event.pull_request.html_url }})" },
+          { "name": "Revisor", "value": "${{github.actor}}", "inline": true }
+          ],
+          "color":65280,
+          "timestamp": "${{github.event.head_commit.timestamp}}",
+          "footer":{"text": "${{github.event.head_commit.timestamp}}"}
+          }    ]'
