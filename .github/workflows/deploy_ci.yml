@@ -1,8 +1,8 @@
 name: Deploy CI
 on:
-  push:
-    branches:
-      - main
+  #push:
+  #  branches:
+  #    - main
   pull_request:
     branches: [main]
     types:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   Deploy:
-    #if: github.event.pull_request.merged == true
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     name: Setup, Build, Publish, and Deploy
     permissions:
