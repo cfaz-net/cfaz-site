@@ -51,7 +51,7 @@ jobs:
       - name: Discord notification
         uses: Ilshidur/action-discord@0.3.2
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOKss }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           DISCORD_USERNAME: Deploy Cfaz Site
           DISCORD_AVATAR: https://yt3.googleusercontent.com/9TfKXVz92_hZby_4kscMRl7oGpem8j7DlvQXd0nZ251mddVy1yHcMBfiej2Lk4M9rpTJOAxrxeE=s176-c-k-c0x00ffffff-no-rj
           DISCORD_EMBEDS: '[    {
