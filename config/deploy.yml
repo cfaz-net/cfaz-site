@@ -24,7 +24,6 @@ proxy:
   ssl: true
   host:
     - cfaz.net
-    - www.cfaz.net
   # Proxy connects to your container on port 80 by default.
   # app_port: 3000
   healthcheck:
