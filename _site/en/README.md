@@ -10,16 +10,6 @@ Site estático criado no [GitHub Pages](https://pages.github.com).
 
 Você deverá abrir um terminal e fazer o clone do repositório em sua máquina.
 
-```
-git clone git@github.com:cfaz-net/cfaz-site.git
-```
-
-Agora deve entrar na pasta do projeto.
-
-```
-cd cfaz-site
-```
-
 Rodar o bundle install para instalarmos as gems.
 
 ```
@@ -38,33 +28,16 @@ Então você vai acessar o site utilizando a URL
 http://localhost:4000
 ```
 
-## Como mandar para a Web as alterações que fiz no site localmente?
+## Buildar projeto
 
-Antes de mandar as alterações para o github Pages, você deve sempre buildar o código localmente.
+Serve para gerar as traduções em inglês e espanhol
 
 ```
 bundle exec jekyll build
 ```
 
-
-Se mais de uma pessoa estiver fazendo modificações no site, não deve se esquecer de fazer um git pull para baixar as informações que estão na Web para sua máquina local.
-
-```
-git pull
-```
-
-Quando você vai subir as alterações, deve seguir os seguintes passos.
-
-```
-git add .
-git commit -m "Adicione aqui um comentário das alterações que você fez"
-git push
-```
-
-Comando que sobe os códigos para produção
-```
-git subtree push --prefix _site origin gh-pages
-```
+## Subir pra Produção
+Fazer um pull request, com isso ele vai buildar o projeto e subir para a VM da Google.
 
 ## Template utilizado
 
