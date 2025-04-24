@@ -82,7 +82,27 @@ builder:
 
 # Use accessory services (secrets come from .kamal/secrets).
 #
-# accessories:
+accessories:
+  node_exporter:
+    image: quay.io/prometheus/node-exporter:v1.8.2
+    volumes:
+      - '/:/host:ro'
+    roles:
+      - web
+    options:
+      publish:
+        - "9100:9100"
+
+  promtail:
+    image: grafana/promtail:2.9.2
+    files:
+      - "./config/promtail_config.yml:/etc/promtail/promtail_config.yml"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - "/var/log:/var/log"
+    cmd: -config.file=/etc/promtail/promtail_config.yml
+    roles:
+      - web
 #   db:
 #     image: mysql:8.0
 #     host: 192.168.0.2
