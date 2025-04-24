@@ -1,11 +1,11 @@
-# config/deploy.yml
-<% require "dotenv"; Dotenv.load(".env") %>
-
 # Name of your application. Used to uniquely configure containers.
 service: site
 
 # Name of the container image.
 image: cfaz-net/site
+
+# config/deploy.yml
+<% require "dotenv"; Dotenv.load(".env") %>
 
 # Deploy to these servers.
 servers:
@@ -43,6 +43,28 @@ registry:
 builder:
   arch: amd64
   context: .
+
+accessories:
+  node_exporter:
+    image: quay.io/prometheus/node-exporter:v1.8.2
+    volumes:
+      - '/:/host:ro'
+    roles:
+      - web
+    options:
+      publish:
+        - "9100:9100"
+
+  promtail:
+    image: grafana/promtail:2.9.2
+    files:
+      - "./config/promtail_config.yml:/etc/promtail/promtail_config.yml"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - "/var/log:/var/log"
+    cmd: -config.file=/etc/promtail/promtail_config.yml
+    roles:
+      - web
 
 # Inject ENV variables into containers (secrets come from .kamal/secrets).
 #
